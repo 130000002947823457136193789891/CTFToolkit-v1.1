@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11774
+NAME=Windows Media Player库存取漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测Media Player版本
+DESCRIPTION=Windows Media Player 9 系列的一个;ActiveX控件可能允许恶意站点获得主机的信息。;一个攻击者也可以利用这个漏洞以;Windows Media Player的权限在远程主机上运行任意的程序。;如果要利用这个漏洞的话，攻击者必须;架设一个恶意web站点，并且引诱用户去访问它。;;解决方法：见http://www.microsoft.com/technet/security/bulletin/ms03-021.asp;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

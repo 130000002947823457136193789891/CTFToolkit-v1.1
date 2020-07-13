@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17596
+NAME=Phorum中HTTP的快速应答攻击
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查HTTP在Phorun中的快速应答的攻击
+DESCRIPTION=这个版本的Phorum在远程主机上安装后,不能在应答的开始位置进行正确的输入检查.利用这个漏洞使用一个特别的方法请求注入恶意的代码到HTTP的开头.可能允许在一个远程主机的用户浏览环境中执行任意的HTML脚本代码.;;相关信息可查看:http://www.securityfocus.com/archive/1/393953;决方案:升级到Phorum5.0.15a或以后的版本.;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11928
+NAME=Windows帮助缓冲区溢出漏洞(825119)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=hotfix 825119检测
+DESCRIPTION=Windows帮助服务中存在一个安全漏洞，;可以允许在被攻击的系统中执行任意指令。;如果一个攻击者成功利用这个漏洞的话，;可以以本地权限执行任意程序。;;解决方法详见：;http://www.microsoft.com/technet/security/bulletin/ms03-044.asp;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

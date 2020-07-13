@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12269
+NAME=EdiMax AP 隐藏密码检查
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Edimax 隐藏密码检查
+DESCRIPTION=远程 EdiMax Access Point 自带一个默认账号 ;('guest'/'1234')，该账号拥有备份远程配置文件的 ;权力。;;如果这个 guest 用户备份了远程配置文件，由于;管理员密码是以纯文本格式存放在配置文件中，该用户将能够得到;管理员用户的密码。;;解决方案: 联系厂商寻求修复。  作为临时解决方法，;关闭该网络服务器或通过一个防火墙过滤掉通往该服务器;的数据流。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(translated by kunlong)

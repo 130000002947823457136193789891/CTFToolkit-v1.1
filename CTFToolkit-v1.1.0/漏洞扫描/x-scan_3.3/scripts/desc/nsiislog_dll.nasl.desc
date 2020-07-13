@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11664
+NAME=nsiislog.dll拒绝服务攻击
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检测nsiislog.dll是否存在
+DESCRIPTION=部分版本的IIS缺省存在一个文件nsiislog.dll在/scripts目录下.  Nessus检测到远程主机存在该文件. ;;NSIISLOG.dll存在缓冲区溢出漏洞, 可导致攻击者可以在系统上执行任意指令.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms03-022.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

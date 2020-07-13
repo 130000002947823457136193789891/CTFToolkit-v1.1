@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10306
+NAME=whois_raw
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查whois_raw.cgi是否存在漏洞
+DESCRIPTION='whois_raw.cgi' CGI 允许攻击者浏览目标主机上的任意文件，并且可以执行任意命令。;whois_raw.cgi由CDomain提供<http://www.cdomain.com>;;风险等级: 中/高;;解决方案: 升级到更新的版本。
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17996
+NAME=利用代码 PayProCart 　跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI 漏洞 : XSS
+SUMMARY=检查PayProCart
+DESCRIPTION=远程主机运行了PayProCart, 一个PHP编写的购物软件.;;远程主机运行的此软件版本的'usrdetails.php'文件中存在输入验证漏洞, 攻击者利用这个漏洞能进行跨站脚本攻击.;;解决办法 : 升级到这个软件的最新版本. ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>
+ 

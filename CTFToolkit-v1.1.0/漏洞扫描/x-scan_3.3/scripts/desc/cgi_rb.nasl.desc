@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15710
+NAME=cgi.rb
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在cgi.rb
+DESCRIPTION='cgi.rb'CGI已被安装. 某些版本容易受到拒绝服务的危害.;;通过发送一个人工特别构造的HTTP POST请求, 恶意用户可以强迫远程主机大量消耗CPU资源.;;*** 警告 : Nessus仅仅检测是否存在此CGI, 而并不确定;***您的版本是否存在此问题;;解决方案 : 确定版本至少为1.8.1或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14654
+NAME=MailEnable HTTPMail 服务认证头拒绝服务拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable HTTPMail 服务认证头拒绝服务拒绝服务漏洞
+DESCRIPTION=;远程主机运行着MailEnable服务程序-http://www.mailenable.com/(MEHTTPS.exe)专业版企业版存在缺陷,当提交的HTTP请求构造畸形认证头信息时,将引起空指针无效错误,导致HTTPMail服务挂起. ;;解决方案 : 更新到  MailEnable Professional / Enterprise 1.2 或;更新版本  ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

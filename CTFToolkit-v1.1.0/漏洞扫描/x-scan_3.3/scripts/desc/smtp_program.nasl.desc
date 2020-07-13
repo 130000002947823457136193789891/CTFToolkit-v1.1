@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10261
+NAME=Sendmail服务器远程执行命令
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程邮件服务器是否可能被获取shell
+DESCRIPTION=远程SMTP服务器对下列命令没有回应：;	MAIL FROM: root@this_host;	RCPT TO: |testing;	;这有可能是Sendmail程序存在漏洞，允许任意访问者在主机上执行命令。;;*** 由于很多邮件传输代理现在并不回应这一请求;*** 因此这一漏洞可能是误报。;*** ;;Solution : 升级你的邮件传输代理软件;;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

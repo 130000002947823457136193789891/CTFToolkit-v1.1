@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15399
+NAME=ICECast远程缓冲溢出
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查icecast的版本
+DESCRIPTION=这台远程服务器运行版本早于1.3.10的ICECast. ICECast是一个开放源代码的音频流媒体服务器.;;此版本存在一个远程缓冲溢出漏洞，可导致远程攻击者以服务器的权限执行任意代码.;;解决方案 : 升级到更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

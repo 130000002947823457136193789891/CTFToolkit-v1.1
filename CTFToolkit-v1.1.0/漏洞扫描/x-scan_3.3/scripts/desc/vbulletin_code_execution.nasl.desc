@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17211
+NAME=vBulletin Misc.PHP PHP Script代码执行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=在远程主机上执行 phpinfo()
+DESCRIPTION=远程主机运行了vBulletin, 一个用PHP写的网络电子公告版系统.;;这个软件的远程版本存在代码注入漏洞. ;远程攻击者利用这个漏洞可以在远程主机上执行任意PHP命令.;;解决办法: 升级到vBulletin 3.0.7 或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated by Stravadivaly>

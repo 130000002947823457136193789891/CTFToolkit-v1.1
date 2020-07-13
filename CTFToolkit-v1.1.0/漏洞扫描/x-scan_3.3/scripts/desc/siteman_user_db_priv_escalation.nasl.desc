@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16216
+NAME=Siteman Page User Database Privilege Escalation Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查SiteMan的版本
+DESCRIPTION=远程主机上的Siteman是一种用PHP语言撰写的基于Web的目录管理系统;;;此软件存在一个权限提升漏洞。;;拥有一个合法用户名和密码的攻击者可以通过给远程服务器发送一个恶意制作的请求，提高他的特权;;解决方案:升级到Siteman 1.1.11或更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

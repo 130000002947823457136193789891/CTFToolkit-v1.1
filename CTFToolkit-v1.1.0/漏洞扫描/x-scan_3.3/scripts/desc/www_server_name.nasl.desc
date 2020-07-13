@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11239
+NAME=隐藏WWW服务器名称
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=尝试发现WEB服务器名称
+DESCRIPTION=该WEB服务器试图隐藏其版本信息或名称，这有利于安全。然而通过使用精心构造的特殊请求，Nessus可以发现其信息。;;风险等级：无;解决方案：完善配置
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi;Translate by Sniffer

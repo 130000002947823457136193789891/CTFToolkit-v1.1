@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10370
+NAME=IIS危险的范例文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否安装了IIS的范例文件
+DESCRIPTION=
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,7 @@
+ID=11613
+NAME=CP syslog overflow
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=远程系统日志收发程序崩溃
+DESCRIPTION=远程主机正在运行一个系统日志服务(可能是;CheckPointNG syslog server).;;攻击者可以使用发送大量数据的方法;中断该服务.;;*** Nessus 使用中断这个服务的方法来执行安全检测的;;解决方案 : 升级到NG FP3 HF2;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

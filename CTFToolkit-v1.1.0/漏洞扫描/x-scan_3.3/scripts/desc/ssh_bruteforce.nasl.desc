@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11341
+NAME=SSH1 SSH服务日志失效
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测远程SSH版本
+DESCRIPTION=主机正在使用SSH Communications Security SSH 1.2.30或之前的版本;;这个版本不记录重复的登录企图, 这使得远程攻击者通过暴力攻击而不被发觉，从而危及帐号的安全。;;解决方案:;SSH已经推出了补丁和新的版本;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

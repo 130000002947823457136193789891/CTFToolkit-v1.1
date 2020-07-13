@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16207
+NAME=pLog的用户注册HTML页面注射漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测pLog的存在
+DESCRIPTION=远程主机运行着PHP开发的博客系统pLog，但是运行的版本由于没有检查用户输入招致跨站脚本攻击;要利用此漏洞，攻击者需要用脚本register.php注册一个用户并包含HTML或者脚本代码作为名字;当正常用户访问页面summary.php时就会访问到攻击者的HTML或者脚本;;解决方案：升级pLog到0.3.3版本以上;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

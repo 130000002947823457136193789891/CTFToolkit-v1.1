@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10487
+NAME=WFTP 2.41 rc11 多个拒绝服务漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=使远程ftp服务端崩溃
+DESCRIPTION=登陆后使用命令'MLST a'可以使远程FTP服务端崩溃。;;攻击者可以利用该漏洞阻碍FTP的发布工作。;;解决方案: 如果你正在使用wftp， 升级到2.41 RC12版本，如果不是，联系销售商寻求解决办法。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11371
+NAME=BSD ftpd单字节缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=FTP
+SUMMARY=检测远程FTP服务器是否可以实施缓冲溢出攻击
+DESCRIPTION=BSD的FTP服务器实现包含一个单字节缓冲区溢出漏洞;可导致攻击者获取root权限.;;解决方案 : 升级FTP服务程序.;建议不允许匿名账户对目录具有写权限.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi(chinese version by lsy)

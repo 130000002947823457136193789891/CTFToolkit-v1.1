@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11678
+NAME=Super-M Son hServer目录遍历
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Super-M Son hServer存在一个可利用的缺陷允许让攻击者查看web服务器有权查看的任意文件。
+DESCRIPTION=Super-M Son hServer存在一个目录遍历的缺陷。它可以允许远程的攻击者;以web服务器的权限察看计算机上的任意文件。;;更多信息: http://www.securityfocus.com/archive/1/323070;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security (Chinese version by Dancefire)

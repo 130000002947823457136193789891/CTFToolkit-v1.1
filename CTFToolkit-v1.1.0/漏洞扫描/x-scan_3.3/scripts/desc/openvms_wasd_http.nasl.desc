@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17150
+NAME=OpenVMS WASD HTTP服务器中数个安全漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查远程HTTP服务器的版本
+DESCRIPTION=远程主机运行着WASD HTTP服务器－一款OpenVMS平台上Web服务器。;;该软件存在多方面的漏洞，其可允许攻击者在远程主机上执行任意代码。;;解决方案:升级到OpenVMS WASD 7.2.4, 8.0.1 or 8.1;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

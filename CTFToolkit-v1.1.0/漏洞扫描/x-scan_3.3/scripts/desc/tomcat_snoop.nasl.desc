@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10478
+NAME=Tomcat 的 snoop servlet 提供了太多的信息
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/examples/jsp/snp/anything.snp
+DESCRIPTION=安装了一个tomcat的名为'snoop'的servlet。;(/examples/jsp/snp/anything.snp);;这个servlet提供了太多的关于远程主机的信息，;如正在使用的PATH、主机的内核版本等等。;;这使得供给者可以获得更多关于这个主机的信息;并且由此做出更精确的攻击。;;解决方案 : 删除这个servlet;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(Chinese version by Dancefire)

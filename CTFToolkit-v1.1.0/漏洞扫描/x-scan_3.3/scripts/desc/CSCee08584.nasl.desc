@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16217
+NAME=CSCee08584
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用简单网络管理协议SNMP检查目前的系统是否存在漏洞
+DESCRIPTION=运行IOS操作系统的远程路由器，在它的电话服务(telephony service)里包含着一个漏洞。;;如果该路由器配置为ITS，CME或者SRST， 那么攻击者;就可以给该远程路由器发送变形的TCP查询，这将导致该路由器重新启动。;;CISCO把该bug记做CSCee08584;;解决方案: http://www.cisco.com/en/US/products/products_security_advisory09186a00803b3fff.shtml;风险等级:高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security

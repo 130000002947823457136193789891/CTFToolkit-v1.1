@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11213
+NAME=http TRACE 跨站攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=http TRACE 跨站攻击
+DESCRIPTION=你的webserver支持TRACE 和/或 TRACK 方式。 TRACE和TRACK是用来调试web服务器连接的HTTP方式。;;支持该方式的服务器存在跨站脚本漏洞，通常在描述各种浏览器缺陷的时候，把"Cross-Site-Tracing"简称为XST。;;攻击者可以利用此漏洞欺骗合法用户并得到他们的私人信息。;;解决方案: 禁用这些方式。;;;如果你使用的是Apache, 在各虚拟主机的配置文件里添加如下语句:;;    RewriteEngine on;    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK);    RewriteRule .* - [F];;如果你使用的是Microsoft IIS, 使用URLScan工具禁用HTTP TRACE请求，或者只开放满足站点需求和策略的方式。;;如果你使用的是Sun ONE Web Server releases 6.0 SP2 或者更高的版本, 在obj.conf文件的默认object section里添加下面的语句:;    <Client method="TRACE">;     AuthTrans fn="set-variable";     remove-headers="transfer-encoding";     set-headers="content-length: -1";     error="501";    </Client>;;如果你使用的是Sun ONE Web Server releases 6.0 SP2 或者更低的版本, 编译如下地址的NSAPI插件:;   http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fsalert%2F50603;;;参见http://www.whitehatsec.com/press_releases/WH-PR-20030120.pdf;    http://archives.neohapsis.com/archives/vulnwatch/2003-q1/0035.html;    http://sunsolve.sun.com/pub-cgi/retrieve.pl?doc=fsalert%2F50603;    http://www.kb.cert.org/vuls/id/867593;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 E-Soft Inc.

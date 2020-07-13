@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11789
+NAME=mgr消息处理漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测补丁Q822679
+DESCRIPTION=该主机运行着一个有漏洞的windows版本,该漏洞位于windows的消息处理模块中.可导致本地攻击者获得提升权限的特权;;解决方案 : 请访问http://www.microsoft.com/technet/security/bulletin/ms03-025.asp; ;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security
+

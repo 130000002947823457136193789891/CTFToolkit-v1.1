@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10038
+NAME=Cfinger search.**@host特性
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=Cfinger search.**@host特性
+DESCRIPTION=远程主机正在运行cfingerd守护进程. ; ;该cfinger守护进程存在一个安全漏洞 ,该漏洞允许任何人;通过执行命令;finger search.**@victim;;来获得系统的用户列表.;;;攻击者可以利用该返回信息来暴力破解用户密码而登陆至主机.;;解决方案 : 使用其它的 finger 守护进程或在etc/inetd.conf停止该服务;风险等级 : 低/中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

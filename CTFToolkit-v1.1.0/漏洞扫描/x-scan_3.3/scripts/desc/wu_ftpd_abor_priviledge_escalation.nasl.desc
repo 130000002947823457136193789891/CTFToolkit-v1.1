@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14301
+NAME=wu-ftpd ABOR 特权提升漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查你的wu-ftpd服务器的banner
+DESCRIPTION=远程wu-ftpd服务器会被攻击以致提升权限。;;2.4.2以下版本的服务器包含了一个漏洞，它允许恶意用户得到权限．;;特别的，该漏洞要求服务器允许一个数据联结后面紧跟一条ABOR命令。;;该漏洞由dologout()函数导致，一次成功的进攻可以给远程攻击者以管理员身份运行任意代码。;;这个漏洞可以导致机密的损失，完整性也会被破坏。;;如果你的banner含：*** Nessus solely relied on the banner of the remote server　***，你可能就存在改漏洞。;;;解决方案:升级到2.4.2或更新版;;风险等级:高
+COPYRIGHT=脚本版权 David Maciejak　翻译:Heart is flying

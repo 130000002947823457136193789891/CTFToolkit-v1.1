@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11593
+NAME=SLMail SMTP 溢出漏洞
+CATEGORY=混合攻击
+FAMILY=SMTP
+SUMMARY=溢出远程 SMTP 服务端
+DESCRIPTION=远程主机正在运行SLmail SMTP 服务端。该版本的服务端存在多个溢出漏洞，允许攻击者在主机上执行任意命令，或远程禁用主机。;;解决方案: 升级到SLMail 5.1.0.4433 或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

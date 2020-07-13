@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11135
+NAME=Bugbear蠕虫
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测Bugbear蠕虫
+DESCRIPTION=BugBear后门正在该端口监听. ;远程攻击者可以连接到该端口以获得该主机的敏感信息;例如密码信息或者信用卡账号...;;BugBear蠕虫自身包含有一个键盘纪录器并且可以终止;反病毒软件或者个人防火墙的进程. 同时还可以通过邮件或Windows共享传播自身.;反病毒厂商对其的命名还包括: Tanatos, ;I-Worm.Tanatos, NATOSTA.A, W32/Bugbear-A, Tanatos, W32/Bugbear@MM, ;WORM_BUGBEAR.A, Win32.BugBear...;;http://www.sophos.com/virusinfo/analyses/w32bugbeara.html;http://www.ealaddin.com/news/2002/esafe/bugbear.asp;http://securityresponse.symantec.com/avcenter/venc/data/w32.bugbear@mm.html;http://vil.nai.com/vil/content/v_99728.htm;;参考资源 : http://online.securityfocus.com/news/1034;参考资源 : http://support.microsoft.com/default.aspx?scid=KB;en-us;329770&;;解决方案: ;- 使用反病毒软件清除该蠕虫.;- 关闭Windows共享;- 升级IE浏览器;  参见 '不正确的MIME标题会导致IE执行电子邮件附件';  http://www.microsoft.com/technet/security/bulletin/MS01-020.asp;;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi & Thomas Reinke(chinese version by lsy)

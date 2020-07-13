@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11555
+NAME=AN HTTPd的count.pl截断漏洞
+CATEGORY=攻击
+FAMILY=CGI类
+SUMMARY=在远程服务器上创建文件
+DESCRIPTION=;   远端服务器运行着count.pl的CGI程序，攻击者可以通过该程序以httpd服务的权限，; 覆盖远端服务器上的文件。攻击者可以利用该漏洞导致主机工作不正常。;; 解决办法：删除文件/isapi/count.pl; ; 风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

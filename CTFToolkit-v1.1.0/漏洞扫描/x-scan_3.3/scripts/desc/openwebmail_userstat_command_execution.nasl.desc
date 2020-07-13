@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15529
+NAME=Open WebMail的userstat.pl任意命令执行
+CATEGORY=攻击
+FAMILY=远程获取命令行
+SUMMARY=检查Open WebMail中userstat.pl的任意命令执行漏洞
+DESCRIPTION=远程主机正在运行至少一个Open WebMail的实例。Open WebMail的userstat.pl没有充分地验证用户输入的有效性. ;这个缺陷会允许远程攻击者使用web服务器的特权在目标主机上执行任意命令. ;更多信息 :;;  http://www.openwebmail.org/openwebmail/download/cert/advisories/SA-04:01.txt;;解决方案 : 升级Open WebMail到版本2.30 20040127或更高.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

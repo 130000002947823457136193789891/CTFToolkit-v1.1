@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15779
+NAME=phpBB Detection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Check for phpBB version
+DESCRIPTION=本插件检测phpBB论坛是否安装在该远程主机上，;并在KB中存储其路径和版本信息.;;参考 : http://www.phpbb.org;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

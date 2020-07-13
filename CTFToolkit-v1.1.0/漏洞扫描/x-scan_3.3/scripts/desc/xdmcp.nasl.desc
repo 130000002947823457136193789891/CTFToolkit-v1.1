@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10891
+NAME=X Display Manager Control Protocol (XDMCP)
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检查XDM是否使用了XDMCP协议
+DESCRIPTION=远程主机正在使用XDMCP.;;该协议被用来为图形终端（X terminals）提供图形显示（X display）连接的。XDMCP是一个很不安全的协议，所有传输的数据和密码都没有经过加密处理。;;攻击者可以利用这个漏洞通过他们的图形终端捕获主机用户的键盘纪录以及密码。;;风险等级: 中;解决方案: 禁用XDMCP
+COPYRIGHT=This script is Copyright (C) 2002 Pasi Eronen

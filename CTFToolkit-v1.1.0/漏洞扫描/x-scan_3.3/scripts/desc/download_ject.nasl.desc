@@ -1,0 +1,7 @@
+[CHINESE]
+ID=12287
+NAME=IIS Download.Ject 木马检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=IIS Download.Ject 木马检测
+DESCRIPTION=Download.Ject 是一个感染Microsoft IIS服务器的木马。;;这个木马的感染部分将其设置为被感染计算机上所有IIS Web;站点中页面的页脚。请见: ;http://www.microsoft.com/security/incident/download_ject.mspx;;解决方案 : 使用反病毒程序对计算机杀毒 ;;风险等级 : 高COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

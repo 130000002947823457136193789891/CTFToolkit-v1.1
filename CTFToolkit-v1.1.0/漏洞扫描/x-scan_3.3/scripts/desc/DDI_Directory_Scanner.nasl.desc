@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11032
+NAME=目录扫描器
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=目录扫描器
+DESCRIPTION=该插件试图确认远程主机上存在的各普通目录
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc.

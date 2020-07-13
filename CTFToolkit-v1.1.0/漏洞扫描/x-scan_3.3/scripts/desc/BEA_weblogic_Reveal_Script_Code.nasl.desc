@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10715
+NAME=BEA WebLogic Scripts Server scripts Source Disclosure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=BEA WebLogic 可能被欺骗导致暴露JSP脚本的源代码。
+DESCRIPTION=通过在文件扩展名中使用简单URL字符编码可能导致 BEA WebLogic 暴露JSP脚本的;源代码。;;e.g.: default.js%70 (=default.jsp) 会被当作一个简单文本而不是脚本。;;受影响的系统: WebLogic version 5.1.0 SP 6;;不受影响的系统: WebLogic version 5.1.0 SP 8;;解决方案: 使用http://www.bea.com的官方补丁;;风险等级: 中
+COPYRIGHT=INTRANODE - 2001(translate by xxxss)

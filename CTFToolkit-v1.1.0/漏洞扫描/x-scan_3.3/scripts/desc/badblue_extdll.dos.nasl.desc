@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17241
+NAME=BadBlue MFCISAPICommand 远程缓冲区溢出漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取命令行
+SUMMARY=检查BadBlue中MFCISAPICommand 远程缓冲区溢出漏洞
+DESCRIPTION=远程主机运行了BadBlue http 服务器, 这个服务器在处理http请求的Ext.Dll模块中有缓冲区溢出漏洞.  远程攻击者通过发送超过250个字符的mfcisapicommand参数的http请求, 使web服务器瘫痪并可能远程执行任意代码. ;;解决办法 : 升级到BadBlue 2.60.0 或更新版本.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

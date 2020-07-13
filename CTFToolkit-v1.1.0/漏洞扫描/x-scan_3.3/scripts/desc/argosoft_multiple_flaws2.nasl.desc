@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16012
+NAME=ArGoSoft Mail Server 多重缺陷(2)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=获取远程ArGoSoft服务器的版本
+DESCRIPTION=远程主机正在运行ArGoSoft WebMail.;;这个web界面中存在多重缺陷，导致攻击者绕过认证，在用户阅读的e-mail中插入HTML ;甚至能读取服务器上的任意文件.;;*** Nessus 是依靠这个服务的bannner发出警告***.;;解决方案 : 升级到 ArGoSoft 1.8.7.0 或者以上版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak（翻译：kill_ads)

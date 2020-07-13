@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11094
+NAME=WS FTP溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=试图使用指令造成缓冲溢出
+DESCRIPTION=可以通过发出带有过长参数的指令使远程FTP服务器中止运转。攻击者/程序可以使用这样的指令流阻止此站点向其它人提供正常的共享资源服务，甚至可以在此系统上执行任意代码。;;风险等级：高;解决方案：升级FTP服务器到最新版本
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi;Translate by Sniffer

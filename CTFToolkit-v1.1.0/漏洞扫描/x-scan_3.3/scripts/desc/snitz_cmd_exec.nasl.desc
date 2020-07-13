@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11621
+NAME=Snitz Forums 执行命令漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测Snitz论坛是否存在执行命令漏洞
+DESCRIPTION=远程主机正在运行Snitz Forum 2000;;该套CGI存在SQL注射漏洞，允许攻击者获取远程数据库的管理权限并在主机上执行任意命令。;;解决方案: 升级到最新版本。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

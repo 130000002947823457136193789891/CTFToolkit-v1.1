@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12283
+NAME=Singapore MD5 管理密码泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 adminusers.csv 是否存在
+DESCRIPTION=Singapore 是一个基于 PHP 的照片库web程序;;由于安全设置不够，用来存储管理密码的文件容易被访问，并且该产品用来保护密码的 MD5 可以被破解。;;解决方案：使用 web 站点 ACL 来禁止访问 adminusers.csv 文件。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

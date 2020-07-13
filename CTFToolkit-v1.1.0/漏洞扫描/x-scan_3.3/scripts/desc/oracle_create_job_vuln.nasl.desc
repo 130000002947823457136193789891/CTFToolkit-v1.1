@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14641
+NAME=Oracle DBS_SCHEDULER 漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测远程数据库版本
+DESCRIPTION=通过远程Oracle数据库的版本号,;攻击者能够利用漏洞远程获取命令行;他能够通过执行sql指令，使用特定的权限在远程主机上执行任意代码.;;解决方案 : http://www.oracle.com/technology/deploy/security/pdf/2004alert68.pdf;Risk 风险等级：高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security（翻译：kill_ads）

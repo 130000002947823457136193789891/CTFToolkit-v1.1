@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12108
+NAME=WS_FTP客户端的多重溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=IP交换WS_FTP客户端的溢出检测
+DESCRIPTION=远程服务器通常会保留客户端的版本号，这对访问的客户来说是非常危险的，攻击者会会利用电子邮件以及其他方式来引诱WS_FTP的使用者来访问自己的FTP服务器，以获得访问者的WS_FTP版本号。并分析版本号采取相应的攻击方式对访问者的计算机进行攻击。;;Solution : 注意WS_FTP的更新，尽量使用最新版本 ;并且关注 : http://www.ipswitch.com/;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

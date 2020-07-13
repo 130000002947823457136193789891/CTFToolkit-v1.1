@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11425
+NAME=安装了 ICQ
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=确定 ICQ 是否被安装
+DESCRIPTION=远程主机正在使用 ICQ - 一个并不适合于商业环境的 P2P 软件. ;;解决方案 : 卸载该软件;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

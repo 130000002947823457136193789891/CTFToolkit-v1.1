@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10277
+NAME=AnyForm
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查AnyForm2是否存在
+DESCRIPTION='AnyForm2'CGI被安装。; ;此CGI的老版本有一个著名的安全漏洞，;任何人可以利用该漏洞以http服务器进程的权限（通常是root或nobody）远程执行任意系统命令。;;解决方案 : 删除该CGI。;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

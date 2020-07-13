@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17990
+NAME=LiteCommerce SQL Injection 漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 LiteCommerce
+DESCRIPTION=远程主机正在运行 LiteCommerce, 这是一个PHP商城系统。;;这个版本存在 SQL injections 漏洞;入侵者通过它可以非法操作数据库;;Solution : 升级到最新版本;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security. Translator: ScriptCat.

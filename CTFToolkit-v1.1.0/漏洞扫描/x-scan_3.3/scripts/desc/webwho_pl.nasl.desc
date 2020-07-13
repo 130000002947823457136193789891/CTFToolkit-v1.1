@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11333
+NAME=webwho plus
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查如果webwho.pl是容易被入侵的
+DESCRIPTION=The CGI 'webwho+' 允许攻击者;在目标计算机查看任何文件,和
+执行;任意代码. ;;风险等级 : Medium/高;解决办法 : 升级到最新版本.
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

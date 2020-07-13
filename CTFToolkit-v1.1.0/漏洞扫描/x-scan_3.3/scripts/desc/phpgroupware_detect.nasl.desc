@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15982
+NAME=PhpGroupWare检测
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查PhpGroupWare
+DESCRIPTION=检查是否存在PHPGroupWare, PHPGroupWare是一款由PHP编写的groupware系统;在Nessus KB中存储了它的位置和版本信息.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

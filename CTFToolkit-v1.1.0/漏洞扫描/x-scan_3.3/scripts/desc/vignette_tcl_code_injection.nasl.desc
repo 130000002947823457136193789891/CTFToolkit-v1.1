@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11749
+NAME=Vignette StoryServer TCL 代码注射
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查远程Vignette StoryServer的版本
+DESCRIPTION=远程主机正在运行Vignette StoryServer v6, Vignette's Content Management 套件的一个web接口。;;该产品存在漏洞，允许攻击者向服务器注射任意代码。;;*** Nessus不能确定漏洞是否存在;*** 所以有时会误报;;解决方案: 升级到Vignette 6.0.4 或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

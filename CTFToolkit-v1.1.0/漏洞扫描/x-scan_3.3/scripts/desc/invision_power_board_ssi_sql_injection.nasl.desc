@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12268
+NAME=Invision Power Board ssi.php SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 Invision Power Board ssi.php 注入漏洞
+DESCRIPTION=该主机运行着Invision Power Board(一套cgi讨论版程序);该程序中的ssi.php 文件被证实存在SQL命令注入攻击漏洞,可导致攻击者使用该漏洞控制远程数据库.;;解决方案:升级到该软件的最新版本.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

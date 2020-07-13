@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12061
+NAME=SAMI FTP Server DoS
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=SAMI Remote DoS
+DESCRIPTION=运行SAMI FTP服务端的远程主机存在拒绝服务漏洞。该服务端对某个FTP命令的处理存在问题，从而允许攻击者触发远程拒绝服务攻击。;;解决方案：升级SAMI FTP 服务端到最新版本;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

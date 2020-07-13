@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14804
+NAME=Alt-N MDaemon 多处缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程 Mdaemon版本
+DESCRIPTION=远程主机运行着 Alt-N MDaemon, 一个为Windows操作平台提供 SMTP/IMAP 服务的软件;其6.5.1及以下版本存在多处缓冲区溢出漏洞. ;;一个恶意攻击者进行对远程主机拒绝服务攻击.攻击者必须有有认证权限才可以利用此漏洞攻击IMAP,但攻击SMTP时不需要该权限.;;解决方案 : 更新至MDaemon 6.5.2或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

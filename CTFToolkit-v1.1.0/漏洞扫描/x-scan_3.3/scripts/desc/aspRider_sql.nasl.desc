@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15968
+NAME=ASP-Rider SQL 注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=ASP-Rider SQL 注入
+DESCRIPTION=远程主机运行着ASP-Rider, 一个ASP脚本设置程序，用于维护blog.;;这个版本里存在一个漏洞，任何人能够注入任意的 SQL 命令,然后获得远程主机的管理入口.;;解决方案 : 升级到软件的最新版;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

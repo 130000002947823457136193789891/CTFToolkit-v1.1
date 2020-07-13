@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12045
+NAME=Mambo Site Server跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Mambo Site Server是否存在跨站脚本漏洞
+DESCRIPTION=Mambo Site Server是一个开放源代码的Web内容管理系统。攻击者可以在这台主机上实行跨站脚本攻击。;;解决方案: 升级该软件到最新版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

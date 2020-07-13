@@ -1,0 +1,9 @@
+[CHINESE]
+ID=12286
+NAME=JS.Scob.木马 或 Download.Ject 木马
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=JS.Scob.木马/JS/Exploit-DialogArg.b 木马
+DESCRIPTION=JS.Scob.Trojan or Download.Ject 木马;;JS.Scob.Trojan 或 Download.Ject 是一个从远程服务器;上运行Javascript文件的简单木马。;;这个木马感染部分将其设为被感染计算机上所有由IIS Web;
+站点提供的页面的页脚。存在Kk32.dll或者Surf.dat可以表;明客户端被感染。更多信息请见：;;http://www.microsoft.com/security/incident/download_ject.mspx;;解决方案: 用最新的杀毒软件对计算机进行杀毒。病毒定义;库和清除工具已经于2004/06/25发布。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams (Chinese version by Dancefire)

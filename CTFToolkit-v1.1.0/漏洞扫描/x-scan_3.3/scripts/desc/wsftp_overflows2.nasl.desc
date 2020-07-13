@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15857
+NAME=WS FTP 服务器多处漏洞(2)
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查 WS_FTP 服务器版本
+DESCRIPTION=根据它的版本号, 攻击者可利用远程WS_FTP服务器多缓冲区溢出漏洞在远程系统上执行任意代码.;;解决方案 : 升级到这个软件的最新版本.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:sunwear)

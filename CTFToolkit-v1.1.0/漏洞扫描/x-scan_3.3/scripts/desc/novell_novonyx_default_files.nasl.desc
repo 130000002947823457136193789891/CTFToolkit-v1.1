@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12049
+NAME=Novonyx Web 服务器的默认文件
+CATEGORY=信息搜集
+FAMILY=NETWARE
+SUMMARY=检查Novonyx web服务器的默认文件
+DESCRIPTION=Novell Netware默认的Novonyx web服务器文件;;按照默认方案安装Novell 5.x的同时也会安装Novonyx web服务器。;该安装中的很多web服务器文件会泄漏敏感信息。;;解决方案: 删除默认页面;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

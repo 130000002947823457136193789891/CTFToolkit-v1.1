@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14274
+NAME=snmpwalk '扫描器'
+CATEGORY=扫描器
+FAMILY=端口扫描
+SUMMARY=用snmpwalk查找开放端口
+DESCRIPTION=当前插件运行snmpwalk查找远程主机开放端口。;请参考'插件选项'部分对其进行配置;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

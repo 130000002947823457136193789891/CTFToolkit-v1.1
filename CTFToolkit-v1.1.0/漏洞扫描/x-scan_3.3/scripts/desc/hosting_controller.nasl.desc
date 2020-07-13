@@ -1,0 +1,7 @@
+[CHINESE]
+ID=11745
+NAME=Hosting Controller vulnerable ASP pages
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Hosting Controller的存在
+DESCRIPTION=Hosting Controller是一款管理主机工具。;这个版本存在若干远程利用漏洞。攻击者可以利用它得到机密信息或者提升权限。;;具体可参考http://archives.neohapsis.com/archives/bugtraq/2002-01/0039.html;;解决方案：卸载或者升级软件。;风险等级：高

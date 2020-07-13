@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11302
+NAME=Windows Media Player的累积补丁
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Media Player版本检测
+DESCRIPTION=Windows Media Player的早期版本存在多个不同的漏洞：;- 一个远程攻击者可以通过发送恶意构造的文件来在远;程主机上运行任意代码;;- 一个本地攻击者可以获得SYSTEM权限;;解决方法：见http://www.microsoft.com/technet/security/bulletin/ms02-032.asp;- 如果你使用Windows XP，请安装Service Pack 1;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

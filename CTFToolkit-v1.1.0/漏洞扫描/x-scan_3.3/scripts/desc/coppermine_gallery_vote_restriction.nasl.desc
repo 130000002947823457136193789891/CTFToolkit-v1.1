@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15531
+NAME=Coppermine Gallery选举限制失败
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在db_input.php
+DESCRIPTION=远程主机正在运行Coppermine Gallery - 一套处理图片库的PHP脚本.;;此产品存在一个漏洞，允许攻击者在其主机没有允许小甜饼cookie的条件下对图片进行多次选举.;;;解决方案 : 升级到Coppermine 1.3.3过更高;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16123
+NAME=HTML 帮助中的漏洞可能允许执行代码 (890175) (注册表检查)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=依 MS05-001 安全公告检查远程注册表
+DESCRIPTION=远程主机安装有一个具有安全漏洞的 HTML 帮助 ActiveX 控件，;该漏洞可能允许攻击者通过建立恶意网页并引诱受害者访问该网页;而在受害者的系统上执行恶意代码。;;解决方法 : http://www.microsoft.com/technet/security/bulletin/ms05-001.mspx ;风险等级 : 高
+COPYRIGHT=此脚本版权归 (C) 2005 Tenable Network Security 所有。wbpluto黄俊伟翻译。

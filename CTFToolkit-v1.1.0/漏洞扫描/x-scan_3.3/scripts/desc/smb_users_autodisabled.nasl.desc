@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10895
+NAME=用户信息: 自动禁用的帐号
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=枚举特权用户
+DESCRIPTION=脚本列举了被自动禁用的帐号。;;这些帐号可能是暴力攻击的受害者。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

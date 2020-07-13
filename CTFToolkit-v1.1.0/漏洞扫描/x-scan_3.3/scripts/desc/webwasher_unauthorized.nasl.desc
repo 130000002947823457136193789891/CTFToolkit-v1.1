@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16277
+NAME=WebWasher经典HTTP连接未被授权的访问缺点
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查WebWasher代理的存在
+DESCRIPTION=这是WebWasher远程代理上的漏洞.  当代理发出一个连接命令到127.0.0.1 (或本地主机/loopback), 将执行请求并发起跟本地主机的连接.;;这可以绕过任何的防火墙并连接只允许本地连接的应用程序.;;;解决方法: 升级到WebWasher3.3以上的版本;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

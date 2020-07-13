@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11934
+NAME=利用畸形的报头对Xitami发动拒绝服务攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=利用畸形的POST请求报头对Xitami发动拒绝服务攻击
+DESCRIPTION=利用畸形的POST请求就可能使远程的web服务器瘫痪。这会影响Xitami 2.5及以前的版本。;;解决方案：升级软件或使用其它的软件。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

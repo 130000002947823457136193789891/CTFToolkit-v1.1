@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15628
+NAME=Ability FTP服务器远程缓冲溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程Ability FTP服务器的版本
+DESCRIPTION=远程服务器正在运行Ability FTP服务器. 据报告此软件存在一个STOR命令缓冲溢出. 利用这个漏洞的攻击者仅需要构造并发送一个查询到FTP服务器的服务端口(通常为21).;;解决方案 : 升级到Ability FTP Server 2.35或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

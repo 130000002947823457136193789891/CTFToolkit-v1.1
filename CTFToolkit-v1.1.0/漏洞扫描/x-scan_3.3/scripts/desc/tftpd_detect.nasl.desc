@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11819
+NAME=a tftpd server is running
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=tftpd 服务检测
+DESCRIPTION=远程主机正在运行tftpd服务.;;解决方案 : 如果你用不到这一服务, 禁掉它.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

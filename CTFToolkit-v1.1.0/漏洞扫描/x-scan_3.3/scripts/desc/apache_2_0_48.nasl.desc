@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11853
+NAME=Apache < 2.0.48
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache版本号
+DESCRIPTION=远程主机运行的Apache版本号低于2.0.48，这一版本的apache可能被恶意cgi程序攻击导致拒绝服务。要成功实施这一攻击，攻击者必须拥有上传cgi程序的权限并且能够以Apache身份执行该cgi程序。;;Solution : 升级到2.0.48以上;See also : http://nagoya.apache.org/bugzilla/show_bug.cgi?id=22030 ;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

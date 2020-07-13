@@ -1,0 +1,10 @@
+[CHINESE]
+ID=11804
+NAME=MS SQL Server累积安全补丁(815495)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=查询MS SQL Server的版本
+DESCRIPTION=远程MS SQL Server服务器易受到以下攻击：命名管道劫持；命名管道拒绝服务攻击；SQL server缓冲区溢出攻击等，这些漏洞可导致用户的非法提升权限。;;
+解决方案：请参阅 http://www.microsoft.com/technet/security/bulletin/ms03-031.asp;
+风险等级：高;
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

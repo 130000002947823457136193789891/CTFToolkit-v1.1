@@ -1,0 +1,7 @@
+ID=10036
+NAME=CDK Detect
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测CDK是否存在
+DESCRIPTION=远程主机似乎正在运行CDK，这是一个别人可以用来控制你的系统的后门。攻击者只要连接到这个端口并发送口令‘ypi0ca’，就可以利用这个后门。这说明你的系统很可能已经被控制。;解决方案: 重装系统，与CERT以及你本地的权威部门联系.;风险等级: 待定
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

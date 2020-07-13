@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10687
+NAME=过长的 POST 命令
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=Web 服务器缓冲溢出
+DESCRIPTION=通过向 Web 服务器发送一个带过长参数的 POST 命令 * 可能 * 会使它执行任意代码。;;解决方案：升级你的 Web 服务器。;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison, translated by JayJew.

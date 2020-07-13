@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14655
+NAME=MailEnable HTTPMail 服务 Content-Length 溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable Webmail服务Content-Length字段溢出漏洞
+DESCRIPTION=;MailEnable服务程序-http://www.mailenable.com/(MEHTTPS.exe)专业版企业版存在缺陷,当提交发起的HTTP GET请求Content-Length字段长度大于100 bytes时,将导致固定长度buffer溢出,引起HTTPMail服务挂起,并可能导致执行任意代码 ;;解决方案 : 更新到  MailEnable Professional / Enterprise 1.2 或;更新版本 或从http://www.mailenable.com/hotfix/ （9th August 2004）安装 HTTPMail hotfix补丁  ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15707
+NAME=TeeKai Tracking Online的跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查TeeKai Tracking Online中的跨站脚本 
+DESCRIPTION=远程主机运行Teekai Tracking Online -- 一个用于追踪站点用户数量的PHP脚本. ;此软件版本容易受到跨站脚本攻击的危害.;;通过一个人工特别构造的URL, 攻击者可以执行任意代码, 从而导致丧失完整性.;;解决方案: 升级软件到最新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

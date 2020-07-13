@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10251
+NAME=rpc.nisd缓冲区溢出漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=rpc.nisd缓冲区溢出漏洞
+DESCRIPTION=远程主机正在运行的RPC服务100300 (nisd)存在一个缓冲区溢出漏洞;远程攻击者可能利用此漏洞通过溢出攻击在主机上以root用户的权限执行任意指令。.;;解决方案 : 如果不需要该RPC服务，关闭该RPC服务, 或者安装相关补丁;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

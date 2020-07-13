@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16319
+NAME=ChipMonk 论坛SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ChipMonk是否容易受到SQL注入攻击
+DESCRIPTION=远程主机运行了一个PHP写成的基于WEB的论坛程序ChipMonk.;;这个论坛的远程版本容易受到若干个SQL注入攻击以至于攻击者可能在远程SQL数据库中执行任意的SQL语句.;;解决方案 : 将论坛升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated By Mrcool

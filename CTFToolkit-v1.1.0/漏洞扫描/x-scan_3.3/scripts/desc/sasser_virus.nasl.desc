@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12219
+NAME=Sasser Virus Detection
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=发现Sasser病毒
+DESCRIPTION=Sasser蠕虫病毒感染了这台主机。;可以确定，一个命令行后门在9996端口监听;一个ftp服务（用于上载恶意代码）在5554端口监听。;所有的迹象都表明这台主机正在试图扫描和感染其他系统。;;更多信息请参见：;http://www.lurhq.com/sasser.html ;;解决方案：使用反病毒软件清除它。;风险等级：待定
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security & Powered by Robur!

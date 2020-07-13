@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10286
+NAME=thttpd 漏洞
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=thttpd 漏洞
+DESCRIPTION=发送请求时，攻击者只需在要浏览的文件目录前加一个斜杠就可以浏览远程HTTP服务器上的任意文件。例如:GET //etc/passwd会返回/etc/passwd。;;解决方案: 升级或更换web服务端。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

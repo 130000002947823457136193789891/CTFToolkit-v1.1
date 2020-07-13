@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11882
+NAME=安装了AOL即时通讯工具
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=判断是否安装了AOL即时通讯工具
+DESCRIPTION=远程主机正在使用AOL即时通讯工具(AIM),并且已连上线.;;此软件在过去就已被暴有多个安全漏洞，因此不适合在商业环境中使用. ;;解决方案: 将AIM卸载;;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2003 Jeff Adams

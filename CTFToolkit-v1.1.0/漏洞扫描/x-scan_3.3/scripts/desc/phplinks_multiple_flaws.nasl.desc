@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16210
+NAME=PHPLinks的多个输入认证漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装了PHPLinks
+DESCRIPTION=远程主机运行着HPLinks,它是用PHP语言写的链接管理系统。;;该管理软件存在多个输入认证漏洞。;它们允许攻击者执行任意SQL指令;或在远程主机上执行任意PHP代码。;;解决方案 :升级到该软件的最新版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

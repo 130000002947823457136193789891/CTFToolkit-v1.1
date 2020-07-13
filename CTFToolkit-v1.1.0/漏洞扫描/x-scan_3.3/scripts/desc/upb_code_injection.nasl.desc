@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11671
+NAME=Ultimate PHP Board admin_ip.php 脚本注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 UPB
+DESCRIPTION=远程主机运行有Ultimate PHP Board (UPB).;;某些版本中存在一个漏洞，容许攻击者发送一个包括PHP命令的恶意客户代理程序从而在这台主机上执行任意代码.  一旦这个恶意程序被发出将驻留在日志中. 当web管理员通过admin_ip.php查阅日志时,恶意代码便被执行.;;解决方案 : 升级此CGI到最新版本 ;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

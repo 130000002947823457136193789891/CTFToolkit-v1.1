@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15621
+NAME=CherokeeCherokee目录遍历缺陷
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查Cherokee的版本
+DESCRIPTION=远程主机正在运行Cherokee -- 一款快速小巧的web服务器.;;当在web请求后面附加'../'时, 此软件容易受到目录遍历漏洞的危害.;;此外, 此软件在绑定所监听的端口之后仍然使用root特权.;;远程攻击者可以提交特别构造的web请求, 从而以root特权来浏览服务器上的任意文件.;;解决方案 : 升级到Cherokee 0.2.8或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

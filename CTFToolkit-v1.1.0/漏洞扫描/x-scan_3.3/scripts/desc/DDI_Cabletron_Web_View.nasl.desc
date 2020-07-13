@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10962
+NAME=Cabletron WebView访问
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=Cabletron WebView访问
+DESCRIPTION=这台主机是一台Cabletron交换机, 正在运行Cabletron的WebView. WebView软件提供对交换机前面板的实时的图形化表示. 这些图形和浏览器中其他区域可以交互式地配置交换机、监视状态和查看统计信息. 攻击者可以使用此软件获得主机的信息.;;解决方案: 根据交换机所处的位置, 告诫严格限制可以访问此web服务器的IP地址, 或者彻底禁止访问.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Incorporated

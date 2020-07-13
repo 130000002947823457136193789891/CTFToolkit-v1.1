@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10430
+NAME=SMB 注册表: 可以获得admin权限的子键权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的连接权限
+DESCRIPTION=本脚本检查非管理员用户是否可以修改以下子键的内容:;;;HKLM\Software\Microsoft\Windows\CurrentVersion\Run;HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce;HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnceEx;HKLM\Software\Microsoft\Windows NT\CurrentVersion\AeDebug;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options;;解决方案: 使用regedt32把这些子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

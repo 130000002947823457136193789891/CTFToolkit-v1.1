@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10263
+NAME=SMTP 服务端类型和版本
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=SMTP 服务端类型和版本
+DESCRIPTION=通过连接服务器并处理缓冲区里接收到的数据，当前脚本检测了SMTP 服务端类型和版本。;该信息向攻击者提供了更多系统信息。应该适当隐藏服务程序的版本和类型。;;解决方案: 修改登陆banner不包含相关标识信息;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam

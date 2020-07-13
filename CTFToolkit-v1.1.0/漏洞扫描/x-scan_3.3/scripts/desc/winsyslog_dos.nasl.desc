@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11884
+NAME=WinSyslog (DoS)
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=试图使远程主机崩溃
+DESCRIPTION=WinSyslog是针对Windows的增强的系统日志服务。这个产品中的一个弱点可以使远程攻击者引;;起该服务的冻结，最终冻结执行该产品的操作系统。;;有弱点的版本：WinSyslog Version 4.21 SP1 (http://www.winsyslog.com);解决方案：联系供应商http://www.winsyslog.com;风险等级：高
+COPYRIGHT=This script is copyright (C) 2003 Matthew North

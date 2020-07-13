@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10149
+NAME=Java的IDE（编译环境） NetBeans
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=判断远程根目录是否可被浏览
+DESCRIPTION=远程主机运行着叫NetBeans (最近被更名为 Forte') 的Java IDE。 ;这个版本的IDE有一个bug，允许任何人浏览这个系统的文件。;;;解决方案 : 在Project settings中将HTTP server设置为不允许启动; 风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

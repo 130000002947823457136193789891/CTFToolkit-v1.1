@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12082
+NAME=RobotFTP 拒绝服务攻击
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查RobotFTP版本信息
+DESCRIPTION：远程主机可能正在运行RobotFTP。;;RobotFTP被认为是一个易于受到拒绝服务攻击的软件。;在用户得到认正以前，服务接收到命令也会进行反应。;;下面这些版本的RobotFTP容易受到攻击：;RobotFTP RobotFTP Server 1.0;RobotFTP RobotFTP Server 2.0 Beta 1;RobotFTP RobotFTP Server 2.0;;Solution：使用其他的FTP服务器。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Audun Larsen

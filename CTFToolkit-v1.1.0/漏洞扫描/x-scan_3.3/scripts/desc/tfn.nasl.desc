@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10283
+NAME=TFN Detect
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY= 检测TFN
+DESCRIPTION=远程自己可能运行了;TFN (Tribe Flood Network), TFN是个木马，可以控制你的主机，甚至去攻击其他网络.;;旧乡自己被挟持;;解决方案 : 用备份文件来恢复系统;主动联系本地权威机构;;风险等级: 待定
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

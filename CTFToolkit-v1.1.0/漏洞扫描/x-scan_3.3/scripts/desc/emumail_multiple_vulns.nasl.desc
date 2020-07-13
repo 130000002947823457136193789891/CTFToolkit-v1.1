@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12095
+NAME=Emumail WebMail 多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查vHost版本
+DESCRIPTION=远程主机正在运行Emumail EMU WebMail 5.2.7或者更早的版本。;;该版本存在多个漏洞，包括泄漏信息和跨站脚本，允许攻击者欺骗登陆用户或从系统获取更多信息。;;解决方案: 升级到最新版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

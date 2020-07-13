@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11028
+NAME=IIS .HTR溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=检测IIS .htr ISAPI过滤器
+DESCRIPTION=远程服务器存在.HTR缓冲区溢出漏洞.;;可导致攻击者利用该缺陷在主机上执行任意指令 (尽管利用这个漏洞存在有一定的困难性).;;解决方案: ;依照如下操作删除.HTR映射:; 1.打开Internet 服务管理器. ; 2.右击你的服务器,在菜单中选择"属性"栏. ; 3.选择"主属性" ; 4.选择 WWW 服务 -> 编辑 -> 主目录 -> 配置;在扩展名列表中删除".htr"项.;;参考微软安全公告MS02-028以获取补丁;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

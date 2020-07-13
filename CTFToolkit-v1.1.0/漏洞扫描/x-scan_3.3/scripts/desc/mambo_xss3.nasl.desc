@@ -1,0 +1,7 @@
+[CHINESE]
+ID=16316
+NAME=Mambo Site Server index.php mos_change_template XSS
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检测Mambo Site Server 是否存在跨站脚本漏洞
+DESCRIPTION=;Mambo Site Server是一个开源的Web内容管理系统.攻击者能利用Mambo某些版本的漏洞,在安装了Mambo的主机上执行跨站脚本攻击. ;;解决方案: 将Mambo升级到4.5 1.0.4或更高版本;风险等级 : 中COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

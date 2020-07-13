@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12295
+NAME=Dell OpenManage Web低于3.7.1版本
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=Dell OpenManage Web服务3.2.0-3.7.1版本存在基于堆的缓冲区溢出漏洞
+DESCRIPTION=远程主机运行着Dell OpenManage Web服务.;;该服务的3.2.0-3.7.1版本存在基于堆的缓冲区溢出漏洞.已证实该漏洞可导致拒绝服务.;;***注意:Dell提供的补丁不会改变该服务的版本;***所以该补丁并不一定有效;;补丁位于http://support.dell.com/filelib/download.asp?FileID=96563&c=us&l=en&s=DHS&Category=36&OS=WNT5&OSL=EN&SvcTag=&SysID=PWE_FOS_XEO_6650&DeviceID=2954&Type=&ReleaseID=R74029;;更多信息请查看: http://sh0dan.org/files/domadv.txt;解决方案: 安装Dell所提供的安全补丁;风险等级: 严重
+COPYRIGHT=This is script is Copyright (C) 2004 Tomi Hanninen

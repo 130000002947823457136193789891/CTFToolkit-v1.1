@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15780
+NAME=SQL injection in phpBB Login Form
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL Injection
+DESCRIPTION=远程主机上运行着phpBB.;;该软件存在一安全缺陷，它允许任意用户在Login表单;注入任意的SQL语句.;;攻击者可能利用该漏洞获得远程主机的权限或者;对远程主机的数据库执行任意的SQL语句.;;解决方案 : 升级该软件到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

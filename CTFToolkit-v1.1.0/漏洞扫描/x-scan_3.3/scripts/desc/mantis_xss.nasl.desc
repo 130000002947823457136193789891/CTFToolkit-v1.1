@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14344
+NAME=Mantis 多处未指明跨站脚本漏洞XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Mantis版本
+DESCRIPTION=;远程主机正在运行Mantis bug tracker.;;远程主机上该软件的版本在处理某些输入类型时存在漏洞. 因此，攻击者可能在存在此漏洞站点的security context中执行代码.;;;解决方案 : 升级到Mantis 0.18.1或更新版本 ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

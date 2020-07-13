@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12114
+NAME=ISS BlackICE Vulnerable versions
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=ISS BlackICE漏洞判断
+DESCRIPTION=ISS BlackICE是Windows桌面个人Firewall/IDS，其中发现存在多个远程漏洞。攻击者可以利用这些漏洞停止防火墙系统或在目标机器上执行任意指令。根据版本不同，有一个版本存在一个远程缓冲区溢出问题。;;解决方案:升级到BlackICE最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

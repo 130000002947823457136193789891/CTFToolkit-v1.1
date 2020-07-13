@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10732
+NAME=IIS 5.0 WebDav 溢出漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查 IIS 5.0 httpext.dll 的溢出 (WebDav).
+DESCRIPTION=IIS5 默认提供了对WebDAV的支持，通过WebDAV可以通过HTTP向用户提供远程文件存储的服务。但是作为普通的HTTP服务器，这个功能不是必需的。;IIS 5.0包含的WebDAV组件不充分检查传递给部分系统组件的数据，远程攻击者利用这个漏洞对WebDAV进行缓冲区溢出攻击，可能以WEB进程权限在系统上执行任意指令。IIS 5.0的WebDAV使用了ntdll.dll中的一些函数，而这些函数存在一个缓冲区溢出漏洞。通过对WebDAV的畸形请求可以触发这个溢出。成功利用这个漏洞可以获得LocalSystem权限。这意味着，入侵者可以获得主机的完全控制能力。;;受影响的系统:IIS 5.0( httpext.dll 版本 0.9.3940.21 );;Immune systems: IIS 5 SP2(httpext.dll版本0.9.3940.21);;解决方案:下载补丁Pack 2/hotfixes from Microsoft web;网址 http://windowsupdate.microsoft.com;;风险等级 : 高
+COPYRIGHT=INTRANODE - 2001

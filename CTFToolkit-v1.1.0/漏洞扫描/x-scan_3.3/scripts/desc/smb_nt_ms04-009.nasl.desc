@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12092
+NAME=Outlook 执行任意代码漏洞(828040)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测OutLook.exe的版本
+DESCRIPTION=根据软件版本，远程主机运行的outlook存在安全漏洞，允许Internet Explorer在本地执行任意脚本代码，从而也允许攻击者在主机上运行任意程序。;;要利用该漏洞，攻击者只要向主机的用户发送特殊的HTML信息。;;解决方案: 参见http://www.microsoft.com/technet/security/bulletin/ms04-009.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

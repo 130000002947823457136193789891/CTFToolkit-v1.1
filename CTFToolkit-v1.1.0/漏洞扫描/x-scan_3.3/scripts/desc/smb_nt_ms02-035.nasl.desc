@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11322
+NAME=MS SQL安装过程中明文缓存口令漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=读取%windir%\setup.iss
+DESCRIPTION=MS SQL server的安装进程遗留了一个;名为'setup.iss' 的文件在系统中.;;这个文件中包含有'sa' 账户的口令等信息.;;攻击者可能通过读取此文件得到数据库访问的;认证信息.;;参见;http://www.microsoft.com/technet/security/bulletin/ms02-035.asp;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

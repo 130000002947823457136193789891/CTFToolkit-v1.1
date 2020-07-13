@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10900
+NAME=用户信息: 永不过期的帐号
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=枚举从未登陆过的用户
+DESCRIPTION=脚本列举了密码永不过期的用户。;;应该给密码设置存活期限。;;解决方案: 对这些用户禁用'password never expires'选项;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17247
+NAME=PHPNews auth.php中的远程文件存在漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查PHPNews中的auth.php中存在漏洞的远程文件
+DESCRIPTION=远程主机在运行某一版本的PHPNews，它是一种开源的用于新闻制作和发布的应用程序。;在auth.php中有一个远程文件存在安全漏洞。;攻击者通过利用这一漏洞可以使用web服务器的用户许可权来在远程主机上运行任意的PHP代码。;;解决方案：升级到PHPNews 1.2.5或更高版本，也可以按如下方式重新配置PHP：'disable register_globals' and/or 'allow_url_fopen'. ;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security.

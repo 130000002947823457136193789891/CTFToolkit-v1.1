@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11983
+NAME=KpyM Windows Telnet服务端溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=远程telnet服务端版本检测
+DESCRIPTION=远程主机正在运行KpyM Windows Telnet服务端。;这个服务端存在一个缓冲区溢出漏洞，;使得任何人都可以通过提供一个超长的密码来停止telnet服务。;;解决方法：停止Telnet服务或者从http://kpym.sf.net将服务端升级到1.06版本。;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Renaud Deraison

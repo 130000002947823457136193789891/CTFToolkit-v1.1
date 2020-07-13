@@ -1,0 +1,8 @@
+[中文]
+ID=11658
+NAME=SunONE应用服务器源代码泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+脚本摘要信息=试图读取jsp网页的源代码
+脚本详细描述=通过发送不规则格式的网页请求可能使对端服务器泄露其源代码(例如: filename.JSP 代替filename.jsp).;;一个攻击者可能利用此漏洞得到主机CGIs源代码，并且可能获取口令或和其它相关信息;;解决办法 : 目前还没有;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

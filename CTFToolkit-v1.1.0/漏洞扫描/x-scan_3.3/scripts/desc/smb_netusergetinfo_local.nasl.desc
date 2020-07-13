@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10910
+NAME=获取本地用户信息
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=实现NetUserGetInfo()
+DESCRIPTION=此Nessus插件将NT的用户信息保存到Nessus调度程序的KB中，;使得以后的调度插件可以使用这些用户信息。;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

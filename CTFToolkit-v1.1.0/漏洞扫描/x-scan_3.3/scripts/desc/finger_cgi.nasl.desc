@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10071
+NAME=存在Finger cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/finger
+DESCRIPTION=该主机装有'finger'cgi程序.通常情况下安装该程序不是一个好的建议,一直以来;该程序除了能带来麻烦之外没有任何用处;;双击该程序确定你需要安装该程序.;;解决方案:从/cgi-bin中删除该程序.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

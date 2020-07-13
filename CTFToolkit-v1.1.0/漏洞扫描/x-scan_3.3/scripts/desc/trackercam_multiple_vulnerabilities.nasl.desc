@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17160
+NAME=TrackerCam中数个远程安全漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查TrackerCam中的漏洞
+DESCRIPTION=远程主机运行着TrackerCam, 一款HTTP软件，允许用户打印流经Web站点的影像。;;该软件存在数个易于被攻击的漏洞:;;一个缓冲区溢出漏洞可使攻击者在远程主机上执行任意代码;;;一个交叉目录漏洞可使攻击者以相当于Web后台服务器的特权读取远程主机上的任意文件;;一个交叉站脚本漏洞可允许攻击者利用远程主机发起交叉站脚本攻击。;;解决方案 : 升级到该软件的最新版本。;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

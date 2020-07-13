@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10688
+NAME=SNMP VACM
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=通过SNMP枚举community字串
+DESCRIPTION=这个脚本试图使用远程Cisco路由器基于视图的访问控制(View-Based Access; Control) MIB获得远程private的community字串。;;攻击者可以使用这个漏洞获得这个路由器上读/写SNMP的权限。;;更多信息 : http://www.cisco.com/warp/public/707/ios-snmp-community-vulns-pub.shtml;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison (Chinese version by Dancefire)

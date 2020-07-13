@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12070
+NAME=Netsky.B
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测 Netsky.B 注册表子键
+DESCRIPTION=远程系统感染了Netsky.B垃圾邮件蠕虫。该蠕虫可以扫描本地硬盘和远程映射硬盘获取电子邮件地址，并使用自带的SMTP引擎发送垃圾邮件。;;解决办法：升级病毒库文件到最新版本，对系统进行彻底的病毒扫描。;参见：;http://vil.nai.com/vil/content/v_101034.htm;http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=WORM_NETSKY.B;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison modified by c.houle@bell.ca

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11387
+NAME=L2TP检测
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检测远程主机是否运行L2TP (VPN)服务
+DESCRIPTION=该主机正在运行L2TP服务 - 这表示该远程主机可能是一个VPN终端.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15417
+NAME=PostgreSQL不安全创建临时文件
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=试图登陆远程PostgreSQL守护进程
+DESCRIPTION=根据不同的版本，远程PostgreSQL服务器易受到一个未详细说明的不安全创建临时文件的漏洞的影响，此漏洞可导致本地攻击者以PostgreSQL应用的权限重写任意文件 .;;解决方案 : 升级软件到更新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12056
+NAME=xlight FTP Server RETR 堆栈溢出漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=X-Light堆栈溢出
+DESCRIPTION=远程主机正在运行XLight FTP服务端。;;该服务端处理RETR请求的参数时存在漏洞，攻击者可能利用该漏洞发起缓冲区溢出攻击，导致远程主机当机或执行任意代码。;;解决方案: 升级XLight服务端到1.53以上版本;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

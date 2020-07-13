@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10228
+NAME=rusersd服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测RPC服务是否存在
+DESCRIPTION=rusersd RPC服务正在运行.  它为攻击者提供了;诸如系统使用的频率和用户名称;等攻击者感兴趣的信息.;	;通常来讲运行该服务并不是什么好主意.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

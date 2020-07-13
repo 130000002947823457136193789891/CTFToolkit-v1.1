@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10468
+NAME=Netscape管理员口令文件权限设置不当漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=读取admpw文件
+DESCRIPTION=文件/admin-serv/config/admpw是可读的.;;这个文件中包含了Netscape;管理服务器的口令等信息. 尽管口令字段是加密的, 攻击者仍然可能利用这个漏洞;对管理员口令进行暴力破解.;;解决方案 : 将Admpwd文件权限设置为仅必要的用户可访问和/或者停止;Netscape管理服务器.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

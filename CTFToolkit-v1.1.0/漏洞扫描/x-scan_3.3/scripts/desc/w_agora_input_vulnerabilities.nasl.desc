@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15402
+NAME=w-Agora的多个输入确认漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查w-Agora中的漏洞
+DESCRIPTION=远程主机正在运行w-Agora。w-Agora是一个PHP编写的基于WEB的论坛管理系统。此软件存在多个输入确认漏洞 :;;- 在'redir_url.php'文件中存在一个SQL注入漏洞，可导致攻击者在远程数据库上执行任意的SQL语句;;;- 存在一个跨站脚本问题，可导致攻击者通过发送特别构造的链接的方式来劫持站点合法用户的小甜饼 ;;;- 存在一个HTTP应答分离漏洞，同样可导致攻击者对站点发起跨站脚本攻击.;;解决方案 : 升级软件到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

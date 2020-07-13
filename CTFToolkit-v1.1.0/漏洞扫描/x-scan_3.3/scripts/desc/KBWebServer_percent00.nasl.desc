@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11166
+NAME=KF Web服务器的/%00漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=请求诸如http://www.example.com/%00的URL
+DESCRIPTION=通过请求一个在后面附加'/%00'的URL的方式, KF Web服务器会泄露目录内的文件, 从而潜在地显示敏感文件.;;解决方案 : 升级到最新版本的KF Web服务器;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

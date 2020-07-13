@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11480
+NAME=3com RAS 1500 配置泄漏
+CATEGORY=攻击
+FAMILY=远程文件访问
+SUMMARY=远程获得user_settings.cfg文件
+DESCRIPTION=当user_settings.cfg文件通过web接口被请求时，远程3com SuperStack II Remote Access System 1500 会通过该文件泄漏用户配置。;;该文件包含主机密码（以明文方式储存）以及其他敏感信息。;;攻击者可以利用此漏洞获得主机控制权。;;解决方案: 过滤主机接收到的请求;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13852
+NAME=MS任务计划程序漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=远程微软操作系统任务计划程序检查
+DESCRIPTION=计划任务应用程序存在一个缺陷，它允许远程攻击者能够远程执行代码。;有许多攻击工具利用了这个缺陷。;一个利用此漏洞的攻击者将有能力连接到目标主机或者能够强迫本地用户安装.job文件或浏览一个恶意的web站点。;;参考:http://www.microsoft.com/technet/security/bulletin/ms04-022.mspx;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese by netke)

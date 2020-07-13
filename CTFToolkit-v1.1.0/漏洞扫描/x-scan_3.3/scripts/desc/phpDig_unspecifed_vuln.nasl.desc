@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15949
+NAME=phpDig漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查phpMyAdmin的版本
+DESCRIPTION=phpDig是一个用PHP编写的开放源码的搜索引擎. ;;运行该软件的远程主机存在一个安全漏洞;攻击者可以利用它破坏远程主机的完整性.;;解决方案 : 升级到 1.8.5版或者更新;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：HUIVER)

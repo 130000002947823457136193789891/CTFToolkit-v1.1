@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11957
+NAME=Aardvark Topsites的若干漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查Aardvark Topsites的版本
+DESCRIPTION=Aardvark Topsites是一个流行的、免费的PHP Topsites脚本.;在此产品中发现多个漏洞, 可导致远程攻击者探索服务器的敏感信息或注入恶意的SQL语句.;;解决方案 : 升级到版本4.1.1或更高.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

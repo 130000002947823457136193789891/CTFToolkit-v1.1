@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16274
+NAME=ngIRCd 远程缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查远程ircd的版本
+DESCRIPTION=运行ngIRCd的服务器在处理名字列表的时候可能存在缓冲溢出漏洞.;;攻击者可能利用一个恶意的用户信息在远程主机上执行任意代码.;;解决方案:升级到ngIRCd 0.8.2或者更新;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated By Mrcool

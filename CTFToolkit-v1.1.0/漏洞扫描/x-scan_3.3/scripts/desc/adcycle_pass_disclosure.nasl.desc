@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11461
+NAME=Adcycle密码泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/build.cgi
+DESCRIPTION=安装了CGI 'build.cgi'. 这个CGI存在一个著名的安全漏洞，可导致攻击者获得远程AdCycle数据库的密码或删除数据库.;;解决方案 : 从/cgi-bin目录中删除这个文件.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15467
+NAME=可导致信息泄露和拒绝服务的RPC运行库漏洞 (873350)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否已安装修补程序873350
+DESCRIPTION=RPC运行库在处理人工精心构造的消息时，存在一个信息列路和拒绝服务漏洞.;;成功利用此漏洞的攻击者可潜在地读取活动内存的信息或导致系统停止响应.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-029.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

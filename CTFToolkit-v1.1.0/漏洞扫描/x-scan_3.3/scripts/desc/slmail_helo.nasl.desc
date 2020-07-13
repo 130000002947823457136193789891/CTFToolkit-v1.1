@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10256
+NAME=SLMail MTA 'HELO' 拒绝
+CATEGORY=破坏性攻击
+FAMILY=SMTP
+SUMMARY=远程SMTP服务端溢出
+DESCRIPTION=当MTA处理包含超长参数的 'HELO'命令时会发生溢出。;;该漏洞允许攻击者在主机上执行任意代码，或禁止用户收发邮件。;;解决方案: 联系销售商索取补丁程序。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

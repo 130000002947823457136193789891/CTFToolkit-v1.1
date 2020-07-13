@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15717
+NAME=Goollery跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查在viewpic.php中是否存在Goollery跨站脚本缺陷 
+DESCRIPTION=远程主机安装了Goollery -- 一款PHP编写的基于GMail的相片库管理软件.;;根据其版本号, 该主机易受通过viewpic.php脚本的跨站脚本攻击的危害.;欲利用这个漏洞的攻击者需要强迫用户浏览恶意的URI.  ;一旦成功利用该漏洞, 攻击者将可以在web浏览器内以远程服务器的安全环境运行任意代码.;;解决方案 : 升级到Goollery 0.04b或更高;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

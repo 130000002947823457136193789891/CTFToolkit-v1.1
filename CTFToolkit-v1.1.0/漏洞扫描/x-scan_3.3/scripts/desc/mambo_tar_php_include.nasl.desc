@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17194
+NAME=Mambo中Tar.php的远程文件包含漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=在Mambo中检测Tar.php的远程文件漏洞
+DESCRIPTION=远程主机运行了Mambo, 一个PHP编写的内容管理系统. ;;此版本的Mambo不能完全清除通过mosConfig_absolute_path变量传递给Tar.php脚本的输入.  远程攻击者可能利用此漏洞在用户使用web服务的环境下让代码被执行或者读取目标主机上的任意文件. ;;解决方案: 升级至Mambo 4.5.2.1或更高版本.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

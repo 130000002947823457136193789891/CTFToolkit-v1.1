@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10302
+NAME=网络服务器存在robot(s).txt攻击
+CATEGORY=攻击
+FAMILY=普通漏洞
+SUMMARY=网络服务器存在robot(s).txt攻击
+DESCRIPTION=
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam

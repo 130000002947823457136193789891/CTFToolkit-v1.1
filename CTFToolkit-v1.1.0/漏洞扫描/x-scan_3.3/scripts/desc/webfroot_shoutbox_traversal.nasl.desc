@@ -1,0 +1,8 @@
+CHINESE]
+ID=11680
+NAME=Webfroot Shoutbox目录信息泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Webfroot Shoutbox 使攻击者可以浏览web服务器所提供的任何目录中的文件
+DESCRIPTION=Webfroot Shoutbox.php 容易泄漏信息。;其容许一个远程攻击者拥有在web服务器浏览任何文件的特权。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

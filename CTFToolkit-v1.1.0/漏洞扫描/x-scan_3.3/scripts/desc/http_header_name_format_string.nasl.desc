@@ -1,0 +1,9 @@
+[CHINESE]
+ID=15641
+NAME=Format string on HTTP header name
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=在HTTP头的名称中发送一个带有%s的HTTP请求
+DESCRIPTION=远程网络服务器可能含有一个HTTP 1.0 头名称格式化字串攻击漏洞.;攻击者可以使用这个漏洞使服务器受到破坏或执行某些代码.;;;解决办法 : 升级您的软件或联系您的供应商;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi( Chinese version by peterbas )
+

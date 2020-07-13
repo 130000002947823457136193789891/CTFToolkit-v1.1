@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11479
+NAME=paFileDB跨站脚本攻击漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查pafiledb是否存在跨站脚本攻击
+DESCRIPTION=该远程pafiledb.php存在一个跨站脚本攻击漏洞，可导致攻击者利用该漏洞窃取合法用户的cookies信息;;;解决方案: 升级到paFileDB 3.0;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

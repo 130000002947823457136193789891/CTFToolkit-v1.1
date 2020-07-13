@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11237
+NAME=php 4.3.0
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP的版本
+DESCRIPTION=该远程主机运行着PHP 4.3.0版本;;该版本的PHP存在一个漏洞可导致攻击者在该主机上运行任意的PHP程序.;;解决方案:升级到PHP 4.3.1;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

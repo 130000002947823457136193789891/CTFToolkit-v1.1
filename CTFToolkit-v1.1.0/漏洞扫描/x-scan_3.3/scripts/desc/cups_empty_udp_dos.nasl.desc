@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15900
+NAME=CUPS空UDP数据报拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检测CUPS的空UDP数据报拒绝服务漏洞
+DESCRIPTION=CUPS服务器用于提供网络打印机浏览服务;运行该服务的目标主机容易受到某些类型的拒绝服务攻击. 在特定条件下,可以通过向CUPS服务器发送一个空的UDP数据报来终止该服务器的浏览功能. ;;解决方案 : 升级到CUP2 1.1.21rc2或者更高版本.;;风险等级 :低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall 翻译: HUIVER

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15718
+NAME=SquirrelMail之decodeHeader的HTML注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Squirrelmail的HTML注入漏洞
+DESCRIPTION=远程主机正在运行SquirrelMail -- 一个PHP编写的web邮件系统. ;;版本低于1.4.4的SquirrelMail容易受到邮件HTML注入漏洞的危害. 远程攻击者可以利用这个漏洞访问用户帐号.;;解决方案 : 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

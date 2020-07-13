@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15555
+NAME=Apache mod_proxy内容长度缓冲溢出
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache的版本
+DESCRIPTION=远程web服务器正在运行一个版本低于1.3.32的Apache.;;此版本在mod_proxy模块的proxy_util.c中存在一个基于堆的缓冲溢出. 此问题可导致远程攻击者引发拒绝服务或可能在服务器上执行任意代码.;;解决方案: 不使用mod_proxy模块或升级到更高的版本.;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

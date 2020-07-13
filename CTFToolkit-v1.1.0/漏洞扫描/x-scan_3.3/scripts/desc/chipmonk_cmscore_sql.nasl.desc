@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16320
+NAME=ChipMonk CMScore SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ChipMonk CMScore是否存在被SQL注入攻击的漏洞
+DESCRIPTION=远程主机正在运行一个PHP编写的基于web的软件ChipMonk CMScore。;远程服务器运行的版本存在几个允许攻击者在SQL数据库上执行任意SQL语句的SQL注入漏洞.;;解决方案 : 升级到该软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

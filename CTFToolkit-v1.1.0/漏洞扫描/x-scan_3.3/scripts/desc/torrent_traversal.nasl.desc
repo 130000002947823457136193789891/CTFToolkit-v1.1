@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15904
+NAME=Blog Torrent 远程目录浏览
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=在Blog Torrent中查找一个目录障碍缺陷.
+DESCRIPTION= 一个远程目录障碍漏洞在Blog Torrent中被发现,;他一个基于应用程序的web,允许用户浏览文件.;;一个恶意的用户可以利用这个漏洞来发出类似于;'../'的请求,要求访问web服务器根目录以外的文件:;这个漏洞能使攻击着成功地浏览web服务器上可读的任意文件;;更多信息: http://www.securityfocus.com/archive/1/383048;风险等级:高
+COPYRIGHT=This script is Copyright (C) Tenable Network Security.(翻译:kill_ads)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16120
+NAME=Noah Grey Greymatter GM-Comments.CGI HTML 注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Greymatter版本
+DESCRIPTION=远程主机运行了Greymatter, 一个用Perl实现的blog系统. ;;; 由于缺乏对'gm-comments.cgi'中用户输入的数据进行过滤, 因而这个软件的远程版本存在HTML 注入漏洞. 攻击者利用这个漏洞能对远程主机进行跨站脚本攻击.;;解决办法 : 目前没有.;风险登记 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security<Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10565
+NAME=Serv-U 目录遍历
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=遍历远程FTP的root目录
+DESCRIPTION=在CWD命令后加上%20s.;比如:CWD ... %20s.;;可导致打破远程FTP chroot的限制.;这个问题允许攻击者浏览整个远程磁盘;;解决方案 : 更新至Serv-U 2.5i;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(Translation by luke and sunwear)

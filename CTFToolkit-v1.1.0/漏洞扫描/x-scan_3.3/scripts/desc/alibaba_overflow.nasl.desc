@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10012
+NAME=Alibaba 2.0 缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=Alibaba 缓冲区溢出
+DESCRIPTION=通过提交下列请求有可能使远程web服务器执行任意指令:;;POST AA[...]AA/ HTTP/1.0;	;这个问题有可能使攻击者在远程主机上执行任意代码或者实现拒绝服务攻击(DoS).;;解决方案 : 到写这个说明时为止，还没有解决方法. ;联系提供商获得补丁或者使用其他的web服务器.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

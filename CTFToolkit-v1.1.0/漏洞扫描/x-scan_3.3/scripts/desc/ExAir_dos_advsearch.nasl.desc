@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10002
+NAME=IIS可能的拒绝服务(使用ExAir示例站点的advsearch脚本) 
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定是否存在一个在ExAir中的asp文件
+DESCRIPTION=IIS提供一个'ExAir'示例站点. 不幸的是, 其中一个名称为'/iissamples/exair/search/advsearch.asp'的页面可以用来挂起IIS, 从而阻止IIS应答合法客户的请求.;;解决方案 : 删除'ExAir'示例站点.;;风险等级 : 中/高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17972
+NAME=SonicWall SOHO Web界面跨站脚本执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测SonicWall SOHO Web界面跨站脚本执行漏洞
+DESCRIPTION=远程主机是一个SonicWall SOHO设备。该版本受到多个缺陷的影响，特别是由于对用户输入数据的过滤不完备而引起的跨站脚本执行。成功利用此问题能允许攻击者在受影响的设备上运行恶意脚本。 ;;解决方案: 升级至最新版本;参见: http://www.sonicwall.com/;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

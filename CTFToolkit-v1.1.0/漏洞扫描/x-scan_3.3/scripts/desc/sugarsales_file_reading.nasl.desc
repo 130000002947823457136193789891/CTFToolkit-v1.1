@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15950
+NAME=SugarSales 远程文件访问
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查SugarSales里的一个文件读取缺陷
+DESCRIPTION=远程主机正在运行SugarSales, 一个用Java和PHP编写的客户关系套件.;;这个版本很容易被攻击;攻击者可以利用漏洞以httpd用户的权限去读取远程主机上的任意文件.;;解决方案 :升级到最新的版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

@@ -1,0 +1,212 @@
+
+"Class Informer"
+=========================================================
+IDA Pro Win32 class vftable finder, namer, fixer, lister plug-in.
+Version 1.06, January 2013
+By Sirmabus
+
+---------------------------------------------------------
+
+Scans an MSVC 32bit target IDB for vftables with C++ RTTI, and MFC RTCI type
+data. Places structure defs, names, labels, and comments to make more sense of
+class vftables ("Virtual Function Table") and make them read easier as an aid
+to reverse engineering.
+Creates a list window with found vftables for browsing.
+
+RTTI ("Run-Time Type Identification"):
+http://en.wikipedia.org/wiki/RTTI
+
+RTCI ("Run Time Class Information") the MFC forerunner to "RTTI":
+http://msdn.microsoft.com/en-us/library/fych0hw6(VS.80).aspx
+
+It's currently targeted Microsoft Visual C++ 32bit complied binaries.
+Will get unpredictable results if used on other targets.
+
+Based off of the article and IDC scripts by Igor Skochinsky:
+http://www.openrce.org/articles/full_view/23
+http://www.openrce.org/downloads/details/196
+
+And derivative work article:
+http://www.blackhat.com/presentations/bh-dc-07/Sabanal_Yason/
+Paper/bh-dc-07-Sabanal_Yason-WP.pdf
+
+
+-- [Install] --------------------------------------------
+Copy the plug-in to your IDA Pro "plugins" directory.
+Then edit your "..\plugins\plugins.cfg" to setup with a hotkey.
+
+IE: Add these two lines:
+
+; Sirmabus "Class Informer" plug-in
+Class-Informer IDA_ClassInformer_PlugIn.plw Alt-7 0
+
+See IDA documentation for more on installing and using plug-ins.
+
+
+-- [How to run it] --------------------------------------
+Invoke as typical in IDA with hot key, or through IDA's Edit->Plugins menu.
+
+By default the assumed code segment is the first ".text" found, and the default
+data segments where vftables are to be found are ".rdata" and ".data".
+You can select the code and data segments manually using the "Choose xxx-
+segments" on the main plug-in dialog.
+Multi-select segments using your mouse with the usual SHIFT and CTRL key
+Windows UI convention.
+In lieu of a missing IDA SDK function I use a hack to get the selection list
+that doesn't work for the IDA QT version. Using the QT version select the
+segments you want then right click on the list and do the "Select" option, then
+"Okay" to finish. If all goes well it in the output window you will see
+"Segment(s) selected:" followed by the segment name(s) you selected.
+
+The plug-in will typically take from just a few seconds to several minutes, to
+run depending on the size of the target, and generally how fast the host
+machine is.
+
+Try using my "Extra Pass" plug-in first for best results, as the ".text"
+segment clean up might expose more valid tables.
+
+On completion a list window will come up showing any found vftables and
+and relevant class information.
+Click on a line to jump right to it.
+
+If you want to save the list to text file, get a debug output viewer like
+Mark Russinovich's excellent "DebugView" at:
+http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx
+
+Example list output:
+0046769C 077 CEdit:CWnd, CCmdTarget, CObject;  (SI)
+
+This is: vftable address, method count, and class hierarchy ended with some
+additional class info.
+To make things easier to read, all known type names are considered to be a
+"class" unless explicitly proceeded with "struct" to indicate "structure" type.
+
+The addition info at the end:
+"(SI)" single inheritance hierarchy, "(MI)" multiple inheritance,
+"(VI)" virtual inheritance, or "(MI VI)" multiple virtual inheritance.
+If there is an absence of one of these then it's a MFC 'RTCI' type.
+
+Known to work on only IDA 6.x and greater.
+
+
+-- [Design] -------------------------------------------
+
+I read Igor Skochinsky's excellent article "Reversing Microsoft Visual C++",
+then some time later tried his attached IDC scripts accompanying the article.
+I was amazed at how well it worked in identifying vftables with type info and
+how it cleaned the IDB up (a large MSVC compiled target).
+
+IMHO it can be overlooked if you RE'ing MSVC C++ targets.
+I wanted to put it into a plug-in for speed, flexibility, and as a general test
+bed for R&D in the area.
+
+I originally wanted to have automatic member naming.
+The idea being to take the class name and at least partially naming
+member functions (mostly ignoring calling and returning arguments).
+But decided it probably isn't that useful.
+And there will probably be a lot of redundancy that can ends up in custom sigs,
+as noise.
+Also the same reasoning I did not use the ctor and dtor identifications
+found in Igorsk's scripts.
+
+For my RE work I just want to see these classes by name, and where to find
+them for examination.
+
+Essentially, it works a lot like Igorsk's scripts, with some differences like
+additionally handling the MFC 'RTCI' types, placing type structures (rather
+then the individual fields), and does some static/global ctor/dtor processing.
+
+I got tired of IDA's only partially functioning wait box, so I sub-classed it
+to get more control and add some additional UI elements.
+Should now have near instant cancel when you click the "Cancel" button or on
+pressing the "break" key.
+To better show progress I fancied it up a bit with with a little progress bar,
+and indicator with text animation.
+
+Please report any issues on my "Class Informer" thread:
+http://www.macromonkey.com/bb/viewtopic.php?f=65&t=705
+
+
+-- [History] -----------------------------------
+
+1.06 - 1) Added persistent vftable list storage.
+       2) Removed the many unnecessary "autoWait()" calls that caused a bit of
+          slow down.
+       3) Fixed broken and updated some custom UI elements.
+       4) Fixed the multi-segment select feature for the non-QT version and
+          added a working setup for the QT version too. For QT, after desired
+          segments are selected right click on the list and do "Select"
+          followed by the "Okay" button.
+       5) Added the ".data" segment to the default data search since vftables
+          are often located there (in addition to ".rdata").
+
+1.05 - 1) The problem with the plug-in not being ready on invocation was fixed
+          by returning PLUGIN_KEEP on init to stay resident.
+       2) The fix in 1.04 didn't quite do it for structure placement problems.
+          In particular there remains a run on problem in IDA when marking some
+          areas "unknown"; these "do_unknown()" calls have been removed and
+          each structure element is individually placed one by one before
+          attempting to place the actual assorted structures.
+
+1.04 - 1) Now ensures RTTI type name strings are set.
+
+1.03 - 1) Added check and warning message for invalid start and end addresses
+          with "_initterm" type static/global ctor & dtor tables.
+          Would cause a negative count run-on condition that could trample over
+          a large data area.
+       2) UI customizations auto-disabled when using IDA Qt version.
+       3) Current IDA view is refreshed on completion to show changes.
+       4) Fixed a stall that could result from repeated failed attempts at an
+          RTTI type placement. Plus fixed the pattern for these so they could
+          be properly placed.
+
+1.02 - 1) Added user code and data segment selector.
+          Allows user to select multiple data and code segments instead of the
+          default of ".text" and ".rdata" by name.
+          For those rare executable targets that have multiple code sections,
+          and, or, unpacked executables with mixed segments, etc.
+       2) Added config option for verbose output to the debugger channel.
+       3) Improved overall processing speed.
+       4) Since there can multiple instances of the same class or structure,
+          and IDA names must be unique all duplicate names are now serialized.
+          More things labeled, and no more "duplicate name" warning spam.
+          Note: Effects only label names, commented names are not altered
+       5) Updated to IDA SDK 5.5
+       6) Added links to Sirmabus IDA plug-ins support forum.
+
+1.01 - 1) No longer pops up an error and exits IDA when an incompatible IDB is
+          loaded. Just displays a "not loaded" log message now.
+       2) Fixed IDA tab page update issue.
+       3) Now built with IDA SDK 5.4, and tested with IDA 5.4.
+       4) Fixed incorrect string placement in the RTTI type info struct.
+          Now the structures are right which make a cleaner DB.
+          This was a major bottleneck that caused the structure placement to be
+          about 36x slower, now only about 1x.
+       5) Fixed some misspellings.
+
+-- [TODO] ---------------------------------------------
+Get compiler specific info for at least other popular compilers (Intel,
+Borland, GCC, etc), make an IDA 64bit version?
+
+
+Copyright (C) 2009-2012 Sirmabus. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+[ MIT license: http://www.opensource.org/licenses/mit-license.php ]

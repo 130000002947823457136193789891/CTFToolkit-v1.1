@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12270
+NAME=CSCec42751, CSCed45576和CSCed48590
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=用snmp检测漏洞
+DESCRIPTION=思科远程交换机存在漏洞导致远程攻击者通过修改TCP协议的ACK标志位进行拒绝服务攻击;思科的相关文档已经有这个漏洞的记录，漏洞的编号是CSCec42751,CSCed45576a和CSCed48590;;解决方案:http://www.cisco.com/warp/public/707/cisco-sa-20040609-catos.shtml;风险等级：高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security

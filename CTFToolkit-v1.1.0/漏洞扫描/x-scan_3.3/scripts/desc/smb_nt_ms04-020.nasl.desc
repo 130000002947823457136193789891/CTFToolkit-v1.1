@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13638
+NAME=POSIX的代码可执行漏洞 (841872)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Checks for ms04-020 over the registry
+DESCRIPTION=远程主机运行的POSIX子系统存在一个漏洞，可以让本地攻击者在主机上通过执行一些特殊的代码来提升的权限，并最终获得系统的完全控制权。 ;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-020.mspx ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security      翻译 : laughterwym

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11865
+NAME=SOCKS服务检测
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测SOCKS4/5服务
+DESCRIPTION=该主机正在运行SOCKS服务;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

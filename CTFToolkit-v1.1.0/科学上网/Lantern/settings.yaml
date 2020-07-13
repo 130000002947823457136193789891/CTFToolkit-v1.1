@@ -1,0 +1,10 @@
+addr: 127.0.0.1:53102
+autoLaunch: true
+autoReport: true
+language: zh-CN
+proxyAll: false
+socksAddr: 127.0.0.1:53105
+systemProxy: true
+uiAddr: 127.0.0.1:53101
+userID: 0
+userToken: ""

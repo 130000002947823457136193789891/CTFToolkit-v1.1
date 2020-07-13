@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10325
+NAME=Xtramail pop3 溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=在POP3缓存在溢出的可能性
+DESCRIPTION=远程的POP3服务器容易受到以下缓冲区溢出攻击:;;	USER test;	PASS <buffer>;	;这可能导致以root用户的身份在服务器上执行任意命令;;解决方案: 联系厂商, 通知他们相关的内容, 并要求相关补丁;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

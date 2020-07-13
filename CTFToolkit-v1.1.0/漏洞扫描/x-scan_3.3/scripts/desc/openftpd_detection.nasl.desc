@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14179
+NAME=OpenFTPD Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=存在于OpenFTPD
+DESCRIPTION=远程主机运行OpenFTPD---一种FTP服务器。;;一些版本的服务器容易受到远程格式化字符串的攻击，导致攻击者可以在远端服务器上运行任意代码。;;***未经Nessus测试，尚未确定真实性***;相关：http://www.openftpd.org/ ;;解决方案：如果不必要关闭该服务。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16338
+NAME=Mailman 检查
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在Mailman
+DESCRIPTION=;这个脚本用于探测远程主机是否运行Mailman,并判断其版本号. ;;Mailman是遵守GNU协议的Python-based 邮件列表管理包.;;详细情况请参看http://www.list.org/ . ;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2005 George A. Theall

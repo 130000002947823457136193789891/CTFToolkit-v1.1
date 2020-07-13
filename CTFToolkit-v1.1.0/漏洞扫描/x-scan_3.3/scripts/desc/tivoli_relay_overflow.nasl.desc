@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11434
+NAME=IBM Tivoli 转发器溢出
+CATEGORY=破坏性攻击
+FAMILY=防火墙
+SUMMARY=探测Tivoli转发程序中的缓冲区溢出
+DESCRIPTION=远程服务器（很可能运行了一个Tivoli转发程序）有一个缓冲区溢出漏洞;，当其接收到一个草场字符串时就会溢出。;攻击者可以利用这个漏洞用‘nobody’权限执行任意代码。;Solution：参阅http://www-3.ibm.com/software/sysmgmt/products/support/IBMTivoliManagementFramework.html; ftp://ftp.software.ibm.com/software/tivoli_support/patches/patches_1.3;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

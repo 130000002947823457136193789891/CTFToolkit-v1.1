@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15553
+NAME=OmniHTTPd pro长POST请求拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Test OmniHTTPd pro长POST请求拒绝服务
+DESCRIPTION=远程主机正在运行OmniHTTPd Pro HTTP服务器.;;此软件在处理特别长的POST请求时似乎容易受到缓冲溢出的危害, 这可能会允许远程攻击者使远程服务崩溃, 从而阻止服务器应答合法客户的请求.;;解决方案 : 目前没有解决方案;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

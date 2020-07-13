@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11149
+NAME=HTTP login page
+CATEGORY=信息搜集
+FAMILY=配置错误
+SUMMARY=通过HTTP页面获得的日志
+DESCRIPTION=该脚本通过一个登陆页面记载;并存储web服务器的authentication / session cookie.;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

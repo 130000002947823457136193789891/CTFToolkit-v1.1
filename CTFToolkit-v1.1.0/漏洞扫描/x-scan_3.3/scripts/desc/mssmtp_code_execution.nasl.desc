@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15464
+NAME=微软SMTP漏洞 (885881)
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查SMTP版本
+DESCRIPTION=微软SMTP服务器存在一个缓冲溢出漏洞.;;攻击者可以利用这个漏洞，已SMTP服务器进程的权限在远程主机上执行任意命令.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-035.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

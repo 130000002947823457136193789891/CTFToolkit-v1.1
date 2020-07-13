@@ -1,0 +1,9 @@
+[CHINESE]
+ID=14674
+NAME=Identd scan
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=通过identd获取UIDs
+DESCRIPTION=此插件使用identd (RFC 1413) 来确定运行每一项服务的用户
+Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

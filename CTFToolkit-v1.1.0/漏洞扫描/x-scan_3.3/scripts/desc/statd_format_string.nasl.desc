@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10544
+NAME=远程rpc.statd服务存在格式串漏洞
+CATEGORY=混合攻击
+FAMILY=RPC
+SUMMARY=检测远程服务器提供的RPC服务中是否有statd
+DESCRIPTION=远程statd服务存在格式串漏洞，攻击者能通过该漏洞进入你的系统。;此插件使用了真实的攻击报文来测试该漏洞是否存在，;如果你的statd服务已停止，则证实了该漏洞确实存在，并且你需要手动重启该服务。;;解决方案 : 升级rpc.statd到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

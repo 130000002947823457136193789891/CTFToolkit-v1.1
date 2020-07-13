@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12244
+NAME=Sun Java 运行时环境(Runtime Environment)拒绝服务攻击
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查Java SDK 和 JRE 版本是否早于1.4.2_04
+DESCRIPTION=远程的Windows主机运行了Java SDK 或者 JRE版本 1.4.2_03 或者更早，;该版本存在一个可以被拒绝服务攻击的缺陷。;; 解决方案: 升级到SDK 或者 JRE 1.4.2_04;http://java.sun.com/j2se/;; 风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Netteksecure Inc. (Chinese version by Dancefire)

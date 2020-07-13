@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11079
+NAME=Snapstream PVS web目录遍历
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=Snapstream web目录遍历
+DESCRIPTION=在文件名前加上"../../"有可能从Snapstream PVS 服务器上读取任意文件。;也有可能读取../ssd.ini文件，这包含了系统上很多信息(base目录，用户名和口令)。;;解决方案 : 升级你的软件或修改它!;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi (Chinese version by Dancefire)

@@ -1,0 +1,9 @@
+[CHINESE]
+ID=14772
+NAME＝尽最大限度的去识别和了解在通用端口上运行的（进程）
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=鉴别通用的服务
+DESCRIPTION=这个插件是对find_service.nes的一种完善；它可以鉴别一些常见的网络服务，而这些服务可能由于网络的“短暂失灵”而没有被发现。
+风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

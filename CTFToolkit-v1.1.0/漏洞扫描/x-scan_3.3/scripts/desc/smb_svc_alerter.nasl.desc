@@ -1,0 +1,7 @@
+[CHINESE]
+ID=10457
+NAME=alerter服务正在运行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查alerter服务是否存在
+DESCRIPTION=alerter服务正在运行，这个服务允许NT用户给其他人发送弹出窗口消息。;;这个服务可以被攻击者用其欺骗合法用户，使其做一些行为也许会破坏到他;们的帐户或者你的网络(社会工程学攻击);;解决方案: 禁用这个服务;;风险等级: 低;;如何禁止在NT4下禁止这个服务：;   - 打开控制面板中的“服务”;   - 选择“Alerter”服务，并且点击“停止”;   - 点击“启动...”，改变“启动方式”单选框从“自动”到“禁止”;Windows 2000下：;   - 打开控制面板中的“管理工具”;   - 打开里面的“服务”;   - 双击“Alerter”服务;   - 点击“停止”;   - 改变“启动方式”下拉菜单从“自动”到“禁止”COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Chinese version by Dancefire)

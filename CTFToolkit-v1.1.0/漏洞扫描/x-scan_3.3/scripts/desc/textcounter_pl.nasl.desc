@@ -1,0 +1,10 @@
+[CHINESE]
+ID=11451
+NAME=textcounter.pl
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查主机是否存在/cgi-bin/textcounter.pl程序
+DESCRIPTION=远程主机安装了'textcounter' CGI程序.;这个CGI程序有一个允许攻击者在http daemon的权限下执行任意命令(通常是root或nobody);;Solution：从/cgi-bin中将其删除;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison
+
+

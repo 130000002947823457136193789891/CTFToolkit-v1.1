@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17688
+NAME=MaxWebPortal Events And Links Interface 输入过滤不严漏洞
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检查MaxWebPortal中的Events And Links Interface 输入过滤不严漏洞
+DESCRIPTION=远程主机运行的MaxWebPortal版本容易受到;多个输入过滤不严漏洞的影响:;;  - 一个SQL注入漏洞;  攻击者可以通过'events_functions.asp'脚本中的'EVENT_ID'参数注入伪造的查询数据库的SQL语句.;;;  - 一个跨站脚本漏洞; 攻击者可以通过'links_add_form.asp'中的'banner'参数;在浏览受影响的服务器的用户浏览器中执行任意HTML和脚本代码.;解决方案 : 现在还没有已知的解决方案.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

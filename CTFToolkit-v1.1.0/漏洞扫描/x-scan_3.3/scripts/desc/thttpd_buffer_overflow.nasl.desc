@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10285
+NAME=thttpd 2.04 缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=thttpd 缓冲区溢出
+DESCRIPTION=提交如下的请求可能导致远程thttpd服务端执行任意代码:GET / HTTP/1.0;	If-Modified-Since: AAA[...]AAAA,攻击者可以利用该漏洞获得主机的控制权。;;解决方案: 如果正在使用thttpd, 升级该软件到2.05版本。如果不是，联系销售商索取补丁程序或更换web服务端。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

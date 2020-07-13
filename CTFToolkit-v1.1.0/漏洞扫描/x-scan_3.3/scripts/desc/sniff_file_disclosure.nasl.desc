@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11944
+NAME=Snif文件泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Snif的版本
+DESCRIPTION=可能从Snif程序通过请求一个超出HTML根目录的路径而使远程主机返回;一个人人都可读取的文件。;;攻击者可以利用这个漏洞察看远程主机上的敏感文件。;;解决方案 : 升级到Snif版本1.2.5或者更新;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus (Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11081
+NAME=Oracle9iAS超长URL攻击
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=Oracle9iAS缓冲区溢出漏洞
+DESCRIPTION=发送一个精心构建的超长URL可能导致;远程的Oracle9i application server;崩溃或在该主机上执行任意命令.;;风险等级 : 高;;解决方案 : 升级到最新版本.
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

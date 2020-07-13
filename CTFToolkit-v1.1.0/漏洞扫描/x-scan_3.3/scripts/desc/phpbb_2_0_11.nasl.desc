@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17205
+NAME=phpBB 2.0.11及其早期版本中的多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=phpBB 2.0.11及其早期版本中的多个漏洞
+DESCRIPTION=远程主机运行了phpBB 2.0.11或更低版本. ;;这些版本存在多个漏洞:;;  - 错误提示中出现全路径.;  - PHP 4.3.10 在用户名处理出现异常时泄漏全路径.;  - 在avatar处理函数中出现任意文件泄漏的漏洞.;  - 在avatar处理函数中出现任意文件删除的漏洞.;  - 在search.php中因为PHP 4.3.10版的一个bug导致目录全路径泄漏的漏洞.;  - 在viewtopic.php中因为PHP 4.3.10版的一个bug导致目录全路径泄漏的漏洞.;;这些全路径泄漏的漏洞可以被远程攻击者利用以收集关于安装的敏感信息，这些信息可以在对目标主机的进一步攻击中使用.;;为了利用avatar处理漏洞, 目标主机上'Enable gallery;avatars'功能必须可用(默认禁止);同时攻击者必须拥有目标主机上一个phpBB的账号. ;;解决方案 : 升级到phpBB 2.0.12或更新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

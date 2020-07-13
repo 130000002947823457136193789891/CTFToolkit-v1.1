@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10371
+NAME=/iisadmpwd/aexp2.htr
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/iisadmpwd/aexp2.htr是否存在
+DESCRIPTION=远程主机存在/iisadmpwd/aexp2.htr文件.;(或者是, aexp2b.htr, aexp3.htr,aexp4.htr, 可搜索aexp*.htr);;这些文件存在的安全缺陷可导致被攻击者用来暴力猜解系统口令.;或绕过安全策略更改口令.;;解决方案 : 删除这些文件;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

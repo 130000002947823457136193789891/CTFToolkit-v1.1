@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11204
+NAME=Apache Tomcat Default Accounts
+CATEGORY=攻击
+FAMILY=普通漏洞
+SUMMARY=Apache Tomcat默认帐号
+DESCRIPTION=这台主机看来正在以默认帐号运行Apache Tomcat小服务程序（Servlet）引擎.;入侵者可以通过授予系统级访问权限的方式来重新配置此服务.;解决方案: 编辑位于/conf/users目录下的admin-users.xml文件，修改其中的默认密码.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense Inc.

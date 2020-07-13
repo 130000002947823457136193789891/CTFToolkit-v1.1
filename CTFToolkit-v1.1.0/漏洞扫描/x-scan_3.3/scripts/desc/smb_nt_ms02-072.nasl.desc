@@ -1,0 +1,13 @@
+[CHINESE]
+ID=11194
+NAME=XP Shell中未检查缓冲区可能导致系统危害 (Q329390)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查微软热补329390, Microsoft XP Shell中的缺陷
+DESCRIPTION=
+恶意用户可能通过Windows XP Shell安置一个缓冲区攻击。;;
+一个成功的攻击可能导致Windows Shell失败，或者导致攻击;
+者在用户的计算机上以该用户安全上下文运行任意代码。;;
+最大危害程度: 危急;;
+建议: 管理员应当立即安装补丁。 ;;受影响软件: ;;Microsoft Windows XP.;;请见;http://www.microsoft.com/technet/security/bulletin/ms02-072.asp;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 SECNAP Network Security, LLC (Chinese version by Dancefire)

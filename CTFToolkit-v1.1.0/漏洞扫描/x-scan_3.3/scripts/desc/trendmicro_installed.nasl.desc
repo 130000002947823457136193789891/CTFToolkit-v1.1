@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16192
+NAME=趋势杀毒软件检测
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程主机是否安装了趋势杀毒软件并确认最新的病毒库已加载.
+DESCRIPTION=此插件检测远程主机是否安装了趋势杀毒软件并确认最新的病毒库是否已加载.;;解决方案: 确认已安装趋势杀毒软件且最新的病毒库已加载.;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2005 Joe

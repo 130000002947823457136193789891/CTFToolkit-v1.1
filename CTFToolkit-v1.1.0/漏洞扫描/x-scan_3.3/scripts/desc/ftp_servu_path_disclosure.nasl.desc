@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11392
+NAME=Serv-U path disclosure
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=FTP路径泄漏
+DESCRIPTION=通过CWD一个不存在的目录可导致远程FTP服务器泄漏它root目录的完整路径.;;;解决方案 : 更新至Serv-U 2.5e;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(Translation by luke and sunwear)

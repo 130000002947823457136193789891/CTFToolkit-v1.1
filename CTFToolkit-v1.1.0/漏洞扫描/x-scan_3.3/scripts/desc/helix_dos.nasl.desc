@@ -1,0 +1,8 @@
+NAME=Helix RealServer远程拒绝服务
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=RealServer and Helix Server远程拒绝服务
+DESCRIPTION=RealServer 9.0.3以前的版本很容易被Dos攻击。参考： http://www.idefense.com/application/poi/display?type=vulnerabilities
+解决方案：安装从发行商那里获得的补丁。
+安全等级：高。
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

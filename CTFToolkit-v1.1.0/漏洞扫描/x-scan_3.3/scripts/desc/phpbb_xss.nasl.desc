@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12093
+NAME=phpBB跨站脚本攻击漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=XSS 测试
+DESCRIPTION：远程主机正在运行phpBB。;;在ViewTopic.php和ViewForum.php中有一个跨站脚本攻击的漏洞。;;Solution:升级到软件的最新版本。;风险等级：严重;
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

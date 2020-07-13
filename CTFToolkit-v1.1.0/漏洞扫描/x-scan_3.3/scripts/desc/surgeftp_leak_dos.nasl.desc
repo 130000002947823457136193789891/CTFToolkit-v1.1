@@ -1,0 +1,8 @@
+[CHINESE]
+ID=18000
+NAME=SurgeFTP "LEAK" 命令远程拒绝服务攻击漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测SurgeFTP中的LEAK命令是否存在远程拒绝服务漏洞
+DESCRIPTION=在SurgeFTP存在一个安全漏洞，恶意的用户利用该漏洞去发动服务拒绝攻击。该漏洞是由于处理不规范的“LEAK”命令用作调试时造成的，攻击者可能发动攻击服务耗尽文件句柄，造成服务瘫痪。据悉,攻击者不需验证便可发出两个这样的命令，都可能造成服务器崩溃.;;解决方案 :将SurgeFTP更新到2.2m2 或更高版本.;风险等级: 高
+COPYRIGHT=本脚本属于 Copyright (C) 2005 Tenable Network Security.(The sFqRy translation)

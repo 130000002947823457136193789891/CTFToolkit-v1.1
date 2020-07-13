@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10836
+NAME=Agora的CGI跨站脚本
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=测试Agora的 CGI跨站脚本
+DESCRIPTION=Agora是一款基于CGI的电子商务软件包. 由于缺乏输入验证的缘故, Agora会允许攻击者执行跨站脚本攻击. ; 例如:;;http://www.example.com/store/agora.cgi?cart_id=<SCRIPT>alert(document.domain)</SCRIPT>&xm=on&product=HTML ;;解决方案 : 在编写本测试之际并没有此问题的解决方案. 但是, Agora可能已提供了新版本(http://www.agoracgi.com). 请检查Agora的CGI站点或联系供应商最新版本.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore

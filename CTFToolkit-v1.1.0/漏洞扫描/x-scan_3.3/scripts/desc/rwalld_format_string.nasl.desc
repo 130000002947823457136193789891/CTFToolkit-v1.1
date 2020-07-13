@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10950
+NAME=远程rpc.walld服务存在格式串漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程服务器提供的RPC服务中是否有walld
+DESCRIPTION=rpc.walld服务正在运行。一些版本的该服务处理客户请求时存在格式串漏洞。;通过利用该漏洞远程攻击者可以获取系统的root访问权限。;;Solaris 2.5.1, 2.6, 7 和 8 的rpc.walld存在该漏洞。 ;其他操作系统可能也会受影响。;;注意：Nessus并没有通过真实攻击来测试该漏洞是否存在，因此可能这是一个误报。;;解决方案 : 停止该服务。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

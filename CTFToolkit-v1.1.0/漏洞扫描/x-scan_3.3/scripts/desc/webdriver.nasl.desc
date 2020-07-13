@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10592
+NAME=webdriver
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在 /cgi-bin/webdriver
+DESCRIPTION=安装了'webdriver' cgi。这个CGI通常容许任何人进入安装有Informix数据库的主机。;;*** 警告 : Nessus 完全依赖现有的这个CGI, 它不是;*** 确定你所使用的版本是否受此问题影响;;解决方案 : 从 /cgi-bin中将其移走;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison 

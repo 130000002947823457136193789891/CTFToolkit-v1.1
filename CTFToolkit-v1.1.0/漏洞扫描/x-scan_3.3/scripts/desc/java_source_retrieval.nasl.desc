@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12245
+NAME=Jave源代码泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Jave源代码泄露检查
+DESCRIPTION=远程主机潜在的泄露了Java源代码。换句话说，;这个脚本试图下载从java applets中获知的.java和.class文件。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

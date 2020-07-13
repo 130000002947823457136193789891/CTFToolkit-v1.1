@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10783
+NAME=PCCS-Mysql User/Password 暴露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=限制dbconnect.inc
+DESCRIPTION=可能读取在PCCS-Mysql上的文件，;远程服务器上的dbconnect.inc。 ;;这个文件包含了用于连接数据库的用户名、密码等信息。;;解决办法：;使用1.2.5 版本或以上版本。;另外一种变通办法是限制.inc 文件的访问。 ;;风险等级： 高
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com

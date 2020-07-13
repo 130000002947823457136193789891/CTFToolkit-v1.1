@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10591
+NAME=存在pagelog.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/pagelog.cgi
+DESCRIPTION=该主机装有'pagelog.cgi'cgi脚本.该CGI脚本存在一个众所周知的安全漏洞，可导致攻击者在远程主机上创建任意扩展名为.txt的文件,并且可读取扩展名.txt或者.log的任意文件;;***警告:该漏洞未经过Nessus测试.检测该主机是否存在/tmp/nessus_pagelog_cgi.txt以便发现是否存在该漏洞.;;解决方案:从/cgi-bin目录中删除该文件.;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

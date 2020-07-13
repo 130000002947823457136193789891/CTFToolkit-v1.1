@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16059
+NAME=ZeroBoard flaws
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks ZeroBoard flaws
+DESCRIPTION=远程主机运行着ZeroBoard, 一个web方式的BBS程序.;;此版本存在一个跨站脚本漏洞;和一个远程脚本注入漏洞，原因是对用户提交的数据缺少适当的过滤 ;.;;这个漏洞成功的利用可以导致攻击者 ;在远程主机上执行任意代码或者对第三方用户进行一次攻击;.;;解决方案: 升级这个软件到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

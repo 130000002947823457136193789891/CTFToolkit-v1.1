@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11585
+NAME=Sambar密码明文传输
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=确认你的Sambar服务器传输经过SSL加密
+DESCRIPTION=远程的Sambar服务器允许用户不使用SSL即可登陆，攻击者可能在用户与服务器之间使用嗅探器捕获该服务器上用户的明文密码，并且进一步造成更大威胁。;;Solution : 使用SSL传输Sambar数据;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

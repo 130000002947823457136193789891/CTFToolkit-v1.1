@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10553
+NAME=SMB注册表: WinVNC子键权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=对远程注册表子键检测操作权限
+DESCRIPTION=非管理员组的用户可以读取或修改主机注册表里HKLM\Software\ORL\WinVNC3的键值。;;该子键包含主机的VNC密码和其他配置信息。;;由于该程序允许远程进入主机并获得和已登陆用户相同的权限，建议用户一定要修复该漏洞。;;;解决方案: 使用 regedt32 并且把相关子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : No access;	;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

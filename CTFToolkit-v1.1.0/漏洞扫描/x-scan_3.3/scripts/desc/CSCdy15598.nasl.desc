@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12039
+NAME=CSCdy15598 and CSCeb56052
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程路由器在某一版本的输入输出系统有一漏洞，当正处理特殊的第2层数据包的时候，此漏洞可使路由器的漏洞成倍增加.;;这个漏洞相关的CISCO id分别是CSCdy15598和CSCeb56052;;攻击者可利用此漏洞使路由器瘫痪;;解决方案: http://www.cisco.com/warp/public/707/cisco-sa-20040203-cat6k.shtml;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2004 Tenable Network Security

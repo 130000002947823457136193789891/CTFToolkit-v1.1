@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10309
+NAME=安装的Wingate密码为空
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检测是否安装了wingate
+DESCRIPTION=Wingate是一个把安装了Windows98的电脑设置成代理的软件。不幸的是，默认安装过于随便，允许任何人使用该代理隐藏自己的真实IP连接到任何地方。;;该WinGate服务端没有设置任何密码，任何地方的攻击者可以把它用作跳板。;;解决方案: 检查WinGate配置。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

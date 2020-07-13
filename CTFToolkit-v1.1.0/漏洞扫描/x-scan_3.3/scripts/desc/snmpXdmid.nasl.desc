@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10659
+NAME=snmpXdmid 堆溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=snmpXdmid 堆溢出
+DESCRIPTION=远程RPC服务snmpXdmid(100249)存在堆溢出漏洞。;该漏洞可导致远程攻击者获取系统的root访问。;;解决方案 : 禁用该服务 (使用命令：/etc/init.d/init.dmi stop来停止该服务)或安装厂商补丁。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Intranode

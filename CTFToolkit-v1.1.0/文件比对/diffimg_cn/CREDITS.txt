@@ -1,0 +1,25 @@
+DiffImg: an image difference viewer
+
+porting tasks:
+* OS/2 package: thanks to Elbert Pol (elbert.pol at gmail.com)
+
+translations:
+* french: thanks to xbee (xbee at xbee dot net)
+* Czech: thanks to Pavel Fric (pavelfric at seznam dot cz)
+* Italian: thanks to Nicola Giacobbe  ( nicolagiacobbe at users dot sourceforge dot net )
+* Romanian: Jaff
+* Russian:  montonero
+* Swedish: eson
+* Chinese: Mikechang
+* Portuguese: rafaelff1
+* Vietnamese: ppanhh
+* German: sixforone, Arnol
+
+Some parts are derived, inspired, extracted or use these great projects:
+* Qwt : The Qwt Widget Library (http://qwt.sf.net)
+* Wally: Qt4 wallpaper/background changer (http://www.becrux.com/index.php?page=projects&name=wally)
+* wwWidgets: (http://www.wysota.eu.org/wwwidgets)
+* Fresh library:  Filipe AZEVEDO aka Nox P@sNox, <pasnox@gmail.com> (https://github.com/pasnox/fresh)
+* libyuv: https://code.google.com/p/libyuv/
+* OpenCV: http://opencv.org/
+

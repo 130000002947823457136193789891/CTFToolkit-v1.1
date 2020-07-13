@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16045
+NAME=Namazu多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Namazu的版本
+DESCRIPTION=远程主机运行了一个基于WEB的搜索引擎,;;此版本存在多个漏洞，;这些漏洞允许攻击者在远程主机上实施跨站脚本攻击，;或者以WEB服务器当前的权限在远程主机上执行任意代码.;;解决方案: 升级到Namazu 2.0.14版本或更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(trans.tiannale)

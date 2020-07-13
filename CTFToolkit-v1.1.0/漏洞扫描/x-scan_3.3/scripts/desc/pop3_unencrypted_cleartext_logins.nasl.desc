@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15855
+NAME=POP3 允许以明文方式登陆
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查POP3进程是否允许以未经加密的明文方式登陆
+DESCRIPTION=远程主机上运行的POP3服务允许以未经加密的明文方式登陆. 如果使用的是一个不够安全的认证机制（比如USER command, AUTH PLAIN, AUTH LOGIN) ， 攻击者可能通过窃听POP3服务的数据包而获得用户的帐号名和密码. ;;解决办法 : 和你的软件供应商联系寻求补丁，或者通过stunnel用TLS/SSL加密数据. ;;关于SASL的信息参见 RFC 2222 ; 关于TLS和POP3一起工作的信息参见 RFC 2595;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

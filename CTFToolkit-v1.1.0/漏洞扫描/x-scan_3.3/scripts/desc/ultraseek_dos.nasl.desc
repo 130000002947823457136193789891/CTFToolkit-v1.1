@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10542
+NAME=UltraSeek 3.1.x Remote DoS
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=导致远程UltraSeek服务器停止响应
+DESCRIPTION=通过发送如下请求有可能导致远程UltraSeek服务器停止响应:;/index.html?&col=&ht=0&qs=&qc=&pw=100%25&ws=0&nh=10&lk=1&rf=0&si=1&si=1&ql=../../../index;;攻击者可以利用这个漏洞来阻止远程UltraSeek服务器响应正常的用户请求.;;解决方案 : 更新为UltraSeek 4.x;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison Translate by delphi007

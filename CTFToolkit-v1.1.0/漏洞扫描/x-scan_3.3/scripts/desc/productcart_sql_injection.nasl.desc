@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11785
+NAME=ProductCartSQL注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查ProductCart是否存在sql脚本注入攻击
+DESCRIPTION=远程主机使用着ProductCart程序.;;该CGI程序存在SQL注入漏洞可导致恶意攻击着获取该主机的administrator权限.;从而获取用户名单或窃取用户的信用卡信息等.;;另外,该软件存在多个文件泄露及跨站脚本漏洞.;;解决方案: 升级到ProductCart的最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

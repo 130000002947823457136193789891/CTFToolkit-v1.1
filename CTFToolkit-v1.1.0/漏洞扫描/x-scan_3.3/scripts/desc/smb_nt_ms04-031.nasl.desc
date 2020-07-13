@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15456
+NAME=可导致代码执行的NetDDE漏洞 (841533)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否安装了841533修补程序
+DESCRIPTION=Windows存在一个网络动态数据交换(NetDDE:Network Dynamic Data Exchange)漏洞.;;为利用这个漏洞，必须运行NetDDE，对此漏洞了解的攻击者可以给远程主机发送一个错误格式的NetDDE消息，从而导致给定缓冲的溢出.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-031.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

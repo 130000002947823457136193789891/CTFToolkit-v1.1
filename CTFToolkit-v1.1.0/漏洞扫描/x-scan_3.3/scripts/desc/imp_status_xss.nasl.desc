@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15616
+NAME=Horde IMP status.php3的跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Horde IMP status.php3的跨站脚本缺陷
+DESCRIPTION=远程主机正在运行至少一个Horde IMP实例.  Horde IMP的status.php3脚本由于没有对传递给它的信息进行适当的处理而容易受到跨站脚本攻击的危害.;;解决方案 : 升级到IMP 2.2.8或更高.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

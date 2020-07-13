@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11151
+NAME=Webserver 4D 明文密码
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Webserver 4D
+DESCRIPTION=远程主机正在运行Webserver 4D 3.6或更低的版本。;  ;该服务的3.6版本用明文的方式储存所有的用户名和密码。;文件: C:\Program Files\MDG\Web Server 4D 3.6.0\Ws4d.4DD;;本地攻击者可以利用该漏洞非法获得主机的权限。;;;解决方案: 联系http://www.mdg.com索取升级程序。;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Jason Lidow <jason@brandx.net>

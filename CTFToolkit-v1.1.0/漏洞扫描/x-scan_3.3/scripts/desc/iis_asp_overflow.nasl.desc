@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10935
+NAME=IIS ASP ISAPI 过滤缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=测试IIS中的一个缓冲区溢出漏洞
+DESCRIPTION=远程Web服务器在ASP ISAPI过滤中存在缓冲区溢出。;;这可能导致远程Web服务器以SYSTEM权限执行任意命令。;;解决方法：查看http://www.microsoft.com/technet/security/bulletin/ms02-018.asp;风险级别：高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison 翻译 by yztgx

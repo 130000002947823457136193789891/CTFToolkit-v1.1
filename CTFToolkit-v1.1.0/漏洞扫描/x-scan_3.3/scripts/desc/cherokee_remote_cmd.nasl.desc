@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15622
+NAME=Cherokee远程命令执行
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查Cherokee的版本
+DESCRIPTION=远程主机正在运行Cherokee -- 一款快速小巧的web服务器.;;此软件由于缺乏对web请求(特别是命令行元字符)进行适当的处理而容易受到远程命令执行的危害.;;此外, 此软件在绑定所监听的端口之后仍然使用root特权.;;远程攻击者可以提交特别构造的web请求, 从而以root特权在服务器上执行任意命令.;;解决方案 : 升级到Cherokee 0.2.7或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

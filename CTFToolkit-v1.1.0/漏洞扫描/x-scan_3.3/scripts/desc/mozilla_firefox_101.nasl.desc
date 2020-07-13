@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17218
+NAME=Firefox < 1.0.1
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=判断Firefox版本
+DESCRIPTION=远端主机在使用Firefox, 一个替代的网络浏览器.;;远端版本的这个软件包含若干安全问题，可能导致攻击者模拟一个国际域(IDN)来欺骗用户接受并运行任意文件.;;解决方案 : 升级到Firefox 1.0.1;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

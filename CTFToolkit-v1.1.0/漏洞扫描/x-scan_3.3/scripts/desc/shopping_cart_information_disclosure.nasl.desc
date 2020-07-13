@@ -1,0 +1,8 @@
+CHINESE]
+ID=10764
+NAME=Shopping Cart任意命令运行漏洞(Hassan)
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Shopping Cart任意命令运行漏洞(Hassan)
+DESCRIPTION=我们检测到存在Shopping Cart CGI (Hassan).该CGI程序存在一个安全问题可导致运行任意命令.;;解决方案:联系作者以便获得该问题的补丁.;;风险等级:高;;更多信息请查看:;http://www.securiteam.com/unixfocus/5QP072K5FK.html
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10710
+NAME=Checkpoint SecuRemote 信息泄漏
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=Checkpoint SecuRemote 信息泄漏
+DESCRIPTION=远程主机配备的Checkpoint FireWall-1 防火墙正在运行SecuRemote服务。;该服务存在漏洞，允许攻击者获取主机，网络和防火墙上的用户配置等信息。;;这些信息有助于攻击者修正攻击策略，应该避免泄漏。;;解决方案:;屏蔽不信任网络连接SecuRemote的端口(TCP 256 和 264)，;或更新到最新版本的Checkpoint Firewall-1。;;其他配置:;需要限定下载拓扑，只允许验证用户下载。;在策略编辑器（Policy Editor）里找到Policy Properties Desktop Security并且取消'respond to unauthenticated topology requests'一项。;安装完策略之后，只有验证过的用户才能下载拓扑了。;;风险等级: 中;;参考资料: http://online.securityfocus.com/archive/1/197566;            http://online.securityfocus.com/bid/3058;;更多资料参见:;http://www.securiteam.com/securitynews/5HP0D2A4UC.html
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

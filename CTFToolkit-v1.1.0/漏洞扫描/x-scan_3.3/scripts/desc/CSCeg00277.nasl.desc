@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17986
+NAME=Internet Key Exchange Xauth Implementation中的漏洞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=用SNMP确定是否有漏洞存在
+DESCRIPTION=远程的IOS包含一个被称做'Easy VPN Server'的特征, ;它允许远程的路由器管理员创建一个小型的VPN;服务器.;;现在远程主机上有一个漏洞可能允许一个已授权的用户完成认证并远程访问;VPN.;;解决方案 : http://www.cisco.com/warp/public/707/cisco-sa-20050406-xauth.shtml;风险等级 : 高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security

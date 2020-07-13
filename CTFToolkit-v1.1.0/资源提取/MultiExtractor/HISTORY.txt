@@ -1,0 +1,155 @@
+3.3.0
+	- Fix in Explorer (Windows 7)
+	- New DEMO model
+	- New pricing model
+3.2.0
+	- Some fixes
+	- New pricing model
+3.1.0
+	- New Language (indonesian)
+	- Some fixes
+3.0.0
+	- Better extraction of data from MS Formats (DOC, XLS, PPT...)
+	- Russian language support
+	- Scan bug fixes
+	- Fixed problems with "auto-closing"
+
+2.9.0
+	- Scan engine fixes
+	- Added font formats: TTF (True Type Font), TTC (True Type Font Collection), FON (Win 3.1 Font)
+
+2.8.5
+	- Added new skin (mxWatercolor)
+	- Some fixes and optimizations
+	- Trial removed
+
+2.8.4
+	- Memory scan of exe, scr files (dynamically loaded resources extraction)
+	- Auto detect of Photodex and PTE slideShows (Pictures To Exe)
+	- Supported extracting of "Pictures To Exe" slideshows (via memory attack)
+	- Bug fixes
+
+2.8.3
+	- fixes (skin engine, main thread of process)
+	- new barier of EXE PE resource section (500 MB)
+	- Added hungarian language
+
+2.8.2
+	- Support for Photodex slideshows (EXE and SCR)
+	- New scan method of  Microsoft Office Documents (DOC, PPT, XLS...)
+	
+2.8.1
+	- Conversion into true color bitmaps (32 BPP)
+	- Changes in interface
+	- Fixed memory errors (drag&drop, bitmap displaying)
+	
+2.8.0
+	- Added textures and other new formats (DDS, 3DS, LWO, FLC, IFF, MPQ)
+	- Trial reset
+	- Fixed Icon-Dump engine (PE size calcluating)
+	- Fixed ICL extraction (2MB barier)
+	- Faster extraction of unstored images
+	- Added chinese language
+	- New skins (mxWin311, mxFire)
+	- Fixed Uninstaller (removing strings from context menu)
+	- Small fixes in interface
+	- Fixed Vista installation problem and other Vista anomalies
+
+2.7.2
+	- MSI installers support
+	- Enabled icon extraction (also from ICL resources)
+	- Reset of trial limitation (new counter)
+	- New versions (BASIC, +JPG, +PNG, +MP3)
+	- New Explore Window style
+	- Fixed Drag&Drop interface
+	- Fixed Progress of extraction (while saving to disk/selecting files)
+
+2.7.1
+	- Fixed archive unpack engine
+	- Fixed bug of first launch on Vista (application freeze)
+	- Fixed exploring in status window (suspend problems)
+	- Changed extensions of all *.ini files to *.cfg
+	- Added GUI Themes (now you can modify the GUI/skin of MultiExtractor)
+	- New file organization (folders with tools and other program data)
+	- Fixed czech language file (missing strings)
+
+2.7.0
+	- Added BIK (Bink Video), SMK (Smacker Video) formats
+	- Corrections in Archive Detect&Unpack Engine
+
+2.6.1
+	- Corrections in convert engine (convert from image to icon)
+	- Correction of filtering (image properties)
+
+2.6.0
+	- Conversion to PNG format
+	- Corrections in interface and dump engine
+	- New skin (mxWood)
+
+2.5.0
+	- ICL icon extraction (now you can extract icons from ICL files)
+	- Added MID, MPG, TIFF, EMF, WMF formats
+	- Possibility of unpack CAB (also InstallShield CAB's)
+	- image buffering (faster displaying of visited images)
+	- Naming of files through numbering (Explorer option)
+	- Upgraded conversion support (bitmap to bitmap with another background color)
+
+2.2.1
+	- Vista fixes
+	- New model of demo (extraction of all formats)
+	- Better error handling
+	- Archives detect&unpack engine (possible extraction of multimedia from ZIP, RAR, CHM archives)
+	- Advanced options in settings (configuration file).
+
+2.1.1
+	- Conversion support (BMP, ICO, JPG, Vista icons)
+	- Dynamic maps (quick extraction)
+	- DLL unpack/decrypt engine
+	- Transparent mode in resource explorer
+	- Full maximize of status window.
+
+2.0.0
+	- Resource Explorer
+	- Icon sieve
+	- New skin (mxTech)
+	- Safe close of extraction
+	- Some bug fixes in interface.
+
+1.2.1
+	- Optimized scan algorithm: NCBS (No Compare Byte Scan).
+
+1.2.0
+	- Added MP3, SWF, OGG, S3M formats
+	- Quick extraction using context menu
+	- Added tolerance option (width/height, input/output size moduling)
+	- Changed interface of options window
+	- Fixed Extraction Kernel.
+
+1.1.2
+	- Fixed language interface
+	- Fixed WIN-XP Halt bug while aborting extraction
+	- Changed interface of main window
+	- Changed interface of options window
+	- Added new units of image width/height (inches and centimeters)
+	- Added new shortcuts:
+		- ALT+M = menu
+		- ALT+N = minimize window.
+
+1.1.1
+	- Fixed GFX skin engine
+	- Added language support in Log Viewer.
+
+1.1.0
+	- GUI skin engine (now you can design MultiExtractor skin interface)
+	- Language interface (english and polish)
+	- New format of settings file (ini).
+
+1.0.1b
+	- Little interface fix.
+
+1.0.1a
+	- Supported PE32+ files (64 bit processors)
+	- Added new style.
+
+1.0.0
+	- First official release of MultiExtractor.

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14336
+NAME=Opera Java脚本拒绝服务攻击
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=
+DESCRIPTION=远程主机运行Opera - 可供选择的网页浏览器.;这个版本容易受到远程拒绝服务攻击.;;当访问攻击者编写的包含特定Java脚本命;令的HTML页面时浏览器将崩溃.;;解决方案 :安装Opera 7.24 (如果有的话) 或者更新的版本.;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

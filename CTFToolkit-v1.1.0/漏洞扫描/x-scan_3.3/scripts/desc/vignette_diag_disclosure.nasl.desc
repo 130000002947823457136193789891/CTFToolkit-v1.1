@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14847
+NAME=Vignette Application Portal Information Disclosure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=请求 /portal/diag
+DESCRIPTION=远程主机运行商用的Vignette门户应用套件.此套件的远程版本存在一个信息泄露漏洞. 攻击者可以通过请求/portal/diag/（诊断实体的路径）来获得此远程站点的信息.参阅 : http://www.atstake.com/research/advisories/2004/a092804-1.txt;解决方案: 限制对此路径的访问;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

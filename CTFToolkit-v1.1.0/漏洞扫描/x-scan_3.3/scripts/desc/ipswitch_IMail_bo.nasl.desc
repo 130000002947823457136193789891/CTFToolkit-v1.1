@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14684
+NAME=ipswitch IMail拒绝服务攻击
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检测IMail web界面版本号
+DESCRIPTION=远程主机正在运行IMail web服务界面.  该版本包含有缓冲区溢出漏洞.;;远程攻击者可以利用这些漏洞来使IMail服务崩溃或执行任意代码.;;解决方案 : 升级到IMail 8.13或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(chinese version by lsy)

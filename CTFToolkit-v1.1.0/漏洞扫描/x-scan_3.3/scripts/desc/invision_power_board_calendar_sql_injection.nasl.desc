@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11977
+NAME=Invision Power Board日历SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Invision Power Board日历的SQL注入
+DESCRIPTION=远程主机正在运行Power Board - 一个在远程web服务器上设立BBS系统的CGI套件.;;在sources/calendar.php中发现一个允许未授权用户注入SQL命令的漏洞.;;攻击者可以利用这个缺陷控制远程数据库;;解决方案 : 升级软件到最新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

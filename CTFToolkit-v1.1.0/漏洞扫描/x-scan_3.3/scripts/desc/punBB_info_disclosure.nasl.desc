@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15938
+NAME=PunBB search dropdown 信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PunBB的版本
+DESCRIPTION=远程主机上正在运行PunBB,一个开放源码,高速的,轻量级的PHP论坛.;;该软件可能存在信息泄露漏洞.;据称搜索下拉列表可以向非授权用户显示受保护的论坛.;;解决方案：升级到 1.1.5以上版本;;请参阅: http://www.punbb.org/;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak 翻译:HUIVER

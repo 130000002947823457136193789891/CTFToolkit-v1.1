@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10651
+NAME=获取cfinger的版本
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=cfinger 的版本
+DESCRIPTION=本脚本取得远程cfinger;守护进程的版本号.;;一个 finger 守护进程不应该向外界暴露它的版本号.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15462
+NAME=CjOverkill trade.php XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查CjOverkill版本
+DESCRIPTION=远程服务器运行CjOverkill的一个版本,CjOverkill是一种流量监视的自由软件;这个是4.0.3版或比4.0.3老.;;这个软件的远程版本受脆弱的跨平台脚本'trade.php'影响.;;这个影响的结果是:远程攻击者建立包含恶意脚本的链接,使访问该脚本的用户在浏览器上执行该脚本.;;这有助于象其他攻击一样偷到基于cookie认证的证书.;;解决方法:升级到4.0.4或更新版.;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

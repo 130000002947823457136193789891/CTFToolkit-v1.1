@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11848
+NAME=检测OpenSSH < 3.7.1p2
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程SSH版本号
+DESCRIPTION=远程主机正在运行OpenSSH 3.7p1或者3.7.1p1.;;该版本存在相关PAM代码的漏洞 ;远程攻击者可以利用这些漏洞进行攻击,可能未授权访问系统.;;*** 注释 Nessus并没有检测远程ssh进程是否打开了;*** PAM支持, 因此这有可能是一个误报.;;;解决方案 : 升级到OpenSSH 3.7.1p2 或者在sshd_config中设置关闭PAM支持;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

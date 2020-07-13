@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11332
+NAME=wu-ftpd glob 脆弱性 (2)
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检测 远程FTPD 的版本
+DESCRIPTION=远程的FTP服务器,按照它版本的数字 ;被发现在容易受到按本相关的BUGS影响（这些BUGS是曾经被the SuSE security team发现）;;解决方案 : 升级到 2.6.1 或者更新的;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

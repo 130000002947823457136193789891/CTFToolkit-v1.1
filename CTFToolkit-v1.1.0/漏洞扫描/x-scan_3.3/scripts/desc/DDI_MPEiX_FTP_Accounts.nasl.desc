@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11000
+NAME=MPEi/X默认帐号
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查开放的帐号
+DESCRIPTION=这台主机的一个或多个帐号的密码为空.  请检查这些帐号的数据部分.;;解决方案: 为所有帐号设置复杂的密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 H D Moore

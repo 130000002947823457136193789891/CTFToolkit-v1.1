@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11545
+NAME=Xeneo Web服务器 2.2.9.0的拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Xeneo Web服务器 2.2.9.0的拒绝服务
+DESCRIPTION=请求一个以问号'?'开头的超长URL(例如: /?AAAAA[....]AAAA)将导致远程服务器崩溃(可能是Xeneo Web服务器).;;解决方案 : 升级到最新版本的Xeneo Web服务器;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 A.D.Consulting France

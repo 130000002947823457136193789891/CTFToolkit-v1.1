@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17971
+NAME=ProductCart多个输入确认漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查ProductCart中的多个输入检查漏洞
+DESCRIPTION=远程主机上运行的ProductKart shopping cart;软件有多个输入检查漏洞:;;  - SQL 注入漏洞;    'advSearch_h.asp' 脚本不能正确的过滤用户在;    'idCategory', 和'resultCnt' 中输入的参数, 可能导致; 攻击者伪造SQL 查询语句.;;  - 多个跨站脚本漏洞; 程序不能正确的过滤用户; 在'NewCust.asp' 中输入的  'redirectUrl' 参数,;'storelocator_submit.asp' 中的'country'参数,; 'techErr.asp'脚本中的'error'参数,; 和'advSearch_h.asp'脚本中的'keyword' 参数.; ;攻击者可以利用这些漏洞并导致在浏览者的浏览器中执行任意代码;解决方案 : 现在还没有解决方案.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

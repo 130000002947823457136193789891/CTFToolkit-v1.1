@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14659
+NAME=Titan FTP服务目录遍历
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查Titan FTP版本
+DESCRIPTION=远程主机运行Titan FTP服务。包括2.02版在内的所有2.02以下的版本都有目录遍历漏洞。;;攻击者通过发送特殊构造的URL来浏览系统上的任意文件。;;解决方案 ： 更新到最新的版本 ;   风险等级 ：中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

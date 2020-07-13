@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14770
+NAME=php任意文件上传漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP的版本
+DESCRIPTION=远程服务器的PHP软件版本;低于 4.3.9 或者 5.0.2. ;;运行这个版本软件的服务器将受到未知文件的攻击;上传漏洞将允许攻击者上传任意;文件到服务器.;;参考 : http://viewcvs.php.net/viewcvs.cgi/php-src/NEWS.diff?r1=1.1247.2.724&r2=1.1247.2.726;解决方案 : 升级软件到 4.3.9 或者 5.0.2 ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

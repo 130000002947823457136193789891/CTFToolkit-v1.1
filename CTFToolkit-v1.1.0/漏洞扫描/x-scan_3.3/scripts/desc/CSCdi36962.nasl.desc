@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10974
+NAME=CSCdi36962
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=当使用关键字"tacacs-ds"或"tacacs";扩展ACLs(访问控制列表)时，远程实体的IOS存在一个漏洞;;在指定环境或仅仅指定主机IP下，这个漏洞可以使非法;数据报穿过路由器;;这个漏洞相关的Cisco漏洞ID为：CSCdi36962.;;解决方案 : http://www.cisco.com/warp/public/707/1.html;风险等级:高;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

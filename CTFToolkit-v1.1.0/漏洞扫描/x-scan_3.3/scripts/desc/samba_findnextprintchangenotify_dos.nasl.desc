@@ -1,0 +1,8 @@
+ID=14381
+NAME=Samba 2.x FindNextPrintChangeNotify() 拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查samba版本
+DESCRIPTION=远程Samba服务器, 根据它的版本, 也许存在拒绝服务漏洞.;;攻击者如果在发送FindFirstPrintChangeNoticy()请求之前发送FindNextPrintChangeNotify()请求, 可以使远程samba主机瘫痪.;;据报告Windows XP SP2产生这类请求.;;解决办法 : 升级到Samba 2.0.11;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security<Translated By Stravadivaly>
+  

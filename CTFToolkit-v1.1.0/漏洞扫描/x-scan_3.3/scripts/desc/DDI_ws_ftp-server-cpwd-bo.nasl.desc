@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11098
+NAME=WS_FTP站点的CPWD命令缓冲溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查WS_FTP服务器有漏洞版本的FTP服务器标识
+DESCRIPTION=这台主机正在运行3.1.2之前版本的WS_FTP FTP服务器.  ;早于3.1.2的版本在处理'CPWD'命令参数的程序中存在一个未经检查的缓冲.  远程用户使用'CPWD'命令来修改密码.  通过发送一个错误格式的参数到CPWD命令的方式, 用户可以使缓冲溢出并在这台主机上执行任意代码.  注意: 需要使用本地用户帐号.;;供应商已经发布了一个解决这个问题的补丁.  请从供应商的站点处安装最新的补丁;http://www.ipswitch.com/support/.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense, Inc.

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11355
+NAME=AIX lpd服务存在缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测lpd服务是否运行
+DESCRIPTION=远程AIX lpd服务可能在send_status(),kill_print(),chk_fhost()函数中存在缓冲区溢出漏洞。;;注意：Nessus仅根据该服务是否运行和操作系统版本号进行判断的，过这可能是一个误报。;参考 : http://www.cert.org/advisories/CA-2001-30.html;;解决方案: 升级AIX，或安装相关补丁;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

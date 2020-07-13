@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11169
+NAME=SSH setsid()存在漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测SSH服务器版本信息
+DESCRIPTION=远程主机似乎运行着低于3.1.5或3.2.2版本的SSH。;;低版本SSH的setsid()调用存在漏洞，可导致用户获取高的权限。;;解决方案 : 升级SSH到 最新版本，参考: http://www.ssh.com/company/newsroom/article/286/;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

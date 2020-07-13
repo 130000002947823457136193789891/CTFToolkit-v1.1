@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17689
+NAME=PHPMyAdmin convcharset跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查PHPMyAdmin convcharset跨站脚本漏洞
+DESCRIPTION=安装的phpMyAdmin版本有一个跨站脚本漏洞;这是由于不能正确的过滤;'index.php'脚本中的'convcharset'参数导致的. ;远程攻击者可以利用这个漏洞在用户的浏览器中执行任意代码并窃取到认证cookies等信息;;解决方案 : 升级到phpMyAdmin 2.6.2-rc1或者更新.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11597
+NAME=Snitz Forums 2000 重置密码和跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 Snitz 论坛是否受跨站脚本攻击的影响
+DESCRIPTION=远程主机正在运行Snitz Forum 2000;;该套CGI存在跨站脚本漏洞，允许攻击者窃取用户cookie。;;除此以外，用户还可以借助Password.ASP文件重置任意密码，并获得web系统的管理权限。;;解决方案: 升级到最新版本。;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11397
+NAME=vpopmail.php 执行命令
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定vpopmail.php的版本
+DESCRIPTION=远程主机运行有老版本的vpopmail.php (squirrelmail的一个扩展)， 它容许使用者执行任何命令;使用者拥有和远程web服务器同等权利.;;解决方案 : 升级到VPOPMail 0.98 或更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

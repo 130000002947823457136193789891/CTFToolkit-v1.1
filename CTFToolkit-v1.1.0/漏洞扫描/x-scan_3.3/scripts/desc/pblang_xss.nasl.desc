@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17209
+NAME=PBLang BBS 跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查现有的PBLang BBS
+DESCRIPTION=远程主机运行了PBLang BBS, 用PHP写的公告版系统.;;这个软件的远程版本存在跨站脚本攻击漏洞, 使得攻击者能利用远程服务器在远程网站上盗取第三方用户的cookies.;;Solution : 升级到这个软件的最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

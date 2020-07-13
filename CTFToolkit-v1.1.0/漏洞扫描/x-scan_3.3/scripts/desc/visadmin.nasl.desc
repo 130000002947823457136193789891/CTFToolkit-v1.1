@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10295
+NAME=OmniHTTPd visadmin 利用
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测visadmin.exe CGI程序
+DESCRIPTION=向一个运行OmniHTTPd的服务器发送一个;“http://omni.server/cgi-bin/visadmin.exe?user=guest”请求可;以使其硬盘写满文件.;这使得攻击者可以使远程WEB服务崩溃.;这个脚本检测远程主机是否运行这个不完善的CGI程序;而不是对其进行攻击.;;解决方案：将visadmin.exe从/cgi-bin目录中移除.;;风险等级：中/高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

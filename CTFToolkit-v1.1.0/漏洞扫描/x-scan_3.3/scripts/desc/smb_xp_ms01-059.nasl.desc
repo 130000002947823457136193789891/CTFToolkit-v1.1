@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10835
+NAME=未经检查的xp通用即插即用缓冲器 
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=测定是否安装了Q315000补丁包.
+DESCRIPTION=发一个特殊的畸形同胞指示给未经检查的xp;通用即插即用缓冲器导致Windows XP (Q315000)会导致系统不安全.可能会导致攻击者执行运行UPnP服务的代码,使用Windows XP系统特权执行;UPnP不充分控制方式;它通过特权.这产生了两个不同的拒绝服务;可能.(CVE-2001-0877);看 http://www.microsoft.com/technet/security/bulletin/ms01-059.asp;;
+风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell
+           翻译 by freebeme  www.uptmd.com :)

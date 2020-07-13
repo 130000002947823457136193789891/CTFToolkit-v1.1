@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11915
+NAME=Apache < 1.3.29
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache软件包版本
+DESCRIPTION=远程主机似乎运行了比Apache 1.3.29更早的版本;;这个版本中存在一些漏洞, 使得攻击者通过mod_alias 和mod_rewrite能执行任意代码.;;您应该升级到1.3.29 或更新的版本.;;*** 注意:Nessus 只是依据远程服务器的版本号;*** 给出这个警告. 也许是错的;*** ;;解决办法 : 升级到 1.3.29;参考: http://www.apache.org/dist/httpd/Announcement.html;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison<Translated By Stravadivaly>

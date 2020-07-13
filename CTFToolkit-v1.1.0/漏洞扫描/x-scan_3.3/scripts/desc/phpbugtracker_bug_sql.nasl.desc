@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15751
+NAME=phpBugTracker bug.php SQL Injection
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=phpBugTracker存在SQL Injection
+DESCRIPTION=使用phpBugTracker的远程主机,PHP Bug Traq是一款基于PHP的漏洞跟踪系统。;;这是一个旧版本中的一个bug;容易受到SQL injection攻击,一个攻击者可以;利用这个漏洞获得敏感信息或者更改数据库系统。;;解决方案:升级到最新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15983
+NAME=PhpGroupWare XSS 和 SQL 注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查phpGroupWare的版本
+DESCRIPTION=PhpGroupWare是一款用PHP编写的多用户的群件系统.;;运行该系统的远程主机存在两个安全漏洞:;;- A 跨站脚本漏洞可使得攻击者窃取远程主机上第三方用户的资格凭证;;;- A SQL 注入漏洞可使得攻击者对远程数据库执行任意SQL脚本.;;解决方案 : 升级该软件到最新;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

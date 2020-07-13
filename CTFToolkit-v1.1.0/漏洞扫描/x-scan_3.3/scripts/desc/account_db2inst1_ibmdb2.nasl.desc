@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11859
+NAME=默认密码", (", password,
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=登陆远程主机",
+	       法语:"翻译
+DESCRIPTION=帐号'", account, "' 密码为", password, ;攻击者利用这个帐号可能获得更高权限;;风险等级 : 高;解决方案: 为这个帐号设置一个复杂的密码或禁止这个帐号. 这可能使应用此帐号的服务不能使用. COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

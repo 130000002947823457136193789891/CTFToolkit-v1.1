@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11346
+NAME=Sendmail 8.7.*/8.8.* 本地缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail的版本号判断，此服务器存在本地缓冲区溢出漏洞。;该漏洞允许用户以守护进程模式启动Sendmail并获取root权限。;;解决方案 : 升级Sendmail到 8.8.3及更新的新版本，或安装厂商提供的补丁。;;风险等级 : 高(本地)/无(远程)
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

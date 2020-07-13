@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14700
+NAME=OpenCA HTML Injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 OpenCA 版本
+DESCRIPTION=远程主机看起来正运行着一个旧版本的 OpenCA. ;;据报道低于 0.9.2-RC2版本的 OpenCA(含0.9.2-RC2) 当处理用户输入的前端表格时存在一个 HTML 注入漏洞. 这一问题会允许攻击者在其他用户的上下文执行恶意 HTML 代码.; ;;解决方案 : 升级到最新版本的OpenCA;风险等级 : 中
+COPYRIGHT=Copyright (C) Tenable Network Security

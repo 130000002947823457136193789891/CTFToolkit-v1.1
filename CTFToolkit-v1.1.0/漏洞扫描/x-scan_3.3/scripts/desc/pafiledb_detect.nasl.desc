@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17327
+NAME=paFileDB检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在paFileDB
+DESCRIPTION=该脚本检测远程主机是否存在paFileDB并获取其版本号及定位所有实实例. ;;paFileDB是一个用PHP编写的基于WEB的下载管理系统. ;参考http://www.phparena.net/pafiledb.php获取更多可用信息.
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

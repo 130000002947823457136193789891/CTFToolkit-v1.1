@@ -1,0 +1,65 @@
+#
+# This script was written by Renaud Deraison <deraison@cvs.nessus.org>
+#
+# See the Nessus Scripts License for details
+#
+
+if(description)
+{
+ script_id(10519);
+ script_bugtraq_id(1683);
+ script_version ("$Revision: 1.18 $");
+ script_cve_id("CVE-2000-0834");
+
+ name["english"] =  "Telnet Client NTLM Authentication Vulnerability";
+ name["francais"] = "Telnet Client NTLM Authentication Vulnerability";
+ 
+ script_name(english:name["english"],
+ 	     francais:name["francais"]);
+ 
+ desc["english"] = "
+The hotfix for the 'Telnet Client NTLM Authentication'
+problem has not been applied.
+
+This vulnerability may, under certain circumstances, allow a malicious
+user to obtain cryptographically protected logon credentials from
+another user.
+Solution : See http://www.microsoft.com/technet/security/bulletin/ms00-067.mspx
+Risk factor : Medium";
+
+
+ desc["francais"] = "
+Le hotfix pour le problème d'authentification NTLM du client telnet
+n'a pas été installé.
+
+Cette vulnerabilité permet à un pirate, dans certaines circonstances,
+d'obtenir le mot de passe crypté d'un autre utilisateur. 
+
+Solution : cf http://www.microsoft.com/technet/security/bulletin/ms00-067.mspx
+Facteur de risque : Moyen";
+
+
+ script_description(english:desc["english"],
+ 		    francais:desc["francais"]);
+ 
+ summary["english"] = "Determines whether the hotfix Q272743 is installed";
+ summary["francais"] = "Détermine si le hotfix Q272743 est installé";
+ script_summary(english:summary["english"],
+ 		francais:summary["francais"]);
+ 
+ script_category(ACT_GATHER_INFO);
+ 
+ script_copyright(english:"This script is Copyright (C) 2000 Renaud Deraison");
+ family["english"] = "Windows : Microsoft Bulletins";
+ script_family(english:family["english"]);
+ 
+ script_dependencies("smb_hotfixes.nasl");
+ script_require_keys("SMB/Registry/Enumerated");
+ exit(0);
+}
+
+include("smb_hotfixes.inc");
+
+if ( hotfix_check_sp(win2k:2) <= 0 ) exit(0);
+if ( hotfix_missing(name:"Q272743") > 0 ) 
+	security_warning(get_kb_item("SMB/transport"));

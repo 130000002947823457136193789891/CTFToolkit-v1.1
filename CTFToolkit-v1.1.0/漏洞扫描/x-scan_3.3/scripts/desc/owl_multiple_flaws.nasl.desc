@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16063
+NAME=Owl Multiple Vulnerabilities
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装了owl
+DESCRIPTION=远程主机正运行owl企业内网引擎,一个用PHP编写的;开源的文件共享服务.;;远程主机上该版本的软件存在多出漏洞;攻击者可以在远程数据库上执行任意SQL语句;或者对使用该服务器的第三方用户;进行跨站脚本攻击.;;解决方案 : 升级到 Owl 0.74.0 或更新版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

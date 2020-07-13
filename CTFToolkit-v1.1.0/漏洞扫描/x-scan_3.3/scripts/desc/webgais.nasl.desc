@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10300
+NAME=webgais
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/webgais是否存在
+DESCRIPTION=主机安装了 'webgais' CGI。该CGI存在著名的安全漏洞，允许攻击者以http服务端的权限(通常是 root 或 nobody)执行任意命令。;;解决方案: 从/cgi-bin里删除该CGI。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

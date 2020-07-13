@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17603
+NAME=Firefox < 1.0.2
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of Firefox
+DESCRIPTION=远程主机正使用着Firefox,是一个第三方网页浏览器.;;远程主机上这个版本的软件包含的不同安全问题可能允许一个攻击者伪装成一个网站,并诱骗使用者登陆进去,并执行任意文件或者引起Firefox大量缓冲溢出,并且在远程主机上任意执行代码.;;解决方案:更新到Firefox 1.0.2;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security 梦魇虚空

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10426
+NAME=SMB 注册表: Schedule权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的连接权限
+DESCRIPTION=非管理员组的用户可以改写注册表子键SYSTEM\CurrentControlSet\Services\Scheduleis 的内容。;;由于scheduler程序以SYSTEM权限运行，该漏洞允许恶意用户获得系统的控制权限。;;解决方案: 使用regedt32 并且把该子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

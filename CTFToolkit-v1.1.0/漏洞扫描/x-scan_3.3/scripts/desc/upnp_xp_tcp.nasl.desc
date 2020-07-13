@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11765
+NAME=搜索UPNP/Tcp主机
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=UPNP/tcp搜索
+DESCRIPTION=远程主机正在运行Microsoft UPnP TCP helper服务.;;如果被测试的网络不是一个家庭网络，那么你应该禁用这项服务;;解决方案:如下更改注册表键值;位置：HKLM\SYSTEM\CurrentControlSet\Services\SSDPSRV;键名：Start;键值：0x04;;;风险等级 : 低 
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security Translated by FlyingHeart(飞行的心）

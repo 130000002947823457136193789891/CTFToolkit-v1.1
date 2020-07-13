@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10287
+NAME=Traceroute
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=traceroute
+DESCRIPTION=traceroute到远端主机的路由。;;风险等级 : 低
+COPYRIGHT=版权所有 (C) 1999 Renaud Deraison ，翻译：hutuworm

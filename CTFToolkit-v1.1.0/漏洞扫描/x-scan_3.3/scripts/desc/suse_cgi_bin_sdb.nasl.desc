@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10503
+NAME=使用/cgi-bin-sdb读取CGI源代码
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin-sdb/是否存在
+DESCRIPTION=目录/cgi-bin-sdb是/cgi-bin的一个别名;很多SuSE系统使用这样的配置。;这种设置的方法允许攻击者获得;安装在这台主机上的CGI脚本源代码。;给攻击者提供有关主机配置的重要信息;或者多半的用户名和密码--;如果它们出现在CGI源代码中的话;这是非常危险的。;;解决方案：在httpd.conf中，更改指令：;Alias /cgi-bin-sdb/ /usr/local/httpd/cgi-bin/;to;ScriptAlias /cgi-bin-sdb/ /usr/local/httpd/cgi-bin/;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison & Powered by Robur!

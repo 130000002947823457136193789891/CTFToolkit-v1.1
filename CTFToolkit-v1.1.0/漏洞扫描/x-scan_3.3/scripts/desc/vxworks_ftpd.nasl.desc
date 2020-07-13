@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11185
+NAME=vxworks ftpd 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查vxworks ftpd 是否有缓冲区溢出漏洞
+DESCRIPTION=向远程vxworks ftpfashong如下命令就有可能使其服务;崩溃：CEL aaaa(...)aaaa.;;这个问题与'aix ftpd' 溢出漏洞相似，但是对于嵌入了vxworks的系统比如3com nbx IP 电话呼叫管理也同样有效;;***注意这个检测报告依赖于指纹技术***;而远程服务器可能采取措施使扫描器不发送相应的警告;;解决方案:如果你使用一个嵌入vxworks的设备，那么联系你的;供应商并且参考WindRiver field patch TSR 296292.;如果使用3com NBX IP 电话拨号管理，那么联系3com公司。;;这个漏洞影响VxWorks ftpd 5.4和5.4.2版。;;访问CERT VU 317417 http://www.kb.cert.org/vuls/id/317417获得详细信息或;通过http://www.secnap.net/security/nbx001.html获得完整漏洞描述;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell

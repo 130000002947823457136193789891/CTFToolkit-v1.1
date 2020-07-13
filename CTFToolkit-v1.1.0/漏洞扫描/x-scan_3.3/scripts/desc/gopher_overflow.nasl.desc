@@ -1,0 +1,10 @@
+CHINESE]
+ID=16195
+NAME=Gopherd Buffer Overflow
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检测gopherd是否可以被用作代理
+DESCRIPTION=远程主机运行UMN Gopher服务器。远程当前版本的gopher服务器可能存在漏洞，攻击者可能会对其进行溢出攻击，然后以gopher daemon的权限执行任意代码。
+解决方法：升级UMN Gopherd到版本3.0.6或更高版本。
+风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(Translated By Forza)

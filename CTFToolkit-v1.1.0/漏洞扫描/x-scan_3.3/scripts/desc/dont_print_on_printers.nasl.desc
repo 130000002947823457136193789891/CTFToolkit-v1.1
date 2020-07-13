@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12241
+NAME=不在AppSocket和socketAPI的打印机上打印
+CATEGORY=设置
+FAMILY=配置错误
+SUMMARY=从扫描AppSocket或socketAPI打印机中排除9100端口
+DESCRIPTION=这个主机看起来是一个AppSocket或者socketAPI的打印机。;扫描它可能会浪费纸张，所以9100端口不应该被扫描。;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 by Laurent Facq (Chinese version by Dancefire)

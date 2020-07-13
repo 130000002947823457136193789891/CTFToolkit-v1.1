@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10442
+NAME=NAI PGP 认证服务器拒绝服务攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查对PGP 认证服务器的拒绝服务攻击
+DESCRIPTION=远程PGP 认证服务器在收到一个无法解析的IP地址的TCP连接请求时可能会崩溃。攻击者可以利用该漏洞使PGP 认证服务器无法正常工作。;;Solution: 升级到PGP 认证服务器的最新版本。;;Risk factor : 中
+COPYRIGHT=By John Lampe....j_lampe@bellsouth.net

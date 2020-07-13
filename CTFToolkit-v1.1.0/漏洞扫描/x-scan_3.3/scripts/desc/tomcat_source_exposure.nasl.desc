@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11176
+NAME=Tomcat 4.x 泄露JSP源代码
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Tomcat 4.x 泄露JSP源代码
+DESCRIPTION=Tomcat 4.0.4和4.1.10（也许包括早期的版本）;在使用default servlet;org.apache.catalina.servlets.DefaultServlet时;容易受到源代码泄露攻击;;解决方案：升级到最终版本，包括4.05和4.1.12;关于最终版本的详情;请参见http://jakarta.apache.org/builds/jakarta-tomcat-4.0/release/ ;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2002 Felix Huber & Powered by Robur!

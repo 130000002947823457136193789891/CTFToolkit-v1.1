@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10143
+NAME=MSQL CGI 溢出
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=溢出远程CGI的缓冲区
+DESCRIPTION=通过构造类似"GET /cgi-bin/w3-msql/AAAA...AAAA"的请求可能溢出远程MSQL 的cgi.;这就允许了攻击者以http服务的身份(nobody 或者 root)执行任意代码.;;解决方案 : 删除该CGI.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(Translation by luke and sunwear)

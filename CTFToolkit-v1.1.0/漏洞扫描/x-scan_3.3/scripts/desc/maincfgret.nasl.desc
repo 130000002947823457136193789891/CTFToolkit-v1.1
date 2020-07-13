@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15564
+NAME=Whatsup Gold有漏洞的CGI
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/_maincfgret.cgi
+DESCRIPTION=安装了'_maincfgret' cgi. ;某些版本容易受到缓冲溢出的危害.;;** 由于没有进行过攻击而且也未检查版本 ;** 因此这有可能是错误的;;http://www.idefense.com/application/poi/display?id=142&type=vulnerabilities ;http://www.packetstormsecurity.org/0408-advisories/08.25.04.txt ;;解决方案 : 如果需要请升级到Whatsup Gold 8.03 HF 1;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11401
+NAME=texi.exe 路径暴露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 texis.exe
+DESCRIPTION=当提交一个不存在的文件名到远程的CGI程序 'texis.exe' 时，;它会暴露远程Web服务器的物理路径。;;解决方案: 升级到最新版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Translated by chice)

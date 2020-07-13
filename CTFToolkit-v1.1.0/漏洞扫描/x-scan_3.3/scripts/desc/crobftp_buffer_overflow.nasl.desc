@@ -1,0 +1,7 @@
+ID=12060
+NAME=CROB FTP服务多连结DoS攻击
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=CROB远程DoS攻击
+DESCRIPTION=远程主机正在运行CROB FTP服务。;;这个服务在处理多连结请求时有漏洞，能使攻击者触发针对这个服务的DoS攻击。;;解决方案：升级CROB FTP服务器;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

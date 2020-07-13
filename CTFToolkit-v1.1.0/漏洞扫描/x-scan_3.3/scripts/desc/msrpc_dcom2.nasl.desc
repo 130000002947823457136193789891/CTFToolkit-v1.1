@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11835
+NAME=Microsoft RRPC接口缓冲区溢出漏洞(KB824146)
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程主机是否安装了RPC接口的相应补丁(KB824146)
+DESCRIPTION=远程Windows主机的RPC接口存在缓冲区溢出漏洞。; 该漏洞可导致远程攻击者以SYSTEM权限在系统中执行任意代码。 ;;远程攻击者或蠕虫能据此获得主机的控制权。;;注意:此BUG不同于NMS03-026，NMS03-026漏洞造成了'MSBlast' (又名LoveSan)蠕虫泛滥;;解决方案:参考 http://www.microsoft.com/technet/security/bulletin/MS03-039.asp ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

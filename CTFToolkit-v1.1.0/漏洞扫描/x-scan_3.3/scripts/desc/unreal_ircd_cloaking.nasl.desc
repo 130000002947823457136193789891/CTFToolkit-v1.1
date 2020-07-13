@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12297
+NAME=Unreal IRCd IP 伪装缺陷
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=checks the version of the remote ircd
+DESCRIPTION=这个服务器运行的是Unreal IRCD,它是一种流行的IRC服务器。;;服务器版本提供一种叫做'IP 伪装'的功能;用来隐藏联接到服务器用户的IP地址,用以保存他们的匿名性。;;但是这种服务器在算法上有一个设计错误;通过把尝试的数量减少到2000,;就可以让攻击者猜到服务器上其他用户的真实IP地址。;;解决方案 : 把Unreal IRCD更新到 3.2.1的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

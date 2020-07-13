@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12120
+NAME=HP Jet Admin 7.x目录渗透
+CATEGORY=攻击
+FAMILY=普通漏洞
+SUMMARY=HP Jet Admin 7.x目录渗透攻击
+DESCRIPTION=远程HP Web JetAdmin主机存在有很多漏洞. 现在版本存中，可以通过setinfo.hts脚本进行渗透攻击. 一个攻击者可以获取文件通过以下字符串:;;/plugins/hpjdwm/script/test/setinfo.hts?setinclude=../../../../../hptrace.ini;;解决方案: 通过以下步骤设置HP Web Jet Admin 服务器:;1. 在导航菜单中选择General Settings, 展开目录树.;2. 展开Administration;3. 选择 Add/Remove;4. 在User 页面中, 如果还没有设置密码，选择 ;'Note: To enable security features, an Admin password must be set.' 链接.;5. 设置一个管理员密码.;;强烈推荐限制IP地址:;1. 展开 General Settings 目录树.;2. 选择HTTP (Web) 项.;3. 用 'Allow HP Web Jetadmin Access' 增加一个管理员IP地址或一段地址. HP推荐删除test目录中所有文件. 默认安装情况下，此目录在C:\Program Files\HP Web Jetadmin\doc\plugins\hpjdwm\script\;;参见: http://sh0dan.org/files/hpjadmadv.txt;风险等级 : 高
+COPYRIGHT=wirepair

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11719
+NAME=admin.cgi溢出
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=溢出admin.cgi
+DESCRIPTION=当shoutcast所带的admin.cgi程序 ;收到并处理特定的超长请求时;服务器进程就会崩溃;攻击者可以利用这个漏洞对主机进行拒绝服务攻击甚至执行任意指令.;;解决方案 : 升级Shoutcast到最新的版本.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi(chinese version by lsy)

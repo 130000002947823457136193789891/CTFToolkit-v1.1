@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12096
+NAME=cfWebStore SQL注射
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL注射
+DESCRIPTION=远程主机正在运行cfWebStore 5.0.0或更早的版本。;;该软件存在漏洞，允许任何人向远程数据库注射任意SQL语句，并由此以远程主机管理员身份登陆，浏览或修改远程数据库的内容。;;解决方案: 升级到cfWebStore 5.0.1;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

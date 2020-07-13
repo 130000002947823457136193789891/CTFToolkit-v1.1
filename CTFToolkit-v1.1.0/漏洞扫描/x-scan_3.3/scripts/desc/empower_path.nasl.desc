@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10609
+NAME=empower cgi路径泄漏漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=远程页面root试图发现本地路径
+DESCRIPTION=通过利用以下命令可获得该虚拟主机的web页面的物理路径:;;GET /cgi-bin/empower?DB=whatever HTTP/1.0;;通常,可以给攻击者泄漏系统信息,为安全期间,你最好解决该问题.;;解决方案:使用更新版本的该CGI程序;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

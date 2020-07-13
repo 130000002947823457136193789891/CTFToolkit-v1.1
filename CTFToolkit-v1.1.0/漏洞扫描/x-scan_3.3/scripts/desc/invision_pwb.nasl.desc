@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15425
+NAME=Invision Power Board跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Invision Power Board的跨站脚本
+DESCRIPTION=远程主机正在运行Invision Power Board, 此软件是一个PHP编写的基于web的BBS系统.;;这些版本的Invision Power Board容易受到跨站脚本攻击，导致攻击者可以窃取用户的cookie.;        ;解决方案: 升级到最新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

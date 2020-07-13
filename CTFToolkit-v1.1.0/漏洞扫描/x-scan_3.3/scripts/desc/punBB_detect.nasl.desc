@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15936
+NAME=PunBB detection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查当前的PunBB
+DESCRIPTION=远程主机正在运行PunBB, 一个开源项目 ;高速的轻量级PHP论坛. ;	;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(翻译：kill_ads)

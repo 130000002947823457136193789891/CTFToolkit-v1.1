@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17304
+NAME=Zyxel上缺省的web帐号
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=登陆到Zyxel上的web管理界面
+DESCRIPTION=远程主机是一台设置了缺省口令的Zyxel路由器，;;攻击者可以连接到它的web管理界面并更改其配置。;;解决方案：立刻修改口令.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

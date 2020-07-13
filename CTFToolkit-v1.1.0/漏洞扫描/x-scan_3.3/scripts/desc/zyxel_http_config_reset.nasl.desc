@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15781
+NAME=ZyXEL Prestige Router Configuration Reset
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=Determines if /rpFWUpload.html is world-readable
+DESCRIPTION=远程主机是个Zyxel路由器. ;;该版本设备的一组件中存在一缺陷，;它可能允许攻击者完全控制该远程主要.;;远程主机上的'/rpFWUpload.html'文件是不被认证机制保护的 . ;攻击者可能利用它来复位远程主机到出厂状态.;;解决方案 : 联系ZyXEL以取得补丁.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

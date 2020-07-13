@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10351
+NAME=ACC路由器无鉴权显示配置
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查ACC SHOW命令的缺陷
+DESCRIPTION=这台远程路由器为ACC路由器.;;此路由器的某些软件版本允许攻击者不提供任何鉴权信息就可以运行SHOW命令来查看路由器的配置信息.;;解决方案 : 升级软件.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Sebastian Andersson

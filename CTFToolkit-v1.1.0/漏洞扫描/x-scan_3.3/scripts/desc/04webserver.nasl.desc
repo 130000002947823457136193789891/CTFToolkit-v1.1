@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15713
+NAME=04WebServer多个远程漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查04WebServer的版本
+DESCRIPTION=远程主机所正在运行的04WebServer的版本低于等于1.42.;;此版本的软件存在会允许攻击者进行跨站脚本攻击的跨站脚本漏洞和日志注入漏洞.;;解决方案 : 目前没有解决方案.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

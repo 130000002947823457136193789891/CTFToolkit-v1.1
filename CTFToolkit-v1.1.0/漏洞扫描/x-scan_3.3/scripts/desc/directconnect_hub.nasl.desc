@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13751
+NAME=DirectConnect hub detection
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=DirectConnect hub detection
+DESCRIPTION=DirectConnect hub 正在这个端口上运行。;这个点对点的软件用来共享文件，允许许多客户端通过它进行连接.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

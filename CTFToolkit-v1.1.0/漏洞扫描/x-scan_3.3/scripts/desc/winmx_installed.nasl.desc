@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11430
+NAME=WinMX is installed
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=决定是否安装WinMX
+DESCRIPTION=使用了点对点软件WinMX的远程机器可能不适合做商业用途. ;;解决方法：卸载这个软件;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

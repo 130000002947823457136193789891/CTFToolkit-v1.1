@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14230
+NAME=WackoWiki XSS
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测WackoWiki XSS的缺点
+DESCRIPTION=如果远程主机运行WackoWiki.;;基本的版本信息都集中在Nessus,;这样WackoWiki容易受到攻击;远程认证攻击.;;利用此弱点可以允许偷窃;cookie-based的证书和cross-site脚本攻击. ;;解决办法 : 升级或禁用此CGI组件;;风险等级 : 中等
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

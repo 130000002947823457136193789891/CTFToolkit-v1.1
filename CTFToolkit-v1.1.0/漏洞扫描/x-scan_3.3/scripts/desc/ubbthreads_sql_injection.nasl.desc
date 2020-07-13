@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15561
+NAME=UBB.线程dosearch.php的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=UBB.线程中的SQL注入
+DESCRIPTION=远程主机正在运行UBB.线程. UBB.为一款PHP编写的BBS(Bulletin Board System)系统.;;此软件存在一个SQL注入问题. 通过向'dosearch.php'文件的'Name'参数发送一个错误格式的数值的方式, 攻击者可以在远程主机上执行任意SQL语句并可能覆盖远程系统上的任意文件.;;解决方案 : 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Translation by sunwear)

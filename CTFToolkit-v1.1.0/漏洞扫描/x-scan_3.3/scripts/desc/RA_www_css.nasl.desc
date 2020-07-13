@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11950
+NAME=RemotelyAnywhere跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测RemotelyAnywhere的Web用户接口跨站脚本
+DESCRIPTION=RemotelyAnywhere的web用户接口存在一个漏洞, 此漏洞允许远程攻击者注入恶意文本到登陆屏幕, 从而导致用户做并没有做的事情(例如, 用户登陆后将用户密码修改为攻击者提供的恶意字符串).;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

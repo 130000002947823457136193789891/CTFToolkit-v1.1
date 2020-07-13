@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15975
+NAME=SIR GNUBoard 远程文件包含
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查index.php文件是否存在
+DESCRIPTION=通过安装的GNUBoard CGI套件可以使得远程的web服务器读取任意文件.;;攻击者可以利用这个漏洞向远程主机注入任意代码;同时获得一个具有web服务器特权的shell.;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

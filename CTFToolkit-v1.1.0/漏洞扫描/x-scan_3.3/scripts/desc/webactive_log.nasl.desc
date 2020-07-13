@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10470
+NAME=WebActive 日志文件可读
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=请求 /active.log
+DESCRIPTION=通过请求/active.log文件可获得远程WebActive的日志信息。;;一个攻击者可以通过此方法获得您站点上的信息，如什么人访问您的站点和浏览量;;解决方案 : 换另外的无WebActive的web服务器;如果您使用WindowsNT, 则设置此文件为不可读。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

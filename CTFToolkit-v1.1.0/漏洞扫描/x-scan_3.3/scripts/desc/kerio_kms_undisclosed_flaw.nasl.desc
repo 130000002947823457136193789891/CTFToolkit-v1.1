@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15404
+NAME=版本低于6.0.3的Kerio MailServer
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查版本低于6.0.3的Kerio MailServer
+DESCRIPTION=远程主机正在运行版本低于6.0.3的Kerio MailServer邮件服务器.;;此服务器存在一个未公开的漏洞，此漏洞可导致攻击者在远程主机上执行任意代码.;;;解决方案: 升级Kerio MailServer到6.0.3或更新版本;参阅 : http://www.kerio.com/kms_history.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

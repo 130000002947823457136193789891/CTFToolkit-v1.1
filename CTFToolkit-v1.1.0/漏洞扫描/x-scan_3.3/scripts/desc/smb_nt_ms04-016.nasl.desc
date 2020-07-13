@@ -1,0 +1,10 @@
+[CHINESE]
+ID=12267
+NAME=DirectPlay可导致拒绝服务漏洞(839643)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=在注册表中检测ms04-016
+DESCRIPTION=本次升级解决了一个最近发现并秘密报告的漏洞。;该拒绝服务漏洞已被证实存在于微软IDirectPlay4应用程序接口中;因为缺乏足够的确认信息。;如果用户运行连网的DirectPlay应用程序，攻击者可以使用该漏洞导致DirectPlay应用程序挂起。;用户可以重新启动该程序以便恢复使用。;微软公司建议用户立刻升级该软件的最新安全补丁;解决方案:http://www.microsoft.com/technet/security/bulletin/ms04-016.mspx; 风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus
+
+

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15470
+NAME=BugPort unspecified attachment handling flaw
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查BugPort的版本
+DESCRIPTION=远程主机正在运行BugPort -- 一个基于Web的软件开发过程任务和缺陷管理系统.;;BugPort包含一个未详细说明的附件处理漏洞.;;解决方案 : 升级到1.134或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

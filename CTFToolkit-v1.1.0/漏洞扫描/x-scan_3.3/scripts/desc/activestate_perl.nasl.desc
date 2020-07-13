@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11007
+NAME=ActiveState Perl目录遍历
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=确定ActivePerl是否有漏洞
+DESCRIPTION=使用ActiveState的perl会有可能在远程服务器上执行任意命令.;;解决方案 : 升级到最新的版本;;参阅 : http://online.securityfocus.com/archive/1/149482;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

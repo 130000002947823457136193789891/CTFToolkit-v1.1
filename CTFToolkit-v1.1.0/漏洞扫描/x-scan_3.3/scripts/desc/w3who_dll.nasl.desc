@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15910
+NAME=w3who.dll overflow and XSS
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=Determines the presence of w3who.dll
+DESCRIPTION=windows2000的资源工具包通过动态连接库来装载;浏览器代理文本.它列出安全目录,; 特权和环境变量. ;;Nessus 已经确认该文件是装在远程主机上的.llw3who.dll ISAPI 能允许攻击者来执行任意命令 ;在这台主机上, 通过缓冲溢出, 或者用XSS攻击.;;参考 : http://www.exaprobe.com/labs/advisories/esa-2004-1206.html ;解决方案 : 删除该文件;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Nicolas Gregoire <ngregoire@exaprobe.com>

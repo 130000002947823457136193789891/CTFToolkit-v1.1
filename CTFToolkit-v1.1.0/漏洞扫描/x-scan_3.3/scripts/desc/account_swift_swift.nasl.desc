@@ -1,0 +1,8 @@
+CHINESE]
+ID=12116
+NAME=默认密码
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=登陆远程主机
+DESCRIPTION=用户 xxx 拥有账户'", xxx, "' 其密码为 ", xxx, "（即登陆用户名与密码相同）;攻击者可能利用其获得更高系统权限;;风险等级 : 高;解决方案 : 为账户设置密码或将其废除
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

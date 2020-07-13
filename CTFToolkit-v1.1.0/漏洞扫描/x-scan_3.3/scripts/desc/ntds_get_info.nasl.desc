@@ -1,0 +1,13 @@
+[CHINESE]
+ID=12105
+NAME=利用LDAP 搜索请求获得NT 目录服务信息
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=利用LDAP 搜索请求获得NT 目录服务信息
+DESCRIPTION=服务器的目录等级通常是设为空的. 这样就允许在不需要任何权限认证的情况下获得服务器目录结构;;
+解决方案: 如果pre-Windows 2000兼容对您来说并不是必须的，请卸载;卸载方式如下:;;    
+- 运行 cmd.exe;    
+- 执行此命令 net localgroup  'Pre-Windows 2000 Compatible Access' everyone /delete;    
+- 重新启动远程服务器;;
+风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

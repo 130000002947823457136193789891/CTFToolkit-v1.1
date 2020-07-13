@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10786
+NAME=Samba 远程访问任意文件
+CATEGORY=信息搜集
+FAMILY=访问任意文件
+SUMMARY=检查samba版本
+DESCRIPTION=根据版本，samba服务端存在远程访问任意文件漏洞。;;;该漏洞导致攻击者可以访问任意存在的文件;已定义的共享路径除外。;;攻击者需要一个可用的帐号来利用此缺陷。;;解决办法:可能的话，升级到 Samba 2.2.11版本或者3.0.6版本。;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13635
+NAME=Bugzilla 多重漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for the presence of bugzilla
+DESCRIPTION=远程Bugzilla漏洞跟踪系统，依照版本号，暴露出多个漏洞 : ;;- 管理员可以在远程主机上执行任何SQL命令 ;;- 有一个信息漏洞的例子,可能让攻击者得到数据库密码(在确定环境下，仅2.17.x) 或获得其它隐藏重元組名;;- 有会员权限的用户可以提升自己的权限，并且将自己添加到另外的组;;- 这将在Web管理界面导致cross site scripting的结果;;- 用户密码被嵌入在URLs里（仅2.17.x）;;解决方案:升级至2.16.6 或 2.18rc1;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security     翻译 : laughterwym

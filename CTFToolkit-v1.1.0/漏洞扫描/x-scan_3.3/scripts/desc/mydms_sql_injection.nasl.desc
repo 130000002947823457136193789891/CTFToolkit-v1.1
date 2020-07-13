@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14327
+NAME=MyDMS SQL注入和目录截获
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=依靠远程安装的MyDMS的SQL注入
+DESCRIPTION=运行在远程主机上的MyDMS,是一个开放的文档管理系统;基于MySQL以及PHP.;;这个远程版本很容易进行SQL注入漏洞;这个漏洞允许所有的来宾用户任意执行SQL命令;通过这个远端的数据库.同样还流出一个目录截获的漏洞;允许日志用户通过HTTP后台程序获得权限;从而读取远端主机上的任意文件.;;解决方案 : 将MyDMS升级到 1.4.2 修复这个SQL注入攻击;风险等级  : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

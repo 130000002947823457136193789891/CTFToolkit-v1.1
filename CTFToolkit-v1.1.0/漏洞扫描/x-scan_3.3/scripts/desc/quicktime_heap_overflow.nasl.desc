@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12226
+NAME=Quicktime 播放器/插件堆溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=探测QuickTime播放器/插件版本
+DESCRIPTION=远程的主机正在使用QuickTime，一种很流行的媒体播放机/插件可以播放多种媒体文件;这个版本存在一个堆溢出，可以远程攻击者以执行QuickTime的用户权限在这个主机上;执行任意代码。;更多信息 : http://eeye.com/html/Research/Advisories/AD20040502.html;;解决方案 : 写在这个软件或者升级到 6.5.1 或更高.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams (Chinese version by Dancefire)

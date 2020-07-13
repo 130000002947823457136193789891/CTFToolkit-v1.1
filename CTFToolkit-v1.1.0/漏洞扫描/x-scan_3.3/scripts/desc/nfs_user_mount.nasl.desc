@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15984
+NAME=用户可装载的NFS共享
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查用户可装载的NFS
+DESCRIPTION=这个插件用于装载非root权限的NFS输出共享,;如果装载成功就发出一个警告.;;如果有一个用户帐号被破解,那么这种用户可装载的NFS共享就增加了数据遭受破坏的可能性.;;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison, modified 2004 Michael Stone

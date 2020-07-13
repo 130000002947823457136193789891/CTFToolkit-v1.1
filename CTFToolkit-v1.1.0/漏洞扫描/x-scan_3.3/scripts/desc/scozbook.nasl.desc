@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11502
+NAME=ScozBook漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查view.php是否存在
+DESCRIPTION=该远程主机运行有ScozBook;;该CGI程序有两个漏洞:;- 可导致跨站脚本攻击(在add.php里);- 用户可以向view.php提交查看任意文件的请求;暴露远程CGI程序的物理路径;;恶意攻击者可能利用上述漏洞窃取合法用户的cookies信息并利用其获得关于该主机的更多信息.;;;解决方案:删除该文件;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

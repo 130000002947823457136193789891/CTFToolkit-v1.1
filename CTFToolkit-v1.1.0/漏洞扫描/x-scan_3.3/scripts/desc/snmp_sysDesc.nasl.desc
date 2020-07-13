@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10800
+NAME=通过SNMP获取操作系统类型
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=通过SNMP获取操作系统类型
+DESCRIPTION=此Nessus脚本通过SNMP获取远程操作系统类型信息。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

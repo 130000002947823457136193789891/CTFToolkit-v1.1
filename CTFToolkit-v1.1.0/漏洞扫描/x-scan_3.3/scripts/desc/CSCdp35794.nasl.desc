@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10975
+NAME=CSCdp35794
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=配置了Gigabit以太网或者快速以太网卡;的Gigabit路由交换器上运行的;Cisco IOS软件中存在一个漏洞，;可能使得数据包不经过正确配置的;访问控制列表就转发出去。;除了绕过访问控制列表，;还可能使得接口停止转发任何数据包，;从而造成拒绝服务。;;;这个漏洞的Cisco漏洞ID是：CSCdp35794。;;解决方法：;http://www.cisco.com/warp/public/707/gsraclbypassdos-pub.shtml;;风险等级：高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

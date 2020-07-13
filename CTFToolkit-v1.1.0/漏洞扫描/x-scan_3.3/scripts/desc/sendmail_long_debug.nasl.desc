@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11348
+NAME=Sendmail调试命令存在本地溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail版本号判断，此服务程序存在本地缓冲区溢出漏洞。; 本地用户在命令行参数(-d)选项后构造一个超长串可触发该漏洞，导致攻击者获得系统root权限。;;解决方案 : 升级Sendmail到8.6.8或更新版本。;;风险等级 : 高(本地)/无(远程)
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

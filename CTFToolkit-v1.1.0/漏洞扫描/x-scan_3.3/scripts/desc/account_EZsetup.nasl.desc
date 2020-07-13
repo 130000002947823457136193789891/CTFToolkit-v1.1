@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11241
+NAME=没有设置口令", account, "账号
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=登录远程主机",francais:"翻译
+DESCRIPTION=账号'", account, "'没有设置口令. ;攻击者可以利用这一点获得系统的更多的特权;;风险等级: 高;解决方案 : 给此账号设置口令,或者禁用此账号
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(Translation by cloud2046)

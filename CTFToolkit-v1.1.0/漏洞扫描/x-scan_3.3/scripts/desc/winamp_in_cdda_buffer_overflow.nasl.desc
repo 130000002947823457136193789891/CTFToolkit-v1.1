@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15817
+NAME=Nullsoft Winamp IN_CDDA.dll Remote Buffer Overflow Vulnerability
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of WinAMP
+DESCRIPTION=远程主机运行着WinAPM5，一款支持多种文件格式（mp3,wavs等）的媒体播放器.;;该版本软件存在一缓冲区漏洞，可能令攻击者以该运行WinAMP的用户权限;执行任意代码.攻击者要进行攻击，需向该主机用户发送;一构造好的播放列表文件（.m3u），且用户需双击导入它.;;解决方案 : 卸载该软件或升级至高于5.06的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15463
+NAME=Squid远程拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=确定squid的版本
+DESCRIPTION=根据版本号，远程squid缓存代理可能会受到远程拒绝服务的危害.;;这个缺陷是SNMP模块中输入验证错误而引起的.;;通过发送一个人工精心构造的UDP包的方式，攻击者可以利用这个漏洞使服务器崩溃.;;*** Nessus仅使用收集到的信息;*** 来报告这个漏洞, 因此 ;*** 这有可能是错误的.;;解决方案 : 升级到squid 2.4.STABLE7或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11905
+NAME=Checkpoint Firewall-1 UDP 拒绝服务攻击
+CATEGORY=洪水攻击
+FAMILY=拒绝服务
+SUMMARY=非正常UDP数据包洪水攻击目标
+DESCRIPTION=当防火墙(或者该网络上的一台路由)遭遇大量非正常UDP数据包时机器就会崩溃 ;该攻击已经被证明可以针对Firewall-1 3.0, 4.0 or 4.1;;攻击者可以通过该漏洞关闭服务器, 从而阻止你正常工作. ;;解决方案 : 如果是FW-1,激活反欺骗规则;;否则,为你的软件安装相应的补丁.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

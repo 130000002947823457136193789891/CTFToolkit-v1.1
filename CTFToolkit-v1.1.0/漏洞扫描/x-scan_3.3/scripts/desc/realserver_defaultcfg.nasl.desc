@@ -1,0 +1,7 @@
+ID=12251
+NAME=RealServer default.cfg file search
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=RealServer default.cfg文件搜索
+DESCRIPTION=远程RealServer开起来允许匿名用户下载default.cfg文件。文件用于存储不应该通过Web前端用户访问的机密信息。风险级别：高。解决方案：删除或者保护指定资源。
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

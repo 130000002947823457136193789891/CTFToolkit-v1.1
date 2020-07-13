@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11031
+NAME=OpenSSH <= 3.3
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程SSH版本号
+DESCRIPTION=远程主机所运行的OpenSSH版本低于3.4;;该版本存在的安全缺陷可导致远程攻击者在系统上执行任意指令.;;某些发行版本修复了这个漏洞但是并没有修改OpenSSH的版本号. 由于Nessus仅仅是通过SSH服务器的banner信息来判断该漏洞, 因此这可能是一个误报.;;如果主机上运行的是RedHat系统, 可以用下列命令来确认 :;          rpm -q openssh-server;      ;返回 :;    openssh-server-3.1p1-6;;;解决方案 : 升级到OpenSSH 3.4或者联系你的程序提供商以获取补丁;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

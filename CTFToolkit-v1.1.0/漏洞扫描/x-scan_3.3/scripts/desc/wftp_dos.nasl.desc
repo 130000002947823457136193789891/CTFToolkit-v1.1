@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10466
+NAME=WFTP RNTO DoS
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=使远程ftp服务器崩溃
+DESCRIPTION=用户登陆后输入'RNTO x'命令会使远程FTP服务端崩溃。;;攻击者可以利用该漏洞干扰FTP用户的发布工作。;;解决方案: 如果你正在使用wftp，升级到2.41 RC11版本，如果不是，联系销售商寻求解决办法。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

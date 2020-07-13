@@ -1,0 +1,7 @@
+ID=16368
+NAME=RHSA-2005-112: emacs
+CATEGORY=信息搜集
+FAMILY=Redhat本机安全检查
+SUMMARY=检查Emacs包的版本
+DESCRIPTION=最新的字符串格式修补升级包现在已经可以使用.;;Emacs是一个功能强大,符合用户习惯的,自描述的并且是无模式的文本编辑器.;;Max Vozeler已经发现了多个字符串格式方面的弱点存在于Emacs的movemail功能中.如果一个用户连接到一个有恶意的pop服务器,;那么攻击者就能够在用户运行emacs的时候执行任意的代码.;Vulnerabilities and Exposures 工程(cve.mitre.org)已经把这个问题赋予了CAN-2005-0100.;;建议Emacs的使用者安装包含了此漏洞补丁的升级包以便修正这个问题.;;;;;解决方案: http://rhn.redhat.com/errata/RHSA-2005-112.html;风险等级:高;;
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

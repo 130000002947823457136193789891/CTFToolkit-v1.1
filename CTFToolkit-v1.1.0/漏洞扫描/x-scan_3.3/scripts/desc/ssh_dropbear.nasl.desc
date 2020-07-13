@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11821
+NAME=Dropbear SSH Server用户名格式串处理漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查远程SSH服务器类型和版本
+DESCRIPTION=Dropbear SSH Server存在一个用户名格式串处理漏洞;该漏洞存在于Dropbear SSH server 0.34 以下的版本中. 一个攻击者;可以利用这个漏洞以服务器进程权限在系统上执行任意指令.;;解决方案: 升级到最新版本的Dropbear SSH server.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Security(chinese version by lsy)

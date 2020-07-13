@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10489
+NAME=AnalogX web服务器目录遍历
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=%2E%2E/%2E%2E/file.txt
+DESCRIPTION=在向远程web服务器所发送的URL文件名之前增加%2E%2E/%2E%2E/, 会有可能读取服务器上的任意目录.;;解决方案 : 如果使用的是AnalogX SimpleServer:www, 升级到最新版本. 如果使用其他服务器，请联系供应商补丁事宜.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

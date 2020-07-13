@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15478
+NAME=phpMyAdmin远程命令执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查phpMyAdmin的版本
+DESCRIPTION=远程主机正在运行phpMyAdmin -- 一个通过web方式来管理MySQL的PHP编写的开放源代码软件.;;由于没有正确地处理用户所提交的数据, 此软件容易受到任意命令执行的危害.;;解决方案 : 升级到版本2.6.0-pl2或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

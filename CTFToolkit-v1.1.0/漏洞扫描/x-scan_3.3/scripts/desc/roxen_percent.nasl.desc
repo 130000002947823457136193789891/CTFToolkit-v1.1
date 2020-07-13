@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10479
+NAME=Roxen Server /%00/ bug
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=通过如下的URL请求:http://www.example.com/%00/
+DESCRIPTION=请求一个在后面附加/%00/的URL,Roxen服务器会泄露目录内的文件，从而潜在的显示敏感文件.;;攻击者会通过这个漏洞来访问RXML文件的源码.在这种情况下，由.htaccess文件保护的信息就会暴露。;;风险等级:高;解决方案:升级到最新版本的Roxen服务器
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

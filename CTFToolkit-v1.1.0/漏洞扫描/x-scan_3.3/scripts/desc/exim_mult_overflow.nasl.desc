@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12232
+NAME=Exim多个溢出
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=Exim多个溢出
+DESCRIPTION=远程主机正运行一个存在许多远程缓冲区溢出缺陷的Exim MTA版本。特别是，如果;在exim.conf文件中设置了'headers_check_syntax' 或者 'sender_verify = true'，;那么远程攻击者可以用一种经典的基于堆的溢出，并且不正常的访问机器。;;*** 如果你正在运行有safe_checks启用的检查，这也许是一个误判断，因为;只有banner被用来评估风险。***;;已经知道Exim 3.35和4.32存在缺陷。;;解决方案 : 升级到Exim最新的版本;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

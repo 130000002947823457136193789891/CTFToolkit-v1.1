@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10279
+NAME=Teardrop
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使用“滴泪”攻击使远程主机瘫痪
+DESCRIPTION=使用“滴泪”攻击可能会让远程主机崩溃。;;攻击者可以利用这个缺陷让远程服务器当机，;为此，你需要做一些适当的工作保护你的网络。;解决方案：到你的系统供应商那里寻求补丁程序。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison & Powered by robur!

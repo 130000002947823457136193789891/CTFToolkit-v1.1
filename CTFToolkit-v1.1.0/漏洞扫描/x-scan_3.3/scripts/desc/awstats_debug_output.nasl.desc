@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16456
+NAME=AWStats 调试工具远程信息泄露代码执行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查AWStats中是否存在调试输出
+DESCRIPTION=远程主机运行了AWStats,它是一个免费的实时日志分析器.;;这个软件的远程版本有命令执行漏洞;和信息泄露漏洞. ;;攻击者可能利用这个特征获得关于安装这个远程主机的更多信息;或者执行任意代码的权限.;;解决方案 : 升级这个软件的更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

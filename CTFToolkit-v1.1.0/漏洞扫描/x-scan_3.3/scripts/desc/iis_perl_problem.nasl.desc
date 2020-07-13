@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10120
+NAME=IIS中perl.exe的问题
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=尝试找到web根目录
+DESCRIPTION=通过发送GET /scripts/no-such-file.pl HTTP/1.0有可能得到远程主机web的物理路径;一个攻击者可以利用这个方式得到主机更多的信息，这个也让主机受到攻击的风险增大;;解决方案：用perlis.dll替换掉perl.exe;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17245
+NAME=glFTPD ZIP Plugins 多个目录遍历漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程 glFTPD 服务器的 banner
+DESCRIPTION=远程 glFTPD 服务器在处理 .ZIP 文件时存在多个目录遍历漏洞.;;由于插件 'sitenfo.sh', 'sitezipchk.sh' 和 'siteziplist.sh'中存在目录遍历漏洞, 攻击者通过向远程主机发送精心构造的请求, 可迫使远程服务器泄露任意文件.;;解决办法 : 升级到 glFTPd 2.0.0 RC8 或更新的版本;风险等级 : 高
+COPYRIGHT=Copyright (C) 2005 Tenable Network Security<Translated by Stravadivaly>

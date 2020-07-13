@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11336
+NAME=Windows Excel和Word 的累积补丁
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=WinWord.exe and Excel.exe版本检测
+DESCRIPTION=如果远程主机上安装了Word和Excel的早期版本，;则攻击者可以利用这个漏洞在远程主机上运行;任意代码。为了成功利用这个漏洞，;攻击者必须把一个恶意excel或word文件发送给用户，;并让他打开这些文件。;;解决方法：见http://www.microsoft.com/technet/security/bulletin/ms02-031.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

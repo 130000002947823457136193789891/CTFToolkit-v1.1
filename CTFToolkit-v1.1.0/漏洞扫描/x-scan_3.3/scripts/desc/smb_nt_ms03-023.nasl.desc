@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11878
+NAME=HTML 转换器中的缓冲区溢出可能允许执行代(823559)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查补丁Q823559
+DESCRIPTION=用于 Microsoft Windows 的 HTML 转换器在剪贴操作期间处理转换请求的方式中存在;一个缺陷。此缺陷导致出现一个安全隐患。一个经过特别设计的对 HTML 转换器的请求可;导致此转换器失败，并使之可以在当前登录用户的上下文中执行代码。因为此功能是由; Internet Explorer 使用的，所以攻击者可以特别构造一个网页或 HTML 电子邮件，它们;可导致 HTML 转换器在用户的系统上运行任意代码。用户只要访问攻击者的 Web 站点，即使用;户不执行任何其他操作，攻击者也能利用此安全隐患。 ;;解决方案：查看http://www.microsoft.com/technet/security/bulletin/ms03-023.asp;;风险等级：高
+COPYRIGHT=Written by Jeff Adams

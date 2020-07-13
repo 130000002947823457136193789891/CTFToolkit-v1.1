@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17985
+NAME=CommuniGate Pro LISTS 模块拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查CommuniGate Pro LISTS模块中的拒绝服务漏洞
+DESCRIPTION=根据其标识, 远程主机上运行的CommuniGate Pro版本;易受到起于LISTS模块中的漏洞的一个未详细说明的拒绝服务攻击.;攻击者可能通过发送一个畸形的多部分消息给一个列表;从而引起服务器的崩溃. ;;解决方案 : 升级到4.3c3或者更新.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,7 @@
+ID=10068
+NAME=Finger
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检测 finger 服务
+DESCRIPTION=远程主机正在运行finger服务.;;该服务的目的是 显示当前谁登陆至;远程系统, 并给出远程系统用户的;相关信息. ; ;由于, 允许攻击者;获得用户名, 确定系统如何被使用, 以及各个用户的最后一次登陆时间等信息,因而为攻击者提供了十分有用的信息. ;;;解决方案 :  ; 在/etc/inetd.conf 注释掉'finger' 一行并重新起动; inetd 进程;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

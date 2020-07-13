@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17974
+NAME=MailEnable IMAP溢出以及SMTP DoS漏洞
+CATEGORY=拒绝服务
+FAMILY=远程获取命令行
+SUMMARY=检测MailEnable IMAP溢出以及SMTP DoS漏洞
+DESCRIPTION=运行着MailEnable Professional 或者;MailEnable Enterprise Edition某一个版本的主机有可能受到下面攻击:;;  - IMAP身份认证请求缓冲区溢出攻击;    发送一个带参数的AUTHENTICATE或者LOGIN命令 ;    包含1016或更多个字符会导致一个堆栈缓冲区溢出. ;    攻击者可以利用这个缺陷覆盖敏感程序控制变量从而控制服务进程的执行。;;  - SMTP畸形EHLO请求拒绝服务攻击 ;    SMTP服务不能正确的处理畸形的EHLO命令，当有包含字符0x99的参数传入时服务可能崩溃. ;一个远程攻击者可以利用该缺陷当掉SMTP服务, 从而造成对合法用户的拒绝服务 。;;解决方案 : 使用2005年4月4日公布的IMAP和SMTP的hotfix，位于;http://www.mailenable.com/hotfix/。 [注意这并没有修复那个由超长的LOGIN命令引发的溢出。];;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

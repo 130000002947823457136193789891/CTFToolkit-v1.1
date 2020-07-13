@@ -1,0 +1,10 @@
+[CHINESE]
+ID=11230
+NAME=Stronghold Swish
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查搜索已知的CGI安全漏洞
+DESCRIPTION=由RED HAT的STRONGHOLD网页服务提供的样本脚本报告是一个有弱点的可以泄露的信息。一个远程用户可以限定对方的网站根目录路径或发送一个请求到STRONGHOLD样本脚本以引起此脚本泄露整个WEB服务的根目录路径。;;解决方案：卸载此脚本。;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2003 Randy Matz
+
+

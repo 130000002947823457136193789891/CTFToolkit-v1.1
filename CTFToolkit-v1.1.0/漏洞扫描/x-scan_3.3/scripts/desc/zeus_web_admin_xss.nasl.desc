@@ -1,0 +1,10 @@
+[CHINESE]
+ID=11681
+NAME=Zeus Admin Interface XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查在Zeus里的XSS 
+DESCRIPTION=远程主机是运行了Zeus WEB服务器.;;在 CGI vs_diag.cgi中有漏洞可能允许;攻
+击者可以在服务器里增加管理员权限.并且;利用这个漏洞,攻击者会引诱管理员;在
+这个服务器上点击这个恶意程序.;;解决方法: 将Zeus升级到最新版本;风险因素: Medium
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

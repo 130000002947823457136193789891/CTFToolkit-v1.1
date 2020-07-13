@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10449
+NAME=SMB 注册表: SFCDisable的键值
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测SFCDisable的键值
+DESCRIPTION=注册表子键 ;HKLM\SOFTWARE\Microsoft\Windows NT\WinLogon\SFCDisable;的键值被设置为0xFFFFFF9D。 ;;该键值禁用了Windows 文件保护，允许任何远程用户浏览或修改主机上任意文件。;;这些迹象表明主机可能已经被入侵。;;解决方案: 把该子键的键值设置为0。需要重新安装系统。;;参考资料: http://online.securityfocus.com/archive/1/66849;参考资料: http://support.microsoft.com/default.aspx?scid=kb;en-us;Q222473;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

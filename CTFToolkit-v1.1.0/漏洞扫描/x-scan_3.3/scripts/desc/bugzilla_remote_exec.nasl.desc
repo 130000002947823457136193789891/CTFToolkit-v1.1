@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15565
+NAME=Bugzilla远程任意命令执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查bugzilla的版本
+DESCRIPTION=根据版本号, 远程Bugzilla这个软件缺陷(bug)跟踪系统由于在process_bug.cgi中缺乏对用户提交的数据进行正确的处理而存在一个任意命令执行的缺陷;;解决方案 : 升级到版本2.12或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

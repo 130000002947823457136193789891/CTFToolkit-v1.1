@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10578
+NAME=Oops buffer overflow
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=溢出oops
+DESCRIPTION=远程的代理服务器是ooops 1.4.6或更早版本.;;这个代理服务器存在缓冲区溢出的漏洞,以至于让攻击者可以在主机上获得Shell.;;***注意,这项检查可以导致远程代理服务器瘫痪.;;解决方案 : 升级到软件的最新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(Translation by sunwear and luke)

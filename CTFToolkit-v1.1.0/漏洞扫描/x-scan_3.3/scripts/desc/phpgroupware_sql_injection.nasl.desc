@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14296
+NAME=PhpGroupWare 多重模块 SQL 注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查你的 PhpGroupWare 版本
+DESCRIPTION=远程主机运行的PhpGroupWare是一个多用户组件;它是用PHP写成的。;;有报告说一些版本的PhpGroupWare组件存在多重 SQL 注入漏洞，这些模块是'calendar'和'infolog'。;;这些问题的存在是因为缺少对用户提供的数据进行检查。;;攻击者可以利用该问题进行SQL注入，以致暴露一些敏感信息，最终获得一些权限。;;解决方案：升级到0.9.14.007或更新版本。;;详情请看：http://www.phpgroupware.org/;;风险等级：中
+COPYRIGHT=脚本版权David Maciejak 翻译：Heart is flying

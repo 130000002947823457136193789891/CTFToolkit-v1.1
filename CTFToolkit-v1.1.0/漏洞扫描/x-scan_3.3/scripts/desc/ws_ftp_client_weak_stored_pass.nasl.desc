@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14597
+NAME=WS_FTP 客户端脆弱口令保存方式
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=查看 IPSWITCH WS_FTP 版本
+DESCRIPTION=远程主机所使用的这一版本的WS_FTP客户端中使用脆弱的加密方式保存站点口令.;;解决方案 : 将WS_FTP客户端升级至最新版本;可以参考 : http://www.ipswitch.com/;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak;Chinese version by peterbas.

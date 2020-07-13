@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16282
+NAME=Xoops Incontent模块目录遍历漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Xoops Incontent模块的存在
+DESCRIPTION=远程主机运行了基于WEB的由php语言编写的Xoops.;也安装了Xoops Incontent 模块.;;Xoops Incontent模块的远程版本很容易被文件"index.php"中的句柄'url'目录遍历攻击.;;攻击者利用这个漏洞可以访问远程主机上的敏感文档;像 /etc/passwd.;;解决方案: Incontent不再被维护. 升级到iContent.;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated By Mrcool

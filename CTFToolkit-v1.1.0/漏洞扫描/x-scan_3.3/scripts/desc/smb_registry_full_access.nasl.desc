@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10428
+NAME=SMB 完全进入注册表
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否可以进入远程注册表
+DESCRIPTION=由于用户没有以管理员身份登陆，Nessus 无法完全进入远程注册表。;;如果用户想检查所有敏感注册表子键的权限和键值，建议用户在客户端'Prefs.'部分的'SMB Login'选项里填入管理员登陆名和密码。;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

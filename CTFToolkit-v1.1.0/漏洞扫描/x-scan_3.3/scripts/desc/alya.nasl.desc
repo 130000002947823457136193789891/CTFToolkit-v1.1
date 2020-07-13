@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11118
+NAME=存在alya.cgi
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测/cgi-bin/alya.cgi
+DESCRIPTION=alya.cgi是一个存在于多个rootkit的cgi后门.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 Jason Lidow

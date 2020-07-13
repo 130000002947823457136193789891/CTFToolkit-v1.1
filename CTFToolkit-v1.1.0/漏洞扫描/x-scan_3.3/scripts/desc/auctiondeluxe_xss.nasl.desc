@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11365
+NAME=Auction Deluxe跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在auction.pl
+DESCRIPTION=该远程Auction Deluxe服务存在一个跨站脚本漏洞.可导致恶意攻击者利用该漏洞轻易地获取合法用户的cookies，并利用该信息冒充合法用户.;;解决方案:升级到Auction Deluxe 3.30或者更新的版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

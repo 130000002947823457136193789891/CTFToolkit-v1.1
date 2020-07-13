@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11043
+NAME=iPlanet搜索组件文件泄露漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=尝试利用该漏洞在iPlanet中读取任意文件
+DESCRIPTION=攻击者可以利用 'search' CGI 脚本在iPlanet WEB服务器上读取任意文件. ;;风险等级 : 高;解决方案 : 关闭搜索功能
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

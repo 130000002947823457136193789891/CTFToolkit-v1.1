@@ -1,0 +1,7 @@
+[CHINESE]
+ID=14325
+NAME=Zixforum论坛数据库泄漏
+CATEGORY=信息搜索
+FAMILY=CGI漏洞
+DESCRIPTION=远程主机上运行着“Zixforum”,它是一套.asp脚本编写的;基于网页的论坛/;;这个论坛所使用的名为'ZixForum.mdb'的数据库可以被任意客户端下载.;这个数据库包含全部论坛帖子,账户;以及其它信息;;解决方案 : 防止.mdb文件从远端的网站上被下载.;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

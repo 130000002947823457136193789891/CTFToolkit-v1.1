@@ -1,0 +1,5 @@
+;URLs list sample file, for using with IE PassView utility (iepv.exe)
+http://www.myspace.com
+http://www.lycos.com
+https://my.screenname.aol.com/_cqr/login/login.psp
+https://www.google.com/accounts/servicelogin

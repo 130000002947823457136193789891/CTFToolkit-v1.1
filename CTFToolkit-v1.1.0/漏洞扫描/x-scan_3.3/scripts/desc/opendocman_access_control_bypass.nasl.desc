@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13847
+NAME=OpenDocMan Access Control Bypass
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确认OpenDocMan为最新版本
+DESCRIPTION=目标主机运行了OpenDocMan, 它是一个开源的文档管理系统.;;在目标机上运行的该版本中存在漏洞,导致攻击者可以用一个指定的帐号修改文栏内容.;而这个帐号并没有这些权限.;;解决方案 : 升级到OpenDocMan 1.2.0;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

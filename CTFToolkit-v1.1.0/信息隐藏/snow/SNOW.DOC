@@ -1,0 +1,122 @@
+
+SNOW(1)                                                   SNOW(1)
+
+
+NAME
+       snow - whitespace steganography program
+
+SYNOPSIS
+       snow [ -CQS ] [ -p passwd ] [ -l line-len ] [ -f file | -m
+       message ] [ infile [ outfile ]]
+
+DESCRIPTION
+       snow is a program for concealing messages in text files by
+       appending  tabs  and  spaces  on the end of lines, and for
+       extracting messages from files containing hidden messages.
+       Tabs  and spaces are invisible to most text viewers, hence
+       the steganographic nature of this encoding scheme.
+
+       The data is  concealed  in  the  text  file  by  appending
+       sequences  of up to 7 spaces, interspersed with tabs. This
+       usually allows 3 bits to be stored  every  8  columns.  An
+       alternative  encoding scheme, using alternating spaces and
+       tabs to represent zeroes and ones, was  rejected  because,
+       although it used fewer bytes, it required more columns per
+       bit (4.5 vs 2.67).
+
+       The start of the data is  indicated  by  an  appended  tab
+       character,  which  allows  the  insertion of mail and news
+       headers without corrupting the data.
+
+       snow  provides  rudimentary  compression,  using   Huffman
+       tables optimised for English text. However, if the data is
+       not text, or if there is a lot of data,  the  use  of  the
+       built-in compression is not recommended, since an external
+       compression program such as compress or  gzip  will  do  a
+       much better job.
+
+       Encryption  is  also  provided,  using  the ICE encryption
+       algorithm in 1-bit cipher-feedback (CFB) mode. Because  of
+       ICE's  arbitrary  key  size, passwords of any length up to
+       1170 characters are supported (since only 7 bits  of  each
+       character  are used, keys up to 1024-bytes are supported).
+
+       If a message string or message file are specified  on  the
+       command-line,  snow will attempt to conceal the message in
+       the file infile if specified, or standard input otherwise.
+       The  resulting  file  will be written to outfile if speci-
+       fied, or standard output if not.
+
+       If no message string is provided, snow attempts to extract
+       a  message  from  the input file. The result is written to
+       the output file or standard output.
+
+OPTIONS
+       -C     Compress the data if concealing, or  uncompress  it
+              if extracting.
+
+       -Q     Quiet   mode.  If  not  set,  the  program  reports
+              statistics  such  as  compression  percentages  and
+              amount of available storage space used.
+
+       -S     Report on the approximate amount of space available
+              for hidden message in the text file. Line length is
+              taken  into account, but other options are ignored.
+
+       -p password
+              If this is set, the data  will  be  encrypted  with
+              this password during concealment, or decrypted dur-
+              ing extraction.
+
+       -l line-len
+              When appending whitespace, snow will always produce
+              lines shorter than this value. By default it is set
+              to 80.
+
+       -f message-file
+              The contents of this file will be concealed in  the
+              input text file.
+
+       -m message-string
+              The  contents  of  this string will be concealed in
+              the input text file.  Note that, unless  a  newline
+              is  somehow  included in the string, a newline will
+              not be printed when the message is extracted.
+
+EXAMPLES
+       The following command  will  conceal  the  message  "I  am
+       lying" in the file infile, with compression, and encrypted
+       with the password "hello world". The resulting  text  will
+       be stored in outfile.
+
+              snow  -C  -m  "I  am lying" -p "hello world" infile
+              outfile
+
+       To extract the message, the command would be
+
+              snow -C -p "hello world" outfile
+
+       Note that the resulting message will not be terminated  by
+       a newline.
+
+       To  prevent line wrap if text with concealed whitespace is
+       likely to be indented by mail  or  news  readers,  a  line
+       length of 72 or less can be used.
+
+              snow -C -l 72 -m "I am lying" infile outfile
+
+       The  approximate  storage capacity of a file can be deter-
+       mined with the -S option.
+
+              snow -S -l 72 infile
+
+
+AUTHOR
+       This application was written by Matthew Kwan, who  can  be
+       reached at mkwan@darkside.com.au
+
+SEE ALSO
+       ice_key_create(3)
+
+
+Version 1.1                28 Dec 1996                          1

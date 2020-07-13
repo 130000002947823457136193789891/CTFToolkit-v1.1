@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15408
+NAME=Firefox的下载文件删除问题
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Firefox的版本
+DESCRIPTION=远程主机正在使用火狐(Firefox)。火狐是一个Web浏览器。此软件存在一个漏洞，攻击者可利用此漏洞删除用户下载目录内的任意文件. ;为利用这个缺陷，攻击者需要建立一个恶意站点，引诱受害者去访问.;;参阅See also : http://www.mozilla.org/press/mozilla-2004-10-01-02.html;解决方案 : 升级Firefox到0.10.1;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

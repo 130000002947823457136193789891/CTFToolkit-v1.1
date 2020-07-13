@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10983
+NAME=CSCdu20643
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP检测此漏洞的存在
+DESCRIPTION=如果远程Cisco设备允许特快专递(CEF),则可能泄漏之前被设备处理过的数据包的信息。;;攻击者利用此漏洞可通过远程嗅探网络获知许多额外信息。;;这个漏洞相关的Cisco漏洞ID为： CSCdu20643.;;解决方案 : http://www.cisco.com/warp/public/707/IOS-CEF-pub.shtml;风险等级 : 高;;注意: 因为Nessus依赖远程主机的BANNER信息测试该漏洞是否存在，所以这个可能是误报。
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

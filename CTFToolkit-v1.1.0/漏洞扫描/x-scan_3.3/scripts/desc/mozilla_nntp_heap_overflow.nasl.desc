@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16085
+NAME=Mozilla Browser Network News Transport Protocol Remote Heap Overflow Vulnerability
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查Mozilla的版本
+DESCRIPTION=远程主机使用的是Mozilla, 一个网页浏览器.;;远程主机上该版本的Mozilla存在一个堆溢出漏洞,;该漏洞存在于它的网络新闻传输协议函数.;;这使得攻击者可以在远程主机上执行任意代码.;;要利用这个漏洞,攻击者只需建立一个恶意的新闻网站;然后引诱该远程主机上的用户从这个新闻网站上读取新闻..;;解决方案 : 将Mozilla升级到 1.7.5 或更新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

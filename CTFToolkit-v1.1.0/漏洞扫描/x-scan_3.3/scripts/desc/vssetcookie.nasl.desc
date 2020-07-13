@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11731
+NAME=VsSetCookie.exe的脆弱性
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查VsSetCookie.exe文件
+DESCRIPTION=web服务器存在有文件VsSetCookie.exe.  ;某些版本的VsSetCookie.exe易受到远程成程序的攻击.;;解决方案 : 不要将VsSetCookie.exe放在/cgi-bin目录中.;手动设置服务器, 可以使用:;http://<serverip>/cgi-bin/VsSetCookie.exe?vsuser=<user_name>;;运用合适的用户名, 您可以完全使用CGI.;;*** 由于Nessus完全依赖于远程主机的标志位;*** 可能有不正确;;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe

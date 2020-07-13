@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11060
+NAME=OpenSSL overflow (generic test)
+CATEGORY=混合攻击
+FAMILY=远程获取命令行
+SUMMARY=检查为 OpenSSL 的行为
+DESCRIPTION=远程主机好像使用一个比0.9.6e或者0.9.7 beta3 老的OpenSSL的版本.;;这个版本是存在缓冲区溢出漏洞的,;可能允许攻击者在主机上获得shell.;;解决方案 : 升级到 0.9.6 版 e(0.9.7beta3) 或最新;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Solar Eclipse / Renaud Deraison

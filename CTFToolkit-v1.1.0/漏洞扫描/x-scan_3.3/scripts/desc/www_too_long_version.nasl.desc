@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11061
+NAME=HTTP version number overflow
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=太长的 HTTP （超文本传输协议） 版本号使 Web 服务器停止工作
+DESCRIPTION=通过发送一个带过长 HTTP 版本号字段的无效 GET 请求可能会使 Web 服务器停止工作。;;黑客可以利用这个漏洞来不断地破坏你的 Web 服务器或者甚至在你的系统上执行任意代码。;;解决方案：升级你的软件或者用包解析过滤代理来保护你的 Web 服务器。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi, translated by JayJew.

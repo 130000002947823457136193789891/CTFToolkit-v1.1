@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12068
+NAME=x-news 1
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查系统中是否安装了1.x版本的x-news
+DESCRIPTION=X-News是一个用PHP脚本语言编写的新闻管理系统。X-News使用纯文本文件的数据库储存信息。;它能够运行在大多数的Unix和Linux类操作系统上，也可以运行在Microsoft Windows操作系统中。;;X-News将用户的ID信息和MD5汉斯值存储在一个全局可读的文件中（db/users.txt)。这些信息与X-News存储在cookies中的用于用户权限认证的信息是相通的。攻击者可以修改cookies中的信息并将它们提交从而获得对X-News管理帐号的未经授权的访问。;;解决办法：拒绝来自web服务器的对db/目录中文件的访问请求。;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Audun Larsen Translated by FlyingHeart(飞行的心）

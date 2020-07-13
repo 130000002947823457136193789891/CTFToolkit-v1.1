@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11607
+NAME=OS/2 Apache < 2.0.46 
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache软件包版本
+DESCRIPTION=远程OS/2主机运行了比Apache 2.0.46 更早的Apache 2.x;;这个版本中存在一个只有在OS/2上运行才有的漏洞, 使得远程攻击者可以利用代码中针对OS2的filestat.c中漏洞使服务器瘫痪.;;*** 注意:Nessus 只是依据远程服务器的版本号;*** 给出这个警告. 也许是错的;*** ;;解决办法 : 可能的话升级到 2.0.46 ;参考: http://www.apache.org/dist/httpd/CHANGES_2.0;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison<Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14748
+NAME=Apache < 2.0.51
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache的版本
+DESCRIPTION=这台远程主机正在运行版本低于2.0.51的Apache2.;;据报告2.0.51之前的版本有受到拒绝服务攻击的危险。攻击者可通过发送一个特殊顺序的DAV加锁命令;来造成进程的崩溃。如果配置Apache使用线程，会;彻底让Apache进程崩溃.;;此外，2.0.51之前的版本在解析IPv6的URI时有缓冲溢出的倾向. 攻击者可利用这个缺陷在远程主机上执行任意代码或者拒绝对合法用户的服务.;;参阅 : http://nagoya.apache.org/bugzilla/show_bug.cgi?id=31183;解决方案 : 升级到Apache 2.0.51;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

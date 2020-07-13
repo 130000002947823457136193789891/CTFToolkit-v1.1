@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15466
+NAME=bBlog的SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查bBlog版本
+DESCRIPTION=远程服务器正在运行版本为(或低于)0.7.4的bBlog -- 一个PHP编写的GPL版权许可的博客(blog)系统.;;这些版本的bBlog在'rss.php'脚本文件中存在一个SQL注入漏洞. 此问题是由于没有正确处理用户输入而造成的.;;攻击者可以利用这个漏洞在主机上执行任意PHP代码或控制整个远程数据库.;;解决方案 : 升级到版本0.7.4或更高.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

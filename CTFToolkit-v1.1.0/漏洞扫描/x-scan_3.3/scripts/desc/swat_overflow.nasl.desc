@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13660
+NAME=SWAT溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=SWAT溢出
+DESCRIPTION=远程主机运行SWAT---Samba的一个网络管理工具.;有缓冲区溢出漏洞在这工具的早期的版本.;这个漏洞也许允许攻击者发送一个畸形的授权请求(或任何畸形的base64数据)在远程主机执行任意代码;解决方案:升级到Samba3.0.5;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security  翻译:zhufeng16

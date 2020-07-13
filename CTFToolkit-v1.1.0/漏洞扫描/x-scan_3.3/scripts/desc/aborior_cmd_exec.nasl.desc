@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12127
+NAME=Aborior 执行命令漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测display.cgi
+DESCRIPTION=远程主机正在运行Aborior Web Forum。;;该版本的程序存在漏洞，允许攻击者以web服务端的权限在主机上执行任意命令。;;解决方案: 目前暂无 - 禁用该CGI;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

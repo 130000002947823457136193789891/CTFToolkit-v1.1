@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15705
+NAME=Samba远程通配符拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查samba的版本
+DESCRIPTION=根据其版本号, 远程Samba服务器可能存在拒绝服务漏洞. 该漏洞会允许攻击者使服务器消耗过量的CPU指令周期.;;攻击者需要一个有效帐号才能利用该漏洞.;;解决方案 : 升级到Samba 3.0.8;参阅 : http://us4.samba.org/samba/security/CAN-2004-0930.html ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

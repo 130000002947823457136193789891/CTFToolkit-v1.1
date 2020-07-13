@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11709
+NAME=SmartFTP Overflow
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=SmartFTP溢出漏洞
+DESCRIPTION=一台远程主机在运行SmartFTP -- 一个FTP客户软件。主机上的此程序有可以使远程用户执行任意代码的缺陷。为了利用它，一个攻击者需要搭建一个rogue FTP 服务并且拥有可以登陆此服务器的用户。;;解决方案：将此程序升级到1.0.976.x或更高版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(Chinese Edition By Bestwc)

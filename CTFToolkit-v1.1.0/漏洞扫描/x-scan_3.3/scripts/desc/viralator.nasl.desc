@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11107
+NAME=viralator
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查现有的/cgi-bin/viralator.cgi
+DESCRIPTION=安装有CGI程序 'viralator.cgi'.;此CGI的某些版本不严格地检验用户输入，容许任何人有web服务器的执行权执行所有命令;;** 没有发现有此漏洞，说明你可能使用的是一个安全的版本.;;解决方案 : 升级到0.9pre2或更新的版本;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

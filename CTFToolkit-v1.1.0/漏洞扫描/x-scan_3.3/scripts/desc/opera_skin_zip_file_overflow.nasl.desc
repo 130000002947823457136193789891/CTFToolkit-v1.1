@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14250
+NAME=Opera皮肤压缩文件缓存溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=测定Opera.exe的版本
+DESCRIPTION=远程主机在使用Opera，一种第三方网页浏览器。;这个版本存在安全缺陷，易受攻击。;;一个关于Opera处理皮肤压缩包的问题被识别出来。;由此，在使用这种存在问题的浏览器时，攻击者有可能取得系统的访问权。;;解决方案：安装Opera 7.23或更高版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

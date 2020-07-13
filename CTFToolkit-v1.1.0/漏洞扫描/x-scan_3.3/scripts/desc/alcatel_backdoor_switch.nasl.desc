@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11170
+NAME=Alcatel OmniSwitch 7700/7800 switches后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查Alcatel  7700/7800交换机是否存在后门 
+DESCRIPTION=;    远程的Alcatel OmniSwitch 7700/7800含有后门。攻击者可以完;全控制运行AOS v5.1.1的设备，并且不受到限制，不需要认证。并且;可以不受到监视。;;解决办法：阻止TCP 6778端口的访问，并且更新到AOS 5.1.1.R02 或;者 AOS 5.1.1.R03;    参考信息：http://www.cert.org/advisories/CA-2002-32.html;风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

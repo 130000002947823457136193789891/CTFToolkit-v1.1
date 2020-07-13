@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12078
+NAME=FlexWATCH 认证欺骗
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测FlexWATCH认证欺骗
+DESCRIPTION=当前版本的FlexWATCH存在漏洞，允许攻击者不需要通过身份认证即可获得管理权限。攻击者可以利用此漏洞获得系统中的用户帐号列表并且重新配置该服务。具体做法是在URL前加上'/'。;;解决方案: 目前暂无 - 过滤该端口接收到的数据;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

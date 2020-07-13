@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15912
+NAME=WINS Buffer Overflow (830352 - netbios check)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines if hotfix 830352 has been installed (Netbios)
+DESCRIPTION=远程版本的windows存在一个易受攻击的漏洞;网络动态数据交换 (NetDDE).;;一个攻击者可以利用这个缺陷在远程来执行任意的代码;以系统权限.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-006.mspx;风险等级 :高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

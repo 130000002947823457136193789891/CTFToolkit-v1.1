@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16387
+NAME=Sympa队列工具权力提升漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查sympa版本
+DESCRIPTION=远程主机运行了一个开源的邮件列表管理系统sympa.;  ;;这个软件的远程版本包含了一个漏洞 ;这个漏洞可以被本地非法用户利用以获得更高的权限.;;这个问题发生在处理命令行时 ;队列工具的一个边界错误. 这个漏洞可以导致一个基于栈的缓冲区溢出.;;解决方案 : 升级到Sympa到4.1.3版或者更高;也可查阅: http://www.sympa.org/;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak & Traslated by Mrcool

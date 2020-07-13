@@ -1,0 +1,10 @@
+[CHINESE]
+ID=15787
+NAME=WebGUI的未标识的脆弱性
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=WebGUI的版本检查
+DESCRIPTION=远程主机运行了WebGUI，这是一个内容管理框架.;;这一软件的远程版本对于一个尚未揭示远程的漏洞是脆弱的.;;这一点也可以查看：http://sourceforge.net/project/shownotes.php?release_id=284011;解决方案:更新到WebGUI 6.2.9 或者更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security
+
+

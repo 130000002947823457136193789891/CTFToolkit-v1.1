@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10055
+NAME=Sendmail8.8.3和8.8.4mime转化存在缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail的版本号判断，此服务器可能在处理MIME转化时存在远程缓冲区溢出漏洞。;该漏洞可导致远程攻击者获取系统的root访问权限。;;解决方案 : 升级Sendmail到最新版本。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

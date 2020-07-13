@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11162
+NAME=WebSphere 边界缓冲区代理拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程代理崩溃
+DESCRIPTION:攻击者可以通过向helpout.exe CGI程序发送一个无效的请求;使WebSphere边界缓冲区代理崩溃.;;风险等级：高;;Solution:升级你的WEB服务器或者删除这个CGI程序。
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

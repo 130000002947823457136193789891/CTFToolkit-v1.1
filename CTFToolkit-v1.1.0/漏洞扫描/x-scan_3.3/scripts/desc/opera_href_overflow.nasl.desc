@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11900
+NAME=Opera web 浏览器 HREF 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Opera.exe的版本
+DESCRIPTION=远程主机正在使用Opera - 一个交互的 web 浏览器.;;安装的该版本用于解析服务器HREF标签的代码部分;可以受到缓冲区溢出攻击.;;为了利用这一漏洞, 攻击者可以建立一个欺骗性的web 站点, ;并诱使用户使用Opera访问它. 攻击者就可在该主机上执行;任意代码.;;解决方案 : 安装Opera 7.21或更新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

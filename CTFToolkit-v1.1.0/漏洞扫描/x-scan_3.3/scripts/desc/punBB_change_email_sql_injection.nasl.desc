@@ -1,0 +1,8 @@
+[CHINESE]
+ID=18005
+NAME=PunBB profile.php SQL注入缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PunBB中profile.php的SQL注入缺陷
+DESCRIPTION=根据返回的Banner，远端主机安装的PunBB版本存在SQL注入。在文件“profile.php”中，程序先调用了参数“change_email”进行SQL查询而后才对它过滤。一旦用户通过验证，攻击者可以利用这个漏洞进行数据库查询，甚至获得管理员权限。;;解决方案：升级到 PunBB 版本 1.2.5 或以上。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

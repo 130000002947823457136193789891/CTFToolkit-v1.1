@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15763
+NAME=miniBB sql injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Determine if MiniBB can be used to execute arbitrary SQL commands
+DESCRIPTION=使用miniBB论坛管理系统的远程主机.;;这个版本号的论坛，容易受到sql injection攻击，可能允许攻击者在远程数据库里执行任意的SQL语句.;;解决方案:升级到miniBB 1.7f或者更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

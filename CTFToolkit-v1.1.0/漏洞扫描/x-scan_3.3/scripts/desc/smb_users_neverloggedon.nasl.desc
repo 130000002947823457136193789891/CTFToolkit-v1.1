@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10899
+NAME=用户信息: 从未登陆过的用户
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举从未登陆的用户
+DESCRIPTION=脚本列举了从未登陆过的用户名。无人使用的帐号会方便黑客攻击。;;解决方案: 删除这些无人使用的帐号;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

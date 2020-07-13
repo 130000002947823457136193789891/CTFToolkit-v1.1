@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15974
+NAME=Ocean12 ASP Calendar可导致管理员权限的访问
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=身份认证规避测试
+DESCRIPTION=Ocean12 ASP Calendar是一款基于web的用ASP编写的应用程序.;;运行该程序的远程主机存在一个安全漏洞.;通过发送/admin/main.asp页面请求可以在远程主机上以管理员权限执行命令.;;攻击者可以利用这个漏洞避免资格审查,修改远程的站点.;;解决方案 : 升级到该软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

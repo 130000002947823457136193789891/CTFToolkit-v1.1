@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12077
+NAME=Netscape企业服务端默认文件
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查Netscape企业服务端默认文件
+DESCRIPTION=Netscape企业服务端安装了默认文件。;;这些文件有助于攻击者猜测Netscape服务端的真实版本，应该移除。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11195
+NAME=SSH 多个漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=SSH 多个漏洞 16/12/2002
+DESCRIPTION=远程主机banner显示, 远程SSH server存在一个或 ; 多个下列漏洞:;;CAN-2002-1357 (非法包长度缓冲区溢出漏洞);CAN-2002-1358 (非法列表漏洞);CAN-2002-1359 (超长字段远程缓冲区溢出漏洞);CAN-2002-1360 (NULL字符远程缓冲区溢出漏洞);;部分漏洞允许远程攻击者 ;以SSH进程的权限执行任意代码, 通常是root.;;解决方案 : 升级你的SSH版本到不受影响的版本;;危险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Paul Johnston, Westpoint Ltd(chinese version by lsy)

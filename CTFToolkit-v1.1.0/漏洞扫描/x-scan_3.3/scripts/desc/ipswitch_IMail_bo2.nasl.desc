@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15771
+NAME=ipswitch IMail Server Delete Command Buffer Overflow
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=Checks for version of IMail web interface
+DESCRIPTION=使用Ipswitch IMail的远程主机;比8.14.0还早的版本.;;这个软件的这个旧版本容易受到缓冲区溢出攻击;当它处理'delete'命令时。一个攻击者;可能利用这个漏洞在远程主机上招待任意的代码.;;解决方案:升级到IMail 8.14或者它以上的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

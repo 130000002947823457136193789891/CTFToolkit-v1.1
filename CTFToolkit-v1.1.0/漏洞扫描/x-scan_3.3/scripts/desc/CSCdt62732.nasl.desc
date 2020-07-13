@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10980
+NAME=CSCdt62732
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=当一个 802.1x (IEEE 的网络访问控制的标准端口) 帧;被一个Catalyst 5000 系列交换机接受时，如果STP(树形生成协议) 阻塞端口，;他将被发向VLAN(本地虚拟网络区域) 而不是被扔掉。;这将导致一场冲击 802.1x网络的网络风暴。;Catalyst 5000 系列交换机受此影响。; 此网络风暴只有在802.1x 帧被删除或者其中工作区的section被应用才能消除。;;;这个漏洞相关的Cisco漏洞ID为：CSCdt62732.;;解决方案 : ;http://www.cisco.com/warp/public/707/cat5k-8021x-vuln-pub.shtml;Risk 风险等级 : 高;;注意：因为Nessus根据远程主机的BANNER信息来判断该漏洞是否存在，因此这可能是误报。
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

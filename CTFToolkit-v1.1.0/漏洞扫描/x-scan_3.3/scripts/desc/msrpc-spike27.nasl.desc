@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11159
+NAME=微软RPC服务空指针拒绝服务漏洞
+CATEGORY=破坏性攻击
+FAMILY=拒绝服务
+SUMMARY=尝试使用类似Spike2.7的方式使RPC服务崩溃
+DESCRIPTION=通过发送一个畸形请求试图使微软Windows RPC服务(RPCSS)崩溃。;如果目标主机存在这个漏洞那么它上面运行的所有基于;RPC的服务(很多Windows 2000及更新版本的Windows自带的服务都是基于RPC的);都将失去响应。;解决方案 : 禁止TCP 端口135。;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Pavel Kankovsky

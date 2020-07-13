@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13644
+NAME=Apache mod_rootme模块后门问题
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Detect mod_rootme Backdoor
+DESCRIPTION=远程主机似乎正在运行mod_rootme模块，这一模块将能够让用户通过HTTP requests获得主机的root shell。;;解决方案 :;- 从httpd.conf/modules.conf中移除mod_rootme模块。 ;-若已经有被入侵者进入的迹象，建议考虑重装系统。 ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus      翻译 : laughterwym

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10798
+NAME=没有保护措施的PC Anywhere服务
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=没有保护措施的PC Anywhere服务
+DESCRIPTION=不需要密码就可以访问PC Anywhere服务的桌面. 如果这台机器正在运行Windows 95, 98, 或ME, 则可轻易获得系统的完成控制. 如果此系统正在运行NT或2000并且处于注销状态, 攻击者仍然可以潜入并在合法用户登陆的时候窃取用户的会话.  ;;解决方案:  ;1. 以Administrator身份打开PC Anywhere应用. ;2. 右键点击正在使用的主机并选择'Properties'.;3. 选择'Caller Access'. ;4. 切换鉴权类型到'Windows or PC Anywhere'.;5. 如果您正在使用PC Anywhere鉴权, 设置一个强密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Incorporated

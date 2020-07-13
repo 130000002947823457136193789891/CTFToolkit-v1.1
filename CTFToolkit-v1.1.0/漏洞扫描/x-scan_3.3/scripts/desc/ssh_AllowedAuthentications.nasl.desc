@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10965
+NAME=SSH 3 AllowedAuthentication
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH版本
+DESCRIPTION=你正在运行的SSH版本是在3.0.0到3.1.2之间。;;这些版本里面存在一个缺陷，在某些情况下，允许用户通过一个口令;认证，尽管这个口令没有被明确的作为一个合法的认证机制列出来。;;;攻击者可以使用这个漏洞使用字典暴力搜索口令(如果用的是弱口令的话)。;;解决方案 : 升级到解决了这些问题的SSH版本3.1.2。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison (Chinese version by Dancefire)

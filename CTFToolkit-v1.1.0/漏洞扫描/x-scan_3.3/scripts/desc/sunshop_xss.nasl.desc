@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16322
+NAME=SunShop Shopping Cart跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查是否安装了SunShop Shopping Cart
+DESCRIPTION=SunShop,是一款基于Web的电子购物车程序，它使用PHP开发。;;该软件中存在几处用户输入认证漏洞，这些漏洞允许攻击者利用某一远程Web站点进行跨站脚本攻击。;;解决方案: 升级到该软件的最新版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

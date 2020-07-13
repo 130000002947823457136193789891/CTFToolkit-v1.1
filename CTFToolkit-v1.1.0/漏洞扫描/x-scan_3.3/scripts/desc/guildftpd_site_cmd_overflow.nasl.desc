@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15851
+NAME=GuildFTPd Long SITE Command Overflow
+CATEGORY=拒绝服务
+FAMILY=FTP
+SUMMARY=Sends an oversized SITE command to the remote server
+DESCRIPTION=似乎当远程ftp服务器通过特别长的SITE指令时,易受到拒绝服务攻击.;解决方案:升级或安装别的ftp服务器.;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 梦魇虚空

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10252
+NAME=/cgi-bin中的Shell
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin是否存在多个Shell
+DESCRIPTION=远程主机的/cgi-bin中至少存在下列Shell之一 :;ash, bash, csh, ksh, sh, tcsh, zsh;;任何一个存在/cgi-bin中的上述shell将导致攻击者以http进程的权限(通常为root或者nobody)运行任意命令.;;解决方案:从/cgi-bin中删除上述shell.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

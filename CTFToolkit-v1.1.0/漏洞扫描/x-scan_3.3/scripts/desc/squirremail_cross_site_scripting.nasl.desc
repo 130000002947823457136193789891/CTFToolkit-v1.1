@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11415
+NAME=SquirrelMail的跨站脚本攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=探测远程主机是否存在跨站脚本攻击漏洞
+DESCRIPTION=远程主机似乎在SquirrelMail里存在一个安全问题. 它的read_body.php;没有在'filter_dir'和'mailbox'中过滤用户输入，因此可能导致跨站脚本;攻击。;;解决方案 : 升级到更新的版本;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi (Chinese version by Dancefire)

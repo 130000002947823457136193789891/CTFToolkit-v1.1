@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14584
+NAME=WS FTP Server DoS
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查 WS_FTP server 的版本
+DESCRIPTION=根据版本不同， WS_FTP server 有一个 DoS 漏洞。在处理文件路径的过程中有一个错误。;利用这个错误可能导致有漏洞的系统占用大量的CPU资源。成功利用这个错误要求攻击者必须通过验证。 ;; ** Nessus 只检查服务器返回信息中的版本号。;;解决方案 : 升级该软件到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

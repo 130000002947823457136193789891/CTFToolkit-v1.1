@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16455
+NAME=vBulletin Forumdisplay.PHP 远程命令执行漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查vBulletin 论坛显示.PHP 远程命令执行漏洞
+DESCRIPTION=主机运行了基于WEB的公告系统vBulletin ;此公告系统由PHP编写.;;这个软件的远程版本可能会受到这个远程命令的攻击 ;这个执行漏洞通过脚本 'forumdisplay.php'被执行.;;恶意用户可以利用这个漏洞以得到这个WEB服务器的特权执行任意命令 ;;;解决方案: 升级到 vBulletin 3.0.4版本或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak & translated by Mrcool

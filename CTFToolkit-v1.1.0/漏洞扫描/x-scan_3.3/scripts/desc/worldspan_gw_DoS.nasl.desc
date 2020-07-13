@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11049
+NAME=Worldspan网关DOS
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Wordlspan DoS
+DESCRIPTION=通过发送非法数据可能使Worldspan网关拒绝服务。;;攻击者可以利用该漏洞使服务端反复当机，达到拒绝服务的目的。;;;解决方案: 升级软件;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

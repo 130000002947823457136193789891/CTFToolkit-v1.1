@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10493
+NAME=SWC 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/swc是否存在
+DESCRIPTION=主机正在运行CGI程序 'swc' (Simple Web Counter)。当该程序的'ctr=' 参数被赋予的值超过一定长度时，程序会发生缓冲区溢出。攻击者可以利用该漏洞获得主机的一个shell;;解决方案: 使用其他的web计数器，或手工打上补丁。;;参考资料: http://online.securityfocus.com/archive/1/76818;参考资料: http://www.securiteam.com/unixfocus/5FP0O202AE.html;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

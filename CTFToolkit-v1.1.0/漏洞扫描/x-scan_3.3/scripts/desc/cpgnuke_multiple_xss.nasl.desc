@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17647
+NAME=CPG Dragonfly 多个跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查 CPG Dragonfly 中多个跨站脚本漏洞
+DESCRIPTION=由于没有正确过滤一些模块变量中的用户输入信息, 远程主机安装的CPG Dragonfly / CPG-Nuke CMS 存在漏洞. 攻击者能利用漏洞窃取用户的cookie信息并进行类似的其他攻击. ;;解决办法 : 尽可能升级到 CPG Dragonfly CMS 9.0.2.0更高版. ;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated by Stravadivaly>

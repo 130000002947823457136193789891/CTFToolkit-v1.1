@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10816
+NAME=Webalizer跨站点脚本攻击
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查Webalizer版本号
+DESCRIPTION=Webalizer存在跨站点脚本攻击,其容许恶意的html标签注入到Webalizer的执行报告中。;;解决方案:;升级版本到 2.01-09 并转移目录到 'OutputDir' 里。;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com

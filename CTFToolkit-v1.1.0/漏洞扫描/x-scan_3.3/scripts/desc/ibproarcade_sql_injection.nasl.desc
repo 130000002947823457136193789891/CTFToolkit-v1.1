@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16086
+NAME=IBProArcade index.asp文件SQL注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测在index.php中出现的SQL注入漏洞
+DESCRIPTION=ibProArcade是用PHP写的在远程主机运行的WEB论坛系统。在CGI的一个脚本程序中,index.php的'gameied'参数容易受到sql注入攻击.攻击者可以利用此漏洞对远程数据库执行任意SQL语句.;;解决方案:升级程序的最新的版本.;风险等级:高;
+COPYRIGHT=This script is Copyright (C) 2004 Ami Chayun

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13642
+NAME=Windows内核缓冲区溢出(839645)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Checks for ms04-024 over the registry
+DESCRIPTION=使用widows操作系统的远程主机有一个内核缺陷。攻击者可以通过使用CLSID来代替一个文件类型以便欺骗远程主机上的合法用户去执行一个欺骗程序，而该用户则认为是打开一个文档而不是去执行一个应用程序。;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-024.mspx;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 RedStorm Network Security Website- REDSEC.ORG

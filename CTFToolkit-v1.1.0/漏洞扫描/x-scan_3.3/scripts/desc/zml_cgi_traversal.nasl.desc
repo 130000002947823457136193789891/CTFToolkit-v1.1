@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10830
+NAME=zml.cgi 目录遍历漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=zml.cgi存在漏洞，允许攻击者以cgi/httpd用户权限浏览任意文件
+DESCRIPTION=zml.cgi存在目录遍历的漏洞。;远程攻击者可以以cgi/httpd用户权限浏览主机任意文件。;;更多信息请参考: http://www.securityfocus.com/archive/1/243404;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2001 H D Moore & Drew Hintz ( http://guh.nu )

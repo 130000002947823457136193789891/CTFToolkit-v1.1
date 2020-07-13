@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14835
+NAME=Symantec Norton AntiVirus Version Detection
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of the remote NAV
+DESCRIPTION=本脚本通过检测远程系统的Norton AntiVirus写入远程系统的注册表来确定其版本号.;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

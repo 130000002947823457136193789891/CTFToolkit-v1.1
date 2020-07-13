@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10318
+NAME=wu-ftpd缓冲溢出
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检查远程ftp是否可以缓冲溢出
+DESCRIPTION=可以通过向远程FTP服务器发出一个巨大目录结构使其崩溃。这通常称为“wu-ftpd缓冲溢出”，此漏洞也可能影响其他FTP服务器。攻击者很利用此漏洞在远程服务器上执行任意代码。从而给予攻击者系统的shell访问能力，这很不安全。;;解决方案：升级FTP服务器;;风险等级：高;
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17648
+NAME=PhotoPost PHP检测
+CATEGORY=信息收集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在PotoPost PHP
+DESCRIPTION=这个脚本检测远程主机是否运行PhotoPost PHP，并且解析出其版本号以及所处的位置.;;PhotoPost PHP是一套用PHP写的图像库软件组.详细内容见：http://www.photopost.com/.
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

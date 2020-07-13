@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15571
+NAME=连接所有开放端口
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=连接所有端口造成主机崩溃
+DESCRIPTION=存在使用连接远程主机所有开放端口的方法;使远程系统崩溃.; 已知可以使运行LANDesk8的机器蓝屏;(在这种情况下, 连接2个开放端口已经足够了);;解决方案 : 通知你的软件供应商 同时给你的系统打上补丁;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15433
+NAME=PHP-Fusion中members.php的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查远程PHP-Fusion的版本
+DESCRIPTION=远程主机正在使用PHP-Fusion -- 一个PHP编写的使用MySql数据库的内容管理系统.;;此软件在'members.php'脚本文件中没有正确地验证用户所提交的'rowstart'参数的内容，因此存在一个SQL注入漏洞.;;攻击者可以利用此漏洞注入任意的SQL代码，同时也可潜在地执行任意代码.;;解决方案 : 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

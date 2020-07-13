@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12218
+NAME=mDNS探测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=mDNS探测
+DESCRIPTION=远程主机运行RendezVous(或者其他已知的ZeroConf和mDNS)。;这个服务允许网络用户列举有关这台远程主机的信息，;例如正在运行的服务列表、主机名称等。;;攻击者可以利用这些信息进行更精确的攻击。;;解决方案：过滤UDP端口5353上的入局通信量。;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security & Powered by Robur!

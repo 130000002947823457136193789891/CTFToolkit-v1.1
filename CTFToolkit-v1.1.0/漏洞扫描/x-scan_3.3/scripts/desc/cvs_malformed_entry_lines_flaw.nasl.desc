@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12265
+NAME=CVS畸形entry行漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=登陆进入远程CVS服务器并且查询版本
+DESCRIPTION=某些版本的CVS服务器可能导致攻击者;远程执行任意命令，造成漏洞的原因是;出现在畸形的Entry行导致错过NULL;字符。;这个漏洞相信是可以被利用的地方有:;;- 两次free error_prog_name字符串(CAN-2004-0416);- 一个参数整形数溢出(CAN-2004-0417);- serv_notify中的越界写操作 (CAN-2004-0418);;解决办法 : 升级到CVS 1.12.9或1.11.17;风险登记 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

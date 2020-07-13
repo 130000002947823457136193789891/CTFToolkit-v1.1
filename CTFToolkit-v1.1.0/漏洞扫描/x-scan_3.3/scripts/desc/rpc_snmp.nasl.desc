@@ -1,0 +1,7 @@
+[CHINESE]
+ID=10233
+NAME=snmp服务
+FAMILY=RPC
+SUMMARY=检测RPC服务的运行
+DESCRIPTION=snmp RPC服务正在运行。;如果你不使用它，那么请关闭它。;因为当它的弱点被发现后,;它将成为一个安全威胁。;风险系数：低级
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

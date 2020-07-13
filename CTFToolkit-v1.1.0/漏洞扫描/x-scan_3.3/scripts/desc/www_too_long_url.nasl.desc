@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10320
+NAME=URL过长
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=Web服务器缓冲;
+DESCRIPTION=远程Web服务器当接受到过长的URL时宕机，黑客有可能通过这个漏洞执行任意代码;解决方案：立刻升级你的服务器;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison
+插件翻译：sleky

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11688
+NAME=WF-Chat用户帐号泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查!pwds.txt文件是否存在
+DESCRIPTION=WF-Chat允许攻击者通过下面的方式查看用户帐号：;http://[somehost]/chat/!nicks.txt ;http://[somehost]/chat/!pwds.txt ;;解决方案：删除该CGI;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11706
+NAME=Spyke缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查已知的info.dat漏洞
+DESCRIPTION=一个远程主机在使用Spyke--一个用PHP语言写的WEB面版。此面版在info.dat文件中储存着很有价值的信息;可以允许任何人下载。此文件包含此WEB服务器超级管理员的用户名及其密码。另外一个缺陷使一个攻击者在知道用户名的前提下能简单得下载任何用户的任何信息。;;解决方案：目前没有解决方案。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(Chinese Edition By Bestwc)

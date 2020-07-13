@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10214
+NAME=database服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测该RPC服务的存在
+DESCRIPTION=database RPC服务正在运行.;如果你不使用该服务请禁止它,否则可能会在将来的某个时候因为被发现漏洞而成为安全问题.;;风险等级:低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

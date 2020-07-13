@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12128
+NAME=高波蠕虫病毒(Agobot.FO，avp版本号)后门检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=确认高波蠕虫病毒(Agobot.FO，avp版本号)存在
+DESCRIPTION=此主机已经被高波蠕虫病毒感染，存在后门。  此后门;已知作用:;1) 扫描本地网络主机微软操作系统漏洞;2) 扫描本地网络主机中 DameWare 系统服务;3)暴力破解本地网络主机的弱口令和密码;4) 连接到一个irc频道并且安装一个木马可以远程执行命令;结束.; ;详细资料可以参考: http://www.f-secure.com/v-descs/agobot_fo.shtml;解决方案: 此木马应马上从网络中清除;可以使用手工清除nvchip4.exe感染体.国家计算机病毒中心相关资料：http://www.antivirus-china.org.cn/content/worm_agobot.htm;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译者：sap

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11610
+NAME=testcgi.exe 跨站脚本攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 testcgi.exe 是否可以被利用于跨站脚本攻击
+DESCRIPTION=远程的主机在/cgi-bin下安装了一个名为'testcgi.exe'的CGI程序，;它可以被跨站脚本攻击所利用。;;解决方案 : 升级到更新的版本。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security (Chinese version by Dancefire)

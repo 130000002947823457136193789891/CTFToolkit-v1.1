@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11422
+NAME=未配置的WEB服务器
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=确定远程WEB服务器已配置
+DESCRIPTION=远程服务器正使用其默认的欢迎页配置。这可能表示这台服务器仍未使用。;;风险等级：低;解决方案：如果不使用此功能则停止此服务
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;Translate by Sniffer

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11546
+NAME=Xeneo web 服务器 %A 拒绝服务
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=使用/%A 或 /% 使Xeneo web server当机
+DESCRIPTION=通过发送以/%A 或 /% 作结尾构造的URL请求可以使远程Xeneo web 服务端当机。;;解决方案:  升级或使用其他web服务端;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

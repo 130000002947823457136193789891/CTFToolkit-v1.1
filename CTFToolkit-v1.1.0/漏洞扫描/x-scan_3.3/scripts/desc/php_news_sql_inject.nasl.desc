@@ -1,0 +1,9 @@
+[CHINESE]
+ID=15861
+NAME=PHPNews sendtofriend.php SQL 注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=在url中添加mid参数向远程主机发送请求
+DESCRIPTION=远程主机运行了PHPNews, 一个开源新闻应用程序. ;它利用数据库存储信息.;;这个软件的远程版本不正确的验证'sendtofriend.php'中用户输入的'mid'参数, 因而存在漏洞, 它允许攻击者注入任意SQL代码及执行任意代码.;;解决办法 : 升级到这个软件的 1.2.4 版;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security.<Translated By Stravadivaly>
+ 

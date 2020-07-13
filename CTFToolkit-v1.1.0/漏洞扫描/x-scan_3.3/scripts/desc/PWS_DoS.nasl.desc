@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11085
+NAME=PWS缓冲区溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=超长请求导致PWS挂起
+DESCRIPTION=通过发送一个超长的请求，Personal Web Sharing服务可能挂起;恶意攻击者可能会利用该漏洞导致该web服务不停的崩溃.;;解决方案:升级该软件或者采用一个过滤该问题的代理;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

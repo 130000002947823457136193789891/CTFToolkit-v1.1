@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15393
+NAME=IMP HTML MIME浏览器跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查IMP的HTML MIME浏览器跨站脚本漏洞
+DESCRIPTION=目标主机正在运行至少一个版本在3.0和3.2.5(含3.2.5)之间的IMP. IMP是Horde应用框架的互联网消息程序(Internet Messaging Program)。当使用HTML MIME浏览器和某些浏览器的时候，这些版本的IMP有受到跨站脚本攻击的倾向.  更多的信息请参阅版本3.2.6的公告:;;  http://lists.horde.org/archives/imp/Week-of-Mon-20040920/039246.html;;***** Nessus仅简单地依靠检查所安装的IMP版本的方式来 ;***** 确定是否存在此漏洞.;;解决方案 : 升级到3.2.6版本的IMP或更高版本. ;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003-2004 George A. Theall

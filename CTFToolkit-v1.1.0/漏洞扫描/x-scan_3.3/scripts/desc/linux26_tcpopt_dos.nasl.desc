@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12296
+NAME=Linux 2.6 ip表签名错误可导致拒绝服务漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使远程主机崩溃
+DESCRIPTION=通过发送有畸形TCP选项的特殊TCP/IP数据包可导致远程主机崩溃。只有2.6版本的Linux内核受此问题的影响.;;恶意攻击者可利用该漏洞导致远程主机挂起.;;解决方案: 升级到Linux 2.6.7;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

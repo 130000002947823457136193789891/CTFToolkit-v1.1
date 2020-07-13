@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10404
+NAME=SMB用户登陆
+CATEGORY=破坏性攻击
+FAMILY=WINDOWS
+SUMMARY=尝试远程登入主机
+DESCRIPTION=此Nessus脚本尝试猜测用户名和口令，;通过使用多种用户名/口令组合登入远程主机。;;该测试可能导致远程主机上的用户因为其本地安全策略而被禁用。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

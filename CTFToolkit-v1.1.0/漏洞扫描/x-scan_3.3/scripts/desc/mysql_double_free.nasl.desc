@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11299
+NAME=MySQL双free()堆破坏漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测远程MySQL版本
+DESCRIPTION=远程主机正在运行的MySQL版本 ;低于3.23.55.;;该版本存在一个双free()堆破坏漏洞,远程攻击者可以利用该漏洞 ;使mysqld崩溃.;;甚至获取非授权的访问权限.;;风险等级 : 中;解决方案 : 升级到 MySQL 3.23.55 或更高版本
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

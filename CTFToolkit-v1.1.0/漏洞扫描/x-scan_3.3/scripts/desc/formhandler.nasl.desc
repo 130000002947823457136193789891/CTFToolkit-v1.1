@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10075
+NAME=存在FormHandler.cgi
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=企图读取/etc/passwd文件
+DESCRIPTION=该远程主机装有'FormHandler.cgi'cgi程序.该CGI程序存在一个众所周知的安全漏洞可导致任意用户以http进程的权限(root或者nobody)读取任意文件.;;解决方案:从/中删除该程序.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

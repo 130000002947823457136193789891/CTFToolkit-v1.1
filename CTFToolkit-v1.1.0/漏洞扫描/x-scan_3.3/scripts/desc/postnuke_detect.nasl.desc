@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15721
+NAME=PostNuke检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在PostNuke
+DESCRIPTION=远程主机正在运行PostNuke -- 一个PHP编写的web内容管理系统.;更多信息参阅http://www.postnuke.com .;;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

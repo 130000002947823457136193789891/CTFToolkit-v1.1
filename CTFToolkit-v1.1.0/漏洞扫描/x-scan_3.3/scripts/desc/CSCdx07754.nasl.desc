@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11293
+NAME=CSCdx07754, CSCdx24622, CSCdx24632
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程的VPN集中器受制于多种缺陷:;;- XML通用规则;- HTML页面访问;- HTML登陆处理;;漏洞相应的Cisco ID是CSCdx07754, ;CSCdx24622和CSCdx24632;;解决方法: ;http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml;风险等级:中;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

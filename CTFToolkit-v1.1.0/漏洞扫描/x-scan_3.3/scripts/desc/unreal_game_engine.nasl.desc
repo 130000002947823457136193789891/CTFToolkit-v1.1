@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11228
+NAME=虚幻游戏服务器漏洞
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=攻击终端虚幻游戏引擎服务器
+DESCRIPTION=终端服务器安装运行了虚幻游戏引擎服务.这个服务容易遭到多方面的攻击;并且攻击者可以用它作为分布式拒绝服务攻击源,或者可以在此主机上执行任意命令.;;***注意nessus攻击脚本对此漏洞在测试中通过，这里有一个漏洞检测工具提供下载http://aluigi.altervista.org/mytoolz/unrcheck.zip ，详细漏洞信息请参阅 http://www.pivx.com/luigi/adv/ueng-adv.txt;解决方案;epic对此漏洞发布了补丁http://www.unrealtournament2003.com;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison ,--rendition ave.

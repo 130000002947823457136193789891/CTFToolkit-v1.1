@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10977
+NAME=CSCds07326
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在一个漏洞
+DESCRIPTION=一些安全扫描可能使得一台Cisco设备重启。;;一个攻击者可能使用这个漏洞阻止你的网络正常工作。;这个漏洞的Cisco漏洞ID是：CSCds07326。;解决方法：http://www.cisco.com/warp/public/707/ios-tcp-scanner-reload-pub.shtml。;;风险等级：高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

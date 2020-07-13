@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11150
+NAME=Tomcat servlet 引擎 MS/DOS 设备名拒绝服务
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=通过servlet引擎读取上千次的MS/DOS设备导致Apache Tomcat当掉
+DESCRIPTION=通过Tomcat、servlet引擎、使用类似于/examples/servlet/AUX的文件名的方式;上千次的读取MS/DOS设备将可能导致冻结或当掉Windows或者Web服务器;;攻击者可以利用这个缺陷使你的系统连续当机;阻止你正常的工作。;;解决方案 : 升级你的Apache Tomcat web server到版本 4.1.10。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16136
+NAME=GNU Mailman 多处未明远程漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=GNU Mailman 多处未明远程漏洞
+DESCRIPTION=远程主机运行GNU Mailman,;一个基于web的邮件列表管理系统.其存在多处漏洞, 如信息泄露，跨站脚本于,将导致攻击者可以窃取用户cookie,或进行未授权的访问. ;;解决方案 : 更新至该软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

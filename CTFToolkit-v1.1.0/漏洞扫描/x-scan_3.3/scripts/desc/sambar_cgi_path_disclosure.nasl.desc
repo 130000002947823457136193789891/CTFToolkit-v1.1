@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11775
+NAME=Sambar CGIs 泄露路径
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=部份CGI程序泄露路径
+DESCRIPTION=主机安装了environ.pl 或 testcgi.exe程序，这些程序泄露了安装路径和部份其它信息，可能使攻击者了解到更多目标信息。;;Solution : 删除该cgi程序;;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

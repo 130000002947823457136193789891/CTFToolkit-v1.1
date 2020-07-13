@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10708
+NAME=SSH 3.0.0
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测SSH服务器版本信息
+DESCRIPTION=远程主机运行SSH3.0.0.;在这个版本的SSH中存在漏洞，它允许任意用户使用那些密码长度小于或等于2位的账号登陆。;攻击者能利用此漏洞获得root权限。;;解决方案：升级到SSH3.0.1解决此问题。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

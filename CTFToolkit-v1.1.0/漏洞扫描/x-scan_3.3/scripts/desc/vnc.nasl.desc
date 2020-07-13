@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10342
+NAME=VNC检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=VNC检测
+DESCRIPTION=远程服务器正在运行VNC（Virtual Network Computing）。VNC允许控制台显示在远程监视器上。;;风险等级：中;解决方案：使用防火墙禁止通过网络远程访问VNC，如果不是必须使用VNC则可以停止VNC服务。
+COPYRIGHT=This script is Copyright (C) 2000 Patrick Naubert;Translate by Sniffer

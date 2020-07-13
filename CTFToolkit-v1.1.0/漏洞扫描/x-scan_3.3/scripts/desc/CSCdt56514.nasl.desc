@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11287
+NAME=CSCdt56514
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程VPN集中器在使用内部 PPTP / IPSEC 登陆时，存在一个漏洞.这个漏洞相关的Cisco漏洞ID为： CSCdt56514.;;解决方案 : ;http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml; 风险等级 : 高;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

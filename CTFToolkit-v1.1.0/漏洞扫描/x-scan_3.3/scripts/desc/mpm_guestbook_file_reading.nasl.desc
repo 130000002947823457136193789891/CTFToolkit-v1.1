@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16172
+NAME=MPM Guestbook file reading
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定MPM Guestbook已经安装
+DESCRIPTION=远程主机正在运行MPM Guestbook,一个PHP写的留言板程序.;;在这个版本中有一个缺陷，使得攻击者可以通过第三方服务器上的文件读主机上的任何文件，或者在远程主机上执行任意的PHP命令.;;解决方案 : 此时禁用这个CGI;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(翻译:kill_ads)

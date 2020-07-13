@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11095
+NAME=webcart.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测webcart.cgi
+DESCRIPTION=主机安装了webcart.cgi文件但没有正确过滤用户输入。;攻击者可以利用该漏洞在系统里执行任意命令。;;解决方案: 升级软件或使用防火墙保护web服务器;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

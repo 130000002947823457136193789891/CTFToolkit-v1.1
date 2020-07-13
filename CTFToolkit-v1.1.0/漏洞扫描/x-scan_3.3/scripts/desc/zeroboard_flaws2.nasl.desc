@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16178
+NAME=ZeroBoard 漏洞(2)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ZeroBoard 漏洞
+DESCRIPTION=该远程主机运行着ZeroBoard,一款用PHP编写的bbs程序.;;该版本存在多个安全漏洞可导致攻击者通过利用第三方服务器包含PHP文件的方法利用该漏洞运行任意PHP程序，或以web进程的权限读取任意文件.;;解决方案:升级到该软件最新版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14312
+NAME=Lotus smency.nsf 文件检查
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for the presence of smency.nsf
+DESCRIPTION=远程主机运行了Trend防病毒软件。而且;;可以通过Web访问smency.nsf文件，此文件包含了有利于攻击者进行分析或利用这台主机的相关配置信息。该文件也同样有可能包含了病毒报告信息.;攻击者可以利用这个漏洞，可能通过网页的方式得到保密的数据.;;风险等级:中
+COPYRIGHT=脚本版权 DokFLeed,翻译版权 ygasonic

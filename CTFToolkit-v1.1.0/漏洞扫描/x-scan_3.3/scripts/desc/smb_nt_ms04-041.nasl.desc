@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15966
+NAME=WordPad的漏洞 (885836)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=为MS04-041检查远程注册表
+DESCRIPTION=远程主机的写字版Microsoft WordPad里有2个安全漏洞.;;要利用这些漏洞，攻击者需要向目标主机发送一个畸形的Word文件;然后等待用户用写字板打开这个文件.;;用写字板打开这个文件将会引发缓冲区溢出，攻击者可以利用用户的权限在远程主机上执行任意代码.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-041.mspx;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

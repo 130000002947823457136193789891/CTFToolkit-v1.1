@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10307
+NAME=检测Windows版本的Trin00
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测trin00的存在
+DESCRIPTION=远程主机看来正在运行针对Windows的Trin00，Trin00是一个用来控制你的系统或通过你的系统攻击;;其它的网络（实际上这是一个分布式拒绝服务攻击工具）。这台主机很可能已经被入侵了。;;解决方案：用备份恢复你的系统，联系CERT和本地的权威。;;风险等级：待定
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

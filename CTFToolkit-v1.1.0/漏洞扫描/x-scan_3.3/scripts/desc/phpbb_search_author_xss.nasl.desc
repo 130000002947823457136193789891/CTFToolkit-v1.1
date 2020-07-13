@@ -1,0 +1,8 @@
+CHINESE]
+ID=13840
+NAME=phpBB < 2.0.10
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查phpBB版本
+DESCRIPTION=远程主机运行的phpBB软件版本小于 2.0.10.;;phpBB 存在一个漏洞允许远程跨站脚本攻击。 ;漏洞存在的原因是程序没有检查用户输入参数 'search_author' 的合法性.;;这些版本也会导致HTTP响应分割漏洞，允许对HTTP头部进行CRLF字符注入。;;解决方案: 升级到2.0.10 及以后版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

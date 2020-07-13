@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11730
+NAME=ndcgi.exe漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在ndcgi.exe文件
+DESCRIPTION=该远程主机存在ndcgi.exe文件.;一些版本的该程序存在可以远程利用的漏洞.;;解决方案: 从/cgi-bin删除该文件.;更多信息请查看: http://marc.theaimsgroup.com/?l=bugtraq&m=100681274915525&w=2;;***Nessus只能检测出该文件的存在，所以可能是一次误报;;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12292
+NAME=PowerPortal安装路径泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PowerPortal是否存在安装路径信息泄露漏洞
+DESCRIPTION=该远程主机使用着PowerPortal（一套用PHP写的文章管理系统）. ;;该远程主机运行的版本被证实存在安装路径泄露漏洞，可导致远程攻击者利用该漏洞获得该软件的初始安装路径，攻击者可利用该路径信息获得更多的运行于远程主机的该产品安装信息，以便进行更为严重的攻击.;;解决方案 : 升级到该产品的最新版本;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

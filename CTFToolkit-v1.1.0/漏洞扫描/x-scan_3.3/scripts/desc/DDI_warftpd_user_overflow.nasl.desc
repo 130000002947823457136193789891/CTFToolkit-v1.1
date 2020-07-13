@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11207
+NAME=War FTP Daemon USER/PASS 溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=War FTP Daemon USER/PASS 溢出
+DESCRIPTION=运行于主机的 War FTP Daemon 在代码中 USER 和 PASS 句柄处存在缓冲区溢出;一个潜在的攻击者可以利用该弱点造成主机崩溃以及在系统上运行任意代码.;;解决方案 : 升级到最新发布的 War FTP Daemon;           可访问以下站点: http://www.jgaa.com/;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense, Inc.

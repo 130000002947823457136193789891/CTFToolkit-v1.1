@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16388
+NAME=CitrusDB泄漏信用卡资料
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测到CitrusDB存取目录的存在
+DESCRIPTION=远程主机运行了CitrusDB, 这是一个用PHP编写的开源的购物程序。;;CitrusDB使用一个文本文件临时存储信用卡信息。;这个文本文件以静态URL的形式存在于Web目录树下，;因而可以被第三方访问。;而且它没有做删除处理，也为攻击者留下了把柄。;;Workaround : 使用访问控制禁止连接;或者变更CitrusDB使用的根文档，并阻止通过HTTP访问。;;解决方案 : 更新 CitrusDB 到 0.3.6 或更高的版本;并设置'$path_to_ccfile' 让一个路径无法通过HTTP访问。;;Risk factor : High
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

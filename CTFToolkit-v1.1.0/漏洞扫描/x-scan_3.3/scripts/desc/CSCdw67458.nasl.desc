@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10987
+NAME=CSCdw67458
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=此漏洞会阻止远程设备处理SNMP消息。 攻击者可是利用此漏洞使远程设备崩溃,这个漏洞相关的Cisco漏洞ID为： CSCdw67458.;;解决方案:http://www.cisco.com/warp/public/707/cisco-malformed-snmp-msgs-non-ios-pub.shtml;;相关参考: http://online.securityfocus.com/archive/1/255807;;风险等级 : 高;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

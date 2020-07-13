@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12282
+NAME=在 Pivot 中的文件包含漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=侦测 Pivot 文件包含漏洞
+DESCRIPTION=Pivot 是一套设计用来维护动态网页的 PHP 脚本;;在 module_db.php 文件中有一处漏洞，通过强迫远程 Pivot 安装时包含;一个第三方网站上的 PHP 文件来使攻击者在远程主机上运行任意指令;;解决方案 : 把 Pivot 的版本升级到 1.14.1 或者完全禁止这个 CGI;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

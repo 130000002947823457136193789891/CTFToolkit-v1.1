@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10778
+NAME=未保护的SiteScope服务
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=未保护的SiteScope服务
+DESCRIPTION=SiteScope web服务没有设置密码. 可以连接到此服务器的攻击者可以查看存储在个性设置选项中的用户名和密码或者重新配置服务.;;解决方案: 确保在此服务的配置中设置密码. 此外, 根据此服务器所处的位置, ;限制可以访问的IP地址.;;风险等级 : 中/高
+COPYRIGHT=This script is Copyright (C) 2001 Digital Defense Inc.

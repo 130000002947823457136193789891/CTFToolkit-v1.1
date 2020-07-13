@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15459
+NAME=可导致代码执行的压缩文件夹漏洞 (873376)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否已安装873376修补程序
+DESCRIPTION=Window存在一个压缩(zipped)文件夹处理漏洞，可导致攻击者在远程主机上执行任意代码.;;为利用此漏洞，攻击者需要给远程主机上的受害者发送一个精心构造的.zip文件，并等待受害者使用资源浏览器来浏览此文件.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-034.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10007
+NAME=ShowCode可能导致的文件泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确认showcode.asp的存在必要
+DESCRIPTION=Internet Information Server (IIS) 4.0 中有一套示例文件来帮助网页开发员学习Active Server Pages (ASP). 示例文件之一'showcode.asp' (安装在/msadc/Samples/SELECTOR/)可被用来通过网页浏览器查看示例应用程序的源代码.;'showcode.asp' 文件在安全检察上的不足可导致任何人可通过网页浏览器来查看网页服务器中的任何文本文件.;而这个文件所包含内容是网页服务器文件根目录文件.;;'showcode.asp'文件的默认安装地址为:;http://www.YOURSERVER.com/msadc/Samples/SELECTOR/showcode.asp;这导致了一个可利用URL来查看文件的漏洞.;访问的格式为: source=/path/filename;;
+只要此文件可被用来查看系统中任何其他文件，危险便存在.ASP文件作者增加了一个只允许查看系统中 '/msadc' 目录中示例文件的安全检察. 但是却没有对被访问URL中是否含有'..'字符进行安全检察，而仅仅是对被访问URL中是否含有'/msadc/'字符串进行检查. 而这些URL可被用来查看整个网页服务器根目录所包含的任何地方，而不仅仅是示例文件的目录。.;;漏洞详细描述: http://www.l0pht.com/advisories.html;;解决方案:开发完毕的服务器中不应该存在示例文件,故可通过删除整个/msadc/samples 目录来解决. 如果开发进行中的服务器中必须含有'showcode.asp'功能, 那么'showcode.asp'文件应被改成具有进行检查URL是否含有'..'并且拒绝这些访问请求的功能.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Immo Goltz <Immo.Goltz@gecits-eu.com>

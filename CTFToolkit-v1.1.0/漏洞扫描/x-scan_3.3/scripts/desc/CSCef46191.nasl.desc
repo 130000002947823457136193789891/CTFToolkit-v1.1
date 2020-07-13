@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15627
+NAME=CSCef46191
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来确定是否存在漏洞
+DESCRIPTION=远程路由器的IOS在telnet服务中存在漏洞. 此漏洞会允许攻击者禁止通过SSH、HTTP和telnet对远程路由器进行管理.;;CISCO对此漏洞的识别ID为CSCef46191;;攻击者可以利用这个漏洞使路由器不可管理;;解决方案 : http://www.cisco.com/warp/public/707/cisco-sa-20040827-telnet.shtml ;风险等级 : 高;;*** Nessus仅仅依靠远程路由器的banner;*** 因此这有可能是错误的
+COPYRIGHT=This script is (C) 2004 Tenable Network Security

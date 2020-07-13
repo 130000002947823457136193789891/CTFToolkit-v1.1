@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11010
+NAME=WebSphere 跨站脚本攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=探测远程主机是否容易受到跨站脚本攻击
+DESCRIPTION=远程主机可能具有跨站脚本攻击漏洞。;这个漏洞是当用户请求一个不存在的文件时所返回的;结果所产生的(e.g.请求所产生的结果中包含JavaScript)。;攻击者可以利用这个漏洞使服务器向用户返回;一个由攻击者提供的JavaScript/HTML脚本。由于这个脚本的;内容是由服务器提供的，用户将会给这段脚本服务器的;安全等级（比如：银行或购物中心的安全等级, etc.通常都比较高）.;;风险等级：中 Solution: 升级到最新版的WebSphere
+COPYRIGHT=(c) 2002 Renaud Deraison

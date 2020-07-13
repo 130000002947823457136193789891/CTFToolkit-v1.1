@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12198
+NAME=Ultimate PHP Board 信息泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查UPB
+DESCRIPTION=远程主机正在运行Ultimate PHP Board (UPB)。;;该版本的程序存在漏洞，允许攻击者浏览私人消息板块内容。;;解决方案: 升级到最新的版本 (http://www.myupb.com);风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 Edgeos, Inc.

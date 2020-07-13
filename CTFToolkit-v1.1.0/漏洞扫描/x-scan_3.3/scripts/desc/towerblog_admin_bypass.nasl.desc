@@ -1,0 +1,8 @@
+[CHINESE]
+ID=18015
+NAME=TowerBlog Admin Bypass
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装了TowerBlog软件
+DESCRIPTION=TowerBlog是一个单用户目录管理系统，用PHP所写。;;由于设计错误,攻击者通过请求'/?x=admin'页同时设置一个值为'TowerBlog_LoggedIn=1'的 cookie,就可获得管理员权限。;;参看:http://www.securiteam.com/unixfocus/5VP0G0KFFK.html;解决方案:禁用该软件;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

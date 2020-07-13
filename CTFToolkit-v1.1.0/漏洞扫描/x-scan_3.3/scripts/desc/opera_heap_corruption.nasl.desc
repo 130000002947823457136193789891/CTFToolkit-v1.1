@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11578
+NAME=Opera远程堆破坏漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测Opera.exe的版本
+DESCRIPTION=该主机使用Opera - 一款多平台的WEB浏览器.;;该版本存在一个缓冲区溢出漏洞;没有正确检查远程web页面的文件扩展名长度.;;要成功的利用这个漏洞, 攻击者需要构建一个恶意站点, 并且;诱使用户使用Opera对该站点进行访问. 这将可能导致攻击者;在用户主机上执行任意指令.;;解决方案 : 目前厂商还没有提供补丁或者升级程序,建议使用此软件的用户随时关注厂商的主页以获取最新版本（http://www.opera.com）;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

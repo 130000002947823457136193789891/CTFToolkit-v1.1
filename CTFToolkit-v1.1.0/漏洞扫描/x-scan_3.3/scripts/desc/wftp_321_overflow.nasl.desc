@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12083
+NAME=WFTP3.21多重远程溢出
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=WFTPD 3.21 远程溢出
+DESCRIPTION=远程FTP服务器容易受到至少两种远程堆栈溢出和两种拒绝服务攻击，一个攻击者可以利用这些漏洞获得wftpd服务器的远程访问权;;解决方案:如果你正在使用wftp，请将其升级到一个新版本，至少要是3.21的第一版，如果你没去升级，请联系你的卖主，获得wftp的补丁;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

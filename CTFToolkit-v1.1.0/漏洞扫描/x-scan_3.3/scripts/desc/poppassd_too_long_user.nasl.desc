@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17295
+NAME=poppassd用户溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=发送给poppassd一个超长的USER命令
+DESCRIPTION=在USER命令后发送一个超长名字会导致远程主机上的poppassd后台程序崩溃。;;远端黑客利用该漏洞可以在该机器上执行任意代码。;;解决方案 : 升级该软件或者使用其他同类软件;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

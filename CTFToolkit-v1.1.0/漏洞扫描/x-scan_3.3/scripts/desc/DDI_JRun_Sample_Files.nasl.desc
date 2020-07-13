@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10996
+NAME=JRun示例文件
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查JRun示例文件是否存在
+DESCRIPTION=这台主机正在运行Allaire JRun web服务器并且安装了示例文件.  个别示例文件包含严重的安全缺陷.  攻击者可以利用这些脚本中继web请求, 或者查看敏感的配置信息. ;    ;;解决方案: 示例文件不应当在投产的服务器上保留.  删除示例文件和其他不需要的文件.;          ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Digital Defense Inc.

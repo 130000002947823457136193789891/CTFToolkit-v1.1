@@ -1,0 +1,7 @@
+[CHINESE]
+ID=10092
+NAME=FTP服务的版本和类型
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+DESCRIPTION=通过登陆目标服务器并经过缓冲器接收可查出FTP服务的类型和版本。这些注册过的标识信息将给予潜在的攻击者们关于他们要攻击的系统的额外信息。版本和类型会在可能的地方被泄露。;;解决方案：将这些注册过的标识信息转变为普通类别的信息。。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam(Chinese version by qfqy)

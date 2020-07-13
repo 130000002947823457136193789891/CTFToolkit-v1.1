@@ -1,0 +1,9 @@
+[CHINESE]
+ID=15891
+NAME=Timbuktu Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=探测 Timbuktu
+DESCRIPTION=Timbuktu Pro 似乎正在这个端口上运行. ;;Timbuktu Pro 允许一个远程用户远程控制系统;（类似于Windows下的终端服务).;;参考：http://www.netopia.com：解决方法：确认你的密码是强壮的，如果不使用它的话请禁用这个服务;风险等级:无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security（翻译：kill_ads)
+

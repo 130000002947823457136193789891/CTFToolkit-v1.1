@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11421
+NAME=smtpscan
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=对SMTP服务端进行指纹扫描
+DESCRIPTION=smtpscan 是一个对SMTP服务端进行指纹扫描的工具，由Julien Bordet编写。即使管理员更改了服务端的banner，该工具依然可以识别远程邮件服务端的种类。;;风险等级: 无
+COPYRIGHT=smtpscan was written by Julien Bordet. Michel Arboi converted it to NASL

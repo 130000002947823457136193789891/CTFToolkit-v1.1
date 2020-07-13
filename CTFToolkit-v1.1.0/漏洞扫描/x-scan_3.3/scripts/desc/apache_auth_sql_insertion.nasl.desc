@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10752
+NAME=Apache Auth Module SQL Insertion Attack
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查Apache Auth模块漏洞
+DESCRIPTION=这个插件检查web服务器是否运行了包含 SQL 注入攻击漏洞的Apache Auth模块.;;风险等级 : 高;解决办法: 升级模块
+COPYRIGHT=This script is Copyright (c) 2001 Matt Moore<Translated By Stravadivaly>
+

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11698
+NAME=XPression Software的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL注入
+DESCRIPTION=远程主机正在运行XPression Software的一个产品(trueCoonect, FlowerLink, eVision or WebSite integration)。;;在这个软件中有缺陷，使得任何人都可以注入任意的SQL命令，利用这些注入的命令可以获得远程主机的管理员权限。;;解决方案：升级至软件的最新版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

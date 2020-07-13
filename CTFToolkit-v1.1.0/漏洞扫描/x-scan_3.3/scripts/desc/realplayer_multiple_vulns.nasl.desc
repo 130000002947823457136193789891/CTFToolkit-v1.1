@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17254
+NAME=RealPlayer 多个远程漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查RealPlayer版本
+DESCRIPTION=远程主机安装了RealPlayer软件. ;;老版本的软件中存在一些漏洞, 使得攻击者能在远程主机上执行任意代码和删除任意文件.;;要利用这个漏洞, 攻击者需要向远程主机用户发送一个经构造的SMIL或;WAV文件, 等待该用户用RealPlayer打开它.;;解决办法 : http://service.real.com/help/faq/security/050224_player/EN/;;如果您已经卸载了RealPlayer, 希望能删除注册表中 SOFTWARE\RealNetworks\RealPlayer下的键值.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15762
+NAME=phpBB remote PHP file include vulnerability
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查admin_cash.php这个文件
+DESCRIPTION=可能影响到包含这个文件的远程主机;安装并使用phpBB CGI suite 的服务器;;攻击者可以通过这个漏洞对远程主机注入编码，获得web服务器的管理特权.;;解决方案：升级phpBB到最新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15773
+NAME=CCProxy Detection
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=Detects CCProxy
+DESCRIPTION=远程主机在运行CCProxy, 它是一款代理软件程序支持;多种协议(Telnet, FTP, WWW, 和更多的协议...).;;当向外连接的时候开放的代理允许用户冒充远程主机. 它允许垃圾邮件发送者用远程;主机作转发工具.;;解决方案 : 不要使用此软件;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

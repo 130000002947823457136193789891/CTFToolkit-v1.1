@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10161
+NAME=rlogin -froot
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测rlogin -froot
+DESCRIPTION=远程/bin/login 似乎可以受到;'rlogin -froot'漏洞攻击.;;攻击者可以利用这一旧的漏洞得到该系统的;root权限.;;解决方案 : 升级你的/bin/login, 或在;/etc/inetd.conf 注释掉'rlogin'一行 ;并重新启动inetd进程;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10520
+NAME=PIX smtp 内容过滤
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=尝试与远程SMTP服务端直接通讯
+DESCRIPTION=远程SMTP服务端受到一个基于内容过滤的防火墙的保护，可能是Cisco的 PIX。;;然而, 攻击者可以在发送MAIL命令前使用DATA命令，以此绕过内容过滤的保护，从而直接和真实的SMTP服务端通讯。;;解决方案: http://www.cisco.com/warp/public/707/PIXfirewallSMTPfilter-pub.shtml;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

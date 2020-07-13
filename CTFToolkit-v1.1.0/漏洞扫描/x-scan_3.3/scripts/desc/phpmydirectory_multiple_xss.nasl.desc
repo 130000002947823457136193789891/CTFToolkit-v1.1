@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17634
+NAME=PHPMyDirectory review.php 多个跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查PHPMyDirectory中review.php存在的多个跨站脚本漏洞
+DESCRIPTION=远程主机运行的phpMyDirectory版本存在多个跨站脚本漏洞,;它是由'review.php'脚本不能过滤用户输入的各种参数引起的.;远程攻击者可以利用这个漏洞窃取基于cookie的认证信息或发起其他类似的攻击. ;;解决方案 : 当有比phpMyDirectory 10.1.4版本更高的版本出来后,赶紧升级.;;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

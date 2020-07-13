@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16139
+NAME=POP Password Changer 未经授权的密码更改漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查POP Password Changer是否带有可以绕过访问控制的安全漏洞.
+DESCRIPTION=远程主机运行了POP Password Changer,一种用来更改POP用户密码的服务器软件. 根据其版本号, 该软件容易受到未授权访问攻击. 攻击者利用该漏洞可以更改用户的密码.;;解决办法 : 请确认运行的软件已打过补丁或是最新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

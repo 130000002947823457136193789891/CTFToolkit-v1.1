@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13848
+NAME=Subversion Module File Restriction Bypass
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查Subversion版本
+DESCRIPTION=你运行的Subversion版本低于1.0.6.;;在使用该早期版本的apache的mod_authz_svn模块中存在漏洞.;攻击者可以利用这个漏洞在给定的subversion库中访问任意文件,;无论管理员设定什么权限.;;解决方案 : 将版本升级到1.0.6或更新;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

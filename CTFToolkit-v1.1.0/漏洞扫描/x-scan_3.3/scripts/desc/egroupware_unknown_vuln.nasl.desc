@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15719
+NAME=EGroupWare之JiNN应用的未明漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查EGroupWare的版本
+DESCRIPTION=远程主机正在运行eGroupWare -- 一个基于web的群件解决方案. ;;据报告低于1.0.0.006的版本可能存在一个未明的漏洞.;;解决方案 : 升级该软件到最新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

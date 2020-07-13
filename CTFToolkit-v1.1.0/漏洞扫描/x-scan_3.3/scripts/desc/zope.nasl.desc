@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10447
+NAME=Zope DocumentTemplate 数据包漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Zope
+DESCRIPTION=远程web服务器运行的Zope版本低于2.1.7。;;所有低于2.1.7的版本都存在这个安全问题。未经过身份验证的用户可以修改DTMLDocuments 或者 DTMLMethods的内容。;;解决方案: 升级到Zope 2.1.7;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

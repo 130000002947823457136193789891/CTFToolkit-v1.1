@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11942
+NAME=VP-ASP shopsearch SQL injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查VP-ASP的存在
+DESCRIPTION=VP-ASP远程购物系统存在一个bug可能导致服务器执行攻击者的任意SQL语句或者得到服务器的控制权。;解决方案：升级到最新版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

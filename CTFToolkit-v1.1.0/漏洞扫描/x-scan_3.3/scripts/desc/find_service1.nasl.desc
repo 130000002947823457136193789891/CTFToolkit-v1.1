@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17975
+NAME=利用GET鉴别未知服务
+CATEGORY=信息搜集
+FAMILY=Service detection
+SUMMARY=向未知服务发送 'GET' 指令并等待答复
+DESCRIPTION=这个插件是鉴别开放服务的一个补充。;如果必要，它使用HTTP请求来获取更多的Banners。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi & Interpreted by Robur

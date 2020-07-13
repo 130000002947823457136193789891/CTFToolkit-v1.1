@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17200
+NAME=Trend Micro IWSS控制管理后台检测
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Trend Micro IWSS 的web控制管理后台
+DESCRIPTION=远程主机可能正在运行Trend Micro Interscan 的Web安全套件.;;确定只有经过认证的主机能够连接到此服务器,;  此服务相关的信息可能帮助攻击者发起更多隐蔽性的对远程网络的攻击.;;解决方案 : 过滤到这个端口的其他访问;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak & Translated by 代码罐头

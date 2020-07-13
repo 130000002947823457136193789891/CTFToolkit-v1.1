@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11639
+NAME=远程访问Web-ERP配置文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Web-ERP是否已经被安装了
+DESCRIPTION=一些版本的WEB-ERP有缺陷，可以使攻击者下载它的配置文件（logicworks.ini），配置文件中含有数据库的用户名和密码。;;解决方案：升级到Web-ERP 0.1.5或更新的版本，删除longicworks.ini;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

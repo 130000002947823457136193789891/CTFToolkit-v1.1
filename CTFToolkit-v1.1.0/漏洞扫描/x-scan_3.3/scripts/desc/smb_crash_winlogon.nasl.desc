@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10414
+NAME=WinLogon.exe 拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使winlogon.exe崩溃
+DESCRIPTION=通过向远程主机发送一个经过构造的连接注册表的请求，可以远程崩溃winlogon.exe。;;被扫描到的主机会显示一个错误窗口。一旦错误窗口被确认（被点击），主机就会重启。;;;解决方案: 使用 Q264684 补丁;;风险等级: 高;;参见: http://www.microsoft.com/technet/security/bulletin/ms00-040.asp
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11474
+NAME=NetGear ProSafe VPN 登入拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Web服务器缓冲区溢出
+DESCRIPTION=提交一个畸形的超长用户名和密码给VPN服务器web登陆界面,可能会造成目标服务器崩溃::攻击者可以通过该漏洞来关闭远程服务::解决方案:目前还没有：风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

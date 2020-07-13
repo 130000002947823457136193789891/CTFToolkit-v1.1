@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11894
+NAME=TinyWeb 1.9
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查TinyWeb的版本
+DESCRIPTION=远程主机正运行TinyWeb1.9或更老的版本。;;用户可以通过向服务器提交一个HTTP请求/cgi-bin/.%00./dddd.html ;这样会使得服务器消耗大量的CPU时间（88%-92%）。;Solution:与软件供应商联系 http://www.ritlabs.com;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Matt North

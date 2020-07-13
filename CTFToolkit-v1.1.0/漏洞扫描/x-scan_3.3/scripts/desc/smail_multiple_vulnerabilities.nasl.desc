@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17633
+NAME=Smail-3 多个漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程Smail daemon版本
+DESCRIPTION=S-mail是邮件传输代理程序, 远程主机运行的S-mail版本比3.2.0.120版要早;;这个软件的远程版本包含多个漏洞, 远程攻击者利用处理'MAIL FROM' command的函数中的堆溢出漏洞, 可在远程主机上执行任意代码.;;要利用这个漏洞, 攻击者需要连接到这个软件的端口并向'MAIL FROM' command发送畸形参数.;;解决办法 : 升级到 Smail-3.2.0.121 或更新版本(如果可能的话);风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

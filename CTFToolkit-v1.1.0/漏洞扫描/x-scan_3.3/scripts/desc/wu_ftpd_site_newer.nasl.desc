@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10319
+NAME=wu-ftpd SITE NEWER 脆弱性
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=测试时如果远程FTP服务器接受SITE NEWER 命令"
+DESCRIPTION=远程FTP服务器接受SITE NEWER 命令.;;一些 wu-ftpd 服务器 (也有可能包括其他) 是容易受到攻击的 ;当一个攻击者去触发时而引起内存耗尽 ;此命令会吃掉所有可能的内存;;解决方案: 确写你用的是最新版本的FTP服务;如果你是 wu-ftpd用户, 确保你用的是最新的版本;版本号 2.6.0.;;*** 这个警示是非相关的.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

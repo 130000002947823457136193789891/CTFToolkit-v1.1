@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11569
+NAME=StockMan Shopping Cart远程任意命令执行漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测shop.plx脚本版本
+DESCRIPTION=远程主机正在运行StockMan shopping cart.;;检测到StockMan shopping cart包含的CGI脚本'shop.plx;存在的一个安全漏洞可导致攻击者;以WEB进程的权限在系统上执行任意命令, 并且可导致;攻击者获取消费者的信用卡;账号列表.;;;解决方案 : 升级到StockMan Shopping Cart 7.9或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

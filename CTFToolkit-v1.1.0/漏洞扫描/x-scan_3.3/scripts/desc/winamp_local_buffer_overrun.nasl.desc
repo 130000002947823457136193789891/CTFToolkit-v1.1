@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16199
+NAME=Nullsoft Winamp 文件名处理模块本地缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测WinAMP版本
+DESCRIPTION=远程主机正运行着WinAMP，这是一个能处理多种格式(mp3,wavs等等)的 流行的媒体播放器.;;远程主机上这个版本的软件在处理一个特别长的文件名时易受到缓冲器溢出的攻击,远程缓冲器溢出可能使得在主机上执行任意代码.;;一个攻击者发现这个漏洞后,可能会发送一个令人难以想象的长度的文件在受害的主机上.当这台机器的主人打开这个WinAMP文件时,缓冲器溢出的情况将会发生.;;解决方案:升级到WinAMP5.0.4或者更新;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 梦魇虚空

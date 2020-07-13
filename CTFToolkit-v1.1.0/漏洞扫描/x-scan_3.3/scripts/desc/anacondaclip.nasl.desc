@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10644
+NAME=anacondaclip漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在anacondaclip.pl
+DESCRIPTION=该主机装有由anacondaclip.pl而来的CGI脚本'anacondaclip'.该CGI程序存在一个众所周知的安全漏洞，可导致攻击者以HTTP进程的权限(通常为root或者nobody)在远程主机读取任意文件.;;解决方案:从web服务的CGI目录(通常为cgi-bin/)中删除'anacondaclip'脚本.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

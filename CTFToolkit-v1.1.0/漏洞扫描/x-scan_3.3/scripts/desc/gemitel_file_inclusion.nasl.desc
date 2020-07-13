@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12214
+NAME=Gemitel文件包含漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测Gemitel文件包含漏洞
+DESCRIPTION=Gimtel中存在一个漏洞，它允许远程攻击者在主机中执行任意代码。;;解决方案：升级到最新版本或者禁止完全CGI;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus 翻译 by yztgx

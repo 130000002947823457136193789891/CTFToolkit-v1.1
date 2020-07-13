@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14706
+NAME=TYPSoft 目录遍历缺陷
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查TYPSoft FTP server 的版本
+DESCRIPTION=TYPSoft FTP 0.97.5以前版本。;;该版本易受目录遍历攻击。攻击者通过发送特别构造的 URL 来浏览系统上的任意文件。;;解决方案 : 使用其它的 FTP server 或升级到最新版本。;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,9 @@
+[CHINESE]
+ID=12211
+NAME=SurgeLDAP文件泄漏
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测SurgeLDAP文件泄漏
+DESCRIPTION=目前SurgeLDAP版本中存在一个漏洞，允许攻击者存取Web服务器上HTML页面存放路径以外的任何文件。
+风险等级：高。
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

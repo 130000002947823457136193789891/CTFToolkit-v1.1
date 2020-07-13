@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16474
+NAME=Kayako ESupport跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞 : XSS
+SUMMARY=确定Kayako是否存在
+DESCRIPTION=远程主机正运行Kayako eSupport, 一种基于web的后台技术支持应用程序.;;此版本的Kayako容易受到跨站脚本攻击(XSS).;受害人在受骗后访问攻击者设计一个恶意站点后,; 可能被偷取信用卡信息或者执行客户端程序.;;解决方案 : 升级到最新的可用版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

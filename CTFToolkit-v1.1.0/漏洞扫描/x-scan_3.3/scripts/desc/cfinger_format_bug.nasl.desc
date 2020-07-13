@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10652
+NAME=cfingerd格式化字符串漏洞
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=检测cfingerd版本号
+DESCRIPTION=根据其版本号，远程cfingerd守护进程,可能存在格式化字符串漏洞,;该漏洞可导致远程攻击者以cfingerd进程执行者的身份运行任何命令。;;;;解决方案 : 升级至1.4.4版;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

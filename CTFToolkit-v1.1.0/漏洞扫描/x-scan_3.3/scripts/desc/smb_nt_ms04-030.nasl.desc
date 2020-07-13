@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15455
+NAME=WebDAV的XML消息处理器拒绝服务 (824151)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否已安装824151修补程序
+DESCRIPTION=Windows IIS的WebDAV中的XML消息处理器存在一个漏洞，可导致远程拒绝服务。攻击者可以利用这个漏洞来阻止远程web服务器正常运行.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-030.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

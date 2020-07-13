@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10742
+NAME=Amanda索引服务端版本检查
+CATEGORY=信息搜集
+FAMILY=普通
+SUMMARY=Amanda索引服务端版本检查
+DESCRIPTION=该检查通过连接Amanda Index Server，来获取其版本信息，; 这种信息可以为攻击者提供相对应的攻击方法。; ; 解决办法：将版本号修改为其他内容，比如（0.0.0.0）;; 风险等级：低 
+COPYRIGHT=该脚本由xfocus汉化

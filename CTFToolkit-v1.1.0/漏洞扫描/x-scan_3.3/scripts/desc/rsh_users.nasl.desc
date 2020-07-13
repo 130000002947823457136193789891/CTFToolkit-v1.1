@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10380
+NAME=利用finger输出进行rsh登陆
+CATEGORY=攻击
+FAMILY=远程获取命令行
+SUMMARY=尝试用 rsh 登陆
+DESCRIPTION=本插件试图利用finger输出给出的用户名和rsh;登陆至;远程主机.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

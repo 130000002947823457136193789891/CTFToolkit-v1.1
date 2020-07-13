@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14585
+NAME=WS FTP STAT 命令缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查 WS_FTP server 的版本
+DESCRIPTION=根据版本不同， WS_FTP server 有一个缓冲区溢出漏洞。;;攻击者登录后，发送 'STAT' 和任意字符串， 可能使服务器执行任意指令。;;** Nessus 只检查服务器返回信息中的版本号;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

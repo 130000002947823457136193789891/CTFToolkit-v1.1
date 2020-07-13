@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10678
+NAME=可访问的Apache /server-info
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=请求诸如http://www.example.com/server-info的URL
+DESCRIPTION=请求诸如 /server-info的URI会泄露Apache配置信息.;;风险等级 : 低;解决方案 : ;如果不使用这个功能, 注释httpd.conf文件中的section中的相关配置选项. 如果确实需要, 限制为仅允许系统管理员机器访问.
+COPYRIGHT=This script is Copyright (C) 2001 StrongHoldNet

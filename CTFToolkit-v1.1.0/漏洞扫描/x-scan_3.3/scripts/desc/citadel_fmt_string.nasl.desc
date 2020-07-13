@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15942
+NAME=Citadel/UX 格式串漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程Citadel服务器的版本
+DESCRIPTION=Citadel/UX是一款运行于Unix系统上的BBS软件.;;运行该软件的远程主机存在格式串漏洞;攻击者利用它可在远程主机上执行任意命令.;;解决方案 : 升级 Citadel 到版本 6.28 或更新 ;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

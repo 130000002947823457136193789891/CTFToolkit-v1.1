@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14232
+NAME=PSCS VPOP3远程拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=尝试使PSCS VPOP3拒绝服务
+DESCRIPTION=远程主机运行着PSCS VPOP3.该远程服务器从在可导致降低服务器可用性的漏洞.;攻击者可以利用该漏洞,通过发送一个简单的请求而远程关闭该服务.; ;解决方案:升级到最新版本的VPOP3;;更多信息请查看: http://www.securityfocus.com/bid/10782 ;;风险等级:高
+COPYRIGHT=This script is Copyright (C) Tenable Network Security

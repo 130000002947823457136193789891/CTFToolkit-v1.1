@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15620
+NAME=Cherokee POST请求拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查Cherokee的版本
+DESCRIPTION=远程主机正在运行Cherokee -- 一款快速小巧的web服务器.;;此软件在处理特别构造的HTTP 'POST'请求时容易受到远程拒绝服务的危害.;;攻击者可以利用这个漏洞远程禁止服务.;;解决方案 : 升级到Cherokee 0.4.7或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

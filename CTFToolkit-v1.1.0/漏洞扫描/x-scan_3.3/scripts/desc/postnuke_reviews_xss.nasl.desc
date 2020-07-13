@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14189
+NAME=PostNuke评论跨站脚本攻击漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查post-nuke是否存在跨站脚本攻击漏洞
+DESCRIPTION=该远程主机运行着存在'Reviews'模块的某个Post-Nuke版本,该模块存在跨站脚本攻击漏洞,可导致攻击者利用该漏洞窃取站点合法用户的cookies信息.;;解决方案:升级该模块到最新的版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

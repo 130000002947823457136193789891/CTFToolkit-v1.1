@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11465
+NAME=args.bat
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-dos/args.bat是否存在
+DESCRIPTION=CGI包含的 'args.bat' (和/或 'args.cmd') 已经被安装. 这个 CGI 包含;一个被广泛流传的缺陷,可以使攻击者向;远程web服务器上传任意文件. ;;解决方案 : 在/cgi-dos处删除它.;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

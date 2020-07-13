@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11536
+NAME=Super Guestbook 配置暴露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 superguestconfig
+DESCRIPTION=远程服务器正在运行 Super GuestBook. 这是一套用于交互留言板的php程序.;;攻击这可以访问 /superguestconfig, 该文件包含了留言板的管理员密码和其他配置信息.;;解决方案 : 禁止下载 superguestconfig;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Translated by chice)

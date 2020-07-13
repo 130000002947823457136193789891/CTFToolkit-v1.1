@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10395
+NAME=SMB shares enumeration
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=获取远程共享信息列表
+DESCRIPTION=此Nessus脚本通过空会话连接到远程主机，枚举其共享列表。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

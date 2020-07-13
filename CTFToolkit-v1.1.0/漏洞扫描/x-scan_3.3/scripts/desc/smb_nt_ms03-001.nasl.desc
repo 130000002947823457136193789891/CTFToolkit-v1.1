@@ -1,0 +1,11 @@
+[CHINESE]
+ID=11212
+NAME=Locate Service中未检查缓冲区
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查微软热补 810833
+DESCRIPTION=
+微软Locate service是一个映射逻辑名称到网络特定名称的命名服务器。;;
+这个服务器中存在一个安全问题，可以使攻击者通过向其发送特殊构造的包;
+来执行任意代码。;;最大危害程度: 危急 ;;建议: 管理员应当立即安装补丁 ;;受影响软件: ;;Microsoft Windows NT 4.0;Microsoft Windows NT 4.0, Terminal Server Edition;Microsoft Windows 2000;Microsoft Windows XP;;请见;http://www.microsoft.com/technet/security/bulletin/ms03-001.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Chinese version by Dancefire)

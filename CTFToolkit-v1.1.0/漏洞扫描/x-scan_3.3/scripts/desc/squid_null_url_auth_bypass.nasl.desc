@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12124
+NAME=Squid null character unauthorized access
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=确认Squid软件版本
+DESCRIPTION=检测到主机Squid代理服务软件版本过低,;此漏洞可以使攻击者增加读取服务器的权限;得到未授权的资源.;;次漏洞来源于接收到包含一个畸形的用户名的请求; （%00） 空字节, 可以使供给者读取其它;受限制的资源.;;解决方案 : 升级到 squid 2.5.STABLE6 或者更高版本，官方网站：http://www.squid-cache.org/;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译：sap

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10324
+NAME=XTramail MTA 'HELO' 拒绝服务漏洞
+CATEGORY=混合攻击
+FAMILY=SMTP
+SUMMARY=远程SMTP服务器的溢出
+DESCRIPTION=服务器程序存在一个缓冲区溢出漏洞;当MTA处理HELO命令时;如果参数很长会导致溢出的发生 ;;HELO命令是通常是第一个;发送给MAIL服务器执行的命令;邮件服务器首先通过HELO命令使客户通过它来确认自己的身份.这个;命令可以在被认证之前就可以执行.   ;;这可能会使攻击者在主机上执行任意指令;或使你收发不出，收不到邮件等;;解决方案: 向商家要求相关补丁.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

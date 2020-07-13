@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10569
+NAME=Zope图片更新方式
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Zope
+DESCRIPTION=远程web主机上运行的Zope版本低于2.2.5。;;所有低于2.2.5的版本都存在安全问题。;;程序没有正确保护描述图片和文件对象更新方式的数据，从而导致了该问题的出现。由于更新方式没有被正确保护，拥有DTML编辑权限的用户尽管没有编辑文件或图片对象的权限，但是他们依然可能通过DTML非法更新文件或图片对象的原始数据。 ;;*** Nessus的唯一判据就是该服务端的版本，如果该服务端已经安装了补丁，请忽略这个警告。;;解决方案: 升级到Zope 2.2.5 或者从http://www.zope.org/Products/Zope/Hotfix_2000-12-18/security_alert安装补丁;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

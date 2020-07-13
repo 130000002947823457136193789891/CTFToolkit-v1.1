@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10238
+NAME=tfsd 服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检查开放的RPC服务
+DESCRIPTION=tfsd RPC服务正在运行，如果没有使用这一RPC功能，请禁用该服务。;;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

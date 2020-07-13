@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11582
+NAME=TrueGalerie绕过管理员密码登陆
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=登陆TrueGalerie
+DESCRIPTION=远程主机安装有TrueGalerie, 它是一个用PHP编写的相册管理系统.;;在TrueGalerie中发现一个漏洞，利用它攻击者可以用/admin.php?loggedin=1的URL串以管理员身份登陆而不用输入管理员密码。因此攻击者将拥有web管理员权限修改其内容。;;解决方案 : 在php.ini中禁用'register_globals'或以其他类似方法取代;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

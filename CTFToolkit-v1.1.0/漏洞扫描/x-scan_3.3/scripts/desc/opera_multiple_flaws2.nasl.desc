@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13844
+NAME=Multiple flaws in the Opera web browser (2)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Opera.exe的版本
+DESCRIPTION=远程主机使用 Opera - 一个可供选择的web浏览器软件。;;已安装的版本存在2个安全性问题：; ;- 一个交叉域框架装载漏洞;- 一个未确认的处理验证的漏洞;;攻击者可以利用任一漏洞模仿一个web服务器。;;解决方案 : 安装 Opera 7.53 或者更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

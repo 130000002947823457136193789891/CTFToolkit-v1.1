@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11021
+NAME=irix rpc.passwd 缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=rpc.passwd的堆溢出
+DESCRIPTION=远程RPC服务100009 (yppasswdd) 存在缓冲区溢出漏洞，允许任意用户在主机上获得具有root权限的shell。;;解决方案: 如果没有必要使用该服务，禁用之。也可以参考SGI advisory #20020601-01-P;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

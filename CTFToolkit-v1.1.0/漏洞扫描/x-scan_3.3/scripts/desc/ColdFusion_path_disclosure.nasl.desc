@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11393
+NAME=ColdFusion路径泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ColdFusion的漏洞
+DESCRIPTION=通过请求一个以'.dbm'结尾的MS-DOS设备(例如nul.dbm)时, 远程web服务器有可能会泄露其web根目录的物理路径.;;解决方案 :; 厂商建议打开'检查文件是否存在'选项:;;   Windows 2000:;   1. 打开'管理工具';   2. 点击'Internet信息服务';   3. 右键点击web站点，选择'属性';   4. 选择'根目录';   5. 点击'配置';   6. 选择'.cfm';   7. 点击'编辑';   8. 选中'检查文件是否存在';   9. 对'.dbm'重复以上步骤;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

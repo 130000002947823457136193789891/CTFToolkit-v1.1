@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17999
+NAME=CubeCart 2.0.6 及早期版本多处 SQL Injection 漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测CubeCart 2.0.6 及早期版本多处 SQL Injection 漏洞
+DESCRIPTION=影响安装 CubeCart 的远程主机; 多处的 SQL Injection 漏洞使其很危险; 漏洞存在于 'index.php' 脚本的 'PHPSESSID' 变量,;'tellafriend.php' 脚本的 'PRODUCT'、'ADD' 变量; ' view_cart.php' 脚本的 'PRODUCT' 变量 ; 'view_product.php' 脚本的多处变量。 入侵者能利用这些漏洞操纵数据库及进一步渗透。;; ;;Solution : 升级到 CubeCart 2.0.7 及以上版本.;Risk factor : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security, Translator: ScriptCat. 

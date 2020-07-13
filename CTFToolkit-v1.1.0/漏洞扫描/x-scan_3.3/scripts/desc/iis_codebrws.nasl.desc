@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10956
+NAME=Codebrws.asp Source Disclosure Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试Codebrws.asp文件的存在
+DESCRIPTION=微软的IIS 5.0有提供了一些样本来示范asp的作用，但是一个样本允许远程用户查看web目录下asp、inc、htm、html文件的源代码。;;解决方案：用IIS服务管理器移走样本虚拟目录。如果由于一些原因不能移动的话，那么就移走下面那个asp文件（假定你安装IIS在c:\inetpub）：c:\inetpub\iissamples\sdk\asp\docs\CodeBrws.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore / HD Moore

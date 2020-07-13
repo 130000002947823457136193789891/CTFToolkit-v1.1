@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10924
+NAME=存在csSearch.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/csSearch.cgi
+DESCRIPTION=该主机装有'csSearch.cgi' CGI程序. 该CGI程序存在一个众所周知的安全漏洞,可导致攻击者在该主机上以http进程的权限(通常为root或nobody)运行任意命令.;;解决方案: 从/cgi-bin目录中删除该程序.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

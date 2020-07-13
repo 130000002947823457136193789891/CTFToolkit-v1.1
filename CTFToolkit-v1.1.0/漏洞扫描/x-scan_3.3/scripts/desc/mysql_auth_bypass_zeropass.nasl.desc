@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12639
+NAME=通过0长度密码绕过MySQL认证
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Log in to MySQL with a zero-length password
+DESCRIPTION=用户用一个精心构造的认证数据包;可能会绕过数据库的密码认证;;注意: 为了使用这个脚本, MySQL的监听程序必须允许来自扫描的;IP地址的连接。
+COPYRIGHT=This script is Copyright (C) 2004 Beyond Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11521
+NAME=Abyss httpd崩溃
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=空HTTP字段造成远程web服务器崩溃
+DESCRIPTION=通过发送空HTTP字段的方式可能会造成web服务器崩溃(例如Connection: 和 Range: ).;;攻击者可以利用这个漏洞来阻止主机正常工作.;;;解决方案 : 如果远程服务器为Abyss X1, 升级到X1 v.1.1.4.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

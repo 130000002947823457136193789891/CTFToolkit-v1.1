@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10459
+NAME=存在Poll It v2.0 cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/pollit/Poll_It_SSI_v2.0.cgi
+DESCRIPTION=该主机装有'Poll_It_SSI_v2.0.cgi'脚本.该CGI脚本存在一个众所周知的安全漏洞,可导致攻击者修改远程主机的任意文件.如/etc/passwd.;;解决方案:从/cgi-bin目录中删除'Poll_It_SSI_v2.0.cgi'文件.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2000 Thomas Reinke

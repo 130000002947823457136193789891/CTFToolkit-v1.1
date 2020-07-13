@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15720
+NAME=EGroupWare检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在EGroupWare
+DESCRIPTION=远程主机正在运行eGroupWare -- 一个基于web的群件解决方案. ;更多信息参阅http://www.egroupware.org .;;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11120
+NAME=检测xtelw， 法语:"detection de xtelw"
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测HyperTerminal模式下的xteld
+DESCRIPTION=xteld在远程主机上以HyperTerminal模式运行。;该服务允许用户连接到'Teletel'网络。;其中一些服务端是很昂贵的。;默认情况下, xteld强制连接到最昂贵的服务。;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

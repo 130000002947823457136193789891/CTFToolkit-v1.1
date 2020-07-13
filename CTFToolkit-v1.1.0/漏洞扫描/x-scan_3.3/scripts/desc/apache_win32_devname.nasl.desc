@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11209
+NAME=Apache < 2.0.44 DOS设备名漏洞 
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测Apache版本号
+DESCRIPTION=远程主机所运行的Apache for Windows 版本低于2.0.44;;该版本存在的安全漏洞可导致远程攻击者对服务器实施拒绝服务攻击或者在系统上执行任意代码, 但是该漏洞仅会影响WindowsME和Windows9x;;;*** 注释: 由于Nessus是依靠版本号来判断该漏洞;*** *** 因此这可能是一个误报;;解决方案 : 升级到2.0.44;参见 : http://www.apache.org/dist/httpd/Announcement.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

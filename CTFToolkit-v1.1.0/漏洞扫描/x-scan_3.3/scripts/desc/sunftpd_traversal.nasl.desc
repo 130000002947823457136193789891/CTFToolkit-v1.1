@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11374
+NAME=SunFTP目录截断漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测远程SunFTP服务器是否有目录截断漏洞
+DESCRIPTION=SunFTP build 9 存在目录截断漏洞。;远程攻击者可以通过在FTP命令中输入..字符来读写任意文件。;可用的FTP命名有：(1) GET, (2) MKDIR,;(3) RMDIR, (4) RENAME, or (5) PUT。;;解决方案 : 不使用SunFTP服务，选择其他的FTP Server;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

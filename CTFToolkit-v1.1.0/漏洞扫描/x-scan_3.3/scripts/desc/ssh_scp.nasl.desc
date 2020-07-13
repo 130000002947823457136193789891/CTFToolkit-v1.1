@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11339
+NAME=scp File Create/Overwrite
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程 SSH 版本
+DESCRIPTION=你正在运行OpenSSH 1.2.3或者1.2。;;这个版本在scp中存在一个目录遍历的缺陷，它允许远程恶意的;scp服务器通过..(点点)攻击覆盖掉任意文件。;;解决方案 : SSH/OpenSSH的补丁和新版本已经发布。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi (Chinese version by Dancefire)

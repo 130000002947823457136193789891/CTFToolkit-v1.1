@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12202
+NAME=Nuked-klan 文件包含
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Nuked-klan是否易受文件包含攻击
+DESCRIPTION=Nuked-klan 已经在远程主机安装.;;这个版本有一个漏洞可能允许攻击者包含;第三方web主机上的php文件, 因此允许攻击者在这台主机上执行任意命令;;另一个漏洞允许攻击者读取远程主机上的任意文件.;;解决方案 : 升级到1.5以上版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

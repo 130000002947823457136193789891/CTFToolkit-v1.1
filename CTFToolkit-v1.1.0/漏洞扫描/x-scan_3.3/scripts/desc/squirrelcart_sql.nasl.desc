@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17652
+NAME=SquirrelCart SQL 注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL 注入
+DESCRIPTION=运行着SquirrelCart的远程主机的购物卡程序是用PHP写的.;;该程序有一个漏洞,它允许任何人注入SQL命令来获得远程主机上的管理员权限.;;SquirrelCart 1.5.5和以前的版本都受此影响.;;相关信息可查看: http://www.squirrelcart.com/support.php;解决方案:升级到SquirrelCart 1.6.0或者从SquirrelCart.com下载补丁;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10695
+NAME=IIS .IDA ISAPI过滤器漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测IIS .ida ISAPI过滤器
+DESCRIPTION=远程IIS服务器存在.IDA映射.;;.IDA映射实现上存在一个缓冲区溢出漏洞. 细节请参考Microsoft安全公告;MS01-033, 攻击者可以利用该漏洞获取WEB服务器的SYSTEM权限. ;;建议即使已经为该漏洞安装补丁;最好还是删除.IDA映射, 以及其它在该站点上未使用的ISAPI扩展.;;解决方案: ;删除.IDA映射:; 1.打开Internet 服务管理器. ; 2.右击你的服务器并在菜单中选择"属性"栏. ; 3.选择"主属性" ; 4.选择 WWW 服务 -> 编辑 -> 主目录 -> 配置 ;在扩展名列表中删除".ida"项.;;另外, 你可以到微软技术站点上下载URLSCAN并安装.  URLSCAN缺省设置下就会拒绝所有对.ida映射的请求.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Matt Moore(chinese version by lsy)

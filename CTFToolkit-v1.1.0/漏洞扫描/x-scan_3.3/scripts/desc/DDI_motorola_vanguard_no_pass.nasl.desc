@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11203
+NAME=Motorola Vanguard无密码
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=尝试登陆Vanguard.
+DESCRIPTION=这台Motorola Vanguard路由器没有设置密码. 攻击者可以不提供任何鉴权信息而重新配置这台设备.;;解决方案: 请为这台设备设置强密码.;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense

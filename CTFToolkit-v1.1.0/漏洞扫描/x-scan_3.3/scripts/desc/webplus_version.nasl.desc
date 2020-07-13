@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10373
+NAME=智能Web+软件版本探测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=取得Web+CGI程序版本
+DESCRIPTION=这个插件检测Web+CGI程序的版本号。Web+ CGI有;一个已知的漏洞允许攻击者获得本地文件的访问权限。;;这个漏洞1999年3月被发现存在于Web+ 4.x版本中，;并且有可能广泛的存在于更早期的版本中。;;这个探测不是探测漏洞本身而是通过探测Web+的版本来确定是否含有漏洞。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2000 SecuriTeam
+

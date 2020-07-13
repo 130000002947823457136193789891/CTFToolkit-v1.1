@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17292
+NAME=缺省口令(", password,
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=登陆远程主机",francais:"翻译
+DESCRIPTION=帐号'", account, "'的缺省口令为", password, ";攻击者可以利用它得到系统中的更高权限。风险等级：高;解决方案：为此帐号设置口令或禁止该帐号
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

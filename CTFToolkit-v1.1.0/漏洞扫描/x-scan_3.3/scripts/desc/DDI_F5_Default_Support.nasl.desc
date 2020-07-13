@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10820
+NAME=F5设备support帐号的默认密码
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=F5设备support帐号的默认密码
+DESCRIPTION=这个F5 Networks系统的support用户帐号的密码仍然为默认密码. 正常情况下，这个帐号具有读写web配置实体的访问权限. 攻击者可以利用这一点重新配置系统并有可能以超级用户特权访问系统命令行.;;解决方案: 删除support帐号或修改为难以猜测的密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Digital Defense Inc.

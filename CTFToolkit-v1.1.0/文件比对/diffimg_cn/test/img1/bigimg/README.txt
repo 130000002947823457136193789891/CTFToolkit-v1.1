@@ -1,0 +1,1 @@
+An example of big image (10800x7200) for 64 bits release

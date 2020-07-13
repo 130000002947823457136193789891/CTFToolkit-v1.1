@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11285
+NAME=CSCdy26428
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=嵌入式HTTP服务器的缓冲区溢出而导致远程交换机被攻击.攻击者可通过此漏洞不断重启,从而导致拒绝服务.;;漏洞相关的CISCO ID是CSCdy26428;;解决方案: ;http://www.cisco.com/warp/public/707/catos-http-overflow-vuln.shtml;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

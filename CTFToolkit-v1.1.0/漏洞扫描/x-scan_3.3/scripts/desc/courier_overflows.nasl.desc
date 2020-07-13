@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12102
+NAME=Courier远程溢出
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查版本号
+DESCRIPTION=远程邮件服务器是Courier MTA。 ;;该软件的转换函数存在缓冲区溢出漏洞，从而允许攻击者在主机上执行任意代码。;;解决方案: 升级到Courier 0.45或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

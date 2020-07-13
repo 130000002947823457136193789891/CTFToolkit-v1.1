@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10293
+NAME=vftpd缓冲溢出
+CATEGORY=破坏性攻击
+FAMILY=FTP
+SUMMARY=检测远程ftp是否能够缓冲溢出"
+DESCRIPTION=可以通过向该FTP服务器发出以下指令使其崩溃：CWD <buffer>；CWD <buffer>；CWD <buffer>，<buffer>长于504个字符。攻击者/程序可利用此问题使FTP服务器停止正常工作，因此需要阻止非法用户使用此FTP服务器。;;风险等级：中;解决方案：升级FTP至最新版本或将其更换
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Tranlate by Sniffer

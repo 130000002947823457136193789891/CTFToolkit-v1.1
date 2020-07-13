@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11331
+NAME=wu-ftpd PASV 格式化字符串
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程ftpd版本
+DESCRIPTION=根据主机上WU-FTPd版本，当该远程服务端运行于debug模式下时存在字符串攻击的漏洞。;;解决方案: 升级到最新版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

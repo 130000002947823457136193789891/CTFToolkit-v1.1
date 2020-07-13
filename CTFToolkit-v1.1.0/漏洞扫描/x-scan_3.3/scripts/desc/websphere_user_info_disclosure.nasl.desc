@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16173
+NAME=IBM Websphere 缺省用户信息泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=发现Websphere缺省用户信息泄漏
+DESCRIPTION= 远程主机运行的 IBM Websphere 版本包含一个安全漏洞，通过缺省的用户账号可以获得潜在的机密信息. 攻击者只需要能对应用服务器进行标准查询就可以利用该漏洞. ;;解决办法: 升级到Websphere的最新版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security，plutochen翻译

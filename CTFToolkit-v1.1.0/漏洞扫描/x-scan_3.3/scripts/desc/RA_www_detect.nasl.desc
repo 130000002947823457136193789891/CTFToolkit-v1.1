@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10920
+NAME=RemotelyAnywhere WWW检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测RemotelyAnywhere www服务器
+DESCRIPTION=RemotelyAnywhere WWW服务器正运行在这个系统上.;根据NAVCIRT, 攻击者热衷此管理工具.;;如果是您安装这个工具, 忽略本警告. 反之则表明机器已受到攻击者的危害.;;风险等级 : 无 / 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

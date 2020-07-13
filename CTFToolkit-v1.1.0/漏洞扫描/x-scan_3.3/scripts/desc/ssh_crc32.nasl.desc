@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10607
+NAME=SSH1 CRC-32 补偿攻击漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查远程SSH版本
+DESCRIPTION=远程主机运行的SSH版本 ;低于1.2.32,;或者运行的OpenSSH版本低于;2.3.0.;;该版本存在一安全漏洞;可导致远程攻击者获取root权限.;;解决方案 :;SSH 1.2.32 版本修复了这个问题,;OpenSSH 2.3.0 修复了这个问题 ;;更多信息:;http://www.core-sdi.com/advisories/ssh1_deattack.htm;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison(chinese version by lsy)

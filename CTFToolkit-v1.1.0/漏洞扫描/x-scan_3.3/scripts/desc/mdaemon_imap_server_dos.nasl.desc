@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14826
+NAME=MDaemon imap 服务拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=挂起远程主机 imap 服务
+DESCRIPTION=远程主机运行着 MDaemon IMAP 服务.;;当发送一个具有很长参数的'LOGIN'登陆请求时,将会导致该软件挂起.;;由于该漏洞可以导致远程服务停止响应,因此会导致合法用户无法接收邮件.解决方案 : 更新至该软件的最新版本; 风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

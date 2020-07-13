@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13647
+NAME=osTicket系统setup.php文件的可存取性
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测osTicket系统中setup.php文件的可存取性
+DESCRIPTION=当目标主机运行了一个非正常的安全性安装时;osTicket系统便允许访问setup.php文件.一旦该脚本文件不需要认证访问,它可能被攻击者编辑;osTicket系统的配置使用一个特殊的文件名为setup.php;例如,如果config.php文件可写,一个攻击者可能改变;用来保存认证串票据信息的数据库,甚至将它重定向到;另一个站点.换句话说,无论config.php文件是否可以;读写,攻击者都可以引起所有认证串票据信息的丢失,通过;重新初始化数据库给出已经存在的内容;配置(获得,解说,从config.php中读取).;;解决方法:删除setup.php和gpcvar.php文件并确认;config.php文件的权限号是644.;;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 George A. 翻译:zhufeng16

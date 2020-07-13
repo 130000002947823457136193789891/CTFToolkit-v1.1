@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11284
+NAME=typo3任意文件读取
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=读 /etc/passwd
+DESCRIPTION=远程主机运行有老版本的typo3.;;攻击者利用此漏洞可以读取和执行主机上任意文件.;;解决方案 : 升级Typo3到3.5.0;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

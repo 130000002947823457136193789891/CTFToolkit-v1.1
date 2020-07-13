@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17259
+NAME=PHPlist 2.6.3或更早版本的多种漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PHPlist 2.6.3或更早版本的多个漏洞
+DESCRIPTION=远程主机在运行PHPlist，这是一种处理邮件列表及用户列表的PHP应用程序。;根据banner判断，此已安装的版本很有可能存在多个漏洞;包括：跨站脚本漏洞(XSS)，SQL注入，HTML注入以及其他可能的漏洞。;;解决方案：升级到 PHPlist 2.6.4或更高版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

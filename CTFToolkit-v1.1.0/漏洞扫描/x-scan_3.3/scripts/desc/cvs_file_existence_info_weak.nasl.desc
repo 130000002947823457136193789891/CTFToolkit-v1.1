@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14313
+NAME=CVS未文档化标记信息泄露漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=登入远程CVS服务器并检测版本号
+DESCRIPTION=依照远程CVS服务器的版本号显示,;该版本存在的安全漏洞可导致恶意攻击者获取系统敏感信息.;;并允许攻击者判断任意系统文件或目录是否存在.;;;解决方案 : 升级到CVS 1.11.17 和 1.12.9或更新版本;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(chinese version by lsy)

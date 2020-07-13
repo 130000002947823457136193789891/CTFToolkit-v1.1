@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15766
+NAME=NetOp products UDP detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Determines if the remote host has any Danware NetOp program active on UDP
+DESCRIPTION=这个脚本能够探测到远程系统是否通过UDP运行任意的Danware NetOp程序.这个程序是;远程主机管理员用来远程办公;联机管理的，通常允许通过鉴别的用户使用远程主机.;;;特别要说的是它需要程序;探测;;风险等级：需要特别的程序探测
+COPYRIGHT=This NASL script is Copyright 2004 Corsaire Limited and Danware Data A/S.

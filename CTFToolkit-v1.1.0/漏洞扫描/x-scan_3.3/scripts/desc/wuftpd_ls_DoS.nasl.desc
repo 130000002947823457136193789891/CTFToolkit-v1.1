@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11912
+NAME=wu-ftpd ls -W 内存耗尽
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=发送 ls -w 1000000 -C 到远程的FTP服务器
+DESCRIPTION=FTP服务器不会过滤LS命令的参数 ;这将有可能会耗尽计算机的所有资源 ;通过发送如下命令;	ls "-w 1000000 -C";详情请看 http://www.guninski.com/binls.html;;解决方案: 与你的商家联系并要求相关补丁;风险等级 : 高
+COPYRIGHT=Copyright (C) 2003 Michel Arboi

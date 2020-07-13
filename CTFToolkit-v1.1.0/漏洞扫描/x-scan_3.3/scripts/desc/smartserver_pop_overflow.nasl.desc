@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10257
+NAME=SmartServer pop3 溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=尝试溢出in.pop3d缓冲区
+DESCRIPTION=远程pop3服务端在处理超长命令时存在缓冲区溢出漏洞。这可能导致攻击者在远程POP3服务器上以root身份执行任意命令。;;解决方案: 联系销售商，通报该漏洞并索取补丁。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

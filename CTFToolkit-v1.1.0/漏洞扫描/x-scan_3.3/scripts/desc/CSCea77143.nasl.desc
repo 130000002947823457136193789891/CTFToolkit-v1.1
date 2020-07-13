@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11594
+NAME=CSCdea77143, CSCdz15393, CSCdt84906
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程Cisco VPN 3000集中器易受多种漏洞的攻击;which可能会允许攻击者通过此设备侵占VPN,通过发送畸形的SSH初始化数据包或通过进行畸形ICMP数据包洪水袭击来关闭远程设备.;;漏洞相关的CISCO ID分别是CSCdea77143, CSCdz15393和CSCdt84906;;解决方案: http://www.cisco.com/warp/public/707/cisco-sa-20030507-vpn3k.shtml;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

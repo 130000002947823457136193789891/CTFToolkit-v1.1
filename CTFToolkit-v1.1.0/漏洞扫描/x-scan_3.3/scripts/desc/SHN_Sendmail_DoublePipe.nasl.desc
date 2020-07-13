@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11321
+NAME=Sendmail 8.8.8到8.12.7的双'|'字符访问验证漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查sendmail的版本
+DESCRIPTION=Sendmail所提供的smrsh用于防止在严格受限的环境外执行命令. 但是当使用双'|'字符(||)或点和斜杠组合来输入命令时, 用户有可能绕过smrsh的检查，从而可导致在严格受限的环境外执行命令.;;解决方案 : 升级到最新版本的Sendmail(或至少8.12.8).;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 StrongHoldNet

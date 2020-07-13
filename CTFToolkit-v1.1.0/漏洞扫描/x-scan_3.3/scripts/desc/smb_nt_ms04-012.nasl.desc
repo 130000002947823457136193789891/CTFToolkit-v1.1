@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12206
+NAME=Microsoft Hotfix KB828741 (检查注册表)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-012
+DESCRIPTION=远程主机存在多个RPC/DCOM实现的漏洞(828741)。;;攻击者可以利用这些漏洞在远程主机上执行任意代码。;;解决方案: http://www.microsoft.com/technet/security/bulletin/ms04-012.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

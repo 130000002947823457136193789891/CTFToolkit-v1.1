@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11898
+NAME=使用NetInfo获取远程主机的/etc/passwd文件
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=使用NetInfo获取远程主机的/etc/passwd文件
+DESCRIPTION=此Nessus脚本使用NetInfo试图获取远程主机的/etc/passwd文件。
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

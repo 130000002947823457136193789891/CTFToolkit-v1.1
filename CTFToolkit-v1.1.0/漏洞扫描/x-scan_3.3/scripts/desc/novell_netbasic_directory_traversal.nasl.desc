@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12050
+NAME=Novell 网基脚本目录服务编历
+CATEGORY=信息搜集
+FAMILY=NETWARE
+SUMMARY=检查站 Novell网基脚本目录服务编历的脆弱性
+DESCRIPTION=Novell网基脚本目录服务编历的脆弱性;;可能通过提交如下数据面逃脱系统管理员有脚本目录服务 ;提交一个顺向或反向的\符合，如 %5C. 结果如：, 第敏感性;信息, 如系统环境和用户信息, 能够被获得 ;the Netware 服务.;;例如: http://server/nsn/..%5Cutil/userlist.bas;;方案: 打上相关补丁;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

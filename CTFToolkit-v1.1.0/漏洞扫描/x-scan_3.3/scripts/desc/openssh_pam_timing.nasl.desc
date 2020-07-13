@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11574
+NAME=检测OpenSSH PAM验证延迟信息泄露漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测远程SSH版本号
+DESCRIPTION=远程主机正在运行OpenSSH-portable 3.6.1p1或更低版本.;;如果开放了PAM支持, 攻击者可以根据响应信息的时间不同;判断系统用户是否存在;该缺陷是因为远程sshd进程对合法用户和非法用户的响应信息时间不一样所导致.;;攻击者可以利用这一缺陷暴力猜解密码.;;*** Nessus并没有检测远程SSH进程是否开放了;*** PAM, 因此这可能是一个误报;;解决方案 : 升级到OpenSSH-portable 3.6.1p2或更高版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

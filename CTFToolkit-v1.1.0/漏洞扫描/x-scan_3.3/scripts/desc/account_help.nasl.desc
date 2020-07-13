@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17575
+NAME=未设置密码的", account, "账户
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=Logs into the remote host",
+	       francais:"Translate
+DESCRIPTION=名为'", account, "'的账户没有设置密码. ;攻击者可以利用它获得更高的系统权限;解决方案 : 给此账户设置密码或者禁用它;;风险等级 : 高;
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

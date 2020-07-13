@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10491
+NAME=使用Translate: f查看ASP/ASA源程序漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=下载IIS脚本源程序，比如ASA,ASP
+DESCRIPTION=没有安装services pack1的windows 2000存在严重的漏洞，允许攻击者查看到ASP/ASA 源代码．；；ASP源代码中可能含有敏感信息比如用户姓名，和ODBC连接密码．；；解决方案：安装最新的微软安全补丁（注意：安装Windows 2000 Service Pack 1可消除漏洞）；；风险等级：严重
+COPYRIGHT=yztgx@163.net

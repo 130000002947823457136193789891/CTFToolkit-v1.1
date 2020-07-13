@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12264
+NAME=记录路由
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=发送带记录路由选项的Ping包
+DESCRIPTION=本插件发送带'Record Route'选项的ICMP包. ;这是一个traceroute功能的补充.;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

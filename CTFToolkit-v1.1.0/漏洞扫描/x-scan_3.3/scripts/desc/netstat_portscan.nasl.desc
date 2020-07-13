@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14272
+NAME=Netstat '扫描器'
+CATEGORY=扫描器
+FAMILY=端口扫描
+SUMMARY=用netstat查找开放端口
+DESCRIPTION=该插件在远程主机上运行netstat查找开放端口。;请参考'插件选项'部分对其进行配置;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

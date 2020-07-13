@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11507
+NAME=Apache < 2.0.45
+CATEGORY=混合攻击
+FAMILY=其他
+SUMMARY=Apache
+DESCRIPTION=远程主机运行了比Apache 2.0.45 更早的Apache 2.x;;这个版本中存在多个漏洞:;;- 存在拒绝服务攻击漏洞, 攻击者能远程的使服务器瘫痪;;- httpd进程向子进程泄露文件描述符,;如CGI脚本.  这个服务器上有执行任意CGI代码权限的攻击者(包括 PHP 代码)将可能向文件描述符所指的文件写入任意数据(特别是,;日志文件);;解决办法 : 升级到2.0.45版;参考 : http://www.apache.org/dist/httpd/CHANGES_2.0;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison<Translated By Stravadivaly>

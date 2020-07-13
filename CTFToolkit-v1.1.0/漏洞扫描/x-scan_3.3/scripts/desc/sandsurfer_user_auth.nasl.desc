@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12059
+NAME=SandSurfer用户认证脆弱性
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查SandSurfer
+DESCRIPTION=远程主机运行有SandSurfer, 一个基于web的时间同步程序.;;在此程序1.6.5版本及以前所有的版本中发现一个漏洞，此漏洞容许攻击者绕过身份验证.;;解决方案 : 升级SandSurfer到1.7.0;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

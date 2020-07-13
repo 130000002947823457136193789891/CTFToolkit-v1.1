@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17364
+NAME=MailEnable SE SMTP命令格式漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取命令行
+SUMMARY=检查MailEnable SE SMTP命令格式漏洞
+DESCRIPTION=远程主机运行着某一MailEnable版本，其在处理SMTP命令时受一命令格式漏洞影响。特别地，远程攻击者通过发送一个带有格式化说明符作为参数SMTP命令，能使SMTP后台程序运行崩溃。由于该漏洞的存在,攻击者可控制程序的执行和注入任意代码。;;参看 : http://www.securityfocus.com/archive/1/393566;解决方案 : 目前无解决方案。;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

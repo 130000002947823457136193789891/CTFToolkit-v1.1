@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15450
+NAME=BlackBoard Internet Newsboard System远程文件包含缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查BlackBoard Internet Newsboard System的版本
+DESCRIPTION=远程主机正在运行BlackBoard Internet Newsboard System -- 一个PHP编写的开放源代码的BBS管理系统.;;由于缺乏对用户提交的数据进行正确处理, 此软件存在一个远程文件包含漏洞.;;攻击者可以利用这个漏洞在一台受害的服务器上执行恶意的脚本代码.;;*** Nessus仅使用收集到的信息;*** 来报告这个漏洞. 因此,;*** 这很有可能是错误的.;;解决方案: 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

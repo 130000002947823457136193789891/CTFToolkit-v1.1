@@ -1,0 +1,9 @@
+[CHINESE]
+ID=14241
+NAME=4D WebStar Symbolic Link Vulnerability
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=Checks for 4D FTP Server
+DESCRIPTION=远端服务器运行着4D WebStar FTP服务，;;据报道4D WebStar存在一个本地软链接漏洞，;;使其易于受到攻击。该问题源于一个设计错误，;;该错误导致应用程序打开任意文件，而不通过彻底地验证文件;;是否存在或它们的绝对路径。通过受影响的应用程序，;;攻击者可以成功利用该问题使自己可以更改任意可写文件，;;并使其轻易地提升自己的权限。;;解决方案 : 升级到4D WebStar 5.3.3及其以后的版本;;风险等级 : 低;;
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak;;
+By Osar

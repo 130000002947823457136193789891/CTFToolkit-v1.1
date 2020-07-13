@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11486
+NAME=WebLogic管理Servlet权限检测可被绕过
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测远程WebLogic版本
+DESCRIPTION=远程服务器正运行着WebLogic;;该版本一个内置的管理Servlet没有正确的处理用户身份认证导致攻击者可以;修改用户密码、上传/下载任意文件。;在WebLogic 7.0中攻击者还可以删除空的子项。;;注：;Nessus只是根据远程服务BANNER信息中的版本号来判断远程服务器是否有该漏洞的，因此可能是误报。;;参考信息 : http://dev2dev.bea.com/resourcelibrary/advisoriesnotifications/BEA03-28.jsp;;解决方案: WebLogic6.0版本请安装SP2/SP3;WebLogic6.1版本请安装SP4;WebLogic7.0或7.0.1请安装SP2。;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

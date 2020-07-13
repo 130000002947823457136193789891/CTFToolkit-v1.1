@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16197
+NAME=ITA论坛多种 SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=ITA论坛SQL注入
+DESCRIPTION=远程主机运行了ITA论坛, 这是一个用PHP写的论坛软件.;;在它的远程版本中有一个SQL注入漏洞,可以使攻击者通过对远程主机上一些文件提交的一个畸形的值,在远程主机上执行任意的SQL语句及改写远程主机系统上任意文件.;;解决办法:升级到这个软件的最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security <Translated By Stravadivaly>

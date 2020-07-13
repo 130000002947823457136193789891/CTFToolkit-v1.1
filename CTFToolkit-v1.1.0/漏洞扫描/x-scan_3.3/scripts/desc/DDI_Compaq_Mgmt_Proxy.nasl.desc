@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10963
+NAME=Compaq Web Management Agent代理漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Compaq Web Management Agent代理漏洞
+DESCRIPTION=这台主机正在运行Compaq的Web Management Agent. 此服务可用作HTTP代理. 攻击者可以使用这个特点来旁路防火墙规则隐藏web攻击源.;;解决方案: 由于此服务还涉及到信息泄露, 推荐禁止Compaq Management Agent或过滤TCP 2301端寇和TCP 280端口. ;;如果需要此服务, 从Compaq安装解决这个问题的升级版本. 升级操作系统和硬件的更新软件可到Compaq的支持下载页面: ;http://www.compaq.com/support/files/server/us/index.html;;更多信息请参阅供应商的告诫: ;http://www.compaq.com/products/servers/management/SSRT0758.html; ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc.

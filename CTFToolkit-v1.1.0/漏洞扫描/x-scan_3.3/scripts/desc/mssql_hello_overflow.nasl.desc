@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11067
+NAME=微软SQL Hello溢出
+CATEGORY=破坏性攻击
+FAMILY=WINDOWS
+SUMMARY=微软SQL Hello溢出
+DESCRIPTION=可以远程溢出MSsql服务器。;;一个攻击者可能使用这一个漏洞远程溢出MSsql服务器，利用这一个漏洞可以得到SYSTEM的权限，并且可以读取数据库内容。;;解决方案 : 安装微软补丁Q316333 网址：http://support.microsoft.com/default.aspx?scid=kb;en-us;Q316333&sd=tech;or disable 或者用防火墙保护SQL服务器1433端口;
+风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Dave Aitel

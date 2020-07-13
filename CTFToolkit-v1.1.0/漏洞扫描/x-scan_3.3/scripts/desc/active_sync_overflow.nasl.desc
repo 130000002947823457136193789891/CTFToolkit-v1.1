@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11435
+NAME=ActiveSync包溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检查ActiveSync的溢出
+DESCRIPTION=发送一个错误内容长度的错误格式包会使远程服务(可能为ActiveSync)崩溃.;;攻击者可以利用这个漏洞远程禁止此服务. 尽管有可能，但是目前尚不清楚这个是否可以利用这个漏洞在主机上执行任意代码.;;解决方案 : 过滤这个端口的流量;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

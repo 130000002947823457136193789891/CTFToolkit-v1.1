@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11347
+NAME=Sendmail 本地缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail的版本号判断，此服务器存在本地缓冲区溢出漏洞。;通过溢出GECOS域, 本地用户可实现一个拒绝服务攻击或获取系统root权限。;;解决方案 : 升级Sendmail到8.8.3或更新的新版本。;;风险等级 : 高(本地)/无(远程)
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

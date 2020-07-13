@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11015
+NAME=Xerver web服务拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Xerver拒绝服务
+DESCRIPTION=通过向Xerver web服务的管理端口发送一个超长URL如;(C:/C:/...C:/)，该web服务可能崩溃。攻击者可利用该漏洞使该服务不停崩溃.;;;安全方案:升级该软件;;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

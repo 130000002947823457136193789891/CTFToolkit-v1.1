@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11547
+NAME=CSCea42030
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程Catalyst容易遭受密码漏洞的攻击.基本上,;攻击者若使用一个命令行访问，可获得'enable'权限;不需要正确的密码, 就可远程对设备进行重新配置;this host remotely.;;此漏洞相关的CISCO ID是CSCde42030;;解决方案: http://www.cisco.com/warp/public/707/cisco-sa-20030424-catos.shtml;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10667
+NAME=IIS 5.0 PROPFIND漏洞
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=尝试崩溃微软IIS服务器
+DESCRIPTION=微软IIS 5.0的WebDAV在处理某些畸形的请求时存在缺陷;提交畸形的PROPFIND请求可以使服务器停止响应.;当攻击者利用此漏洞进行攻击的时候, 将导致使IIS 5.0拒绝服务.如果该服务器是个商务站点的话, 影响将是极为严重的.;;解决方案 : 禁止WebDAV;参见;http://support.microsoft.com/support/kb/articles/Q241/5/20.ASP;或者: ;http://www.microsoft.com/technet/security/bulletin/MS01-016.asp;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2001 John Lampe(chinese version by lsy)

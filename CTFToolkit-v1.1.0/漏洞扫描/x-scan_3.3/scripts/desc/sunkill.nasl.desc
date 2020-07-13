@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10272
+NAME=SunKill
+CATEGORY=当机
+FAMILY=拒绝服务
+脚本摘要信息=远端SUN崩溃
+脚本详细描述=不登录系统，需是大量发送^D字符可能会使对端sun系统崩溃.;;这一漏洞可以使攻击者阻止网络正常运行.;;;解决方法 : 升级telnet服务器并过滤发送到此端口的流量.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

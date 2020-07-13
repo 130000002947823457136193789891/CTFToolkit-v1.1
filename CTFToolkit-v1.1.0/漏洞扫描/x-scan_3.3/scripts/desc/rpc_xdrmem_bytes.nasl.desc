@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11420
+NAME=Sun系统的portmap程序xdrmem_getbytes()调用存在溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=RPC
+SUMMARY=检测xdrmem_getbytes()溢出漏洞
+DESCRIPTION=RPC库函数xdrmem_getbytes()中存在一个整型溢出漏洞。 ;;该漏洞可导致远程攻击者通过精心构造请求信息在系统;以RPC服务程序运行身份（通常是root）执行任意代码甚至获取一个系统Shell。;;Nessus对该漏洞的测试可能使你的portmap服务崩溃。;;解决方案 : 参考 http://www.cert.org/advisories/CA-2003-10.html;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

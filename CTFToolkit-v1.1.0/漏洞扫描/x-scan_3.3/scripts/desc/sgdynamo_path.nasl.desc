@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11954
+NAME=sgdynamo.exe程序路径泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=sgdynamo.exe路径泄露
+DESCRIPTION=该CGI程序'sgdynamo.exe'可能被欺骗而导致泄露远程主机的web根目录的物理路径.;;可能导致恶意攻击者利用该路径信息进行更深入的针对远程主机的攻击.;;解决方案:暂时没有;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2003 Scott Shebby

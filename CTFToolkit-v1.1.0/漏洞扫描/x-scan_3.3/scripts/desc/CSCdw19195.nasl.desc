@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10986
+NAME=CSCdw19195
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=某些运行基于CatOS软件的Cisco Catalyst交换机,;在telnet选项处理时的一个缓冲区溢出漏洞，;可能导致这个telnet daemon瘫痪并导致交换机重启.这个漏洞可被利用来进行拒绝服务(DoS)攻击.;;这个漏洞的Cisco ID是CSCdw19195.;;解决方法: ;http://www.cisco.com/warp/public/707/catos-telrcv-vuln-pub.shtml;;参考: http://online.securityfocus.com/archive/1/252833;;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

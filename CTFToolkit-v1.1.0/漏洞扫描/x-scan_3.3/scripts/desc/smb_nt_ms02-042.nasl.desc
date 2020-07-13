@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11091
+NAME=Windows网络管理权限提升漏洞(Q326886)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=MS Hotfix Q326886检测,通过网络提升权限
+DESCRIPTION=Windows 2000 网络连接管理存在一个漏洞，可能允许提升权限。;;漏洞影响：权限提升。;;受影响的系统：;Microsoft Windows 2000 ;;建议：任何使用受影响软件的用户应该立即安装补丁。;;最高严重等级：待定;;详见：http://www.microsoft.com/technet/security/bulletin/ms02-042.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 SECNAP Nework Security, LLC

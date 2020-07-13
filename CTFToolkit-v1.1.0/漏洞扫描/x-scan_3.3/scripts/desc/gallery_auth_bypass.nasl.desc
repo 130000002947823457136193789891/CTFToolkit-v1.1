@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12278
+NAME=Gallery 绕过鉴定
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查 Gallery 软件缺陷
+DESCRIPTION=远程主机正在运行 Gallery 软件（一个基于网络的相册软件）。;;该版本存在一个缺陷使得攻击者可以通过发送;包括 GALLERY_EMBEDDED_INSIDE 和 GALLERY_EMBEDDED_INSIDE_TYPE 在内的选项的请求;从而绕过该软件的鉴定机制。;;解决方案: 将 Gallery 升级到1.4.3p2 或以上。;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(translated by kunlong)

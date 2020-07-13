@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16280
+NAME=vBulletin跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测vBulletin的跨站脚本漏洞
+DESCRIPTION=远程主机运行的vBulletin（PHP的BBS）版本似乎低于2.3.5或3.0.5，这些版本存在跨站脚本漏洞导致应用程序处理用户输入失败;;漏洞将造成攻击者嵌入恶意脚本，也造成cookie攻击;;解决方案：升级到2.3.6 或 3.0.6;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

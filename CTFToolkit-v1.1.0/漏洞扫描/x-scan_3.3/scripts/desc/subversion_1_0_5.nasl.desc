@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12284
+NAME=Subversion SVN 协议解析器远程整数溢出
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Subversion SVN 协议解析器远程整数溢出
+DESCRIPTION=Subversion中存在一个远程溢出。svnserver未能成功审核 svn:// 请求，;从而导致一个堆溢出。用一个特殊构造的请求，攻击者可以执行任意代码以;破坏数据。;;解决方案: 升级到1.0.5版本或者更新;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak (Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11391
+NAME=BSD ftpd setproctitle() 格式化字符串攻击
+CATEGORY=破坏性攻击
+FAMILY=FTP
+SUMMARY=检测远程ftpd是否可以受到格式化字符串攻击
+DESCRIPTION=远程FTP服务器由于误用setproctitle()函数而;有可能遭受攻击，攻击者可以通过以'anonymous'身份登陆;并发送一个仔细构造的格式化字符串来作为其邮件地址 ;来得到一个该主机的root shell.;;解决方案 : 升级FTP服务器.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

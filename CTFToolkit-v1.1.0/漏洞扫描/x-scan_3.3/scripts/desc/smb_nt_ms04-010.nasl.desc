@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12091
+NAME=检查 Microsoft MS04-010 补丁
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查 MS04-010
+DESCRIPTION=远程主机运行了 MSN Messenger 软件。;;远程主机可能遭到远程攻击，主机;中任何受害人具有“读”权限的文;件都有可能被攻击者读取。;; 解决办法：安装微软公司提供的补丁; ; 可以从以下地址获得更多信息：; http://www.microsoft.com/technet/security/bulletin/ms04-010.mspx ;; 风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 完美废人 翻译

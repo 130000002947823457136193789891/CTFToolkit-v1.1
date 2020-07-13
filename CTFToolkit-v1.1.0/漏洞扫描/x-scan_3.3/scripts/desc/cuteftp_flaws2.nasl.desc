@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15860
+NAME=CuteFTP多个漏洞(2)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否存在CuteFTP.exe程序
+DESCRIPTION=该远程主机运行着CuteFTP.exe程序.;;CuteFTP是一个包含有多个缓冲区溢出漏洞的FTP客户端程序;该漏洞可以导致攻击者获得该主机的shell命令行.;;要利用该漏洞,攻击者必须建立一个恶意的FTP服务器并引诱该主机用户使用CuteFTP访问.;;解决方案:目前暂无;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

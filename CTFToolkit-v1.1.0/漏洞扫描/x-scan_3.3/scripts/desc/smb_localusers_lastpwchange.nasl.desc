@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10914
+NAME=本地用户信息: 从未变动过的密码
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举本地特权用户
+DESCRIPTION=当前脚本列举了从未修改过自己密码的本地用户名。;;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

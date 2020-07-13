@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10427
+NAME=SMB 注册表: HKLM的权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程根键的连接权限
+DESCRIPTION=非管理员组的用户可以改写注册表根键HKEY_LOCAL_MACHINE的内容。;;该漏洞允许用户在主机上自建多个子键，最终拿到管理员权限。;;主机目前的配置将损害系统安全。;;解决方案: 使用regedt32并且设置该根键的权限为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

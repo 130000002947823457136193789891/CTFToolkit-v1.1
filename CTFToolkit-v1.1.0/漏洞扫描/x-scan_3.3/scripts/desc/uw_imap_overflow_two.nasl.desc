@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10374
+NAME=uw-imap buffer 登陆后溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检查imapd中是否存在缓冲区溢出漏洞
+DESCRIPTION=远程imap服务器有一个缓冲区溢出漏洞，它允许;一个已经登陆验证的用户获得一个远程shell.;;解决方案:升级你的imap服务器或者使用其他的软件.;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

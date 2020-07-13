@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11202
+NAME=Enhydra Multiserver默认密码
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Enhydra Multiserver默认Admin密码
+DESCRIPTION=Enhydra应用服务器默认配置的系统管理员密码为'enhydra'. 潜在的入侵者可以重新配置此服务器并获得系统的完全访问.;;解决方案: 请为'admin'帐号设置强密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense Inc.

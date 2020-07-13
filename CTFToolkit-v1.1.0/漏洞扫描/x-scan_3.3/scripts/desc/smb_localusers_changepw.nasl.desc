@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10912
+NAME=本地用户信息: 不能修改密码
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举特权用户
+DESCRIPTION=当前脚本列举了不能修改自己密码的本地用户名;;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

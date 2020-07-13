@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11179
+NAME=vBulletin日历插件执行命令漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=vBulletin日历插件执行命令漏洞
+DESCRIPTION=vBulletin存在漏洞，允许攻击者构造特殊的URL，利用vBulletin的PHP脚本在服务器上执行任意命令。;详细情况请参考： http://www.securiteam.com/securitynews/5IP0B203PI.html;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 SecurITeam

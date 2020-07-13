@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11390
+NAME=rsync数组处理存在溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程rsync服务是否存在数组处理溢出漏洞
+DESCRIPTION=远程rsync服务在处理数组索引时存在溢出漏洞。;;该漏洞可导致远程攻击者任意执行系统命令甚至获取一个系统Shell。;;解决方案 : 升级rsync到2.5.2或更新的版本。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

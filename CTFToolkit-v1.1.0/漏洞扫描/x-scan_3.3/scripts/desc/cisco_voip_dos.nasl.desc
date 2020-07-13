@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11013
+NAME=Cisco VoIP phones拒绝服务攻击漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=检测CISCO
+DESCRIPTION=提交如下请求将会重启远程系统 :;;    http://<phone-ip>/StreamingStatistics?120000;    ;;解决方案 : http://www.cisco.com/warp/public/707/multiple-ip-phone-vulnerabilities-pub.shtml;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

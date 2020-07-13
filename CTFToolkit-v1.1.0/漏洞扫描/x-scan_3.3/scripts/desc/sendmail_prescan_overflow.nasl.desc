@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11838
+NAME=Sendmail prescan()缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail的版本号判断，此服务器可能存在远程缓冲区溢出漏洞。;该漏洞可导致远程攻击者获取系统的root权限访问。;版本5.79到8.12.9的Sendmail均受影响;;解决方案 :升级Sendmail到8.12.10及更新的新版本。;参考 : http://lists.netsys.com/pipermail/full-disclosure/2003-September/010287.html;;注意: 手工给Sendmail打补丁并不会修改其版本号。由于Nessus只是根据版本号;检测该漏洞，因此就可能导致一些厂商已经打过补丁的Sendmail出现误报。;; 风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

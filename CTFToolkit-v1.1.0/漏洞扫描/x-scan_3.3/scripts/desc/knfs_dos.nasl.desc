@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11813
+NAME=Linux 2.4 NFSv3 拒绝服务攻击
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=尝试对远程knfsd的拒绝服务攻击
+DESCRIPTION=如果远程主机运行knfsd, 一个网络文件系统守护进程,;;那末该版本存在的一个漏洞可以使 ;攻击者通过发送一个带有非法长度的恶意GETATTR 请求;来使远程主机当机.;;攻击者利用该缺陷可以使该主机停止服务；;;解决方案 : 升级至Linux 2.4, 或停止使用knfsd.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

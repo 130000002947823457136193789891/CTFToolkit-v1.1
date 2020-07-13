@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15828
+NAME=Youngzsoft CMailServer Multiple Remote Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=Detects the version of CMail
+DESCRIPTION=远程主机运行着YoungZSoft CMail Server，一款Windows系统下的邮件系统.;;CMailServer存在多个安全漏洞，比如缓冲区溢出、SQL注入和HTML注入等，;可能令攻击者在该主机执行任意代码.;;解决方案 : 请升级至CMailServer 5.2.1或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

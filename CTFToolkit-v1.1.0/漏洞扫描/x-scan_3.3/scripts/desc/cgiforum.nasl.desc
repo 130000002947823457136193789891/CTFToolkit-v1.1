@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10552
+NAME=cgiforum
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/cgiforum.pl
+DESCRIPTION='cgiforum.pl' cgi已经安装. 这个CGI有一个非常有名的安全问题,它能让任何人读取远程主机上任意文件.;;解决办法:/cgi-bin.;;从/cgi-bin中移除.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison <Translated By Stravadivaly>

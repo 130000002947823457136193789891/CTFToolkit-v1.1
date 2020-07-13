@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14360
+NAME=MAILsweeper 档案文件绕过漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查远程版本
+DESCRIPTION=;远程主机运行着MAILsweeper的,- 一个为SMTP服务提供内容过滤的安全软件.;;利用MAILsweeper某些版本的漏洞,攻击者发送7ZIP, ACE, ARC, BH, BZIP2, HAP, IMG, PAK, RAR 或 ZOO格式的 文件,可以绕过管理员设置的过滤规则.;;解决方案 : 升级MAILsweeper到 4.3.15或更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

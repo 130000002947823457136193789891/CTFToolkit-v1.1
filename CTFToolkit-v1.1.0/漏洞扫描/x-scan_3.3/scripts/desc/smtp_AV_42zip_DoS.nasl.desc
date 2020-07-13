@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11036
+NAME=SMTP防病毒过滤器拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=42.zip防病毒邮件传输代理拒绝服务DoS
+DESCRIPTION=本脚本发送42.zip到邮件服务器，如果该服务器上有防病毒代理并且配置有误，则可能导致CPU过载或内存满负荷。;;Solution: 升级或重新配置你的防病毒软件;;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

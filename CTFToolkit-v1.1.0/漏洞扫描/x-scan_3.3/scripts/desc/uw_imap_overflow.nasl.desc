@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10292
+NAME=uw-imap 缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=uw-imap 缓冲区溢出
+DESCRIPTION=uw-imap存在一个缓冲区溢出漏洞允许远程用户获得管理员权限.;;当用户提供一个超长的登陆验证参数时将发生缓冲区溢出。;;风险等级：高;;Solution：升级你的uw-imap服务器到最新版本。
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16044
+NAME=e_Board arbitrary file reading
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 e_Board
+DESCRIPTION=远程主机运行了 e_Board - 一种基于Perl语言的Web留言板程序;;在该软件中包含一个漏洞，能够让攻击者以web服务进程的用户权限浏览服务器上的任意文件;;解决办法 : 更新到最新的e_Board或者禁用该软件;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security plutochen翻译

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10249
+NAME=邮件服务器支持EXPN和VRFY命令
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测邮件服务器是否支持EXPN和VRFY命令
+DESCRIPTION=远程邮件服务器回应了EXPN或VRFY命令。;;EXPN命令能被用于查找邮件别名的递送地址，甚至能查到收件人的全名。;VRFY命名能被用来测试帐号的有效性。;;由于这些命令可显示过多的信息，因此邮件服务器上应该禁用这些命令。;;解决方案: 如果你使用的是Sendmail, 请添加:;;	O PrivacyOptions=goaway;;       到配置文件 /etc/sendmail.cf.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15625
+NAME=Caudium Web服务器错误格式URI拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查Caudium的版本
+DESCRIPTION=远程主机正在运行Caudium Web服务器. ;;此软件容易受到错误格式URI使其停止响应请求的攻击的危害. ;;利用这个漏洞的攻击者仅需要连接到Web服务器并发送一个HTTP的'GET'请求就可以禁止其服务.;;解决方案 : 升级到Caudium 1.4.4 RC2或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

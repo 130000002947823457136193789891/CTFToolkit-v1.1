@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10475
+NAME=WebSitePro webfind.exe 缓冲区溢出
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=试图溢出缓冲区
+DESCRIPTION=当接受到的参数'keywords'内容过长时，远程 CGI '/cgi-bin/webfind.exe' 会发生缓冲区溢出。;;该漏洞允许攻击者以root身份在主机上执行任意代码。;;解决方案: 升级到WebSitePro 2.5 或删除该CGI;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

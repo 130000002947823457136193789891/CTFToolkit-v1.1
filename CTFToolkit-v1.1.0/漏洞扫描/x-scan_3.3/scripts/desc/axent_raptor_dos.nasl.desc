@@ -1,0 +1,8 @@
+CHINESE]
+ID=10022
+NAME=Axent Raptor's DoS
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使axent raptor崩溃
+DESCRIPTION=通过发送一个包含特殊选项（如：长度等于0）的ip报，将会导致远程Axent Raptor当机 。攻击者可能会利用这个漏洞使你的防火墙不断崩溃，以致网络不能正常工作。;解决方案: 过滤流入的IP数据报，包括IP选项,与Axent联系并寻求补丁。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15789
+NAME=RealPlayer Skin File Remote Buffer Overflow
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of RealPlayer
+DESCRIPTION=远程主机安装着RealPlayer播放器.;;该版本软件存在一缺陷，允许攻击者在该远程主机;以运行着RealPlayer的用户权限运行任意代码.;攻击者进行该攻击，需向用户发送一有害的皮肤文件，;并诱使用户使用RealPlayer打开它.;;解决方案 : 升级至最新版本;;如您已经删除RealPlayer，您可能需删除注册表中SOFTWARE\RealNetworks\RealPlayer的键值.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

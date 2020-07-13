@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10313
+NAME=WindowsNT PPTP 拒绝服务
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使远程服务器当机
+DESCRIPTION=我们可以通过telnet远程主机的1723端口, 发送以^D(control-d)字符结尾的垃圾数据使远程PPTP主机当机。;;攻击者可以利用该漏洞影响主机正常工作并使它频繁重起。;;解决方案: 安装WindowsNT SP5。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

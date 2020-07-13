@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15988
+NAME=WordPress 的多个漏洞 (XSS, HTML 注入, SQL 注入)
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查当前的WordPress
+DESCRIPTION=远程主机正在运行WordPress BLOG,一个PHP编写的网络日记管理程序.;;这个版本存在多个漏洞;使得攻击者能对远程主机进行HTML注入,或者对远程数据库执行任意SQL语句.;;解决方案 : 升级到 WordPress 1.2.2;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

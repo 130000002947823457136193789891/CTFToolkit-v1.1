@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10311
+NAME=Wingate POP3 USER溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=确定Wingate POP3服务器有可能崩溃
+DESCRIPTION=远程POP3服务器多半是Wingate的一部分，通过一下指令可使其崩溃:;;		USER x#999(...)999;		;这个问题可能会使网络上的用户无法索引自己的电子邮件。;;解决方案：升级。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

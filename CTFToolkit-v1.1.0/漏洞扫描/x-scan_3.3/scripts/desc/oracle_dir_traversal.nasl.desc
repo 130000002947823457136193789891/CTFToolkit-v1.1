@@ -1,0 +1,7 @@
+[CHINESE]
+ID=17654
+NAME=Oracle数据库8i/9i多重远程目录遍历漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测Oracle8i/9i中的多重远程目录遍历漏洞
+DESCRIPTION=根据其版本号，据说在远程主机上安装Oracle会产生多重目录遍历漏洞，以至于可能允许远程攻击者拥有Oracle数据库服务器的权限来读、写或改名任意文件. 授权用户可以手工进行SQL语言查询，因此他们便能够检索系统中的任何文件并可能检索和/或修改目标Oracle服务器上的机密数据. 参考: http://www.argeniss.com/research/ARGENISS-ADV-030501.txt 解决方法: http://www.oracle.com/technology/deploy/security/pdf/cpu-jan-2005_advisory.pdf 风险等级: 中 COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

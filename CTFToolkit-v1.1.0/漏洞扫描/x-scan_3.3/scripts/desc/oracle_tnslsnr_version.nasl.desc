@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10658
+NAME=Oracle tnslsnr版本查询
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=连接目标主机的1541或1521端口,执行一个TNS VERSION命令来查询版本信息
+DESCRIPTION=连接目标主机的1541或1521端口,可执行一个TNS VERSION命令来查询版本信息
+COPYRIGHT=James W. Abendschan <jwa@jammed.com> (GPL)

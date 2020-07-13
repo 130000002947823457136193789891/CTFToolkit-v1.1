@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10303
+NAME=WebSite pro 泄漏web目录下文件的物理路径
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=试图找到远程web的根目录
+DESCRIPTION=通过使用命令：;; GET /HTTP1.0/;可以获得该主机虚拟web目录的物理路径。;这为攻击者提供了有用信息，以便于他们有的放矢。;;解决方案: 使用其他的web服务端。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

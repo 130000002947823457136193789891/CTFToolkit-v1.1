@@ -1,0 +1,7 @@
+ID=10560
+name=SuSE's identd 溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程identd守护进程崩溃
+DESCRIPTION=Ident是一个协议，;他将特定连接发起者的用户名提供给远程服务器.;他主要被IRC, SMTP and POP等服务器用来获取;服务使用者的登陆名.;;远程identd守护进程存在一个缺陷，任何人利用此缺陷;可以从远程使该服务崩溃.;;解决方案 : 如果不需要，停止该服务, 或升级;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

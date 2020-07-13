@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10015
+NAME=AltaVista Intranet搜索服务文件读取漏洞
+CATEGORY=信息搜集
+FAMILY=CGI类
+SUMMARY=检查是否query?mss=...可以读取文件
+DESCRIPTION=; ;    使用Altavista Intranet Search服务可以读取远程主机上的任何文件，通过下面的请求：;    GET /cgi-bin/query?mss=%2e%2e/config;;Bugtraq ID : 896;解决办法：;  - 编辑<install-dir>/httpd/config文件，改变MGMT_IPSPEC的值'0.0.0.0/0'为一个指定的特殊IP，比如'127.0.0.1/32';  - 停止通过管理结构收集页面;  - 重新启动Altavista Search服务;  - 重新启动页面搜索（如果必要）;  - 通过管理接口改变账户和密码为一个假的信息;  - exploit服务器并且下载../logs/mgtstate（放文件到缓存中）;    http://localhost:9000/cgi-bin/query?mss=../logs/mgtstate;  - 通过管理接口改变账户和密码（并不使用）;  - 避免重新启动服务或者清除缓存;;风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

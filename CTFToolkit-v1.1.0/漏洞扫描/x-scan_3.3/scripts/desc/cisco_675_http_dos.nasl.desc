@@ -1,0 +1,7 @@
+ID=10561
+NAME=cisco 675 http DoS
+CATEGORY=拒绝服务
+FAMILY=CISCO
+SUMMARY=使Cisco路由器崩溃
+DESCRIPTION=可能通过发送“GET ?”请求来锁定远程的服务器（可能是Cisco路由器），你需要重新启动服务器使其正常工作。攻击者可能利用此漏洞使主机崩溃而不能正常的工作。在你的工作区的路由器中添加下面的规则：禁用Web,写，重启。;解决方案:  联系CISCO获取补丁.;参考：http://online.securityfocus.com/archive/1/147562.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10743
+NAME=Tripwire for Webpages 检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Tripwire for Webpages 检测
+DESCRIPTION=我们检测到远程机器正在运行基于Apache Web服务器的;Tripwire for Webpages。该软件允许攻击者收集你的服务器配置的敏感信息;;解决方案: 修改Apache的访问规则。添加选项'ServerTokens'到;httpd.conf的'ProductOnly'段;;风险等级 : 低;;更多信息在 :;http://www.securiteam.com/securitynews/5RP0L1540K.html (Web 服务器访问规则指南)
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam (Translated by chice)

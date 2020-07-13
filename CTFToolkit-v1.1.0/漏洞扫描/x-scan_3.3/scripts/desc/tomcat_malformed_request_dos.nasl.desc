@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17322
+NAME=Apache Tomcat 远程畸形请求拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查Apache Tomcat中远程畸形请求拒绝服务漏洞
+DESCRIPTION=由于不正确的处理畸形请求, 远程主机上的Apache Tomcat存在拒绝服务漏洞.  通过提交一个精心构造的请求, 攻击者能使Tomcat停止对更多请求的响应. 目前, 对这种特殊的请求没有详细的资料. ;;解决办法 : 升级到Apache Tomcat 5.x.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>
+ 

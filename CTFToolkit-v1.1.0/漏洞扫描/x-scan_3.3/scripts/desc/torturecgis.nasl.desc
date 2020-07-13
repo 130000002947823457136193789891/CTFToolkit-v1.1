@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10672
+NAME=未知CGI参数考验
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=考验远程CGI的参数
+DESCRIPTION=这个脚本通过送一些常见的导致CGI程序错误的参数，如(../../etc/passwd);来'考验'远程CGI的参数。;;*** 这个脚本绝对不可能像人做这类事情的那样好;;风险等级 : 从无到高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison (Chinese version by Dancefire)

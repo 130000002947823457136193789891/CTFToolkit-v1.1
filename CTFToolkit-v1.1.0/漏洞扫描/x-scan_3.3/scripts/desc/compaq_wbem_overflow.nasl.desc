@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17997
+NAME=Compaq WBEM Buffer Overflow Vulnerability
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=Compaq WBEM Server Version Check
+DESCRIPTION=远程主机正运行着Compaq Web Management服务.;;远程主机上这个软件的版本存在未知的缓冲溢出漏洞,这可能导致一个攻击者在这个网页的主机上执行任意代码.;;解决方案:更新到这个软件5.96.0版;也可参见: http://www.securityfocus.com/advisories/8087;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

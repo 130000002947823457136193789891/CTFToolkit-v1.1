@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15542
+NAME=nbmember.cgi信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查nbmember.cgi
+DESCRIPTION=远程主机安装了nbmember.cgi.;;此软件存在一个信息泄露缺陷，这个缺陷允许攻击者访问敏感的系统信息，从而导致系统丧失机密性.;;解决方案: 目前没有解决方案;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

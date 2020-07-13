@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10340
+NAME=rpm_query脚本
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测rpm_query
+DESCRIPTION=主机上存在rpm_query脚本. ;;该脚本允许任意用户连接到这个web服务器上获取该服务器已经安装的RPM包的列表.;;这将导致攻击者可以了解到该服务器上安装的服务程序的版本号,从而帮助其进行更有针对性的攻击.;;解决方案 : 从cgi-bin/目录中删除该脚本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

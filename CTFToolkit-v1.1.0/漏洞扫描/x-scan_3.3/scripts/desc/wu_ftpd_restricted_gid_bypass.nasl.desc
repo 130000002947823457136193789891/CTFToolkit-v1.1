@@ -1,0 +1,7 @@
+[CHINESE]
+ID=12098
+NAME=wu-ftpd受限用户组未授权访问CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程主机运行的Wu_ftpd版本
+DESCRIPTION=远程主机正运行wu_ftpd2.6.2或更旧版本.;;这些版本的wu_ftpd有一个漏洞会使攻击;者绕过受限组的权限约束，访问未授权的路径。;;***因为扫描结果仅仅依靠远程FTP服务器的指纹鉴别，;所以扫描结果不一定可靠.;;解决方案：现在还没有官方的解决方案，请参阅;RedHat帮助文档获得更详尽的信息。;;风险等级：高
+COPYRIGHT=Copyright (C) 2004 Tenable Network Security

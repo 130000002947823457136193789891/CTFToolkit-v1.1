@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11548
+NAME=bttlxe论坛SQL注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=使用SQL查询作为密码
+DESCRIPTION=远程主机运行了bttlexeForum, 它是一套在Windows平台上为基于论坛的web服务设计的CGI程序.;;在远程服务器上有一个SQL注入漏洞, 它能使攻击者通过提交'or id='形式的密码,以'administrator'的身份登陆;;一个攻击者可能利用这个漏洞伪装成这个主机上的用户 (可能;使网络管理员认为伪装合法)或是控制远程SQl数据库;;解决办法: http://www.battleaxesoftware.com/forums/forum.asp?forumid=36&select=1812;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison <Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11852
+NAME=服务器存在邮件转发问题
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=防止垃圾邮件转发的配置存在缺陷
+DESCRIPTION=远程的SMTP服务器对防止邮件转发的配置不够;垃圾邮件发送者有可能利用该服务器发送垃圾邮件;;Risk factor : 低/中;;Solution : 升级你的邮件服务器或更改配置文件，加强防范垃圾邮件转发的功能。
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

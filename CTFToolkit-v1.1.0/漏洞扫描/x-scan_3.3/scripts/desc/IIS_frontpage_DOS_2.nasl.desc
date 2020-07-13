@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10585
+NAME=IIS FrontPage DoS
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=试着攻击IIS服务器
+DESCRIPTION=IIS的frontpage扩展存在一个通常被称为“malformed web submission“的拒绝服务漏洞。如果服务器运行着商业系统，那么它的利润会受到影响。;;解决方案：http://www.microsoft.com/technet/security/bulletin/MS00-100.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2000 John Lampe

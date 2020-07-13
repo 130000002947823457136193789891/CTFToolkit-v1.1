@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11368
+NAME=Cross-Referencing Linux (lxr) 文件读取
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin/source文件是否存在
+DESCRIPTION=远程主机安装了'Cross-Referencing Linux'. ;CGI存在一个人们熟知的安全缺陷，该缺陷允许任何人;读取本主机上的任何文件.;;解决方案 : 将其从/cgi-bin中删除.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

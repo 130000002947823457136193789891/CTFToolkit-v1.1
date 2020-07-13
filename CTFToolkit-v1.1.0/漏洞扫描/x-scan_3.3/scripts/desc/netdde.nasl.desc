@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15572
+NAME=NetDDE漏洞可导致允许执行代码(Netbios检查)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否安装了841533号补丁(Netbios)
+DESCRIPTION=远程Windows可受Network Dynamic Data Exchange (NetDDE)上的一个漏洞影响.;;攻击者可利用此漏洞在远程主机上以SYSTEM权限执行任意代码.;;解决方案: http://www.microsoft.com/technet/security/bulletin/MS04-031.mspx;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

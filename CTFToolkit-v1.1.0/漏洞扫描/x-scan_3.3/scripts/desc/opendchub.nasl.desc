@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15834
+NAME=Open DC Hub远程缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=检测远程主机是否使用着Open DC Hub
+DESCRIPTION=远程主机运行着Open DC Hub，一款用于点对点文件共享的软件.;;Open DC Hub存在一远程缓冲区溢出漏洞.;成功利用的话，可导致攻击者在该主机执行任意代码.;远程攻击者需以管理员权限运行该程序.;;解决方案 : 暂无.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Security;;Dedicate this to Sierra

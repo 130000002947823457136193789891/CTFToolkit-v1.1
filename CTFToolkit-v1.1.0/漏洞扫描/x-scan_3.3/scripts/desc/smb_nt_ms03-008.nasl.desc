@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11423
+NAME=Windows脚本引擎漏洞(Q814078)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=微软Hotfix Q814078检测
+DESCRIPTION=Windows脚本引擎用来执行脚本程序，它存在一个漏洞。;;如果要利用这个漏洞，攻击者必须引;诱用户访问一个恶意站点，或者将一个带;有恶意代码的HTML页面通过邮件发送给用户。;;解决方法：见http://www.microsoft.com/technet/security/bulletin/ms03-008.asp;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

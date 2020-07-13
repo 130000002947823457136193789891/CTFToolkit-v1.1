@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11679
+NAME=VisNetic 和 Titan FTP 服务器遍历漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=试图突破FTP根目录
+DESCRIPTION=远程FTP服务器存在漏洞，允许用户突破FTP服务端设定的根目录。;;攻击者可以利用下面的命令突破限制:;;ftp> quote stat ../*;;解决方案: 联系销售商索取补丁;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

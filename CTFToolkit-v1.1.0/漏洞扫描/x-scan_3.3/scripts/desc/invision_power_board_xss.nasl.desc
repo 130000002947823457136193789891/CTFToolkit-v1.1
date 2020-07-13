@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12101
+NAME=Invision PowerBoard 跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Invision PowerBoard是否存在跨站脚本漏洞
+DESCRIPTION=远程主机正在运行Invision Power Board。;;该软件存在漏洞，可能导致跨站脚本攻击。;;攻击者可以利用该漏洞窃取网站上合法用户的私人信息。;;解决方案: 销售商目前还未提供任何补丁;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

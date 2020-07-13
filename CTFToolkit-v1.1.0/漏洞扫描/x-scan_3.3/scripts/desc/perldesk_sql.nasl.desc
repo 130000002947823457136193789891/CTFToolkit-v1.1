@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16323
+NAME=PerlDesk SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PerlDesk是否容易受到SQL注入的攻击
+DESCRIPTION=远程主机运行了一个由Perl编写的基于WEB服务的应用程序PerlDesk.;;The 这个软件的远程版本容易受到若干SQL注入漏洞的影响而导致攻击者能在远程SQL数据库里执行任意SQL语句.;;解决方案 :升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated By Mrcool

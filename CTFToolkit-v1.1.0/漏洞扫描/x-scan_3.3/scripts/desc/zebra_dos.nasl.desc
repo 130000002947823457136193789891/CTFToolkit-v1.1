@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11925
+NAME=Zebra and Quagga Remote DoS
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=可以尝试的远程Zebra和/或Quagga攻击
+DESCRIPTION=Zebra和Quagga存在一个远程拒绝服务攻击;;如果攻击者建立一个telnet连接，发送一个空的数据报，就可以触发这个漏洞;;攻击者就可以利用这个漏洞破坏主机正常的路由;;这个漏洞影响到从0.90a到0.93b的所有系统;;解决放案：下载更新后的版本Quagga Version 0.96.4.;也可以从：http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=107140得到漏洞的相关信息;风险等级:高
+COPYRIGHT=This script is copyright (C) 2004 夏雪天

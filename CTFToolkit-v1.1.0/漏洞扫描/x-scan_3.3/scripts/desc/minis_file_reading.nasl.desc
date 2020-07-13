@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16179
+NAME=Minis Remote File Access
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for a file reading flaw in minis
+DESCRIPTION=远程主机正运行着Minis,这是一个用PHP编写的Web日志系统.远程主机上的这个版本的软件存在的漏洞,这可能致使攻击者能够以httpd user的用户权限在远程主机上读取任意文件.;解决方案:升级到最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(Translated By Forza)

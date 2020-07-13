@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10993
+NAME=IIS ASP.NET 应用程序允许被跟踪
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测 ASP.NET 应用程序跟踪
+DESCRIPTION=运行在该服务器根目录下的 ASP.NET 网络应用程序允许被跟踪.; 这将允许攻击者查看最近的50个发送给该服务器的请求,;这些请求会包含像SessionID和被请求文件的物理路径等敏感信息.;;解决方案: 在web.config里设置 <trace enabled=false> ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc. (Translated by chice)
+

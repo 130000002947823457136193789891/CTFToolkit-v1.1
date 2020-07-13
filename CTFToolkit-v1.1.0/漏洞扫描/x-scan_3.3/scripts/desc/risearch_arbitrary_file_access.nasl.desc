@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14204
+NAME=RiSearch任意文件访问
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确认RiSearch show.pl的存在
+DESCRIPTION=目标主机看上去运行RiSearch, 一个本地的搜索引擎。;;这个版本包含了一个导致未经授权的信息被泄露的漏洞缺陷。;这一问题被触发，当任意的本地文件转到show.pl，泄漏文件内容导致机密的丢失。;;解决方案:升级这个软件的版本到最新的。;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak (Chinese by netke)

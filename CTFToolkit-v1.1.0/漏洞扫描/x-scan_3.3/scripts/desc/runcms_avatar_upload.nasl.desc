@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17987
+NAME=RunCMS 远程任意文件上传漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查RunCMS中的远程任意文件上传漏洞
+DESCRIPTION=远程主机运行了RunCMS / E-Xoops,;一个用PHP编写的内容管理系统.;;根据其标识, 在远程主机上安装的这个版本允许用户上传任意文件并可能执行它们.; 这个问题出现在avatar上传被允许的时候;(它们不是默认的). ;;参看 : http://www.securityfocus.com/archive/1/395097;;解决方案 : 把'Custom avatar;settings'中的 'Allow custom avatar upload' 设置为 'No' . ;;风险等级 : 低到高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

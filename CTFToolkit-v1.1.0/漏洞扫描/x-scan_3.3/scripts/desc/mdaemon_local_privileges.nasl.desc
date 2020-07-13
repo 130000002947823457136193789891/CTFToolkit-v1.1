@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15823
+NAME=Alt-N MDaemon Local Privilege Escalation Vulnerability
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=Checks the remote version of Mdaemon
+DESCRIPTION=远程主机运行着Alt-N MDaemon，一款Windows系统下的SMTP/IMAP服务软件.;;Alt-N MDaemon 7.2.0及以下版本存在本地权限提升漏洞.;本地攻击者可能提升自身权限，以SYSTEM权限执行任意代码.;;解决方案 : 请升级至MDaemon 7.2.1或更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

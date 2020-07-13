@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16106
+NAME=[DSA628] DSA-628-1 imlib2
+CATEGORY=信息搜集
+FAMILY=安全检测Debian
+SUMMARY=DSA-628-1 imlib2
+DESCRIPTION=在libXpm库中,Pavel Kankovsky发现了一些溢出漏洞,并且在X11的图形库imlib和imlib2中也存在这些漏洞.攻击者通过精心构造一个图象文件,当受害者打开它时,使其链接到imlib或imlib2库执行任意代码.通常存在的缺陷和易暴露信息的项目被确定有如下问题:;存在许多基于堆的缓冲区溢出缺陷.但imlib2中不存在这样的缺陷代码.在imlib库中,存在许多整型溢出漏洞.对于stable distribution(woody),在1.0.502woody2中修复了这些问题.对于unstable distribution(sid)，这些问题将在不久后被修复.;我们推荐,你应该更新你的imlib2补丁包.;;解决方案:http://www.debian.org/security/2005/dsa-628;风险等级:高
+COPYRIGHT=This script is (C) 2005 Michel Arboi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10829
+NAME=扫描UPNP的主机
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=UPNP scan
+DESCRIPTION=该主机支持微软的UPNP功能。出于多种原因，该服务具有危险性。;;解决方案: 禁用即插即用, 参见 http://grc.com/UnPnP/UnPnP.htm;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2001 by John Lampe

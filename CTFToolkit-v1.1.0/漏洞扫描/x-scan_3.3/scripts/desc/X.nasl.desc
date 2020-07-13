@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10407
+NAME=X Server
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=X Windows System Server允许连接
+DESCRIPTION=X11窗口系统是一个跨许多操作系统平台的基本的桌面系统。;几乎每个Unix系统都自带了该服务，由于设计上的原因，如果X服务允许任何人连接，;那么远程攻击者可能可以通过该服务查看用户的桌面、窃取用户的键盘输入等。;;解决方案 : 使用xauth 或 MIT cookies是推荐的解决方法，;当然也可以使用xhost限制信任主机或 使用防火墙等过滤到X11的TCP端口的连接。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 John Jackson

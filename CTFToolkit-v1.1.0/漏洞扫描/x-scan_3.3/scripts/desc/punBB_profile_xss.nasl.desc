@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15940
+NAME=PunBB profile.php XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PunBB profile.php XSS
+DESCRIPTION=远程主机上正在运行PunBB,一个高速的，轻量级的PHP论坛.;;这个版本存在cross-site脚本漏洞; 出自'profile.php' 脚本.;;使用一个特殊构造的URL, 攻击者可以在缺乏完整性检查的情况下执行任意代码.;;解决方案：升级到 1.1.4以上版本;;请参阅: http://www.punbb.org/;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(翻译:kill_ads)

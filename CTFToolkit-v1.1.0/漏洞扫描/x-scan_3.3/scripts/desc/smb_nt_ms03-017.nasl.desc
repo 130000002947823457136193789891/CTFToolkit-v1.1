@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11595
+NAME=Windows Media Player外壳下载溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY= 检测Media Player版本
+DESCRIPTION=Windows Media player在处理‘外壳’的过程中存在一个漏洞。;;攻击者可以利用这个漏洞以Windows Media Player;权限在远程主机上运行任意的指令。;如果要利用这个漏洞，攻击者必须;创建一个畸形的外壳并把它发送给用户，;或者直接通过邮件发送，或者发送;一个URL指向这个外壳。;;受影响的系统：;;- Microsoft Windows Media Player 7.1; - Microsoft Windows Media Player for Windows XP (Version 8.0);;;解决方法：- 见 
+http://www.microsoft.com/technet/security/bulletin/ms03-017.asp;- 如果你使用Windows XP，安装Service Pack 2;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

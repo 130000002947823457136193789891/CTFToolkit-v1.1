@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11868
+NAME=SMB 注册表: SNMP子键的权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的连接权限
+DESCRIPTION=非管理员组的用户可以修改注册表子键 HKLM\SYSTEM\CurrentControlSet\Services\SNMP\Parameters 的内容。;;对该子键的修改可以提升普通用户的权限。;;具体请参见 http://www.microsoft.com/technet/security/bulletin/ms00-095.asp;;解决方案: 使用regedt32把该子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12033
+NAME=LeifWright's blog.cgi命令运行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测登陆设置
+DESCRIPTION=远程主机运行着LeifWright's blog.cgi-一种用CGI设计的个人页面记录(或者叫'blogs'). ;;该程序存在一个漏洞可以导致攻击者以web特权在该远程主机上运行任意命令.;;解决方案:升级blog.cgi到最新的版本或者禁止该程序;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

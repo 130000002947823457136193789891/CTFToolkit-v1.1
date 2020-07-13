@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17656
+NAME=Google工具栏HTML注入攻击
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Google工具栏存在
+DESCRIPTION=远程主机运行Internet Explorer插件-Google工具栏时容易受到HTML注入式攻击,攻击者通过它来进行跨站点脚本攻击. ;;;解决方案:更新到2.0.114.1以上版本;相关信息: http://toolbar.google.com;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

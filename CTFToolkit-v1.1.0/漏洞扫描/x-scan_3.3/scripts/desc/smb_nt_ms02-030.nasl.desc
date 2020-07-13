@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11304
+NAME=SQLXML未检测溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测SQLXML
+DESCRIPTION=该远程主机运行着SQLXML. 该软件存在多个漏洞允许远程攻击者在该主机上运行任意代码.;;解决方案: ; - 查看http://www.microsoft.com/technet/security/bulletin/ms02-030.asp; - 安装 MSSQL Server SP3;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

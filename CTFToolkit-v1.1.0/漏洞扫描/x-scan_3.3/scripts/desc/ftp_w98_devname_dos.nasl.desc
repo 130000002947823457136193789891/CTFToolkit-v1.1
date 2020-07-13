@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10929
+NAME= Windows 98 MS/DOS ftp服务下设备名拒绝工具
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=Crashes Windows 98
+DESCRIPTION=该漏洞可以通过ftp用CON\CON, AUX.htm 或者AUX;作为文件名读取一个 MS/DOS的;设备导致windows死机或者重启.;;攻击者可以利用这个漏洞使用户的;系统不停的死机,从而导致;用户不能够正常工作.;;解决方法:升级你的系统或者;使用一个可以过滤掉这些文件名的ftp服务器.;;参考资料1:http://support.microsoft.com/default.aspx?scid=KB;en-us;Q256015;参考资料2 : http://online.securityfocus.com/archive/1/195054.;;风险等级:高
+COPYRIGHT=版权所有Michel Arboi 2001

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10507
+NAME=Sun's Java Web服务器远程命令执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=查看是否存在 /servlet/sunexamples.BBoardServlet
+DESCRIPTION='bboard' servlet 被安装在 /servlet/sunexamples.BBoardServlet中。;这个servlet存在一个著名的安全隐患，它允许任何拥有http daemon (root 或 nobody）特权的人执行任意命令。;;解决方案: 删除这个servlet;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

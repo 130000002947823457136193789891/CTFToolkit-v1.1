@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14686
+NAME=Trillian MSN Overflow
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=测定Trillian.exe的版本号
+DESCRIPTION=Trillian是一个P2P软件的客户端,它允许用户和全球其他用户聊天和共享文件.据MSN的报道一部分;Trillian程序存在一个漏洞.;;一个远程攻击者利用这个缺陷,可以在运行有Trillian;客户端的系统的后台执行代码.;;解决方案:升级Trillian到0.74 patch J (或更高);风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

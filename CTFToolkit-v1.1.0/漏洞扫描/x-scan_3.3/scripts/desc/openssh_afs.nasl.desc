@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10954
+NAME=OpenSSH AFS/Kerberos ticket/token缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程SSH版本号
+DESCRIPTION=远程主机正在运行的OpenSSH版本低于OpenSSH 3.2.1;;如果AFS或者KerberosTgtPassing或者AFSTokenPassing等选项开放, 即存在缓冲区溢出漏洞.  在这种情况下, 由于开放UsePrivilegeSeparation选项.;;版本低于2.9.9可导致攻击者远程获取root权限. 版本低于3.2.1可导致攻击者进行本地越权攻击.;;解决方案 :;升级到最新版本OpenSSH;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Thomas Reinke(chinese version by lsy)

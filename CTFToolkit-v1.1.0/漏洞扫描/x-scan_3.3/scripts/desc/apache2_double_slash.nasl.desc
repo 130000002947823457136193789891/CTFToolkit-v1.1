@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11909
+NAME=Apache2双斜杠目录索引
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=发送“GET // HTTP/1.0”
+DESCRIPTION=通过发送:GET // HTTP/1.0请求, 能得到远程web服务器root内容列表;    ;这个漏洞常常影响 Red Hat Linux上默认配置的Apache, 也影响其他Linux和web服务器.;;攻击者能利用这个漏洞浏览远程web root内容,及找到他们中隐藏的连接.;;解决办法 : 使用index替代默认的欢迎页面;风险等级 : 中
+COPYRIGHT=(C) 2003 Tenable Network Security<Translated By Stravadivaly>

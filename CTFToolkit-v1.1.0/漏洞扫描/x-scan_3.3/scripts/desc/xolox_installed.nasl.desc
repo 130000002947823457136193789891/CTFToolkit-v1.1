@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11431
+NAME=XoloX安装 
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=检测XoloX是否被安装
+DESCRIPTION=远程主机正在运行XoloX - 一个p2p软件。此软件不适合商业用途。 ;;解决方案: 卸载此软件;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11837
+NAME=OpenSSH < 3.7.1
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程SSH版本
+DESCRIPTION=远程主机正在运行的OpenSSH版本低于3.7.1;;该版本存在一个缓冲区溢出漏洞;可导致攻击者以OpenSSH进程权限在系统上执行任意指令.;;一个针对该漏洞的攻击程序已经开始流传.;;;个别Linux发行版本修补了这个漏洞;但是没有修改OpenSSH的版本号. 因为Nessus是单纯依靠版本号来判断该漏洞, 因此这有可能是一个错误的警报.;;如果你主机上运行的是RedHat, 可以用下列命令来确定这个问题 :;          rpm -q openssh-server;      ;返回 :;    openssh-server-3.1p1-13 (RedHat 7.x);    openssh-server-3.4p1-7  (RedHat 8.0);    openssh-server-3.5p1-11 (RedHat 9);;解决方案 : 升级到OpenSSH 3.7.1;参见 : http://marc.theaimsgroup.com/?l=openbsd-misc&m=106375452423794&w=2;       http://marc.theaimsgroup.com/?l=openbsd-misc&m=106375456923804&w=2;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

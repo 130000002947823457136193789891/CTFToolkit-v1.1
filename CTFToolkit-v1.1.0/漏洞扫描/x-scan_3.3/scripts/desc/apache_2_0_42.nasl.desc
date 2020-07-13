@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11408
+NAME=Apache < 2.0.43
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache软件包版本
+DESCRIPTION=远程主机似乎运行了比2.0.43版早的Apache 2.x;;这个版本允许攻击者通过向某个目录发送POST请求导致WebDAV和 CGI生效, 从而查看CGI源代码.;;*** 注意:Nessus 只是依据远程服务器的版本号;*** 给出这个警告. 也许是错的;*** ;;解决办法 : 升级到  2.0.43;参考: http://www.apache.org/dist/httpd/CHANGES_2.0;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison<Translated By Stravadivaly>

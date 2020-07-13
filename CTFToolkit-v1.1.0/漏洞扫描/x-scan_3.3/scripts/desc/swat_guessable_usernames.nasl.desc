@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10590
+NAME=通过暴力破解获得SWAT用户名
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测SWAT服务器端口
+DESCRIPTION=当使用错误用户名和密码登陆时，远程SWAT服务端会返回不同的错误代码。攻击者可以利用此漏洞通过暴力破解获得远程主机的用户名列表,SWAT没有记录尝试登陆的次数，这更给攻击者打开了方便之门。;;解决方案: 获取最新版本的samba, 或者禁用swat;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

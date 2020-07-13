@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11439
+NAME=Xoops path disclosure
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Xoops
+DESCRIPTION=运行Xoops CGI套件的远程主机存在泄漏web根目录物理路径漏洞。攻击者可以通过向一个Xoops CGI提交虚假选项获得上述路径信息。除此以外，Xoops还存在其他一些漏洞（SQL注射，用户信息泄漏等等）。建议用户卸载该CGI套件;;解决方案：目前暂无;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

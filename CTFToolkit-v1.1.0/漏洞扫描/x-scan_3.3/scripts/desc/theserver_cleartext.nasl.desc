@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11914
+NAME=TheServer文本密码泄漏
+CATEGORY=攻击
+FAMILY=远程文件访问
+SUMMARY=TheServer 将密码以文本形式保存在server.ini中
+DESCRIPTION=我们可以读取server.ini文件.;他可能包含敏感信息比如文本密码等。;这个漏洞对TheServer有效。;;Solution：升级你的软件或重新进行配置.;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

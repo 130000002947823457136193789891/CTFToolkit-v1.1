@@ -1,0 +1,7 @@
+[CHINESE]
+ID=12212
+NAME=CVS服务器RCS文件校验认证
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=登录CVS服务器和获取服务器版本
+DESCRIPTION=远程主机为CVS服务器,根据它的版本号,可以允许;攻击者上传RCS文件到除CVS服务器根目路外任以目路;解决方案: 升级到1.11.15或1.12.7;风险等级 : 中;COPYRIGHT=Copyright (C) 2004 Tenable Network Security;翻译 Hekrt

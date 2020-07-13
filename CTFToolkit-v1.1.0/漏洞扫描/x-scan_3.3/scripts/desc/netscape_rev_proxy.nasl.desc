@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12225
+NAME=Web 服务器反向代理漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Web 服务器反向代理漏洞
+DESCRIPTION=远程Web服务器看来允许任何匿名用户使用它作为反向代理服务器。;这将暴露内部服务给潜在的映射和威胁。;;风险等级 : 高;;解决方案 : 关闭反向代理
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

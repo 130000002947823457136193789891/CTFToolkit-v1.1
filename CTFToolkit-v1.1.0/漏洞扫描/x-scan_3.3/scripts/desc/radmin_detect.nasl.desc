@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11123
+NAME=radmin检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测radmin
+DESCRIPTION=radmin运行在这个端口上。;请确保您使用一个强壮的密码，否则一个入侵者将会暴力破解您的密码进而控制您的机器。;;解决方案：如果不使用请关闭它。;;风险系数：中级
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

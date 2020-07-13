@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11920
+NAME=Word 和/或 Excel 允许任意代码的执行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测WinWord.exe的版本
+DESCRIPTION=远程主机正在运行某版本的Microsoft Word 和/或 Microsoft Excel。该版本的软件存在漏洞，允许攻击者在主机上执行任意代码。要达到攻击的目的, 攻击者会发送恶意伪造的word或excel文件给受害者，并欺骗受害者打开文件。这时，恶意word文件中包含的宏命令就通过了word的安全检验得以执行。;;解决方案: 参见http://www.microsoft.com/technet/security/bulletin/ms03-050.asp;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

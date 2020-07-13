@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11317
+NAME=通过SNMP发现HP JetDirect EWS密码
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=通过SNMP可以枚举JetDirect Web Server的密码
+DESCRIPTION=这个脚本试图通过请求远程打印机的OID:;;.1.3.6.1.4.1.11.2.3.9.1.1.13.0;;来获取远程惠普JetDirect web server(有些打印机中有)的密码。;;攻击者可以使用这个漏洞获得那个打印机的管理权限。;;获得进一步的消息;http://www.securityfocus.com/archive/1/313714/2003-03-01/2003-03-07/0;http://www.iss.net/security_center/static/9693.php;http://www.iss.net/issEn/delivery/xforce/alertdetail.jsp?id=advise15;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense, Inc.(Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16017
+NAME=RHSA-2004-583: nfs
+CATEGORY=信息搜集
+FAMILY=本地检测Red Hat系统安全
+SUMMARY=检测nfs补丁包版本
+DESCRIPTION=现在,可以更新nfsnfs-utils的升级包，它修复了一些可以利用的安全漏洞。nfs-utils包提供了一个对nfs服务的daemon内核模块和一些相关工具，提供了比传统用户们所使用的linux NFS服务更高层的表现。此包也包含了可疑程序及其出现问题.关于NFS的远程安装服务daemon服务,;SGI报告，此daemon服务没有合适的表示SIGPIPE句柄，一个精心构造或恶意的针对它的程序能造成信号冲突而拒绝服务的情况。在CAN-2004-1014中描述了由此漏洞引起的易被攻击和暴露信息的程序项目(cve.mitre.org)。.;;  Arjan van de Ven 在rquotad中发现了一个缓冲区溢出漏洞.在64位机中,一个不适当的整型转换造成缓冲区溢出，攻击者在能访问共享的NFS下，通过发送一个精心构造的返回包，可以执行任意代码.在CAN-2004-0946中描述了由此漏洞引起的易被攻击和暴露信息的项目(cve.mitre.org).此外,补丁还包括了以下内容：-32位和64位机的匿名帐户的UID被修复.因为stat结构的st_uid字段是unsigned integer型的,当创建此匿名帐户时,-2的实际值没有没使用.因此相反,-2的小数值被使用了.在一个32位机上,-2的小数值是65534,但在64位机上它是4294967294.errata 打开的情况下,nfs-utils传递的安装脚本检查目标结构,因此,一个适当的小数值被使用.;;nfs-utils的所有用户应该升级这个升级包,它解决了以上的问题.;;;;解决方案:http://rhn.redhat.com/errata/RHSA-2004-583.html.风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

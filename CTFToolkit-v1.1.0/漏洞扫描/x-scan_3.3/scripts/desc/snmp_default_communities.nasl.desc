@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10264
+NAME=SNMP代理默认团队名称
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=SNMP代理默认团队名称
+DESCRIPTION=简单网络管理协议(SNMP)是一个;可以远程管理计算机和网络设备的协议.;有两种典型的远程监控模式.;他们可以粗略地分为"读"和"写"(或者是PUBLIC和PRIVATE).;如果攻击者能猜出一个PUBLIC团体串值,;那么他就可以从远程设备读取SNMP数据.;这个信息可能包括;系统时间,IP地址,接口,运行着的进程,etc等.;如果攻击者猜出一个PRIVATE团体串值;(写入或"完全控制"),;他就有更改远程机器上信息的能力.;这会是一个极大的安全漏洞,;能让攻击者成功地破坏网络,运行的进程,ect.;其实,"完全控制"会给远程攻击者提供在主机上的完全管理权限.;;风险等级:高;;更多信息请参见:;http://www.securiteam.com/exploits/Windows_NT_s_SNMP_service_vulnerability.html
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam & Powered by Robur!

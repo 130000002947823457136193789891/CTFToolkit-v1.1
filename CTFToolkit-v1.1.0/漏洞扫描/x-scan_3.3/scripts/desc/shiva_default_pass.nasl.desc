@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10500
+NAME=Shiva路由器默认密码
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=登陆远程Shiva路由器
+DESCRIPTION=该远程Shiva路由器使用了默认密码.;任何人只要下载了用户手册即可telnet到该路由器并修改配置,导致合法用户无法登陆或使用其网络连接.;;解决方案:立刻telnet到该路由器并修改密码.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2000 Stefaan Van Dooren

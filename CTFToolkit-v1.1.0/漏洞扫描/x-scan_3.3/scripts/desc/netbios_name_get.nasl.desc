@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10150
+NAME=使用NetBIOS探测Windows主机信息
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=使用NetBIOS探测Windows主机信息
+DESCRIPTION=如果NetBIOS端口(UDP:137)已经打开，;一个远程攻击者可以利用这个漏洞获得主机;的敏感信息，比如机器名，工作组/域名，;当前登陆用户名等。;;解决方法：阻止这个端口的外部通信。;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam

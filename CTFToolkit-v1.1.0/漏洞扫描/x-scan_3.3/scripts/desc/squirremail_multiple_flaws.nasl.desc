@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11753
+NAME=Squirrelmail多个远程安全漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测squirrelmail是否可以读取任意文件
+DESCRIPTION=远程主机正在运行SquirrelMail, 一款WEBMAIL程序.;;该程序存在的安全漏洞允许;攻击者, 以HTTP服务进程的权限在主机上读取webmail账户, 移动或删除任意 ;文件.;;解决方案 : 升级到SquirrelMail 1.2.12 版本;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

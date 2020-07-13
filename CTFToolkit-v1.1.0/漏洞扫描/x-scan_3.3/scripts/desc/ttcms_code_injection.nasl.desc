@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11636
+NAME=ttCMS 脚本注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=试图包含一个文件
+DESCRIPTION=远程主机运行有存在脚本注入漏洞也就是SQL注入漏洞版本的ttCMS.;;攻击者利用此漏洞可以在主机上执行任何PHP代码或控制远程数据库.;;解决方案 : 升级ttCMS到最新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

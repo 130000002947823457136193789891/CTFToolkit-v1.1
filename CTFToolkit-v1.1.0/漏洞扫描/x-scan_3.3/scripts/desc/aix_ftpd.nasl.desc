@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10009
+NAME=AIX FTPd缓冲区溢出漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测是否可以对远程FTPd进程实施缓冲区溢出攻击
+DESCRIPTION=发送以下命令时可导致远程FTP服务器崩溃:;; CEL aaaa[...]aaaa;;这是 'AIX FTPd' 存在的一个缓冲区溢出漏洞;可导致攻击者远程获取root (super-user) 权限.;;解决方案 : 如果你使用的是AIX FTPd程序, 请参考;IBM的安全公告ERS-SVA-E01-1999:004.1,;或者联系程序提供商以获取补丁.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(chinese version by lsy)

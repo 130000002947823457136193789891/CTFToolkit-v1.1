@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15911
+NAME=paFileDB password hash disclosure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 paFileDB的版本
+DESCRIPTION=远程主机运行了paFileDB，一种基于PHP的文件数据库;;远程主机上的运行的该软件的版本号 显示其带有的漏洞能够让用户浏览账号密码的Hash, 包括管理员帐号.;;这个漏洞在基于会话的认证进行时出现，存在于3.1版本及其更早版本的软件中.;攻击者能够利用该漏洞进行密码暴力破解，从而获得用户的帐号信息;;解决方案: 更新到 paFileDB的3.2 版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

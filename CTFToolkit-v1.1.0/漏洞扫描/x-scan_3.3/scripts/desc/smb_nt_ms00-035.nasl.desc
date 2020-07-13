@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11330
+NAME=MS SQL7.0 Service Pack 可能将密码留在系统中
+CATEGORY=信息收集
+FAMILY=WINDOWS
+SUMMARY=读取 %temp%\sqlsp.log
+DESCRIPTION=远程MS SQL Server的安装进程会在远程主机上留有;文件名为'sqlsp.log'的文件。;;这些文件包含远程数据库'sa'用户帐号;的密码。;;攻击者可利用这个缺陷得到数据库访问的完全管理权限。;;具体情参考;http://www.microsoft.com/technet/security/bulletin/ms00-035.asp;;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

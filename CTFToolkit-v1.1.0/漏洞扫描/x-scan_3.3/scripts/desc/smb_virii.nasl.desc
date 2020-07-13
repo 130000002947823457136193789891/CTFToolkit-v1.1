@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11329
+NAME=远程主机感染了病毒
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程主机上的各种病毒
+DESCRIPTION=本程序的脚本通过提供给Nessus的SMB证书判断远程主机上是否存在病毒。	- W32/Badtrans-B,	- JS_GIGGER.A@mm,- W32/Vote-A,	- CodeRed ,	- W32.Sircam.Worm@mm,	- W32.Nimda.A@mm,	- W32.Goner.A@mm,	- W32.HLLW.Fizzer@mm,	- W32.Sobig.B@mm,	- W32.Sobig.C@mm,	- W32.Sobig.E@mm,- W32.Sobig.F@mm,	- W32.Yaha.J@mm,	- W32.Mimail.A@mm,	- W32.Welchia.Worm,	- W32.Swen.a@mm;        - W32.Mimail.C@mm,        - W32.Mimail.L@mm,       - W32.Mimail.P@mm,	- W32.Beage.A@mm,        - Vesser;;风险等级: 高;解决方案: 参见报告中的URL地址
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

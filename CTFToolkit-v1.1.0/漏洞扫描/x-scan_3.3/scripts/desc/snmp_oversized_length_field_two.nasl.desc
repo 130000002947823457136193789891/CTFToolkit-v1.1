@@ -1,0 +1,8 @@
+[中文]
+ID=10858
+脚本名称=SNMP错误的长度域(2)
+漏洞分类=拒绝服务
+漏洞类型=拒绝服务
+脚本摘要信息=snmpd DoS
+脚本详细描述=通过发送一个带有伪造长度域的畸形包，可能关闭远端的SNMP精灵程序.;;攻击者可能利用此缺陷阻止别人管理其网络(或利用其它缺陷;利用SNMP精灵程序权限执行任意代码;).;;解决方法:参看 www.cert.org/advisories/CA-2002-03.html;风险等级: 严重
+版权信息=This script is Copyright (C) 2002 Renaud Deraison

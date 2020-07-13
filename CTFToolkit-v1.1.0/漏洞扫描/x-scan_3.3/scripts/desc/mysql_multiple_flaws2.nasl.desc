@@ -1,0 +1,9 @@
+[CHINESE]
+ID=15449
+NAME=MySQL multiple flaws (2)
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查远程MySQL版本
+DESCRIPTION=远程主机正在运行某种版本的MySQL数据库，比4.0.21或是3.23.59更旧的版本.远程软件版本是有漏洞的，可以破解:可以被利用来拒绝某些安全服务，:MySQL是一种可以在Liuux/BSD和Windows平台运行的数据库。..........解决方案：更新最新版本MySQL3.23.59或者4.0.21或是更新的；风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak 
+

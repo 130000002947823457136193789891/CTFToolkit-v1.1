@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10372
+NAME=/scripts/repost.asp
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/scripts/repost.asp文件是否存在
+DESCRIPTION=如果/scripts/repost.asp文件没有被正确配置的话，用户就可以上传文件到/users文件夹。;;解决方案：修改/users目录使得匿名的internet用户只有读的权限。也请参考：http://online.securityfocus.com/archive/82/84565;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

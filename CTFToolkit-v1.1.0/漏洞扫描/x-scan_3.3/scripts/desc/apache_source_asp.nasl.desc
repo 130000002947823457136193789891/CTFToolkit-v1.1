@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10480
+NAME=Apache::ASP source.asp漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/site/eg/source.asp是否存在
+DESCRIPTION=远程主机存在/site/eg/source.asp文件.;;该文件是Apache的ASP解析模块中的一个示例文件;该文件存在的安全问题允许攻击者将数据写入到同一目录的文件中.;;攻击者可以利用该漏洞上传自己的脚本文件和在系统中执行任意指令.;;解决方案 : 升级到Apache::ASP 1.95;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

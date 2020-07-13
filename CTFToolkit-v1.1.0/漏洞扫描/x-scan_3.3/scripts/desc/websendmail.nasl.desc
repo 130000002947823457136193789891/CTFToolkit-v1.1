@@ -1,0 +1,11 @@
+[CHINESE]
+ID=10301
+NAME=websendmail
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/websendmail是否存在
+DESCRIPTION=主机安装了'websendmail'CGI程序。;这个CGI程序有一个著名的漏洞使得攻击者;可以在http daemon的权限（通常是root或nobody权限）下执;行任何命令。;;
+Solution :从/cgi-bin目录删除websendmail.;;
+风险等级：严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison
+

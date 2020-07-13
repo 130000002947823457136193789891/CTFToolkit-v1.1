@@ -1,0 +1,8 @@
+CHINESE]
+ID=11412
+NAME=IIS : WebDAV 缓冲区溢出漏洞 (MS03-007)
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=WebDAV 缓冲区溢出
+DESCRIPTION=当收到一个很长的请求时，远程的WebDav服务会出现缓冲区溢出。;;攻击者可以通过这个漏洞已以local System的安全上下文在远程主机上执行任意代码.;;解决方案 : 参照MS-03-007安全公告： http://www.microsoft.com/technet/security/bulletin/ms03-007.asp;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

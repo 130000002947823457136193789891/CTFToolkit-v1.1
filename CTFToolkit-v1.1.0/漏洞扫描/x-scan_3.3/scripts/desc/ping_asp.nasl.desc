@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10968
+NAME=ping.asp
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在ping.asp
+DESCRIPTION=远程主机存在'ping.asp'脚本 . 部分版本的ping.asp可导致攻击者利用来对主机进行ping洪水攻击;攻击者可以在地址栏中输入下列命令来进行攻击;'127.0.0.1 -l 65000 -t' .;;解决方案 : 删除该脚本.;;参见 : http://online.securityfocus.com/archive/82/275088;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

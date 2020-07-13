@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10827
+NAME=SysV /bin/login缓冲区溢出(telnet)
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=尝试攻击rlogin服务
+DESCRIPTION=向远程主机发送大块环境变量数据后其/bin/login程序似乎崩溃，;远程攻击者可能能通过利用这一远程缓冲区溢出漏洞获取系统的root访问权。;;参考 : http://www.cert.org/advisories/CA-2001-34.html;解决方案 : 联系厂商索取补丁。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

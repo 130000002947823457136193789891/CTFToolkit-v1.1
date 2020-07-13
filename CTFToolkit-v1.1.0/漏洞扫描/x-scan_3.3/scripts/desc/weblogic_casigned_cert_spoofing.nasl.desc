@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11628
+NAME=WebLogic证书欺骗
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查WebLogic版本
+DESCRIPTION=远程主机正在运行WebLogic.;;这个版本的WebLogic存在一个Bug，该Bug允许攻击者通过一个自签名的证书对远程服务器实现中间人攻击。;;一个拥有合法证书的用户可以通过该漏洞在远程服务器上任意伪造其他用户的身份。;;解决方案参考：http://dev2dev.bea.com/resourcelibrary/advisoriesnotifications/BEA03-31.jsp;; 风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

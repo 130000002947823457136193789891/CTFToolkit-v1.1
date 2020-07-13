@@ -1,0 +1,7 @@
+ID=12073
+NAME=Sami HTTP 服务器 v1.0.4
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查HTTP服务器版本
+DESCRIPTION=远端服务器似乎在运行着v1.0.4或更老版本的SAMI HTTP服务器软件。Sami HTTP server v1.0.4已被发现存在安全漏洞。攻击者可以利用此漏洞破坏某些数据（例如返回地址），以此来控制程序的执行流程。这个漏洞可能造成拒绝服务攻击或者执行恶意代码。注：NESSUS仅仅依靠远端服务器版本号来发出这个警告，存在误报的可能性。;;解决方法：升级服务器;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Audun Larsen

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11526
+NAME=Vignette StoryServer 信息泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查远程Vignette StoryServer的版本
+DESCRIPTION=远程主机正在运行Vignette StoryServer，一个Vignette Content Management 套件的web接口。;;该产品存在漏洞，允许攻击者提取另一个users session和其他敏感信息。;;;解决方案: Vignette 在如下地址提供了补丁http://support.vignette.com/VOLSS/KB/View/1,,5360,00.html;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

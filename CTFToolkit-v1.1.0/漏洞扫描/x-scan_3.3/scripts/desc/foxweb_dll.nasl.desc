@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11939
+NAME=存在foxweb CGI程序
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在foxweb.exe或foxweb.dll文件
+DESCRIPTION=该主机装有foxweb.dll或foxweb.exe CGI程序.; ;2.5版本或更低版本的该程序存在一个安全漏洞可导致攻击者利用该漏洞运行任意命令.;;** Nessus只能检测到该程序的存在，但是不能检测出程序的版本,所以这可能是一个误报.;;解决方案:从/cgi-bin目录中删除该程序或者升级到更新的版本 ;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

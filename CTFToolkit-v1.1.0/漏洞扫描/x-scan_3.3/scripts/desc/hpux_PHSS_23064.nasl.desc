@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16488
+NAME=HP-UX安全补丁：PHSS_23064
+CATEGORY=信息搜集
+FAMILY=HP-UX本地检查
+SUMMARY=检查补丁PHSS_23064
+DESCRIPTION=远程主机未安装HP-UX安全补丁PHSS_23064。;(支持工具管理器中的Sec.漏洞);;解决方案：ftp://ftp.itrc.hp.com/superseded_patches/hp-ux_patches/s700/10.X/PHSS_23064;也可参考：HPUX安全公告137;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

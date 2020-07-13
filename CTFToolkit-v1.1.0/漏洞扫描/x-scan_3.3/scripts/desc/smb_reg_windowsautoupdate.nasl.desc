@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12028
+NAME=Windows升级功能失效
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=测试AUState的值
+DESCRIPTION=远程主机没有激活Windows升级功能。;如果激活windows升级功能，可以确保远;程主机安装了微软所有最新的补丁。;;解决方法：激活主机上的Windows升级功能。;详见：http://www.microsoft.com/security/protect/
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

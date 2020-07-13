@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17989
+NAME=ActiveAuction 多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 vBulletin 版本 
+DESCRIPTION=远程主机运行了ActiveAuction, 一个用ASP编写的拍卖软件.;;远程主机运行的此软件的版本
+存在多个SQL注入和跨站脚本攻击漏洞.;;;解决办法 : 升级到这个软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated by Stravadivaly>

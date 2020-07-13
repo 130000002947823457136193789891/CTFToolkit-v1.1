@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15570
+NAME=Post-Nuke特洛伊木马
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=确定post-nuke是否为特洛伊木马
+DESCRIPTION=远程主机似乎正在运行'PostNuke'内容管理系统的一个特洛伊木马版本.;;Post-Nuke是一个PHP编写的内容管理系统, 其主站点在2004年10月24日和26日已经受到危害. 一个攻击者通过传递参数到pnAPI.php文件中的'oops'参数的方式修改了此工具某些源代码并在远程主机上远程执行了任意命令.;;解决方案 : 升级到postnuke的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

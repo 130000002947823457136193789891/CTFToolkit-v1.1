@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13859
+NAME=利用 osTicket 对特定地址 DoS 攻击
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查osTicket配置
+DESCRIPTION=目标机器上至少安装osTicket 1.2.7或更早版本;这类版本可以防止针对“open.php”的系统攻击;;如果osTicket被配置为允许接收匿名邮件，那么攻击者通过发送来自特定地址的邮件（满足配置条件的）;并构成一个邮件循环。;;内容详细：见http://www.osticket.com/forums/showthread.php?t=301 ;;***** Nessus 发现目标机器上存在某个缺陷，;;*****通过这个测试能够确认以安装的osTicket的版本。;;*****但不能够通过此测试了解osTicket接收文件的配置;;解决方案：配置osTicket以POP3方式接收邮件。;;风险等级：无或高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall 翻译：NightFLYGE

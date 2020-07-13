@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15952
+NAME=Nullsoft Winamp Remote Denial of Service
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查WinAMP的版本
+DESCRIPTION=远程主机正在运行WinAMP,一个流行的媒体播放器;支持很多文件格式 (mp3, wavs 等...);;这个版本存在漏洞，在播放畸形的mp4 和 .m4a文件的时候会导致拒绝服务.;;攻击者可以利用这个漏洞向远程目标主机发送畸形文件.;;解决方案: 升级到WinAMP的最新版;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

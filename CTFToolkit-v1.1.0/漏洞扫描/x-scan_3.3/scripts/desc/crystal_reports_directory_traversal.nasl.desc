@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12271
+NAME=Crystal Report 虚拟路径历遍
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Crystal Report 虚拟路径历遍
+DESCRIPTION=远程主机正在使用Crystal Report Web接口，该版本存在远程目录历遍漏洞。攻击者可以利用该漏洞获取web目录以外的敏感资料。更多信息请参考:;;http://support.businessobjects.com/fix/hot/critical/bulletins/security_bulletin_june04.asp;;如果你在Microsoft 产品中使用Crystal Reports，也可以参考:;;http://www.microsoft.com/technet/security/bulletin/MS04-017.mspx;;;解决方案: 升级软件或对虚拟目录使用ACLs;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,9 @@
+[CHINESE]
+ID=16201
+NAME=CISCO ONS 多处安全漏洞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=通过SNMP判断漏洞是否存在
+DESCRIPTION=Cisco ONS 平台包含多个安全漏洞, 攻击者可以对远程控制卡发起拒绝服务攻击或者绕过远程设备的认证;;;解决办法 : http://www.cisco.com/warp/public/707/cisco-sa-20040721-ons.shtml;风险等级: 高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security
+

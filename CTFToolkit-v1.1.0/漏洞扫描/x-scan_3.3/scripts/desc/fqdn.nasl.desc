@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12053
+NAME=查找主机的FQDN
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=实施域名解析
+DESCRIPTION=如果主机可以被解析得到FQDN，这个插件将在报告中显示主机的FQDN。;这是正常的信息泄露。;;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

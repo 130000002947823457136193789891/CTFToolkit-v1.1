@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11840
+NAME=排斥顶级域名中含有通配符的主机
+CATEGORY=扫描器
+FAMILY=端口扫描
+SUMMARY=无法扫描某些IP
+DESCRIPTION=你尝试扫描的主机可能已被列入黑名单:被回应为某些顶级域名中含有通配符的地址.;你可能已经不清楚它的名字.;;风险等级:无
+COPYRIGHT=This script is Copyright (C) 2003 by Michel Arboi

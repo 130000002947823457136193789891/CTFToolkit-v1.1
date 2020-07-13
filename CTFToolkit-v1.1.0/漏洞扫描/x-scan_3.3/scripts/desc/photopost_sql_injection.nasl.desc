@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16101
+NAME=PhotoPost的showgallery.php文件注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测在 showgallery.php中存在的SQL注入漏洞
+DESCRIPTION=如果远程主机运行着用PHP写的分类广告系统PhotoPost,将会有可能受到此漏洞攻击.PhotoPost远程版的'showgallery.php'文件存在缺陷,远程攻击者用此程序,可对远程主机的数据库执行任意的SQL语句.解决方案:更新到软件的最新版本.风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

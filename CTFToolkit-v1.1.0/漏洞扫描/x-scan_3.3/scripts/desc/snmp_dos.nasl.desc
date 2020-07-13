@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10266
+NAME=UDP 0字节数据包导致 SNMP DoS
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=通过发送UDP空包崩溃远程主机
+DESCRIPTION=向远程主机161端口（SNMP）发送0字节UDP数据包可以使远程主机或该主机的防火墙崩溃。;;该漏洞允许攻击者关闭对方网络。;;解决方案: 如果防火墙崩溃，联系防火墙销售商；如果远程主机崩溃，使用防火墙过滤接受到的UDP数据包。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

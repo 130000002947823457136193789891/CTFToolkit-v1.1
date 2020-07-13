@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11974
+NAME=Jordan Windows Telnet服务端溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=远程telnet服务端版本检测
+DESCRIPTION=远程主机正在运行Jordan Windows Telnet 服务端。;这个服务端存在一个缓冲区溢出漏洞，;使得任何人可以通过发送一个超长密码;来在主机上运行任意代码。;;解决方法：停止这个Telent服务。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Renaud Deraison

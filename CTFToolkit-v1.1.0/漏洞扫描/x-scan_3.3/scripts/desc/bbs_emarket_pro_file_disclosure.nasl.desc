@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14786
+NAME=存在BBS E-Market文件泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=请尝试更改文件和文件夹名字,以避免猜测文件名后被下载.
+DESCRIPTION=此远程主机正在运行BBS E-Market Professional, 这是一个韩国网站程序;是用PHP编写的商业程序.;;此程序的当前版本的弱点表现为;一个攻击者可以拥有用类似下面的HTTP请求来读取当前主机上的任何文件的特权:;;http://www.example.com/bemarket/shop/index.php?pargeurl=viewpage&filename=../../etc/passwd ;;解决方案 : 将此程序升级到1.4.0更高版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Translate by Zuola.Com@Gmail.Com)

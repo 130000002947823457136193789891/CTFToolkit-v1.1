@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11513
+NAME=Solaris lpd远程执行命令
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=利用Solaris lpd远程执行命令漏洞读取passwd文件
+DESCRIPTION=lpd守护进程的一个环境错误可导致远程攻击者执行系统任意命令;;Nessus利用这一漏洞来读取远程主机的password文件。;;解决方案 : 禁用系统该服务。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

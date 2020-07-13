@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16247
+NAME=MercuryBoard的多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测mercuryBoard的旧版本
+DESCRIPTION=主机运行着PHP开发的留言板程序mercuryBoard;多个漏洞被发现在此产品中：跨站脚本攻击、SQL注射、泄漏mercuryBoard所在路径;;解决方案：升级mercuryBoard到1.1.2;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

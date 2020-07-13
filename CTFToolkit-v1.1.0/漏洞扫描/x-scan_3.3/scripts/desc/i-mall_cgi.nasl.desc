@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15750
+NAME=i-mall.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=I-Mall Commerce I-mall脚本远程命令执行漏洞
+DESCRIPTION=几个版本的I-Mall Commerce包含的i-mall.cgi脚本存在弱点攻击;对用户提交输入缺少充分过滤.;;远程攻击者可以利用这个漏洞以WEB进程权限在系统上执行任意命令。;;***Nessus并没有检测到你使用的这个版本有没有这个弱点;;***PAM, 因此这可能是一个误报
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

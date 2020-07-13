@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11460
+NAME=SMB 注册表: 经典登陆界面
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键键值
+DESCRIPTION=注册表子键 HKLM\Software\Microsoft\Windows NT\WinLogon\LogonType;不存在或者键值被设置为1。;;这意味着本地登陆的用户可以看见“新的”XP登陆界面，上面显示着远程主机的用户列表。;;解决方案: 使用regedt32 把该子键键值设置为0。;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

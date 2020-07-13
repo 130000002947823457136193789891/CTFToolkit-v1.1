@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11283
+NAME=CSCdp58462
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程Cisco IOS 软件在开放最短路径优先(OSPF);的实现中存在一个拒绝服务漏洞，;如果Cisco IOS收到大量的邻域通告，;也就是说同时有255台主机试图通过一个接口建立邻域关系，;则Cisco IOS可能会拒绝服务。;一个攻击者可以使用这个漏洞阻止你的路由器正常工作。;这个漏洞的Cisco漏洞ID是：CSCdp58462。;解决方法：;;http://www.cisco.com/warp/public/707/cisco-sn-20030221-ospf.shtml。;风险等级：待定。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

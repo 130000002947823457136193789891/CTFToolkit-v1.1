@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10367
+NAME=TalentSoft Web+ 输入验证漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查webplus是否可读任意文件
+DESCRIPTION='webplus' CGI 允许攻击者发送如下请求：GET /cgi-bin/webplus?script=/../../../../etc/passwd;;从而浏览目标主机上的任意文件内容。;;风险等级: 中/高;解决方案: 删除webplus
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

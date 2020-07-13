@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17141
+NAME=fingerd buffer overflow
+CATEGORY=破坏性攻击
+FAMILY=FINGER
+SUMMARY=Sends a long command to fingerd
+DESCRIPTION=Nessus可以通过向远程主机的finger守护进程发送一个超长的;请求而使该守护进程崩溃. ;;这个漏洞可能是缓冲区漏洞而且;有可能导致在远程主机上执行任意代码的漏洞.;;Solution : 关闭你的finger守护进程, 使用你的厂商提供的最新的补丁 ;, 或者使用一个更加安全的软件.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

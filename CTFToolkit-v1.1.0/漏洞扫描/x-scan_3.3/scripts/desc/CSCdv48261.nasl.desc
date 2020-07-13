@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10985
+NAME=CSCdv48261
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=IOS 防火墙，是 Cisco 集成的安全软件，;也是设备基本访问列表(Context Based Access Control (CBAC)), ;是在IOS version 11.2P引入的, 此防火墙有个漏洞，;此漏洞可以引起正常的数据报被动态的访问控;制列表拒绝;;虽然你设置了数据报通过规则，但攻击;者可以通过此漏洞，成功进入你的网络。;;这个漏洞相关的Cisco漏洞ID为：CSCdv48261.;;解决方案 : ;http://www.cisco.com/warp/public/707/IOS-cbac-dynacl-pub.shtml;;参见 : http://online.securityfocus.com/archive/1/242844;;风险等级 : 严重;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

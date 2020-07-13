@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11143
+NAME=Exchange 2000 CPU 资源耗尽漏洞 (Q320436)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测微软热补丁 Q320436, Exchange 2000拒绝服务
+DESCRIPTION=畸形的邮件标志可导致Exchange 2000耗尽CPU资源(Q320436);;漏洞影响: 拒绝服务;;受感染软件: ;;建议: 所有使用受影响版本的用户立刻下载安装补丁;;最大严重等级: 严重;;查看;http://www.microsoft.com/technet/security/bulletin/ms02-025.asp;;(注意: 需要以admin 等级的netbios登陆帐号检测);;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10488
+NAME=FTP Serv-U 2.5e DoS
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=Crashes Serv-U
+DESCRIPTION=通过发送一串“0”的数据流可导致远程FTP服务器宕机. ;;这个漏洞允许攻击者可以阻止你通过FTP共享数据,甚至可以使这台主机宕机.;;解决方案 : 如果你正使用Serv－U,请更新版本至2.5f.;如果你不是使用Serv－U,请联系你的供货商要一个补丁.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(Translation by luke and sunwear)

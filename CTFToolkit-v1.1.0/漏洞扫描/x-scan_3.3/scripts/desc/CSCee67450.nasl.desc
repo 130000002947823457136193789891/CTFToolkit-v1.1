@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17635
+NAME=Cisco IOS 畸形BGP包远程拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=利用SNMP判断漏洞是否存在
+DESCRIPTION=Cisco IOS 在处理特殊BGP包的时候存在问题，远程攻击者可以利用这个漏洞对设备进行拒绝服务攻击。如果在设备中使用了IPV6，攻击者使用此漏洞就可以使路由不能正常工作。;;解决方案：请从以下地址http://www.cisco.com/warp/public/707/cisco-sa-20050126-bgp.shtml查看Cisco对该漏洞的安全公告，并下载安装相应补丁。风险等级:高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security

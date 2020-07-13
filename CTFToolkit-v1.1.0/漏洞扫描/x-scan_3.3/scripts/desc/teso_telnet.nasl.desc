@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10709
+NAME=TESO in.telnetd 缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=对远程telnet服务器进行溢出
+DESCRIPTION=当远程telnet服务器接收到一个超长的“Are you Here”;命令时间不会返回期望的数据.这就意味着它有可能已经产生了溢出并且当机.;攻击者可以利用这个漏洞获得远程主机的管理员权限.;;详情见：http://www.team-teso.net/advisories/teso-advisory-011.tar.gz;;Solution：从 /etc/inetd.conf将“tenet”注释掉;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2001 Pavel Kankovsky

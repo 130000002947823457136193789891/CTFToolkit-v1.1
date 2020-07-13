@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11001
+NAME=MRTG mrtg.cgi的文件信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查mrtg.cgi
+DESCRIPTION=mrtg.cgi脚本是MRTG可视化流量监视应用程序的一部分. 此脚本存在一个漏洞, 攻击者可以利用这个漏洞查看系统中任意文件的第一行信息. ;;解决方案: 阻止访问这个CGI脚本;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc.

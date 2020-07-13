@@ -1,0 +1,8 @@
+ID=10037
+NAME=CERN httpd problem
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=试图定位远程web的根目录
+DESCRIPTION=使用以下命令有可能对主机的虚拟web目录进行物理定位：	GET /cgi-bin/ls HTTP/1.0
+一般来说，攻击者对你的系统了解的越少越好，你应该纠正这个问题。;解决方案: 当不再运行CERN httpd时，请使用Apache (www.apache.org) ；Bugtraq ID : 936;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

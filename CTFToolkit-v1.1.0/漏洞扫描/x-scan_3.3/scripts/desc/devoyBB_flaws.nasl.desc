@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15556
+NAME=DevoyBB多个缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查DevoyBB的版本
+DESCRIPTION=远程主机正在运行DevoyBB -- 一个PHP编写的基于web的论坛管理系统.;;此软件容易受到跨站脚本和SQL注入攻击的危害. 恶意用户可以利用这些漏洞访问用户cookie(包括鉴权cookie)并注入SQL命令到数据库执行.;;解决方案: 升级到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

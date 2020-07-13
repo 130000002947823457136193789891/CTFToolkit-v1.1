@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15708
+NAME=PHP之mylog.html/mlog.html读取任意文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP的mylog.html/mlog.html访问任意文件
+DESCRIPTION=远程主机正在运行PHP/FI.;;此软件在mylog.html/mlog.html中存在一个允许远程攻击者浏览远程主机任意文件的漏洞.;;解决方案 : 升级到版本3.0或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

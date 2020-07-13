@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11867
+NAME=SMB 注册表: Microsoft Transaction Server 子键的权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的连接权限
+DESCRIPTION=非管理员组的用户可以修改注册表子键HKLM\SOFTWARE\Microsoft\Transaction Server\Packages的内容。;;一般用户可以通过改写该子键内容提升自己的权限。;;参见Microsoft Security Bulletin MS00-095;;解决方案: 使用regedt32把该子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

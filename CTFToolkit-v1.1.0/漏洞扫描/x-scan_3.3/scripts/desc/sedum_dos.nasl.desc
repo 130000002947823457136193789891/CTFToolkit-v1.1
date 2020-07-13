@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10637
+NAME=Sedum 拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程web服务器崩溃
+DESCRIPTION=通过向远程web服务端发送海量数据可以使其瘫痪。;;攻击者可以利用该漏洞影响主机正常工作。;;解决方案: 联系销售商索取补丁;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

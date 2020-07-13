@@ -1,0 +1,1 @@
+dd if=oddpic.jpg of=3.jpg skip=162196 bs=1

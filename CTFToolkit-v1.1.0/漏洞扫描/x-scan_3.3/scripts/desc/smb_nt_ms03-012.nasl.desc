@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11534
+NAME=Microsoft ISA Server Winsock代理服务远程拒绝服务攻击漏洞(MS03-012)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测ISA服务器补丁SP1-257
+DESCRIPTION=Microsoft Proxy Server 2.0和ISA Server 2000存在一个安全漏洞 ;不正确处理部分畸形包请求;远程攻击者可以利用这个漏洞对代理服务程序进行拒绝服务攻击;消耗主机100% CPU从而使其停止响应.;;;解决方案 : 参见http://www.microsoft.com/technet/security/bulletin/MS03-012.asp;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12100
+NAME=Apache mod_ssl 拒绝服务
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache的版本
+DESCRIPTION=远程主机正在运行比Apache 2.0.49更早的Apache 2.x版本。;;从Apache 2.0.35到2.0.48都包含mod_ssl模块。该模块存在漏洞，可以导致远程拒绝服务攻击。 ;;攻击者可以利用该漏洞（连接主机时发送变形的SSL命令）妨碍HTTP服务端正常工作。;;解决方案: 如果Apache/2.0.49发布，尽快升级;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10733
+NAME=InterScan VirusWall Remote Configuration Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Check if the remote Interscan is vulnerable to remote reconfiguration.
+DESCRIPTION=Interscan病毒防火墙的管理接口使用了一些cgi程序.;它们可能会允许恶意用户通过提交构造的非法数据未经授权的更改服务的设置;;解决方案 : 不要把管理接口直接与网络相连;风险等级 : 高
+COPYRIGHT=INTRANODE - 2001;;Dedicate this to Sierra

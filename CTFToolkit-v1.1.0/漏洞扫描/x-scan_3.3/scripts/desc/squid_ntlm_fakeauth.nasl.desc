@@ -1,0 +1,10 @@
+[CHINESE]
+ID=16163
+NAME=远程Squid NTLM fakeauth 拒绝服务
+CATEGORY=破坏性攻击
+FAMILY=拒绝服务
+SUMMARY=远程Squid NTLM fakeauth 拒绝服务
+DESCRIPTION=一个开放着soure代理服务的SQUID容易受到对fakeauth NTLM 证明组件的Dos攻击，这个bug能允许远程攻击者拒绝合法用户对这个服务器的访问.Squid2.5*-STABLE被报告容易受到攻击.;也可参见：http://www.squid-cache.org.;
+解决方案：http://www.squid-cache.org/Versions/v2/2.5/bugs/squid-2.5.STABLE7-fakeauth_auth.patch.;
+风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(Translation by shadow0king)

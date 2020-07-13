@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10275
+NAME=Systat
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检查当前systat状态
+DESCRIPTION='systat' 服务会为攻击者提供有用的信息，象当前有那些线程在运行，和那些用户在运行等等。强烈建议你禁用此项服务。;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

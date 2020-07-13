@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14225
+NAME=BreakCalendar跨站脚本攻击漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查BreakCalendar版本信息
+DESCRIPTION=该远程主机运行着BreakCalendar(一套基于web的日历).;;该版本的BreakCalendar存在跨站脚本攻击漏洞.;;解决方案:升级或者停止该CGI程序;;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

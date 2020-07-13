@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14379
+NAME=Merak Webmail / IceWarp Web Mail存在多处漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Merak Webmail / IceWarp Web Mail多个漏洞
+DESCRIPTION=;目标主机至少运行了一个Merak Webmail / IceWarp Web Mail 5.2.7 (或更低版本)或 Merak Mail Server 7.5.2 (或更低版本)的实例 -;<http://www.MerakMailServer.com/>.  该产品存在多种XSS, HTML和SQL注入漏洞以及PHP源代码泄漏问题. ;;解决方案 : 升级到Merak Webmail / IceWarp Web Mail 5.2.8 或;Merak Mail Server 7.5.2 或更高的版本.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

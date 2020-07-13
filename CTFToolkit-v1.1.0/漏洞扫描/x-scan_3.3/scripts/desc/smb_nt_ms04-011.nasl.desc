@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12205
+NAME=Microsoft Hotfix KB835732 (检查注册表)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-011
+DESCRIPTION=远程主机没有安装Microsoft Windows Security Update (835732)补丁。;;该补丁修复了多个允许攻击者在远程主机上执行任意代码的漏洞。;;解决方案: 从Microsoft网站更新补丁;参见: http://www.microsoft.com/technet/security/bulletin/ms04-011.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

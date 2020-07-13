@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15516
+NAME=cPanel的Backup模块文件泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查cpanel的版本
+DESCRIPTION=远程主机正在运行的cpanel的版本等于或低于9.4.1.;;此软件在远程Backup模块内存在一个文件泄露缺陷。这个缺陷可导致本地攻击者读取远程系统上的任意文件.;;解决方案 : 升级cPanel到最新的版本或禁止这个服务;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

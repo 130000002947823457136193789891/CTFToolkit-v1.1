@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11428
+NAME=Trillian 已经被安装
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=探测是否已经安装 Trillian
+DESCRIPTION=远程主机正在使用 Trillian (一个P2P软件), ;该软件不适合在正式环境中使用;;解决方案 : 卸载该软件;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi (Translated by chice)

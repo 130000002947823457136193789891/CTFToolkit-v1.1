@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14357
+NAME=PhotoADay跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PhotoAday是否存在跨站脚本攻击漏洞
+DESCRIPTION=该远程主机运行着PhotoADay(一种基于web页面的照片簿管理软件).;;此版本软件存在一个跨站脚本攻击漏洞;攻击者可以利用该漏洞,通过发送一个畸形构造的的链节而窃取合法用户的cookies信息.;;解决方案:升级到该软件的最新版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

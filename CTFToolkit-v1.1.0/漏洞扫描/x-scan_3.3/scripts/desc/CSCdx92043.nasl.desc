@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11379
+NAME=CSCdx92043
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=利用发送冒充的ICMP转向数据包,攻击者可破坏或阻断路由器的通讯.;;漏洞相关的CISCO ID是CSCdx92043;;解决方案:将输入输出系统升级到最新版本;并且按以下页面操作: http://www.securityfocus.com/archive/1/311336;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

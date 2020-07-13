@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10522
+NAME=LPRng错误格式的输入
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查LPRng有漏洞的版本
+DESCRIPTION=LPRng似乎在运行.;;这个守护进程在直至3.6.24之前的版本存在一个缺陷, 这个缺陷允许任意人在服务器上执行任意命令.;;*** Nessus并不能远程判定远程主机所运行的LPRng是否是有漏洞的版本.;;解决方案: 确保所运行的是版本3.6.25或更高, 同时过滤515端口的TCP连接.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

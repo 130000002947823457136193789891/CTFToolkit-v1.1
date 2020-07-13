@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13845
+NAME=EasyWeb文件管理器目录遍历
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测EasyWeb文件管理器是否存在
+DESCRIPTION=远程主机是运行在一个很容易受到目录遍历攻击的 EasyWeb文件管理器组件。;;一个攻击者可能利用这个缺陷在远程服务器上读取任意文件，通过发送畸形的类似:/index.php?module=ew_filemanager&type=admin&func=manager&pathext=../../file的请求获得。;;解决方案:更新这个组件到最新版本;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese by netke)

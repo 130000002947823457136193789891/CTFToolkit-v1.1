@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11750
+NAME=Psunami.CGI任意可运行命令漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Psunami.CGI
+DESCRIPTION=远程主机存在Psunami.CGI;;该CGI程序存在一个安全漏洞可导致攻击者通过发送如下请求:/psunami.cgi?action=board&board=1&topic=|id|以HTTP进程的权限(root或者nobody)运行任意命令;;解决方案:升级到该CGI程序的最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

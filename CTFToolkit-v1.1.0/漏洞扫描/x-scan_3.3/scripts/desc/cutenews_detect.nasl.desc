@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17255
+NAME=CuteNews 检测
+CATEGORY=信息搜集
+FAMILY=Service detection
+SUMMARY=检查CuteNews的存在
+DESCRIPTION=这个脚本检测远程主机是否运行了CuteNews,并攫取其版本号以及找到的文件位置;;CuteNews是一种用PHP编写的新闻管理脚本，以单层文件形式存储。查阅http://cutephp.com/cutenews/以获得更多的信息。
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

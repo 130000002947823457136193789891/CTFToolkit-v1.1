@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10781
+NAME=Outlook Web anonymous access
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Outlook Web访问(OWA:Outlook Web Access)的匿名访问
+DESCRIPTION=匿名用户可以通过以下URL来访问微软OWA服务器:;http://www.example.com/exchange/root.asp?acs=anon;通过这样的访问匿名用户可以搜索OWA服务器上的有效用户，同时可以通过下列URL列举所有用户:;http://www.example.com/exchange/finduser/details.asp?obj=XXX;(其中XXX是一个65个十六进制数字的字符串);匿名用户获得的信息包括用户名、服务器名、邮件帐号、电话号码、部门、办公室、管理关系，等等。;这些信息将有助于攻击者发动社会工程攻击。这些攻击将非常容易自动进行，因为即使不能直接访问搜索，攻击者也仅仅需要给定的匿名登陆访问的小甜饼(Cookie).;系统管理员可参阅以下信息：;http://support.microsoft.com/support/exchange/content/whitepapers/owaguide.doc;解决方案：;按以下步骤禁止OWA的匿名访问:;  1. 以系统管理员身份打开Microsoft Exchange配置.;  2. 选择‘协议’, 然后双击‘HTTP (Web)站点设置’;  3. 取消选择‘允许匿名用户访问公共目录’.;  4. 选择‘快捷目录’.;  5. 移走所有允许匿名查看的目录.;  6. 选择‘确定’.;  7. 移走登陆页面的匿名访问.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Javier Fern醤dez-Sanguino Pe馻

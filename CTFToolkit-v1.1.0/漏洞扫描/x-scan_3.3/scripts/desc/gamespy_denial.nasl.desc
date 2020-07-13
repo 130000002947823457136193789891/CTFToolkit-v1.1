@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12081
+NAME=GameSpy拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程GameSpy服务器当机
+DESCRIPTION=通过向远程GameSpy服务器发送一个变形的数据包可以使服务器当机。;;攻击者可以利用这个漏洞使主机不能继续提供游戏服务。;;Nessus已经停止了这项服务。;;解决方案: 过滤该端口的接收数据, 或者停止这项服务;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

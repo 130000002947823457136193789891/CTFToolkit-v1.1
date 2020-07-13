@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10294
+NAME=view_source
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin/view_source存在
+DESCRIPTION='view_source'CGI已经被安装。该CGI有一个众所周知的安全漏洞：攻击者/程序可能以http daemon（通常为root或nobody）用户权限读取任意文件。;;解决方案：将view_source从/cgi-bin移除;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

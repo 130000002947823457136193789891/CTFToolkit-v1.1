@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10584
+NAME=technote的main.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/technote/main.cgi
+DESCRIPTION=安装了technote CGI 论坛。;这个论坛在main.cgi里面存在一个众所周知的漏洞，;可以使攻击者以http守候进程的权限(通常是root或者nobody)读取任意文件;;解决方案 : 从/cgi-bin中删除它。;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Chinese version by Dancefire)

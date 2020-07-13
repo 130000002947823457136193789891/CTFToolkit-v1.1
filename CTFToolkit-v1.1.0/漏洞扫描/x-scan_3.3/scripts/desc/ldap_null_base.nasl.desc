@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10722
+NAME=LDAP 允许根目录为空
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查LDAP的根目录是否为空
+DESCRIPTION=没有正确配置 LDAP 服务器使得根目录为NULL。这使得不需要事先知道目录结构就可获得敏感信息。加上NULL BIND，使得一个匿名用户使用类似'LdapMiner"的工具查询你的LDAP服务器。;;修补方案:在LDAP服务器上禁止NULL BASE查询;;风险等级: 中
+COPYRIGHT=By John Lampe....j_lampe@bellsouth.net

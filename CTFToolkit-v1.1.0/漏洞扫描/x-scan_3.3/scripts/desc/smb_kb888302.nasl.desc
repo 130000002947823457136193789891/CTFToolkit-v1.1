@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16337
+NAME=Windows的漏洞可造成信息泄漏(888302) (network check)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确认补丁888302是否安装
+DESCRIPTION=该版本的Windows存在一个漏洞，可能令攻击者有机会;利用它的命名管道导致信息泄漏;该命名管道是通过空会话产生的.;;攻击者可以探测到该漏洞并获得;更多该远程主机的信息.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS05-007.mspx;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

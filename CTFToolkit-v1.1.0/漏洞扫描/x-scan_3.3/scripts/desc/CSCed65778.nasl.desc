@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17988
+NAME=Vulnerabilities in CISCO IOS SSH Server
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=用SNMP来扫描该漏洞
+DESCRIPTION=IOS的remote版本允许SSH server的管理员;连接到远端的设备上.;;该软件在实现这一功能时出现了一个漏洞;攻击者可以利用这一漏洞来耗尽设备资源;使其无法正常工作.;;解决方案 : http://www.cisco.com/warp/public/707/cisco-sa-20050406-ssh.shtml;风险等级: 高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security

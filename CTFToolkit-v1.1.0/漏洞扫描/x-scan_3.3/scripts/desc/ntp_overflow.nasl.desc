@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10647
+NAME=ntpd overflow
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=远程ntpd崩溃
+DESCRIPTION=远程NTP服务器存在缓冲区溢出漏洞，允许任意用户使用并以root权限执行任意代码。;;修补方案 : 如果没有使用，则关闭该服务；或者升级;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison
+trans by yztgx

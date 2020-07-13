@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12005
+NAME=WEBHANCER 检测
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=WEBHANCER 检测
+DESCRIPTION=远程主机中安装有WEBHANCER程序。  ;您应该确定:;- 有用户安装了WEBHANCER (多数情况是未经容许的);- 公司和安全策略中需要使用。;;卸载此程序应该先检查系统是否被侵入过。 ;;相关 : http://www.safersite.com/PestInfo/w/webhancer.asp ;;解决方案 : 卸载此软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

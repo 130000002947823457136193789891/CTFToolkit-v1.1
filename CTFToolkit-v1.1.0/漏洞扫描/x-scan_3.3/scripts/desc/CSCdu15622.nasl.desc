@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11288
+NAME=CSCdu15622
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程的VPN设备的HTML解析处理器存在一个漏洞。;;这个漏洞相关的Cisco漏洞ID为： CSCdu15622.;;解决方案 : ;http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml;Risk 风险等级 : 高;;注意：因为Nessus远程主机的BANNER信息来判断该漏洞是否存在，因此这可能是误报。
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11154
+NAME=未知服务标识
+CATEGORY=结束
+FAMILY=其他
+SUMMARY=显示未知服务标识
+DESCRIPTION=此插件通过未知服务打印标识。Nessus团队可以使其深入账户之中。;;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi;Translate by Sniffer

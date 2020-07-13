@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12058
+NAME=JelSoft VBulletin跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查JelSoft VBulletin
+DESCRIPTION=远程主机正在运行JelSoft VBulletin。;;该CGI套件存在跨站脚本漏洞。攻击者可能藉此窃取合法用户的cookie。;;解决方案: 目前暂无 - 请联系销售商;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

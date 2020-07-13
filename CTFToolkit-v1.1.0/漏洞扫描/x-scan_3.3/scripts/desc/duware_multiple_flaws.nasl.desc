@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15453
+NAME=DUware的若干漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定远程ASP脚本是否受到SQL注入影响
+DESCRIPTION=远程主机正在运行由DUware发布的某个产品 - DUclassmate、DUclassified或DUforum.;;这些软件存在一个缺陷, 攻击者可向/admin/messages.asp或messagesDetails.asp脚本文件中的参数提供错误格式的值, 从而可在远程主机上执行任意的SQL语句.;;;解决方案 : 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

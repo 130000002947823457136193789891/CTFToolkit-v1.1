@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10451
+NAME=Dragon telnet overflow
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=尝试用户缓冲区溢出
+DESCRIPTION=通过发送一个过长的用户名;(如16,000 字节以上);就有可能使远程telnet服务关闭;;该缺陷允许攻击者阻止远程管理员;登陆至该主机.;;解决方案 : 升级telnet服务程序至较新的版本.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

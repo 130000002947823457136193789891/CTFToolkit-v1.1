@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15948
+NAME=phpMyAdmin 多个远程漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查phpMyAdmin的版本
+DESCRIPTION=远程主机运行phpMyAdmin,PHP编写的用来在WEB环境下管理MySQL的开源软件。;;远程主机运行的版本存在以下一种或者两种缺陷：;;- 攻击者可以远程溢出这个版本，并在运行非安全模式PHP的服务器上的执行任意代码。;;- 攻击者可能可以通过'read_dump.php'的参数'sql_localfile'读取远程服务器上的任意文件。;;解决方案： 升级至 2.6.1-rc1 或更高版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Translated By:Ronaldo9_8)

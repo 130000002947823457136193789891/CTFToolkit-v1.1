@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10994
+NAME=IPSwitch IMail SMTP缓冲溢出
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=IPSwitch IMail SMTP缓冲溢出
+DESCRIPTION=IMail存在一个漏洞, 可导致远程攻击者获得运行IMail SMTP守护进程(版本6.06和以下)的服务器的SYSTEM级别的访问权限. 此漏洞是由于没有对传递到IMail邮件列表处理器代码的多个输入数据进行正确的边界检查而造成的. 如果攻击者人工构造一个特殊的缓冲并发送到远程IMail SMTP服务器, 攻击者可在IMail系统上执行任意代码(命令). ;;解决方案:;从http://ipswitch.com/support/IMail/patch-upgrades.html下载最新的补丁;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense, Inc.

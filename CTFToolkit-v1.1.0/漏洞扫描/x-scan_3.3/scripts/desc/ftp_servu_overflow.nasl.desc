@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12037
+NAME=Serv-U FTP服务器MDTM命令栈溢出漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测Serv-U的栈溢出
+DESCRIPTION=远程主机正运行着Serv-U FTP服务器。;低版本的Serv-U处理SITE CHMOD命令时存在栈溢出漏洞。;利用该漏洞，远程攻击者可实施拒绝服务攻击，或在系统中执行任意代码。;;解决方案 : 升级到4.2及更新的版本.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2004 Astharot

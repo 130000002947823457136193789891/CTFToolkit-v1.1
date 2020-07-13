@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13641
+NAME=HTML Help引起代码可执行漏洞 (840315)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Checks for ms04-023 over the registry
+DESCRIPTION=远程主机受两个HTML Help和showHelp模块中的漏洞影响，攻击者可利用漏洞在远程主机上执行任何代码。要利用这个漏洞，攻击者会制造一个包含恶意showHelp链接的网站，并且引诱在远程主机上的用户来访问它。一旦该用户访问了这个网站，引起的缓冲溢出将允许攻击者用该用户的权限来执行任何命令。;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-023.mspx ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译 : laughterwym

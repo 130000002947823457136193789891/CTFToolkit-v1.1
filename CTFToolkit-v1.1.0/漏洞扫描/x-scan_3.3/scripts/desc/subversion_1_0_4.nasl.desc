@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12261
+NAME=Subversion远程缓冲溢出
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Subversion远程缓冲溢出
+DESCRIPTION=远程主机易受一个远程堆栈溢出。一个使用这个漏洞的攻击者，将完全获得访问这台目标机器的权限。低于1.03版本的Subversion很容易受到攻击。这个弱点由Stefan Esser发现并发送到公众的邮件列表上。;;更多的信息请参考:http://osvdb.org/displayvuln.php?osvdb_id=6301;;详细的技术信息请查看:http://www.metasploit.com/projects/Framework/;;解决方案:升级版本到1.0.3或更高版本;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Chinese by netke)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12248
+NAME=notes.ini 检查
+CATEGORY=攻击
+FAMILY=其他
+SUMMARY=notes.ini 检查
+DESCRIPTION=本插件检查Lotus Domino Web服务器上的目录遍历漏洞。;;Risk: 高
+COPYRIGHT=This script is Copyright (C) 2004 Net-Square Solutions Pvt Ltd.

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16299
+NAME=NetBIOS 命名服务器响应导致信息泄漏(824105) (检测注册表)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检查远程注册表MS03-034
+DESCRIPTION=运行NetBT命名服务器的远程服务器将有内存泄漏的问题.;;一个攻击者可以发送一个特别构造的包给远程的NetBT命名服务器,; 响应中将会包含从远程服务器返回的内存中随机地址的数据.; 这些数据可能包含远程用户正在查看的页面文件中的部分,; 或者是POP密码以及其他一些更加敏感的信息.;;攻击者将可以使用这个缺陷来连续的获取远程服务器上的内容并且可能获取敏感数据.;;;解决方案: 查看 http://www.microsoft.com/technet/security/bulletin/ms03-034.mspx;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

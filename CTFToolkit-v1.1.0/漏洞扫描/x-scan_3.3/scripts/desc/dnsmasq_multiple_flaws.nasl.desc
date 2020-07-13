@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17631
+NAME=dnsmasq Multiple Remote Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查dnsmasq的版本
+DESCRIPTION=远程主机运行了dnsmasq, 一个DHCP和DNS服务器.;;这个软件的远程版本容易受到多个远程漏洞的攻击;这可以允许攻击者在远程主机上执行任意代码;或者发起一个DNS缓存中毒攻击.;解决方案 : 升级到2.21.0版或者更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

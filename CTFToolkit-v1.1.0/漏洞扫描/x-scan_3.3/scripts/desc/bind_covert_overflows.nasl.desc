@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10605
+NAME=BIND缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程BIND的版本
+DESCRIPTION=依据版本信息，该远程BIND服务存在多个缓冲区溢出漏洞,可导致攻击者利用该漏洞获得该主机的shell命令行.;;解决方案:升级到bind 8.2.3或4.9.8;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

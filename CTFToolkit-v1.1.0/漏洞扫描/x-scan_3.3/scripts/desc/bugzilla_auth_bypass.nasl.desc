@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15562
+NAME=Bugzilla鉴权旁路和信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装了bugzilla
+DESCRIPTION=根据版本号, 远程Bugzilla这个软件缺陷(bug)跟踪系统存在若干缺陷. 这些缺陷会允许攻击者旁路鉴权或访问私密的缺陷报告.;;解决方案 : 升级到2.16.7或2.18.0rc3;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10559
+NAME=XMail APOP 缓冲区溢出漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=尝试溢出APOP命令
+DESCRIPTION=当远程POP3服务端接收的APOP命令的两个参数过长时，会暴露缓冲区溢出漏洞。;;攻击者可以利用该漏洞使POP服务端当机或在主机上执行任意代码。;;解决方案: 联系销售商给程序打上补丁。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14599
+NAME=WS FTP服务器bounce攻击漏洞和被动模式会话劫持漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检测WS_FTP服务器版本
+DESCRIPTION=按照版本号显示, 远程WS_FTP存在有被动模式会话劫持漏洞和FTP服务器bounce攻击漏洞 ;攻击者提交特殊构建的FTP命令可以利用该漏洞.;;** Nessus仅仅是通过banner信息来检测版本号;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(chinese version by lsy)

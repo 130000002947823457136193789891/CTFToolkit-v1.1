@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12207
+NAME=Microsoft Hotfix KB837001 (检查注册表)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-014
+DESCRIPTION=远程主机的Microsoft Jet Database Engine存在漏洞(837001)。;;攻击者可以利用该漏洞在远程主机上执行任意代码。;;要利用该漏洞，攻击者需要提交一个特殊构造的数据库请求并让数据库引擎执行。;;解决方案: http://www.microsoft.com/technet/security/bulletin/ms04-014.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10164
+NAME=存在nph-publish.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/nph-publish.cgi
+DESCRIPTION=该主机装有'nph-publish.cgi'脚本.该CGI脚本存在一个众所周知的安全漏洞,可导致攻击者以http进程的权限(通常为root或者nobody)运行任意命令.;;解决方案:从/cgi-bin目录中删除该脚本.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Mathieu Perrin

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13858
+NAME=osTicket Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查是否运行osTicket
+DESCRIPTION=该脚本检测目标主机是否正在运行osTicket,并尝试获得版本号和定位一些实例.;;osTicket是一款基于PHP编写的开源的客户服务管理程序. ;您可以到http://www.osticket.com/ 查看更多信息. ;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

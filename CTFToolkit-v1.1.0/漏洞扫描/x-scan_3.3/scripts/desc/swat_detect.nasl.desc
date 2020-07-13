@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10273
+NAME=探测SWAT 服务端口
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=探测SWAT 服务端口
+DESCRIPTION=SWAT（samba 网页管理工具）这在当前端口运行.;;SWAT允许用户更改自己的密码并提供系统用户一个易于使用的GUI界面.;虽然如此，我们并不推荐SWAT被广泛的访问，;因为这会允许用户强制更改某些用户密码.;;更重要的是SWAT客户端与服务器的通信没有经过加密。;所以一个恶意用户可以很轻松的获得明文方式传送的密码.;;Solution:通过设置防火墙规则禁止从外网访问这个SWAT服务.;;如果你不需要使用SWAT，通过编辑/etc/inetd.conf 禁止他.风险等级：中
+COPYRIGHT=This script is Copyright (C) 2000 SecuriTeam
+

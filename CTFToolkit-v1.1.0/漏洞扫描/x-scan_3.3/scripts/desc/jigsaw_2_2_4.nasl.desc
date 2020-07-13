@@ -1,0 +1,7 @@
+ID=12071
+NAME=JigSaw <2.2.4
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查JigSaw版本
+DESCRIPTION=远端主机似乎运行着一个2.2.4以下版本的JigSaw Web服务器。这个版本的JigSaw有一个解析URI漏洞，攻击者可以利用此漏洞执行蓄意代码。;;解决方法：升级版本，见http://jigsaw.w3.org/;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

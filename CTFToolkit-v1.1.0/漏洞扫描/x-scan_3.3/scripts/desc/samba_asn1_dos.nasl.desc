@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14711
+NAME=Samba ASN.1拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查samba版本
+DESCRIPTION=远程Samba服务器, 根据它的版本号判断, 可能有拒绝服务漏洞.;;远程smbd ASN.1解吸存在漏洞, 它允许攻击者在验证请求中发送精心构造的ASN.1包对远程主机进行拒绝服务攻击, 使产生smbd进程陷入无限循环;通过建立多个连接并发送这类数据包, 攻击者可以耗尽远程主机上的CPU和内存资源, 从而远程的使主机瘫痪.;;另外一个漏洞允许攻击者发送一个精心构造的NetBIOS包使nmbd进程瘫痪.;;;解决办法:升级到Samba 3.0.7;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security<Translated By Stravadivaly>

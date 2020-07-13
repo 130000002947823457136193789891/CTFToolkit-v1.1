@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13646
+NAME=osTicket大附件漏洞
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=Checks for Large Attachment Vulnerability in osTicket
+DESCRIPTION=运行osTicket的目标主机使远程用户可以建立一个含有大小未限制附件的新ticket。攻击者可以利用这一漏洞向文件系统提交大附件从而造成拒绝服务。 ;;解决方案 : 升级至osTicket STS 1.2.7或更新。 ;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall      翻译 : laughterwym

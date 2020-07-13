@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13842
+NAME=Mensajeitor Tag Board Admin Bypass
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Mensajeitor测试
+DESCRIPTION=目标主机使用Mensajeitor Tag Board.;;该程序存在绕过管理员验证漏洞导致攻击者可以发表任意信息.;;攻击者也可以通过该漏洞对(论坛)版块进行破坏.;;解决方案: 暂未解决方案;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

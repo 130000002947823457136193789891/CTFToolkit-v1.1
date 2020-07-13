@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11279
+NAME=Webmin（Unix上的GUI管理工具）会话ID欺骗
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=会话ID欺骗
+DESCRIPTION=远程服务器正在运行Webmin，并且可以对其进行会话ID欺骗。攻击者/程序可以利用这个缺陷在这台主机上使用管理员权限登录，并且基本可以对其进行完全的控制。;;解决方案：升级Webmin。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;Translate by Sniffer

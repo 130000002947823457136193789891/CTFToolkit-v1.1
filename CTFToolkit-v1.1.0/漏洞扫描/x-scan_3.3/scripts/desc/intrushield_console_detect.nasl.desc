@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15615
+NAME=McAfee IntruShield管理控制台
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测McAfee IntruShield管理控制台
+DESCRIPTION=远程主机正在运行McAfee IntruShield管理控制台.;;攻击者如果登陆到此管理控制台则可以修改嗅探器(sensor)的配置.;;解决方案 : 配置防火墙阻止未授权主机连接到这个端口;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

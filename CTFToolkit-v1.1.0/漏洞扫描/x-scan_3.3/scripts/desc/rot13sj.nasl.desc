@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11684
+NAME=存在rot13sj.cgi
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在rot13sj.cgi
+DESCRIPTION=该远程主机运行着CGI程序'rot13sj.cgi'.该CGI程序存在多个漏洞可导致远程攻击者在该主机上运行任意命令或读取任意文件.;;解决方案:删除该脚本;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

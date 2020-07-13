@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12201
+NAME=过长的基本验证导致Web服务器Dos
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=过长的基本验证导致Web服务器Dos
+DESCRIPTION=通过发送一个过长的基本验证可能导致Web服务器遭受Dos。;;远程攻击者可能利用该漏洞对Web服务器进行Dos攻击或者在Web服务器上执行任意命令。;;解决方法：升级你的Web服务器或者通过过滤来保护你的系统;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi 翻译 by yztgx

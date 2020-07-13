@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12237
+NAME=用bootparamd获取NIS域名
+CATEGORY=信息搜集
+FAMILY=NIS
+SUMMARY=检查RPC服务是否存在
+DESCRIPTION=如果远程主机正在运行bootparamd的话，这个脚本将试图取得远程NIS的域名。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Renaud Deraison (Chinese version by Dancefire)

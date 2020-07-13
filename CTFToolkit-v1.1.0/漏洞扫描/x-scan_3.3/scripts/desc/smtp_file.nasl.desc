@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10259
+NAME=Sendmail邮寄文件
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查是否远程邮件服务器用于获得SHELL
+DESCRIPTION=远程STMP服务器对此命令;MAIL FROM: root@this_host;	RCPT TO: /tmp/nessus_test;没有任何检查工作，这可能意味着可以直接邮件到文件，这是个严重的威胁，因为这允许任何人覆盖远程服务器上的文件;;***这个安全漏洞可能会是误报，因为部分MTA对这个测试会不提示，但实际上是没有反映的丢弃此消息，是否成功利用请检查/tmp下是否有'nessus_test'文件;解决方案：升级MTA或更改;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

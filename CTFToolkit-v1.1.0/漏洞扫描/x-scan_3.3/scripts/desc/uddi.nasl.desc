@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11140
+NAME=UDDI detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Find UDDI
+DESCRIPTION=被测试的WEB服务器对待UDDI请求都是积极而友好的.  ;服务器可能潜在的向外部提供其位于其他目录下所运行的服务的信息(我们只测试了WEB根目录);    ;风险等级: 中/低
+COPYRIGHT=This script is Copyright (C) 2002 John Lampe...j_lampe@bellsouth.net Translate by delphi007

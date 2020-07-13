@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16260
+NAME=ISC BIND Q_UseDNS Remote Buffer Overflow Vulnerability
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=Checks the remote BIND version
+DESCRIPTION=依照远程服务器上BIND的版本数字，在'q_usedns' 缓冲器内易遭到缓冲溢出的伤害.;;一个攻击者可能发现这个漏洞并开始对服务器发动D.O.S攻击.;;解决方案:升级到bind 8.4.6;风险等级:高;也可参见:http://www.kb.cert.org/vuls/id/327633
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security 梦魇虚空

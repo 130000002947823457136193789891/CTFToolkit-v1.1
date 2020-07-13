@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10878
+NAME=Sun Cobalt Adaptive Firewall 探测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Sun Cobalt Adaptive Firewall 探测
+DESCRIPTION=Sun Cobalt 机器存在一个防火墙机制，这个机制可以通过访问Cobalt的内置的;HTTP服务器来远程配置。要访问HTTP服务器，一个基于java的管理程序会启动，;用户会被要求输入一个认证字串来认证。因为没有用户名的要求，就暴力搜索;认证字串要容易些。;;解决方案 : ; 这个端口(默认设置为8181端口)的访问不应该允许外来访问。不应允许进一步访问防火墙的接口(默认设置为2005端口)。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 SecurITeam (Chinese version by Dancefire)

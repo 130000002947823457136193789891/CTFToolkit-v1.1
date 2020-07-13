@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11498
+NAME=Alexandria-dev上传欺骗漏洞
+CATEGORY=攻击
+FAMILY=CGI类
+SUMMARY=检测是否存在patch/index.php和docman/new.php
+DESCRIPTION=;    远程主机可能运行Alexandria-Dev，是一种开放源码的项目管理系统。其;中的docman/new.php和patch/index.php两个CGI脚本可以让攻击者上传文件，;并哄骗得到在服务器上的真实路径地址。因此，攻击者可以通过这个漏洞读取;服务器上的文件。;;*** Nessus只是通过检测是否这些CGI存在获得的结论，因此可能存在误报。;;解决办法：无;风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

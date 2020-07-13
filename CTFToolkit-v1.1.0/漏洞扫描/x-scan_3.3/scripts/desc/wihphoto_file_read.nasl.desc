@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11274
+NAME=WihPhoto文件浏览漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查remotehtmlview.php是否存在
+DESCRIPTION=利用WihPhoto的漏洞，可以使远程主机发送包含本地硬盘上任意文件的邮件。;;解决方案: 目前销售商还没有提供任何补丁。;参见: http://www.frog-man.org/tutos/WihPhoto.txt (french);风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

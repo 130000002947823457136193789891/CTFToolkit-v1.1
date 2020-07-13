@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14732
+NAME=WordPerfect转换器漏洞(884933)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=判断MSCONV97.dll的版本
+DESCRIPTION=远程主机正在运行一个含有WordPerfect转换器漏洞版本的Microsoft Office，这可以允许攻击者在远程主机上执行任意代码。;要利用这个漏洞，攻击者需要发送一个特别构造的文件给远程主机上的一个用户，并等待他用Microsoft Office打开该文档。;当这个恶意的文档被打开后，Microsoft Office会遇到缓冲区溢出并导致被利用执行任意代码.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-027.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11791
+NAME=CISCO IOS 网络接口被IPv4数据包阻塞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP判断该缺陷是否存在
+DESCRIPTION=通过发送构造的IPv4数据包，可能使远程路由器阻塞.;;攻击者可以利用这个缺陷使路由器无法使用.;;解决方案 : http://www.cisco.com/warp/public/707/cisco-sa-20030717-blocked.shtml;风险等级 : 高;又见 : http://www.cert.org/advisories/CA-2003-15.html;;*** 由于Nessus仅仅通过远程系统的banner做出判断;*** 这有可能是一个误报
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

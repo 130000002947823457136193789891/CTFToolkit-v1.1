@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11887
+NAME=Windows竞争协调ActiveX控件缓冲区溢出漏洞(826232)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=hotfix Q826232检测
+DESCRIPTION=Windows 2000的本地竞争协调ActiveX控件;中存在一个安全漏洞。这个漏洞存在;的主要原因是ActiveX控件(Tshoot.ocx)中存在;一个缓冲区溢出漏洞，使得攻击者可以在用户系统;中运行任何程序。如果要成功利用这个漏洞，;攻击者必须创建一个特殊的HTML页面，;而后通过邮件发送给用户。攻击者也可以将;能够导致溢出的Web页面放在恶意Web站点上。;;解决方法详见：;http://www.microsoft.com/technet/security/bulletin/ms03-042.asp;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Jeff Adams

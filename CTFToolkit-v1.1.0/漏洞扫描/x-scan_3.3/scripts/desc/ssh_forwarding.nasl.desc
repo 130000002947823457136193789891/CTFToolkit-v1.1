@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11343
+NAME=OpenSSH客户未认证远程转向
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测远程SSH版本
+DESCRIPTION=主机正在运行的OpenSSH SSH客户端版本早于2.3.0.; ;这个版本没有充分地阻止X11或代理转向，这使得一个恶意的SSH服务器可以访问X11display并嗅探X11事件, 或是访问SSH代理;;解决方案:;OpenSSH已经发布了补丁和新的程序。;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

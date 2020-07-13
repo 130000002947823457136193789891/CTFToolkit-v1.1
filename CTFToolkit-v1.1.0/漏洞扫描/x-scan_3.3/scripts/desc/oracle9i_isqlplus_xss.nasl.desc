@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12112
+NAME=Oracle 9iAS iSQLplus 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试对Oracle9i iSQLplus实行跨站脚本攻击的可能性
+DESCRIPTION=Oracle9i iSQLplus 的登陆页面允许在输入用户名和密码时插入HTML 和 Javascript代码。;;参见: http://www.securitytracker.com/alerts/2004/Jan/1008838.html;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Frank Berger

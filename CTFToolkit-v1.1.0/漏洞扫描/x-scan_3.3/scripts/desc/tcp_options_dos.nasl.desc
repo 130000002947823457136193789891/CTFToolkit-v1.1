@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12216
+NAME=Symantec 防火墙 TCP 选项拒绝服务漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=检测远程机器 TCP 协议选项中可能存在的漏洞
+DESCRIPTION=远程机器可能会受一个TCP包中无效的选项字段的危害;至少一个防火墙供应商(Symantec)已经证实存在这样一个漏洞;攻击者利用这个缺陷，给远程机器发送特定的TCP包到任何端口，;可以使远程使防火墙关闭(所有网络活动都将被终止);;参见 : ;http://www.osvdb.org/displayvuln.php?osvdb_id=5596;http://www.eeye.com/html/Research/Advisories/AD20040423.html;;风险等级 : 高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security  (Translated by chice)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10073
+NAME=finger重定向检测
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=Finger user@host1@host2
+DESCRIPTION=远程finger服务接受重定向请求. 也就是说, 用户可以;执行像:;;		finger user@host@victim这样的请求.;;这将允许攻击者利用此主机作为中继站;来收集第三方网络的信息.;;解决方案: 停止远程finger服务 (在/etc/inetd.conf 中注释掉'finger' 一行; 并重新启动inetd进程) 或升级至更安全的finger守护进程.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

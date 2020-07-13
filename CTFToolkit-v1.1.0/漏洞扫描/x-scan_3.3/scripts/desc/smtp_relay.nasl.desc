@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10262
+NAME=服务器存在邮件转发漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查是否远程邮件服务器能够被垃圾邮件者利用作转发。
+DESCRIPTION=远程SMTP服务器允许邮件转发，这表示垃圾邮件发送者能够使用你的邮件服务器大量发送垃圾邮件，可能导致你的带宽被占用。;;Risk factor : 低/中;;Solution : 对SMTP服务器进行配置，禁止邮件转发。
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

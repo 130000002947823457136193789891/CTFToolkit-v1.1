@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15480
+NAME=Xoops viewtopic.php的跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Xoops viewtopic.php的跨站脚本
+DESCRIPTION=远程主机正在托管着XOOPS CGI套件.;;XOOPS的weblinks模块在'/modules/newbb/'目录内包含一个名称为'viewtopic.php'的文件. 此模块的代码没有充分地过滤用户所提交的数据. 'viewtopic.php'所使用的URL参数可被利用来在网页中插入恶意的HTML和/或JavaScript.; ;解决方案 : 升级到最新版本的XOOPS;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

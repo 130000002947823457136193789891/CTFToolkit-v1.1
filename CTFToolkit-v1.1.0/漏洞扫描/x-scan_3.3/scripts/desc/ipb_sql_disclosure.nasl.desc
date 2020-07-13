@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12648
+NAME=Invision Power Board的SQL泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测IPB的SQL泄露
+DESCRIPTION=在Invision Power Board的当前版本存在一个漏洞。这个漏洞允许攻击者简单地在请求后面填加'debug'变量，就可以显示此产品所使用的SQL查询，或者显示系统管理员使用IPB接口开发的任一页面所使用的SQL查询.;;解决方案 : 升级到最新版本的软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

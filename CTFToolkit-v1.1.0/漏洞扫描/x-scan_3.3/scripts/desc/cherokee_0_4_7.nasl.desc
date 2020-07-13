@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15618
+NAME=Cherokee错误页面的跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Cherokee的版本
+DESCRIPTION=远程主机正在运行Cherokee -- 一款快速小巧的web服务器.;;此软件由于缺乏对返回的错误页面进行正确的处理而容易受到跨站脚本攻击的危害.;;解决方案 : 升级到Cherokee 0.4.8或更高;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

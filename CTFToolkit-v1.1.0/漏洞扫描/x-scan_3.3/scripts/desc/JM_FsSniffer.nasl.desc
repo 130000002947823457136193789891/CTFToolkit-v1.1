@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11854
+NAME=FsSniffer检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=确定是否存在FsSniffer
+DESCRIPTION=这台主机似乎正在这个端口运行FsSniffer.;;FsSniffer是一个入侵者窃取PoP3/FTP和其他密码的后门.;;攻击者可以使用这个后门窃取密码 .;;解决方案 : 参阅 www.rapter.net/jm1.htm中详细的清除方法;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 J.Mlodzianowski

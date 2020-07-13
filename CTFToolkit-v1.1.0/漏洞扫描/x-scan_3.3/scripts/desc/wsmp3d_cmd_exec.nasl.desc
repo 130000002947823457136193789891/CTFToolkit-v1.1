@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11645
+NAME=wsmp3d 命令执行
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=执行/bin/id
+DESCRIPTION=远程主机正在运行wsmp3d, 一个mp3流媒体服务端。;;这个服务端存在漏洞，允许任何人以该服务端运行的权限执行任意命令和浏览任意文件。;;;解决方案: 目前暂无;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

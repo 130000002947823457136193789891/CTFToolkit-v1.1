@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17294
+NAME=Default password (", password,
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY==Logs into the remote host",
+	       francais:"Translate
+DESCRIPTION=账号'", account, "'的缺省密码为", password, ";一个攻击者可能利用此漏洞会获取该系统更多的控制权;;风险等级:高;解决方案:重新设置该账号的密码或者禁用该账号
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

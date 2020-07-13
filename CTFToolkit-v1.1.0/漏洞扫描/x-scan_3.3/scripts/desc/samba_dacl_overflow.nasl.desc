@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15985
+NAME=Samba目录ACL整数溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查 samba 的版本
+DESCRIPTION=根据版本号,远程Samba服务器可能存在一个由整数溢出而导致的远程缓冲区溢出漏洞.;;攻击者利用这个漏洞的时候需要向远程主机发送一个包含成百上千个ACLs的畸形数据包, 这将引起整数溢出从而导致一个指针被分配.;;攻击者需要一个有效的帐户或足够的资格凭证来利用这个漏洞.;;解决方案 : 升级到 Samba 3.0.10; 风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

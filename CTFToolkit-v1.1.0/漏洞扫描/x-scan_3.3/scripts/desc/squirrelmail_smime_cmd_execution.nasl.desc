@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17257
+NAME=SquirrelMail S/MIME 插件远程命令执行漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查SquirrelMail S/MIME插件中的远程命令执行漏洞
+DESCRIPTION=远程主机的SquirrelMail应用存在安全漏洞，这一漏洞来自其S/MIME 插件对viewcert.php脚本使用的'cert'参数未进行合理处理。;该漏洞可导致通过认证的用户远程执行系统命令。 ;;解决方案：升级到0.6或更高版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

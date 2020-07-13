@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17240
+NAME=PostNuke 0.760 RC2以及更早版本的多个安全漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=探测PostNuke 0.760 RC2以及更早的版本的多个安全漏洞
+DESCRIPTION=远程主机运行了PostNuke 0.760 RC2或者更早的版本，这些版本里存在一些安全漏洞如下:News，NS-Polls和NS-AddStory模块里存在SQL注入漏洞;Downloads模块也存在SQL注入漏洞;同时Downloads模块里还存在有跨站脚本漏洞;新闻模块里存在着潜在的路径泄漏漏洞。攻击这可以通过SQL注入漏洞取得管理员的密码散列或者破坏PostNuke使用的数据库.;通过对跨站脚本漏洞(XSS)的发掘，攻击者可能往管理员的浏览器植入任意的脚本代码从而导致cookie信息的泄漏;参考：http://news.postnuke.com/modules.php?op=modload&name=News&file=article&sid=2669;;;解决方案：升级并应用0.750版本的升级包或者升级到0.760 RC3或更新的版本;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

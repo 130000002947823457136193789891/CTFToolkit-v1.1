@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12088
+NAME=SpiderSales Shopping Cart SQL 注射漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查SpiderSales Shopping cart是否存在
+DESCRIPTION=远程主机正在运行SpiderSales Shopping Cart这个CGI套件。;;该套件存在漏洞，允许攻击者在远程主机上执行任意SQL命令。利用此漏洞，攻击者可以获得网站的控制权并在远程主机上执行任意命令。;;解决方案：禁用该套件或者升级到最新版本。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

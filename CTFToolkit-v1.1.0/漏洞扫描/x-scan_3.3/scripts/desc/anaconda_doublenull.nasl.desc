@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15749
+NAME=Anaconda Double NULL Encoded Remote File Retrieval
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Anaconda Foundation Directory Double NULL Encoded Remote File Retrieval
+DESCRIPTION=远程的Anaconda Foundation目录包含一处错误;允许任何人读取任意文件以管理员(超级用户) ;权限, 通过在URL中加入一个空字节, 例如 :;;http://www.example.com/cgi-bin/apexec.pl?etype=odp&template=../../../../../../..../../etc/passwd%%0000.html&passurl=/category/;;解决方案 : 联系您的供应商获得软件的升级包.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

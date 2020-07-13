@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11827
+NAME=Netware Perl CGI溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=过长URL导致Netware Perl处理程序挂起
+DESCRIPTION=该远程主机的Perl处理程序会因为接收到一个过长的URL而导致主机崩溃.;;并且存在利用该漏洞运行任意代码的可能.;更多信息请查看http://support.novell.com/servlet/tidfinder/2966549;;风险等级: 高;;解决方案: 升级该web服务器.
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11345
+NAME=SimpleBBS用户名泄露漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在users.php
+DESCRIPTION=远程主机所运行的SimpleBBS可能会通过请求users.php而列举出该BBS的用户名单.;;攻击者可能会利用该漏洞获得该用户的密码并冒充合法用户.;;解决方案: 停止该CGI程序;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

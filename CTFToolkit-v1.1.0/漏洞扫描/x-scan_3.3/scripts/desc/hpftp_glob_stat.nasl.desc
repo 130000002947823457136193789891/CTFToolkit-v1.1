@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11372
+NAME=HP-UX ftpd glob()扩展STAT命令溢出漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测HP-UX ftpd glob()扩展STAT命令溢出漏洞
+DESCRIPTION=HP-UX 11及更低版本系统自带的FTP服务器存在缓冲区溢出漏洞。;攻击者通过创建超长路径的文件名，并作为参数传递给STAT命令即可触发该溢出。;;解决方案: 升级FTP服务器;建议取消匿名用户对目录的写权限。;;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

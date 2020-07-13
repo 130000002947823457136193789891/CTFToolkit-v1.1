@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15784
+NAME=PHP-Kit Multiple Input Validations
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL Injection
+DESCRIPTION=远程主机运行着PHP-Kit, 它是一种使用PHP语言编写的开源文章管理系统.;;该版本软件存在多种可利用的缺陷.;它们可能允许攻击者对远程数据库执行任意SQL语句，;或进行跨站脚本攻击.;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

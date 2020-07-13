@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11214
+NAME=Microsoft SQL Server溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=MS SQL UDP 信息查询
+DESCRIPTION=远程主机的MS SQL Server存在缓冲区溢出漏洞。; 该漏洞可导致远程攻击者以SYSTEM权限在系统中执行任意代码。;;注意:该漏洞引发了sapphire蠕虫的出现。;;解决方案:参考 http://www.microsoft.com/technet/security/bulletin/ms02-061.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

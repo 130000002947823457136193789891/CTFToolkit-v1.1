@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10297
+NAME=遍历Web服务器
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=\..\..\file.txt
+DESCRIPTION=通过在文件名前使用../../或..\..\可以读取远程服务器上的任意文件。;;风险等级：高;解决方案：使用其它的web服务器程序
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

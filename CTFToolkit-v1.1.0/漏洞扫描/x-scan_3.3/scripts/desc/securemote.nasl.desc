@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10617
+NAME=Checkpoint SecureRemote 探测
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检测远程主机是否正在运行CheckPoint的SecureRemote
+DESCRIPTION=远程主机配备的Checkpoint FW-1 防火墙正在运行SecureRemote程序。;如果让攻击者得知此信息，他们可以更有针对性地攻击或相应的改变攻击策略。;这样的信息是不应该泄漏出去的。;另外，攻击者可以对该主机发起拒绝服务攻击。;;解决方案:;在本端口限制来自不信任网络的连接。;;风险等级: 低;;更多信息:;http://www.securiteam.com/securitynews/CheckPoint_FW1_SecureRemote_DoS.html
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

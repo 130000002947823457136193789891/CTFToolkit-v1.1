@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11141
+NAME=Crash SMC AP
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使SMC Access Point崩溃
+描述=当SMC 2652无线Access Point提供WEB服务时，发送特定格式HTTP请求会使它崩溃。:::解决办法：联系厂家:风险级别:中/低
+COPYRIGHT=This script is Copyright (C) 2002 John Lampe...j_lampe@bellsouth.net

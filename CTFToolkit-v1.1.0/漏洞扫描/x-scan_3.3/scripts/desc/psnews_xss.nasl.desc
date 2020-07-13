@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14685
+NAME=PsNews XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 PsNews XSS 漏洞
+DESCRIPTION=远程主机正在运行PsNews的一个版本 (一个配置管理系统);版本低于1.2.;;这个版本受到多个跨站脚本的影响. 一个攻击者;可能利用这个漏洞回去这个网站合法用户的cookie.;;解决方案 : 升级到最新的版本.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak&Translation by sunwear

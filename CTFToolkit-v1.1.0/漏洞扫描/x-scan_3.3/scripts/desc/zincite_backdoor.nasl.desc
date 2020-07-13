@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14184
+NAME=Zincite.A (MyDoom.M) Backdoor
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查MyDoom蠕虫
+DESCRIPTION=远程主机被安装了'BackDoor.Zincite.A'后门. ;很有可能是通过'MyDoom.M'安装的.;;该后门可能导致攻击者获取未论证的主机访问权限.;;查看 :  ;http://securityresponse.symantec.com/avcenter/venc/data/w32.mydoom.m@mm.html;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15712
+NAME=Firefox之IMG标记的多个漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Firefox的版本
+DESCRIPTION=远程主机正在使用Firefox -- 另一款可选的web浏览器.;;此软件存在一个安全问题. 该问题会允许攻击者确定是否存在本地文件, 从而导致拒绝服务并窃取密码(仅限Windows).;;此安全漏洞是由于Firefox未正确处理<IMG>标记而造成的.;;;解决方案 : 升级到Firefox 1.0.0;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

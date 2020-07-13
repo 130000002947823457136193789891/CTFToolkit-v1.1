@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10610
+NAME=way-board
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/way-board是否存在
+DESCRIPTION=主机安装了'way-board' CGI。该CGI存在一个著名的安全漏洞，允许攻击者以http服务端权限(通常是root 或 nobody)浏览任意文件。;;解决方案: 从/cgi-bin里删除way-board。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17605
+NAME=Mozilla Thunderbird 版本小于1.0.2
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测 Mozilla Thunderbird 的版本
+DESCRIPTION=远程机器运行着一个电子邮件的客户端 Mozilla Thunderbird .;;这个软件存在一个在处理 GIF 格式的图片时的堆溢出.;;攻击者可以利用这个漏洞远程执行任意代码. 要利用这个漏洞， 攻击者必须发一个畸形的GIF文件给对方，然后等待对方打开.;; 解决方案: 升级到 Mozilla ThunderBird 1.0.2以上版本;风险级别 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

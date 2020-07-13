@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12204
+NAME=IIS SSL检查 Microsoft Hotfix for KB835732
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查是否安装Microsoft Hotfix KB835732，关于远程SSL服务
+DESCRIPTION=远程主机可能运行Microsoft SSL库;其中存在几个缺陷，可能导致服务器Dos或者执行任意命令。;;任何一个使用SSL的Microsoft服务器都可能存在漏洞.  包括 IIS 4.0, IIS 5.0, IIS 5.1, Exchange Server 5.5, Exchange Server;2000, Exchange Server 2003, 和Analysis Services 2000 ( 包含于SQL Server 2000)。;;;解决方法：安装微软升级补丁;参考 : http://www.microsoft.com/technet/security/bulletin/ms04-011.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译 by yztgx

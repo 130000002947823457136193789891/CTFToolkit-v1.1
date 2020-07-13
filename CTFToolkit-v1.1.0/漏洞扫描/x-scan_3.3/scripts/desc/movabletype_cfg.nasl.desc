@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16170
+NAME=Movable Type config文件信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/mt/mt.cfg是否存在
+DESCRIPTION=;/mt/mt.cfg 是MT发布平台安装时所需文件，其包含不应被暴露的信息. ;;解决方案: 配置web服务器以禁止.cfg 文件. ;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Rich Walchuck

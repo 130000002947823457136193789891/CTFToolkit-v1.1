@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10765
+NAME=SQLQHit路径信息泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQLQHit路径信息泄露漏洞
+DESCRIPTION=该示例SQL查询脚本是缺省安装的. ;通过向该程序发送一个精心构造的请求,可能导致物理路径,文件属性,甚至是部分文件内容泄露.;;解决方案: 按照微软的IIS安全配置向导进行安全配置 (参见附加信息) 或者  ;使用微软的IIS Lockdown工具来移除IIS示例脚本.;;风险等级 : 中;;附加信息:;http://www.securiteam.com/tools/5QP0N1F55Q.html (IIS Lookdown);http://www.securiteam.com/windowsntfocus/5HP05150AQ.html (Secure IIS 4.0);http://www.securiteam.com/windowsntfocus/5RP0D1F4AU.html (Secure IIS 5.0)
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam(chinese version by lsy)

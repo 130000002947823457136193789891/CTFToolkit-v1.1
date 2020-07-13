@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15709
+NAME=TikiWiki的tiki-error.php跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查TikiWiki的版本
+DESCRIPTION=远程主机正在运行Tiki Wiki -- 一个PHP编写的内容管理系统.;;此软件由于在tiki-error.php脚本中缺乏对用户输入进行适当的处理而容易受到跨站脚本攻击的危害.;;解决方案: 升级到版本1.7.8或更高;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

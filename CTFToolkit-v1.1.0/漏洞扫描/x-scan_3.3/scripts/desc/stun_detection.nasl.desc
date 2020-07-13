@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11986
+NAME=检测STUN服务器
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=STUN 服务器检测
+DESCRIPTION=我们检测出远程主机正在运行一个STUN(Simple Traversal of User Datagram ;Protocol "UDP的简单遍历"  - RFC 3489 )服务器。;Simple Traversal of ;User Datagram Protocol(UDP) 通过网络地址转换(NAT)(STUN)是一个允许应用;程序发现其和公共Internet之间的NAT和防火墙的存在及其类型。它也提供了;应用程序检测由NAT分配给他们的公网IP地址的能力。STUN可以与许多现存的;NAT工作，并且不需要它们任何特殊的行为。结果，它允许大量的应用程序穿透;现有的NAT构架工作。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus (Chinese version by Dancefire)

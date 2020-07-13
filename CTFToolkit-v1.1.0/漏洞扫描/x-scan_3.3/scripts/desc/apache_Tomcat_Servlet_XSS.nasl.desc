@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11041
+NAME=Apache Tomcat /servlet Cross Site Scripting
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试Apache Tomcat的'/servlet'跨站脚本缺陷
+DESCRIPTION=Apache Tomcat是一个实现了Java Servlet和JSP技术的servlet容器.;;Tomcat通过使用/servlet/的路径影射来调用不同的servlet或类。有可能通过特殊构造路径的方式使Tomcat抛出异常，从而导致跨站脚本攻击,例如:;;tomcat-server/servlet/org.apache.catalina.servlets.WebdavStatus/SCRIPTalert(document.domain)/SCRIPT;tomcat-server/servlet/org.apache.catalina.ContainerServlet/SCRIPTalert(document.domain)/SCRIPT;tomcat-server/servlet/org.apache.catalina.Context/SCRIPTalert(document.domain)/SCRIPT;tomcat-server/servlet/org.apache.catalina.Globals/SCRIPTalert(document.domain)/SCRIPT;;(括号内的内容省略);;解决方案: ;;取消web.xml文件中'invoker'servlet的影射(默认影射路径为/servlet/).;;web.xml位于/tomcat安装目录/conf/web.xml.;译者注：Tomcat4的默认安装没有定义'invoker'servlet的影射.;;参考: ;;www.westpoint.ltd.uk/advisories/wp-02-0008.txt;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore

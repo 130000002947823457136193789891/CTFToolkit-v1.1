@@ -1,0 +1,10 @@
+[CHINESE]
+ID=12115
+NAME=虚拟竞技场服务器检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测虚拟竞技场服务器
+DESCRIPTION=此服务器用于建立游戏用互联网游戏及内网游戏，有安全隐患。;;
+解决方案: 请保证网络游戏访问的权限控制 ;
+风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17272
+脚本名称=Typo3 CMW Linklist Extension SQL数据库注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+脚本摘要=检测 Typo3 CMW Linklist extension SQL数据库注入漏洞
+脚本描述=安装了Typo3的远程主机存在SQL数据库注入漏洞;原因是CMW Linklist extension 所使用的参数'category_uid'没有经过正确的检查;利用这个漏洞,入侵者可以远程获得敏感数据甚至修改数据.  ;;;解决方案 :  将CMW Linklist extension 升级到1.5.0版本 或者将Typo3升级到3.7.0 版本以上 ;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

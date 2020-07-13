@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12238
+NAME=获得 passwd NIS 映像
+CATEGORY=信息搜集
+FAMILY=NIS
+SUMMARY=检查RPC服务的存在
+DESCRIPTION=这个脚本在NIS域名可以被得到的情况下，取得远程NIS的'passwd.byname'映像，;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Renaud Deraison (Chinese version by Dancefire)

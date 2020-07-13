@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12222
+NAME=Moodle中的XSS漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查在Moodle中是否存在XSS漏洞
+DESCRIPTION=在远程主机上运行着Moodle，它是一个课程管理软件。;它有一个漏洞，这使运行它的主机很容易运行恶意脚本。;;攻击者可以利用这个漏洞来窃取此站点上合法用户的授权信息。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

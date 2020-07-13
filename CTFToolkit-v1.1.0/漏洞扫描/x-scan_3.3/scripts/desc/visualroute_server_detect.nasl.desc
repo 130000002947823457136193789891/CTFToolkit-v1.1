@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10744
+NAME=VisualRoute Web服务器探测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=VisualRoute Web服务器探测
+DESCRIPTION=探测到该远程web服务器是VisualRoute web服务器。该服务器允许攻击者/程序在不暴露自身到目标主机路由的情况下执行向第三方主机的路由跟踪。;;风险等级：低;解决方案：停止VisualRoute web服务器，或者在防火墙上禁止该web服务器的端口
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam;Translate by Sniffer

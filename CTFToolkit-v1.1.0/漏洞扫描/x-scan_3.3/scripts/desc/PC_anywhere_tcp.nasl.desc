@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10794
+NAME=PC Anywhere 正在运行
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查 PC Anywhere是否运行
+DESCRIPTION=PC Anywhere 正在运行，这一服务可能是攻击者在攻陷你的服务器后用来控制该服务器的手段。如果如此，攻击者可以通过它对你的服务器进行完全的控制和修改。;;Solution : 如果你并未使用PC anywhere，请停止该服务。;;Risk factor : 中
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com

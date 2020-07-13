@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11568
+NAME=StockMan购物车路径泄露
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=探测远程根路径
+DESCRIPTION=远程主机正在运行StockMan购物车。;;这个版本中存在一个缺陷，允许远程的攻击者通过'shop.plx';请求一个不存在的网页而得到远程主机web根路径的物理路径。;攻击者可以使用这个缺陷得到更多的关于远程主机安装上的信息;;解决方案 : 升级到StockMan购物车版本7.9或者更新的版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Chinese version by Dancefire)

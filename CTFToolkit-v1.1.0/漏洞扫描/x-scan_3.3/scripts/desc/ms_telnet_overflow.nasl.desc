@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11314
+NAME=微软Telnet缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=尝试溢出Telnet服务器
+DESCRIPTION=当接收到过多的选项时,远程telnet服务会崩溃 ,;这很有可能是由于缓冲区溢出而导致.;;攻击者利用该缺陷可以得到主机的一个shell.;;解决方案: 参考 http://www.microsoft.com/technet/security/ms02-004.asp;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

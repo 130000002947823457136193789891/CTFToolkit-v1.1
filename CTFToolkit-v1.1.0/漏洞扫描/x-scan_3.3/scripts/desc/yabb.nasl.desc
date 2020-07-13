@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10512
+NAME=YaBB
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/YaBB.pl文件是否存在
+DESCRIPTION=该主机安装了'YaBB.pl' CGI程序。该CGI存在一个有名的安全漏洞。攻击者可以利用此漏洞以http daemon的权限（通常是root或nobody）浏览任意文件。;;解决方案: 从/cgi-bin里删除'YaBB.pl'文件或者更新的最新的版本。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

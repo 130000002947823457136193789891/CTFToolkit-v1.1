@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15396
+NAME=ICECast directory traversal flaw
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=Check icecast version
+DESCRIPTION=远程服务器运行版本早于1.3.10的ICECast。ICECast是一个开放源代码的音频流媒体服务器.;;此版本会受到一个目录遍历漏洞的影响.;;攻击者可以利用人工构造的URL来查看系统中的任意文件.;;*** Nessus仅使用收集到的信息来;*** 报告这个漏洞.;;解决方案 : 升级到更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

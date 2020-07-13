@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10505
+NAME=通过WebDAV进行目录列表
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测WebDAV的存在
+DESCRIPTION=WebDAV模块可以用来获得远程web服务器目录列表，即使它有不同的页面，例如index.html。这种情况使得攻击者/程序获得与远程主机目录结构有关的有价值的信息，并且能使攻击者/程序了解那些并不打算让其它人了解的文件的存在。;;解决方案：禁止WebDAV模块，或者只允许已验证的或被信任的客户端访问。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison;Translate by Sniffer

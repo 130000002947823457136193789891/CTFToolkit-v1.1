@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16071
+NAME=PHPCalendar Remote File Include Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PHPCalendar是否能引用第三方文件
+DESCRIPTION=远程Web服务器上正运行PHPCalendar,它是基于网页的;用PHP编写的日历.;;此版本的PHPCalendar存在文件引用;漏洞,导致攻击者能够在远程主机上执行;任意PHP命令.;;解决方法 : 升级到该软件的最新版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

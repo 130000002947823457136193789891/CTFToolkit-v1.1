@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11270
+NAME=SMTP 超长长度的行
+CATEGORY=拒绝服务
+FAMILY=SMTP
+SUMMARY=向MTA发送超常长度的单行内容
+DESCRIPTION=一封邮件包含很多超长字符串而且没有分行的时候。一些病毒扫描器处理这种邮件时会死住。;当前脚本发送了上述信息测试。如果你的MTA上运行了反病毒程序，该程序现在可能已经崩溃。由于已经无法远程检测，请立即本地查看程序状态。
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

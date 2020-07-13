@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12003
+NAME=TIMESINK 探测
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=TIMESINK 探测
+DESCRIPTION=远程的主机正在使用 TIMESINK 程序。;你需要确认:;- 是用户有意要安装TIMESINK (有时候是默认安装的);- TIMESINK的使用符合你的公司的要求和安全策略。;;要删除这类软件，你可能需要去检查一下广告软件或者后门程序。 ;;请参考 : http://www.safersite.com/PestInfo/t/timesink.asp ;;解决方案 : 卸载这个软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;(Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17672
+NAME=检测Mambo Open Source / Mambo CMS 
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查目录主机是否运行Mambo
+DESCRIPTION=;此脚本用于探测远程主机是否运行Mambo,并判断版本信息及其他信息.;;Mambo是用PHP开发的功能强大的开放源码的内容管理系统.详情参看;; http://www.mamboserver.com/;http://www.miro.com.au/index.php?option=displaypage&Itemid=235&op=page
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

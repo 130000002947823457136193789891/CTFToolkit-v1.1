@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11802
+NAME=WindowsNT拒绝服务漏洞(823803)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=hotfix 823803检测
+DESCRIPTION=Windows NT 4.0的一个函数或功能中存在一个漏洞，;可能使得远程主机拒绝服务。;;解决方法详见：;http://www.microsoft.com/technet/security/bulletin/ms03-029.asp;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

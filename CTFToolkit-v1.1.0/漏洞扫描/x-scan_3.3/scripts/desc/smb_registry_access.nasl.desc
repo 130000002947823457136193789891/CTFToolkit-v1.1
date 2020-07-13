@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10400
+NAME=可以通过SMB连接注册表
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否可以远程连接注册表
+DESCRIPTION=用户可以使用SMB测试中的login / password 组合远程连接注册表。;允许远程连接注册表存在潜在危险，攻击者可能由此获取更多主机信息。;;解决方案: 如果还没有安装service pack 3补丁，先安装之。同时设置注册表子键;HKLM\SYSTEM\CurrentControlSet\Control\SecurePipeServers\Winreg;的权限，只允许管理员用户浏览其内容。;;另外，有必要考虑从相关端口过滤主机接收到的数据。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

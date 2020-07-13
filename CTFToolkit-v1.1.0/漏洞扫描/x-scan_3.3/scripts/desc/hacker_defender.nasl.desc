@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15517
+NAME=HACKER defender后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=HACKER defender后门(所有版本)
+DESCRIPTION=远程主机受到'HACKER Defender'后门的感染.;攻击者可以使用这个服务控制远程主机.;	;解决方案: 安装更新的AV软件或离线检查硬盘.;强烈推荐重新安装操作系统.;风险等级: 待定
+COPYRIGHT=This script is Copyright (c) SIA 2004

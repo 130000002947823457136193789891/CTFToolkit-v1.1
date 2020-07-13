@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10268
+NAME=SSH注入攻击 
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH版本号
+DESCRIPTION=远程主机运行SSH1.2.23或者更低版本，此版本容易遭受已知简单文本攻击。;它允许攻击者在客户机到服务器的数据流中插入加密数据包，;当服务器解密数据包时允许攻击者在远程服务器上执行任意命令。;;解决方案：升级到SSH 1.2.25解决此问题。;更多信息参见：http://www.core-sdi.com/english/ssh/;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison
+

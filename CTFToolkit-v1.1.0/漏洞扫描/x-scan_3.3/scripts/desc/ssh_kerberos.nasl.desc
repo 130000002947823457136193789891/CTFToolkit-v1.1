@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10472
+NAME=SSH Kerberos 问题
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH版本
+DESCRIPTION=你正在运行的SSH版本早于(或等于)版本1.2.27。;;如果你编译ssh的时候加入了kerberos的支持，那么攻击者可以;偷听你的用户的kerberos tickets，因为sshd将设置环境变量;KRB5CCNAME为'none'，所以kerberos tickets将会被保存到用户;的当前工作目录，为'none'。;;如果你有nfs/smb共享磁盘，那么攻击者可以利用这个漏洞偷听;你的用户的kerberos tickets。;;*** 如果你没有使用kerberos，那么忽略掉这个警告。 ***;;解决方案 : 使用ssh 1.2.28或者更新版本;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Chinese version by Dancefire)

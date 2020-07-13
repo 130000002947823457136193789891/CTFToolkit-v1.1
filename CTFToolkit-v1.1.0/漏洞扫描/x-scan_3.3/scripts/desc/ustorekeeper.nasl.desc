@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10645
+NAME=ustorekeeper
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/ustorekeeper.pl
+DESCRIPTION=安装有'ustorekeeper.pl'CGI. 此CGI存在一个著名的漏洞，其容许攻击者以http邮件后台的权限(通常是root或nobody)访问任何文件.;;解决方案 : 将'ustorekeeper.pl'从/cgi-bin目录中转移或将其升级到最新版本.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

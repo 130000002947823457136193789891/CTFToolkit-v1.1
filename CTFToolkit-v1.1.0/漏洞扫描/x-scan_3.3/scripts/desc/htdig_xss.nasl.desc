@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15706
+NAME=ht://Dig htsearch.cgi跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ht://Dig是否在htsearch.cgi中存在跨站脚本缺陷
+DESCRIPTION=作为ht://Dig软件包一部分的'htsearch'CGI易受通过'words'变量而发起的跨站脚本攻击的危害.;;通过一个特别构造的URL, 攻击者可以引起任意代码的执行, 从而导致完整性的丧失.;;解决方案 : 升级到更高的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

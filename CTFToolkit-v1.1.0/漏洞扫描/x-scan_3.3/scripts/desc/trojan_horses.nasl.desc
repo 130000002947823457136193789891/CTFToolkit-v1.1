@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11157
+NAME=特洛伊木马
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=查找可能的木马
+DESCRIPTION=一个不知名的服务正在这个端口运行。;他可能是由一个木马所打开.;除非你确实知道这个端口所运行的程序，;你最好检查你的系统.;;解决方案: 运行最好的反病毒软件确认是否有木马在运行。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

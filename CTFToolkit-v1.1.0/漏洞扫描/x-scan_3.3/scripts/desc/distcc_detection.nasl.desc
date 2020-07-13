@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12638
+NAME=DistCC Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测DistCC是否存在
+DESCRIPTION=distcc是这样一个程序，它能把C, C++, Objective C;或者Objective C++ 的编译任务分发到网络上的多台机器。;distcc就象本地编译任务一样总是生成相同的编译结果，distcc 简单，;易于安装和使用，而且它的编译速度通常是本地编译速度两倍甚至更快。;;默认情况下，distcc完全信任它的客户端，反过来亦如此，;这使得一个恶意的用户可以在服务器上执行任意命令。;;要获得更多关于DistCC的安全信息，请参阅：;http://distcc.samba.org/security.html;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10246
+NAME=Sambar web服务器cgi脚本检查
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/{hello,echo}.bat
+DESCRIPTION=至少一个cgi程序安装在服务器上，该cgi允许攻击者以web进程属主的权限执行命令。;;Solution : 删除所有cgi-bin下的*.bat文件;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

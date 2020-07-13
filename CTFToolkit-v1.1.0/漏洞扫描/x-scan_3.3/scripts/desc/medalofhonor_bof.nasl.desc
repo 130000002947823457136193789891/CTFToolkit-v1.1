@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14243
+NAME=荣誉勋章远程缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员权限
+SUMMARY=攻击远程荣誉勋章游戏服务器
+DESCRIPTION=当远程主机运行荣誉勋章游戏服务器时;;服务器易受到远程攻击;允许执行任意代码;;***注意：Nessus通过测试禁用了该服务;解决方案：EA已经为该漏洞发布了相应补丁;;风险等级：高;;相关链接：http://www.securityfocus.com/bid/10743
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

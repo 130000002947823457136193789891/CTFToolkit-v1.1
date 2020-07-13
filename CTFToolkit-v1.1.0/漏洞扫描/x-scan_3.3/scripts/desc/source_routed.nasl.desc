@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11834
+NAME=源路由包
+CATEGORY=攻击
+FAMILY=防火墙
+SUMMARY=发送宽松源路由的IP包
+DESCRIPTION=远程主机接受宽松源路由的IP包。这个特性是为测试目的设计的。;攻击者可以用它绕过简单设计的IP过滤并且利用其他的漏洞。;但是他本身并不危险。;;解决方案 : 在这个主机或者其他入口路由器或者防火墙上，丢弃源路由包。;;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi (Chinese version by Dancefire)

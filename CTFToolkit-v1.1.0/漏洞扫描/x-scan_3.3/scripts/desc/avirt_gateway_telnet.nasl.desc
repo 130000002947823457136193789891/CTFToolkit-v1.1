@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11096
+NAME=Avirt gateway insecure telnet proxy
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=远程系统因不安全的telnet 代理而受到威胁
+DESCRIPTION=利用'DOS'命令，有可能不用密码而登陆至远程telnet服务器;并得到一个命令行提示符 .;;攻击者利用该漏洞可以访问你的系统.;;解决方案 :联系你的提供商索取补丁 或停止该服务;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

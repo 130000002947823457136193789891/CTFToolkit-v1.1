@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11315
+NAME=网页聊天代码注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查现有的includes.php文件
+DESCRIPTION=第三方主机中很有可能存在有php的文件，其用于网页聊天。;;一个攻击者很有可能利用此漏洞在远程主机中注入任何代码，从而获在web服务器上获得特权。;;解决方案 : 参考 http://www.phpsecure.org 或联系提供商获取补丁;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

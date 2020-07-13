@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15611
+NAME=MailEnable不明漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP Problems
+SUMMARY=检查MailEnable的版本
+DESCRIPTION=远程主机正在运行一个版本低于1.5.1的MailEnable Professional.;;此软件存在一个已经在版本1.5.1中得到修补的不明漏洞.;;解决方案 : 升级到MailEnable Professional 1.5.1;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

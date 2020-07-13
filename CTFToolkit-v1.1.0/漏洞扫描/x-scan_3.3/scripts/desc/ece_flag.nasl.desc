@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12118
+NAME=ECE-bit绕过防火墙漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=ECE-bit绕过防火墙漏洞
+DESCRIPTION=远程主机似乎存在一个bug，使得远程攻击者通过设置TCP标志中ECE位绕过防火墙.至少一个防火墙(ipfw)存在此问题.;;存在问题的系统有FreeBSD 3.x ,4.x, 3.5-STABLE 和 4.2-STABLE.;;解决方案:  如果您使用 FreeBSD 3.X, 4.x, 3.5-STABLE,4.2-STABLE, 请升级您的防火墙.  如果您不使用 FreeBSD, 可以联系防火墙的供应商，索取补丁.;;参见: http://www.securityfocus.com/bid/2293/;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Andrey I. Zakharov and John Lampe

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10978
+NAME=CSCds66191
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=如果向Catalyst路由器发送一连;串错误的telnet验证，可使得它无法传;递数据包和接受管理连接，;直到重新启动或者关闭电源。;所有得telnet验证都受到影响，;包括Kerberized telnet，AAA验证等。;这个漏洞相关的Cisco漏洞ID为：CSCds66191。;;解决方法：http://www.cisco.com/warp/public/707/catalyst-memleak-pub.shtml;;危险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

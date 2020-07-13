@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12079
+NAME=OWL's Workshop文件泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 OWLS 文件泄漏
+DESCRIPTION=OWL workshop 是一个基于web的教育工具，用PHP编写。当前版本存在漏洞，允许攻击者从web服务器释放任意文件并获得同等权限;;解决方案: 目前暂无 - 停止使用该软件。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

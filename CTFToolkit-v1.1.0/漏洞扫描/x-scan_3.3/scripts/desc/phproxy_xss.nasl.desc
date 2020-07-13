@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16069
+NAME=PHProxy XSS
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查PHPProxy是否存在跨站脚本
+DESCRIPTION=远程主机正运行PHPProxy，这是用PHP写的一个HTTP代理.; ;该版本的PHPProxy存在;HTML和JavaScript注入漏洞.;;攻击者可能会利用这个漏洞进行web缓存欺骗和跨站脚本攻击等.;;解决方法 : 升级到该软件的最新版;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

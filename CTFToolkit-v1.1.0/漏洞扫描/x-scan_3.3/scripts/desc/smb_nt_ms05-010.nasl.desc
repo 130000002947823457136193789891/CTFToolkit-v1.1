@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16325
+NAME=在证书日志服务中的漏洞(885834)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=确认hotfix 885834是否已被安装
+DESCRIPTION=远程WINDOWS系统在日志服务中包含一个缺陷,;此缺陷允许一个攻击者在远程主机上执行恶意代码.;;为了利用这些缺陷,攻击者需要发送一个畸形包到远程日志服务,; 这个漏洞可能引起远程代码执行或者拒绝服务攻击.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS05-010.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

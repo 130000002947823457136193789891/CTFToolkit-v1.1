@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11588
+NAME=YaBB SE执行命令漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测YaBB SE是否会执行任意命令
+DESCRIPTION=远程主机正在运行YaBB SE论坛管理系统。;;根据版本号，该论坛存在代码插入漏洞。拥有合法账号的攻击者可以构造"language"变量并提交请求，从而执行任意命令。;;除此以外，该版本还存在其他漏洞，比如SQL注射等。;;解决方案: 升级到YaBB SE 1.5.2或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

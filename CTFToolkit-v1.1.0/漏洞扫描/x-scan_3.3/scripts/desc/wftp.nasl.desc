@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10305
+NAME=WFTP登录检验
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=对所有帐户检验
+DESCRIPTION=该FTP服务器允许任意登录/密码组合。这威胁到该服务器的安全，使得任何人可以在未经管理人员同意的情况下浏览服务器硬盘的FTP部分。;;风险等级：高;解决方案：升级/完善WFTP
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

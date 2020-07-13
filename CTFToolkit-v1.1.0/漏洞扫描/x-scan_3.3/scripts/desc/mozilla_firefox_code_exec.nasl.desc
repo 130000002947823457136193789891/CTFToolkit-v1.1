@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12642
+NAME=Mozilla/Firefox 代码可执行漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of Mozilla/Firefox
+DESCRIPTION=远程主机正在使用交互的浏览器Mozilla/Firefox。;;远程主机上的这个软件的版本含有一个缺陷，这个缺陷可以使;功击者在远程主机上执行任意程序。;;解决方案 : 请参考 http://mozilla.org/security/shell.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

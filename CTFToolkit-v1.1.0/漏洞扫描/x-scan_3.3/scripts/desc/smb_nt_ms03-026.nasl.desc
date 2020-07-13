@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11790
+NAME=Microsoft RRPC接口缓冲区溢出漏洞(823980)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测目标主机是否安装了hotfix Q823980补丁
+DESCRIPTION=远程Windows主机的RPC接口存在缓冲区溢出漏洞。; 该漏洞可导致远程攻击者以SYSTEM权限在系统中执行任意代码。 ;;远程攻击者或蠕虫能据此获得主机的控制权。;;解决方案:参考 http://www.microsoft.com/technet/security/bulletin/ms03-026.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Jeffrey Adams

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12229
+NAME=Microsoft IIS Cookie信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Microsoft IIS Cookie 信息泄露
+DESCRIPTION=远程主机正在运行的Microsoft IIS显示出存在一个泄露cookie使用的缺陷。;也就是，当发送一个存在'='的Cookie的时候，Microsoft IIS要么会回应一个;错误(如果实际上是通过一个指定的asp页面处理这个cookie的)，要么会泄露;所使用的.inc文件的信息。这可以被用来对应那个应用程序在处理cookie。;;解决方案 : 改变默认的报错页面;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

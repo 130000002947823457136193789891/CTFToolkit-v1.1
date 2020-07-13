@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10995
+NAME=Sun JavaServer默认管理密码
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Sun JavaServer默认管理密码
+DESCRIPTION=该主机运行着Sun JavaServer.该服务存在默认的管理员用户名和密码,攻击者可利用该问题获得对该服务器的完全控制,配置或者运行任意的命令;;解决方案:设置管理接口密码为复杂的密码.更多信息请查看;参考位于/system/下web服务目录的文件.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc.

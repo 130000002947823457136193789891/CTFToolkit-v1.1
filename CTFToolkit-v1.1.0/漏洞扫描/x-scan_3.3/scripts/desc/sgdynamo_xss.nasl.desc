@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11955
+NAME=sgdynamo_xss
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=sgdynamo.exe 跨站脚本漏洞
+DESCRIPTION=远程主机正在运行CGI 'sgdynamo.exe'。 ;;该CGI程序的某些版本存在漏洞，会引起跨站脚本攻击。;;解决方案: 目前暂无;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Scott Shebby

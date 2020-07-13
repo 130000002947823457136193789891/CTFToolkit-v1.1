@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12019
+NAME=WILDTANGENT 信息搜集
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=WILDTANGENT 信息搜集
+DESCRIPTION=远程主机正在使用WILDTANGENT.;首先需确认:;用户已计划安装WILDTANGENT(安装有时会以安静模式进行).;利用WILDTANGENT,可以找到内部共用的MANDATE和安全策略.;;移除此部分软件, 你可能会检测出间谍软件. ;;详见: http://pestpatrol.com/PestInfo/w/wildtangent.asp;解决方案:卸载此软件;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;翻译 By ZDI

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10694
+NAME=GuildFTPd目录遍历
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=确定是否安装GuildFTPd 0.97
+DESCRIPTION=已检测到0.97版的GuildFTPd. 此产品中的一个严重的漏洞会导致凡是登陆到FTP的用户都可以读取系统上任意的文件.;更多信息 : http://www.securiteam.com/windowsntfocus/5CP0S2A4AU.html;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

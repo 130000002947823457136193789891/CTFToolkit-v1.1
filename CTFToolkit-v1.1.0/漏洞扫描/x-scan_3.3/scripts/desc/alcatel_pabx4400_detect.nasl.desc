@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11019
+NAME=检测Alcatel PABX 4400
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测远程主机是否是Alcatel 4400
+DESCRIPTION=远程主机是一台Alcatel PABX 4400.;;这台设备可通过或使用串行口进行配置. ;;不应当让外部人连接到这台设备;;解决方案 : 过滤流入这台主机的流量;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

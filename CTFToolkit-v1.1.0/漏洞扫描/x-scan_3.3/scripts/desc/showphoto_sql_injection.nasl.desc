@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12038
+NAME=Photopost PHP Pro SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL注入漏洞
+DESCRIPTION=一台远程主机好象在运行Photopost PHP Pro，一个web-based图片画廊管理系统。有一个缺陷可以致使未授权的用户进入此主机。;;解决方案：改进到此软件的最新版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Chinese Edition By BestWc)

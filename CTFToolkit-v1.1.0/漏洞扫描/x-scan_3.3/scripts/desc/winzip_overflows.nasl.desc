@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17362
+NAME=WinZip中多个缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查是否安装了WinZip
+DESCRIPTION=远程主机使用着9.0-SR1之前版本的WinZip。;;WinZip是一款流行的解压缩工具。该软件中存在着数个缓冲区溢出漏洞，攻击者利用这些漏洞可在远程主机执行任意代码。;;要利用该漏洞，攻击者先需将一个变形的档案文件发送给远程主机上的用户，然后等待该用户使用WinZip打开它。;;解决方案: 升级到WinZip 9.0-SR1 ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

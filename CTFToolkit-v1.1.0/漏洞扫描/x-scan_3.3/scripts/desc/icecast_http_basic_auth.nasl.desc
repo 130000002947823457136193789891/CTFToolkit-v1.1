@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15397
+NAME=ICECast HTTP基本授权的拒绝服务
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查icecast版本
+DESCRIPTION=远程服务器运行版本为2.0.0的ICECast。ICECast是一个开放源代码的音频流媒体服务器.;;此版本会受到远程拒绝服务的影响.;;远程攻击者可以通过在授权头信息中传递一个长字符串的方式发送一个特别构造的URL，从而导致服务器拒绝服务.;;*** Nessus 仅使用收集到的信息来;*** 报告这个漏洞.;;解决方案 : 升级到更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10843
+NAME=ASP.NET path disclosure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试asp.net路径泄露漏洞
+DESCRIPTION=asp.net存在一个路径泄露漏洞。这个漏洞使得攻击者得到远程主机的web根目录的物理路径。;;解决方案 : 这个漏洞被公布时还没有解决方案，请联系服务提供商;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

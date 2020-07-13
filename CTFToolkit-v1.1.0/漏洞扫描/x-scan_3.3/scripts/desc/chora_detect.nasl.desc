@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13849
+NAME=Chora Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测是否存在Chora
+DESCRIPTION=本脚本用来检测目标主机是否正在运行Chora, 尝试找出版本号并定位一些实例. ;;Chora是horde出品的一款基于PHP的CVS知识库查看程序;工程; 从 <http://www.horde.org/chora/> 可以获得更多信息. ;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

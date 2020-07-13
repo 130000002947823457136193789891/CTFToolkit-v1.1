@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10177
+NAME=php.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/php.cgi
+DESCRIPTION=已经安装了'php.cgi'.这个cgi有:一个知名的安全缺陷,允许攻击者以http守护进程权限(通常是
+root或者nobody)读任意文件;;解决方案:从/cgi-bin/目录中删除;;风险级别:高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

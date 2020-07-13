@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15400
+NAME=ICECast人工构造URL的拒绝服务
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查icecast版本
+DESCRIPTION=远程服务器运行版本早于1.3.11的ICECast.ICECast是一个开放源代码的音频流媒体服务器.;;由于没有正确地处理用户的输入，此版本的服务器会受到本地拒绝服务的影响.;;远程攻击者可以通过人工在最后填加'/'或'\'或'.'的方式向服务器发送URL，可导致服务器拒绝服务.;;解决方案 : 升级到更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14715
+NAME=OpenCA签名验证漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测OpenCA版本号
+DESCRIPTION=远程主机正在运行的OpenCA版本过低. ;;OpenCA 0.9.1.6 以下版本存在安全漏洞 ;远程攻击者利用这个漏洞可导致OpenCA接收恶意证书.; ;解决方案 : 升级到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(chinese version by lsy)

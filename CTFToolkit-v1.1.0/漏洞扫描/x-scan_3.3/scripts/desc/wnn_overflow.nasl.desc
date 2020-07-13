@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11108
+NAME=Omron WorldView Wnn 溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检查远程Wnn服务能否被溢出。
+DESCRIPTION=向远程Wnn服务器发送一个超常的字符串可能使其服务崩溃。;;Solution:升级到最新版本或联系你的软件供应商获取相应的补丁。;请参阅http://online.securityfocus.com/advisories/4413 ;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

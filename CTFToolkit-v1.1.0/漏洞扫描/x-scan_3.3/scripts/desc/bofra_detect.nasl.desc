@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15746
+NAME=Bofra virus detection
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Determines the presence of a Bofra virus infection resulting from an IFrame exploit
+DESCRIPTION=远程主机可能已经被Bofra病毒或其变种所感染;该病毒通过IE浏览器的IFRAME漏洞传播;该系统极有可能已经受到危害;;解决方案 ：重装远程系统;参考：http://securityresponse.symantec.com/avcenter/venc/data/w32.bofra.c@mm.html;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2004 Brian Smith-Sweeney;;Dedicate this to Sierra

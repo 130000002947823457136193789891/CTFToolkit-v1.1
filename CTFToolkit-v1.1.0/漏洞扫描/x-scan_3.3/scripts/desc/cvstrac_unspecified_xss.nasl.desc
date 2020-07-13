@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16000
+NAME=CVSTrac Cross-Site Scripting 漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查CVSTrac的版本
+DESCRIPTION=远程主机正在运行cvstrac,一个CVS下的基于web的错误和补丁跟踪系统 .;;这个版本的CVSTRAC存在一个cross-site脚本漏洞，攻击者可以利用远程服务器来攻击使用远程服务的第三方用户 ;;解决方案 :升级到 1.1.5 版或者屏蔽CGI;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

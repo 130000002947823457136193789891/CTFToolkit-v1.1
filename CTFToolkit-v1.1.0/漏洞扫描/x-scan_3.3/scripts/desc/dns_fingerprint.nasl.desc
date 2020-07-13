@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11951
+NAME=DNS Server Fingerprint
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=判断域名服务器的类型与版本
+DESCRIPTION=本脚本试图通过向远程 DNS 服务器发送各种畸形的请求并分析返回的错误码来 ;识别远程DNS服务器的类型和版本号.;;参见 : http://cr.yp.to/surveys/dns1.html;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

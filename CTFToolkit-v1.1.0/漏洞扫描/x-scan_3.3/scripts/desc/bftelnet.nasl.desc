@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10026
+NAME=BFTelnet拒绝服务攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程telnet服务崩溃
+DESCRIPTION=通过发送一个过长的用户名;就有可能使远程telnet服务崩溃.;;攻击者利用这一缺陷可以阻止合法用户;使用这一服务.;;;解决方案 : 联系你的服务商索取补丁或不要使用之一服务;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

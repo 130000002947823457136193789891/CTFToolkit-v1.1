@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11718
+NAME=Lotus /./数据库拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=使用/./请求可能导致数据库拒绝服务
+DESCRIPTION=当向数据库发送类似/./name.nsf这样的特殊URL请求时 ;将导致Lotus Domino服务器拒绝服务 ;该攻击仅当数据库没有被服务器使用的时候才会生效.;;*** 注释 由于并没有对远程主机实施真实的模拟攻击, ;*** 因此这可能是一个错误的警报;;解决方案: 升级Lotus Domino服务器 ;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi(chinese version bye lsy)

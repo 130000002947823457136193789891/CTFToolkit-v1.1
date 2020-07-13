@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10152
+NAME=NetBus 2.x木马
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测远程主机是否运行了NetBus Pro
+DESCRIPTION=远程主机被安装了NetBus Pro 。;;NetBus 是一个远程管理工具，同时能被别有用心的人用于远程控制计算，进行键盘窃听等非法行为。;;解决方案 : 参考 http://www.netbus.com;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

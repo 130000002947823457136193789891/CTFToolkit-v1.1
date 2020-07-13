@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10281
+NAME=利用telnet确定服务器的类型与版本号
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=利用telnet确定服务器的类型与版本号
+DESCRIPTION=通过与服务器建立连接;并分析接收到的数据可以确定服务器的类型与版本号.; 这为潜在的攻击者提供了其将要攻击的系统的额外信息. 如果可能的话;版本与类型应当隐藏起来.;;解决方案: 更改登陆信息为非特定的内容.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam

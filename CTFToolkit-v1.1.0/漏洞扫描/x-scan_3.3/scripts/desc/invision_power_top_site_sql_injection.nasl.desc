@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11956
+NAME=Invision Power Top Site List的SQL注入
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测Invision Power Top Site List的SQL注入
+DESCRIPTION=远程主机正在运行'Invision Power Top Site List' - 一个PHP编写的站点排名脚本.;;由于缺乏对用户所提交数据的正确处理，此CGI套件存在一个SQL注入漏洞，可导致攻击者在此主机上执行任意的SQL命令，或因此控制站点的数据库.;;解决方案 : 升级此CGI套件到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

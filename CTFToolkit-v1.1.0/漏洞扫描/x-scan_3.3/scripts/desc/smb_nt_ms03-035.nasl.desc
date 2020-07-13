@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11831
+NAME=WORD宏指令可自动运行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=判断Windows Word的版本
+DESCRIPTION=一个远程主机在运行微软公司的一种有缺陷的可运行宏指令的Word版本;一个攻击者可以利用此漏洞在远程主机上执行任意指令;;为了实现攻击，攻击者必须发送一个rogue Word文挡给主机的所有者且其必须打开此文挡。而后此文挡中的Word宏指令便可绕过Word的安全检查机制且正常运行。;;解决方案：查看http://www.microsoft.com/technet/security/bulletin/ms03-035.asp中的有关内容。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(Chinese Edition By Bestwc)

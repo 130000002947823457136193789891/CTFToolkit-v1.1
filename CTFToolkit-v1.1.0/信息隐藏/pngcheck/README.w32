@@ -1,0 +1,20 @@
+WARNING:  I have compiled these binaries using the mingw32 cross-compiler
+          on Linux, i.e., "blindly"--I no longer have the ability to test
+          Win32 executables, so I have no clue whether they actually work
+          or not.  (I have no particular reason to believe they _don't_
+          work other than the fact that they've never been tested; perhaps
+          there are Unix-specific assumptions baked into the source code.
+          Color mode may require ANSI.SYS or its modern equivalent to be
+          loaded.)  YOU'RE ON YOUR OWN!  But feel free to let me know if
+          they either work or don't work; I may be able to fix things, as
+          long as I have sufficient information and someone willing to be
+          the guinea pig. ;-)
+
+See the main README file for basic instructions on compiling and running
+the programs.  See http://www.libpng.org/pub/png/apps/pngcheck.html for
+further information and for links to the source code.  Makefile.mingw32
+(new since the pngcheck 2.3.0 release) is included for reference.
+
+Greg Roelofs
+12 July 2007
+http://pobox.com/~newt/greg_contact.html

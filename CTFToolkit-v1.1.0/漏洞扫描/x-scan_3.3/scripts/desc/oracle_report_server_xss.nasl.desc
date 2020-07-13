@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17614
+NAME=Oracle Report Server XSS
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=Tests for a XSS in Oracle Reporting Server
+DESCRIPTION=远程主机运行着Oracle Report Server,一个应用于报告的软件.;;远程软件的这个版本存在易受到跨站脚本的攻击的弱点,允许攻击者利用这个弱点在远程主机上发动跨站脚本攻击.;;解决方案:禁用'reports/Tools/test.jsp'文件;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

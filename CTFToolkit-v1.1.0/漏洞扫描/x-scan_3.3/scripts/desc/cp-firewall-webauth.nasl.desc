@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10676
+NAME=CheckPoint Firewall-1 Web 验证检测
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=远程CheckPoint Firewall-1可以通过web界面被验证
+DESCRIPTION=Firewall-1web服务器
+Firewall-1 web服务在此端口上运行并且要求web身份验证.;;;此服务允许攻击者通过暴力攻击获取用户名和密码.;;老版本的Firewall-1产品允许在检测用户密码之前验证用户名,这就使得攻击者更容易利用有效用户列表进行暴力攻击.;;解决方案 : 如果你不使用此服务,请禁用它;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam & Translated by 代码罐头
+

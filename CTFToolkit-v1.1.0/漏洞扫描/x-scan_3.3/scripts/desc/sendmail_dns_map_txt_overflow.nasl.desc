@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11232
+NAME=Sendmail DNS映射TXT记录缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测版本号
+DESCRIPTION=依照远程sendmail服务器的版本号显示,;该版本sendmail处理DNS部分代码存在缓冲区溢出漏洞.;;恶意的名称服务器所有者可以利用这一缺陷在主机上执行任意代码.;;;解决方案 : 升级到Sendmail 8.12.5;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

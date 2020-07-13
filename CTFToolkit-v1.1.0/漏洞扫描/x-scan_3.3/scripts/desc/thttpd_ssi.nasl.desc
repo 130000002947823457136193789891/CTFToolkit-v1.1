@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10523
+NAME=thttpd ssi 文件检索
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=thttpd ssi 漏洞
+DESCRIPTION=这个远程HTTP服务器允许攻击者通过预先设计的有%2e%2e/ ;(16进制编码的../)路径名利用一个ssi package中的缺陷，;读取远程Web服务器上的任意文件;例如:;    GET /cgi-bin/ssi//%2e%2e/%2e%2e/etc/passwd ;;将会返回 /etc/passwd.;;解决方案: 升级thttpd 到版本 2.20。;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Thomas Reinke(Chinese Version by Dancefire)

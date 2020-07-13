@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12072
+NAME=smallftpd 1.0.3
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查smallftpd版本
+DESCRIPTION=远程主机正在运行smallftpd 1.0.3;;据报道，SmallFTPD有可能存在远程拒绝服务漏洞。起因是应用程序没有正确处理用户的输入数据。;;解决方案: 使用其他的FTP服务端;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Audun Larsen

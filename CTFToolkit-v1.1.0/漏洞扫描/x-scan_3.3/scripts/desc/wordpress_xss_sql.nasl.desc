@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16023
+NAME=WordPress Cross-Site Scripting / SQL 注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查WordPress
+DESCRIPTION=远程主机上正在运行WordPress BLOG,一个用PHP编写的网络日志管理程序 .;;这个版本很容易受到cross-site 脚本攻击;攻击者可以利用远程服务器窃取远程站点上第三方用户的cookies.;;除此之外,这个版本还很容易受到SQL注入攻击，攻击者可以在远程数据库中执行任意SQL语句.;;解决方案: 升级到最新版.;风险等级 :高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

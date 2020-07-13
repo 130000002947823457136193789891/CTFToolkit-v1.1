@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11442
+NAME=Samba TNG 存在多种漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查samba的权限
+DESCRIPTION=通过版本号判断，远程samba服务器可能存在多种漏洞，攻击者可以通过该漏洞获取管理员权限。;;*** 由于仅通过版本号进行判断，并未对该漏洞进行溢出测试，因此本报警可能为误报。;;;Solution : 升级你的Samba TNG到0.3.1以上;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

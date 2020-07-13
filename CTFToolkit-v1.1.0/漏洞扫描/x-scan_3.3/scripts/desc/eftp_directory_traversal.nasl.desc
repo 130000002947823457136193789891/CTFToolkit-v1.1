@@ -1,0 +1,12 @@
+[CHINESE]
+ID=10933
+NAME=EFTP tells if a given file exists
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=EFTP目录遍历
+DESCRIPTION=只要在所给文件之前加上点-点-斜杠,FTP服务器可以被用来确定它们在远程主机上是否存在。
+例如，在../../../../autoexec.bat之上使用SIZE或MDTM命令 就能测定\autoexec.bat的存在性
+攻击者可以利用这个漏洞获得主机诸如存储形式等更多的信息。在和其他漏洞同时使用时，这个漏洞更有用处。
+解决方案: 升级EFTP服务器到2.0.8.348或者更改服务器
+Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2001 Michel Arboi

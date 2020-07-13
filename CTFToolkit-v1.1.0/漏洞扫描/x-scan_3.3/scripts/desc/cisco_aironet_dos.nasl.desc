@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11014
+NAME=Cisco Aironet Telnet拒绝服务攻击
+CATEGORY=当机
+FAMILY=CISCO
+SUMMARY=检测 CSCdw81244
+DESCRIPTION=连接至telnet端口;并发送一个恶意的用户名和密码;就有可能使远程主机重起.;;这一缺陷参见Cisco Bug ID CSCdw81244文档.;;攻击者可以利用这一缺陷阻止你正常访问;网络节点.;;解决方案 : http://www.cisco.com/warp/public/707/Aironet-Telnet.shtml;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12285
+NAME=虚拟保护远程缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=破坏远程虚拟游戏服务器
+DESCRIPTION=远程主机运行着带有Unreal游戏引擎的服务;;该游戏服务已经被证实存在可导致运行任意代码的安全漏洞.;;*** 注意: Nessus通过测试该漏洞已停止了该服务;解决方案:Epic已经为该问题出了一个补丁;;风险等级:高;更多信息请查看: http://www.securiteam.com/windowsntfocus/5BP0P0AD5W.html
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

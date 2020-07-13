@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10976
+NAME=CSCds04747
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=Cisco的IOS软件有一个漏洞，;此漏洞允许获得TCP的初始序列号;;在所有的运行着各个版本IOS软件的;Cisco路由器或交换机上，这个漏洞都;存在。此漏洞仅仅影响那些源或目的是Cisco;设备的TCP连接，不影响通过Cisco设备传递的，;源、目的是两台主机的TCP连接。;;;这个漏洞相关的Cisco漏洞ID为：CSCds04747.;;解决方案 : ;http://www.cisco.com/warp/public/707/ios-tcp-isn-random-pub.shtml;风险等级 : 中;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

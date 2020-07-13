@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11832
+NAME=Visual Basic for Application 溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查vbe.dll和vbe6.dll的版本
+DESCRIPTION=远程主机的Microsoft VBA在处理畸形格式的文件时存在一个缓冲区;溢出漏洞。攻击者发送特殊格式的文件给远程主机的用户后，远程;主机将会运行攻击者指定的二进制代码。;;解决方案 : 参见 http://www.microsoft.com/technet/security/bulletin/ms03-037.asp;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11592
+NAME=12Planet Chat Server 路径泄漏
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查12Planet Chat Server路径泄漏
+DESCRIPTION=远程主机正在运行12Planet Chat Server - 一个由Java编写的基于web的聊天服务器。;;该版本的服务器存在泄漏物理路径的漏洞，攻击者可以通过发送特殊构造的请求获得程序安装的物理路径。基于获得的信息，攻击者可以进一步进行针对性攻击。;;解决方案: 目前暂无;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

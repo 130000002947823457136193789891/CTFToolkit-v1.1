@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11147
+NAME=Windows帮助未检测缓冲区漏洞(Q323255)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=MS Hotfix Q323255检测, Windows帮助工具未检测缓冲区漏洞
+DESCRIPTION=Windows帮助中的一个未检测缓冲区漏洞可以;允许一个攻击者获得用户系统的控制权。;;最高严重等级：待定。;;建议：用户必须立即安装补丁。;;受影响的系统：Microsoft Windows 98 ;Microsoft Windows 98 Second Edition ;Microsoft Windows Millennium Edition ;Microsoft Windows NT 4.0 ;Microsoft Windows NT 4.0, Terminal Server Edition ;Microsoft Windows 2000 ;Microsoft Windows XP ;;详见：http://www.microsoft.com/technet/security/bulletin/ms02-055.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 SECNAP Network Security, LLC

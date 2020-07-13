@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15640
+NAME=URI之格式化字符串
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=发送一个含有%s的HTTP请求作为URI
+DESCRIPTION=远程web服务器似乎容易受到URI格式化字符串攻击的危害.;攻击者可以利用这个漏洞使此主机崩溃或甚至执行任意代码.;;;解决方案 : 升级软件, 或联系供应商并通知这个漏洞;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

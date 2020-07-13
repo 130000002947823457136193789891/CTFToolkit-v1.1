@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11433
+NAME=Microsoft ISA Server DNS - 拒绝服务攻击漏洞(MS03-009)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测ISA服务器DNS补丁SP1-256
+DESCRIPTION=ISA服务器DNS入侵检查应用程序过滤器存在设计缺陷.;攻击者可以通过发送特殊形式的请求给ISA服务器 ;可导致公布DNS服务器产生拒绝服务.;;解决方案 : 参见http://www.microsoft.com/technet/security/bulletin/ms03-009.asp;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 A.D.Consulting(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10369
+NAME=Microsoft Frontpage dvwssr.dll backdoor
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/_vti_bin/_vti_aut/dvwssr.dll的存在
+DESCRIPTION=DLL文件“/_vti_bin/_vti_aut/dvwssr.dll”存在漏洞导致任何人编辑其他用户的文件。除此之外，它还存在缓冲区溢出，允许攻击者执行任意命令;;解决方案：删除/_vti_bin/_vti_aut/dvwssr.dll或者参考http://www.wiretrip.net/rfp/p/doc.asp?id=45&iface=1;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

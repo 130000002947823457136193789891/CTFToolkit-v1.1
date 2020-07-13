@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11699
+NAME=URLScan Detection
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测存在的URLScan
+DESCRIPTION=远程的web服务当使用URLScan来保护自己，;这是一个很好的方法，但存在漏洞可探测到URLScan被安装，进攻者可判断是远程的IISweb服务器;;风险等级:无
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

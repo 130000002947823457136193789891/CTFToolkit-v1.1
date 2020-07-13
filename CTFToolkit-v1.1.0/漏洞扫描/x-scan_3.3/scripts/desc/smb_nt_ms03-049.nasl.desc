@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11921
+NAME=Windows Workstation服务存在溢出漏洞 (828749)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测系统是否安装了hotfix 828749补丁
+DESCRIPTION=远程Windows主机Workstation服务存在远程溢出漏洞。;该漏洞可导致远程攻击者获取系统的SYSTEM访问权限。;;解决方案: 参考 http://www.microsoft.com/technet/security/bulletin/ms03-049.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

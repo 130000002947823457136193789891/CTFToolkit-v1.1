@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15395
+NAME=RealPlayer远程漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查RealPlayer的版本
+DESCRIPTION=远程主机安装了RealPlayer软件. ;;此软件的远程版本存在几个缺陷，可导致攻击者在远程主机上执行任意代码和删除任意文件.;;;解决方案 : http://www.service.real.com/help/faq/security/040928_player/EN/;;如果您已经卸载了RealPlayer，希望您删除注册表中的'SOFTWARE\RealNetworks\RealPlayer'注册项.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

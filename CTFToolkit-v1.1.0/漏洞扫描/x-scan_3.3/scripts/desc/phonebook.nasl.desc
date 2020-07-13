@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10564
+NAME=IIS phonebook
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检测phonebook服务是否安装
+DESCRIPTION=pbserver.dll存在缓冲区溢出漏洞，允许攻击者在远程主机上执行任意代码;;解决方案：http://www.microsoft.com/technet/security/bulletin/ms00-094.asp;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

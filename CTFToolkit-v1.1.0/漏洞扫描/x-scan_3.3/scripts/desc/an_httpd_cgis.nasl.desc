@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10016
+NAME=AN-HTTPd多个CGI测试程序
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在多个CGI程序
+DESCRIPTION=远程主机至少装有下列CGI程序之一:;;cgi-bin/test.bat;cgi-bin/input.bat;cgi-bin/input2.bat;ssi/envout.bat;;这些误用可能会导致远程主机运行任意命令.;比如:http://www.xxx.yy/cgi-bin/input.bat?|dir..\..\windows;将显示远程主机的私有目录'C:\windows\'的完全目录列表.;;解决方案:升级到AN-HTTPd的最新版本;(http://www.st.rim.or.jp/~nakata/),或者联系作者获得一个该问题的补丁,或者更换HTTP软件.;;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

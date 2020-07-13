@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10724
+NAME=Cayman DSL 路由器单字符登陆
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=注意远程cayman路由器允许单字符登陆
+DESCRIPTION=远程路由器允许任何人以字符‘{’('opening brace')登陆.;;入侵者可以连接到它从而获得很有价值的的信息.;;解决方案 : 联系cayman (见 http://cayman.com/security.html);风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

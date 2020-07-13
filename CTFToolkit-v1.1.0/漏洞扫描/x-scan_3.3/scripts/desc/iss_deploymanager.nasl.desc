@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17585
+NAME=ISS 配置管理探测
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测ISS配置管理器的网络接口
+DESCRIPTION=远程主机似乎在运行ISS配置管理器, 已连接上 ;允许通过网络接口远程安装各种站点保护 ;组件.;;如让攻击者知道你正使用这些软件将帮助他们;导致他们的攻击或使他们改变他们的策略.;;此外, 攻击者可能试图使用暴力攻击;登录远程接口.;;解决方案 : 过滤通过此端口的信息;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

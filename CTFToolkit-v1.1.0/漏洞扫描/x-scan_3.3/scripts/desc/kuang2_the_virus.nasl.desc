@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10132
+NAME=Kuang2 the Virus
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Checks for Kuang2 the Virus
+DESCRIPTION=发现Kuang2病毒.;; 该病毒感染系统中所有可执行文件,;安装一项允许远程控制的服务.;  通过客户端程序能对被感染机器的文件进行游览，上传，下载，隐藏等操作.;客户端程序也能在远程主机上执行程序.Kuang2病毒中有个插件，允许客户端对远程主机进行操作，;比如隐藏图标和开始菜单，颠倒桌面，弹出消息窗口等等.;; 参考:; http://vil.mcafee.com/dispVirus.asp?virus_k=10213; ; 解决方案: ; 使用最新的病毒扫描软件. ; 或者, 您也可以通过Altavista在网络上搜索到该病毒的拷贝. ; 该病毒包含服务端，客户端和被感染程序. ; 客户端不仅仅能用来远程控制被感染机器，也能清除被感染机器中运行的客户端.;; 风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Scott Adkins;;Dedicate this to Sierra

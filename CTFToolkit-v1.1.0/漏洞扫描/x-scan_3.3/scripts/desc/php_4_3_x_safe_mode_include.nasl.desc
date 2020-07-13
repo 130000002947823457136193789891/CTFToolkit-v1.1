@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11807
+NAME=php < 4.3.3
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP的版本
+DESCRIPTION=远程主机正在运行PHP 4.3,低于或等于4.3.2的版本.;;在这个版本由于在函数php_safe_mode_include_dir()中存在一个漏洞.;本地攻击者可以绕过安全模式和在本地系统获得对文件未授权访问.;;解决方案 : 尽可能升级到PHP4.3.3.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(翻译:sunwear)

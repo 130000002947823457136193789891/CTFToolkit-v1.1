@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10366
+NAME=AnalogX远程拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=可远程使HTTP服务崩溃
+DESCRIPTION=通过请求提交在/cgi-bin/目录中追加8个字符，如:  http://www.YOURSERVER.com/cgi-bin/12345678，可导致AnalogX HTTP服务程序崩溃。;;Solution :升级到最新版本;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2000  Renaud Deraison

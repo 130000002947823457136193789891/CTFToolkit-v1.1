@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15461
+NAME=CactuShop XSS 和 SQL 注射漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks CactuShop 漏洞
+DESCRIPTION=远程主机运行CactuShop-----一个用asp编写的电子商务软件.;;它由于缺少对用户提供的;在'popuplargeimage.asp'中数据的过滤;而容易受到跨站点的脚本攻击.;;对这个漏洞的成功运用;可以让攻击者在一台脆弱的主机上运行恶意的脚本.;;它对于针对'mailorder.asp' 和 'payonline.asp'的;脚本攻击也比较脆弱.用户提供的;参数'strItems'也没有在使用SQL查询;之前过滤.因此通过非法的输入来对;查询进行修改是可能的.;;对这个漏洞的成功使用可以攻击者;在系统(via MS SQL the function xp_cmdshell)上执行命令.;;解决方法:升级到最新的版本;风险等级:高
+COPYRIGHT=Copyright (C) 2004 David Maciejak

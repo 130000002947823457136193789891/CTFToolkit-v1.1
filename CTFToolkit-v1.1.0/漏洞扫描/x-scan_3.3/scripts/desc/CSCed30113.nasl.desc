@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12199
+NAME=CSCed30113
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP判断是否存在缺陷
+DESCRIPTION=使用某一版本IOS的CISCO路由器在处理畸形IKE数据包时存在多个缺陷。;;CISCO定义这个漏洞的Bug id为CSCed30113;;攻击者可以利用这个缺陷导致路由器崩溃;;解决方案：参考http://www.cisco.com/warp/public/707/cisco-sa-20040408-vpnsm.shtml;风险等级：高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security 翻译 by yztgx

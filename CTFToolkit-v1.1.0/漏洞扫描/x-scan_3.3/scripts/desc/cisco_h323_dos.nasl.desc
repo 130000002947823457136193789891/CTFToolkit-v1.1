@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12023
+NAME=CISCO IOS H.323协议实现漏洞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP检测该漏洞
+DESCRIPTION=远程主机的IOS版本显示其可能存在该漏洞;H.323协议实现包含多个漏洞. 远程攻击者可以利用这个漏洞对H.323实现的设备和软件进行拒绝服务攻击;可能以进程权限在系统上执行任意指令.;;攻击者可能利用这个漏洞获取路由设备的控制权限.;;解决方案 : http://www.cisco.com/warp/public/707/cisco-sa-20040113-h323.shtml;风险等级 : 高;;*** 由于Nessus仅依靠banner 信息来判断远程主机是否存在该漏洞;*** 因此这可能是一个误报
+COPYRIGHT=This script is (C) 2004 Tenable Network Security(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11342
+NAME=PKCS 1 Version 1.5 Session Key 遍历
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH版本
+DESCRIPTION=你正在运行SSH协议版本1.5。;;这个版本允许远程攻击者通过一种在PKCS#1版本1.5上被称为;Bleichenbacher的攻击，解密或者改变通讯流向。;OpenSSH上至版本2.3.0、AppGate、和SSH Communications ;Security ssh-1至版本1.2.31都存在此漏洞，虽然由于配置;原因可能不一定都被利用。;;解决方案 : SSH/OpenSSH已经发布了补丁和新版本。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi (Chinese version by Dancefire)

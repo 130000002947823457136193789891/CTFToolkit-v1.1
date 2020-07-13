@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17152
+NAME=pmachine 代码注入 (2)
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在mail_autocheck.php
+DESCRIPTION=通过使用已安装的pmachine CGI 套件有可以使远程主机引用在第三方服务器上发布的php文件.;;攻击者可以利用这个缺陷向远程主机注入任意代码，获得web服务端权限的shell.;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

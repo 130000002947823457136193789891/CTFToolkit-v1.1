@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17649
+NAME=PhotoPost Multiple Input Validation Vulnerabilities
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测在PhotoPost PHP 中的多个输入确认漏洞
+DESCRIPTION=安装有PhotoPost PHP 的远程主机会存在多个用户输入过滤不严漏洞.;; 多个SQL注入漏洞;  该应用程序(PhotoPost)没有对用户输入的内容进行适当过滤; 'showmembers.php' 脚本的'sl'参数,; 'showphoto.php'脚本的 'photo' 参数. 攻击者利用这些缺陷能够很容易的查询SQL数据库，或者破坏一些重要敏感的数据.;;  多个跨站脚本执行漏洞;   该应用程序(PhotoPost)没有对用户输入的内容进行适当过滤; 'slideshow.php' 脚本的 'photo' 参数, 'showgallery.php' 脚本中的 'cat', 'password', 'si', 'ppuser', 和 'sort' 参数,  'showmembers.php' 脚本的'ppuser', 'sort', ;和'si'参数 .;  攻击者利用这些缺陷可以轻而易举的在用户浏览这些有缺陷的网站时，在web页面中注入HTML或者其他脚本程序，可以窃取用户的重要数据或者类似的攻击. ;;解决方案 : 目前没有.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security.(The sFqRy translation)

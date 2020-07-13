@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11788
+NAME=Apache < 2.0.47
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache的版本号
+DESCRIPTION=远程主机运行的apache版本低于2.0.47，这一版本的apache容易被远程或本地用户攻击导致拒绝服务。;;Solution : 升级到2.0.47以上。;See also : http://www.apache.org/dist/httpd/CHANGES_2.0;Risk factor : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

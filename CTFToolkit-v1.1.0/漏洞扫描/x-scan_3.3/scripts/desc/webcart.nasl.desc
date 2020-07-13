@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10298
+NAME=Webcart 配置不当
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查webcart的不当配置
+DESCRIPTION=下面的文件和目录至少有一个是任何人都可以读取的：;;			/webcart/orders/;			/webcart/orders/import.txt;			/webcart/carts/;			/webcart/config/;			/webcart/config/clients.txt;			/webcart-lite/orders/import.txt;			/webcart-lite/config/clients.txt;			;由于配置不当，攻击者可以搜集到主机客户的信用卡号。;;解决方案: 禁止他人读取目录。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

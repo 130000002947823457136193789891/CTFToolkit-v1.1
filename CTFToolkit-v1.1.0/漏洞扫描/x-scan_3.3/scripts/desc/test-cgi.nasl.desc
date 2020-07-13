@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10282
+NAME=test-cgi漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin/test-cgi的存在
+DESCRIPTION='test-cgi'cgi文件默认被安装.这个cgi有一个漏洞;此漏洞导致攻击者可以任意读取;文件拥有http后台程序权限（通常是root或nobody）.;;解决方案 : 把它从/cgi-bin文件夹中删除.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

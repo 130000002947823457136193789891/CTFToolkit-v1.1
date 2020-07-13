@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10290
+NAME=Upload cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin/upload.cgi存在
+DESCRIPTION='upload.cgi'已被安装。该CGI有一个众所周知的安全漏洞：任何人可以向远程web服务器上传任意CGI文件。;;风险等级：严重;解决方案：将Upload cgi从/cgi-win移除
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

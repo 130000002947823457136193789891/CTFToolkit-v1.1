@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16279
+NAME=Uebimiau Session文件夹泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测UebiMiau Session文件夹的存在
+DESCRIPTION=Uebimiau是用PHP开发的POP3/IMAP邮件程序;Uebimiau安装时会生成存储“sessions”和其他文件的临时文件夹，这个文件夹作为'./database/'在'inc/config.php'中被定义;;如果管理员没有改掉这个文件夹的话攻击者就可以像这样利用：http://server-target/database/_sessions/;;解决方案：1、在Uebimiau的每个文件夹下都放上index.php文件；;2、设置变量$temporary_directory到目录且“'web server user”只能够读$temporary_directory里的文件；;3、按下列的模式设置httpd.conf里的open_basedir：:;;<Directory /server-target/public_html>; php_admin_value open_basedir; /server-target/public_html;</Directory>;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

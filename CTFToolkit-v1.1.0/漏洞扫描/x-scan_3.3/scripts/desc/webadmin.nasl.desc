@@ -1,0 +1,7 @@
+[CHINESE]
+ID=11771
+NAME=WebAdmin检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测webadmin.dll的存在，这个CGI的老版本有着众多的问题：暴露安装路径、允许任何人通过WebAdmin使用管理员权限遍历目录并读取文件、通过缓冲溢出允许任何人在服务器上使用系统权限执行任意代码、***。;;解决方案：如果必须使用则将其升级至最新版。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi;Translate by Sniffer

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14229
+NAME=thttpd windows端口漏洞
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=thttpd 2.0.7版本的windows端口
+DESCRIPTION=该远程HTTP服务器允许攻击者读取任意文件.;;解决方案:升级或者更换该web服务.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12294
+NAME=Squid 远程 NTLM 认证 缓冲溢出
+CATEGORY=混合攻击
+FAMILY=远程获取命令行
+SUMMARY=Squid 远程 NTLM 认证 缓冲溢出漏洞
+DESCRIPTION=此服务器(Squid是UNIX下流行的代理服务软件)容易受到远程缓冲区溢出攻击在;平时的NTLM认证服务正常运行的时候.  发现此漏洞 ;能允许远程攻击者更多读取机密的;数据.  软件版本Squid 2.5*-STABLE 和 3.*-PRE 报告发现此漏洞. ;;也可以查看以下参考网站: http://www.squid-cache.org ;;解决方案: 安装此相关补丁;http://www.squid-cache.org/~wessels/patch/libntlmssp.c.patch ;;风险等级: 高
+版权=This script is Copyright (C) 2004 Tenable Network Security 翻译:sap.

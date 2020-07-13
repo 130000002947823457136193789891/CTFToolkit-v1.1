@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10911
+NAME=本地用户信息: 被自动禁用的账号
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举特权用户
+DESCRIPTION=当前脚本列举了被自动禁用的账号。;;这些帐号可能是暴力攻击尝试的牺牲品。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

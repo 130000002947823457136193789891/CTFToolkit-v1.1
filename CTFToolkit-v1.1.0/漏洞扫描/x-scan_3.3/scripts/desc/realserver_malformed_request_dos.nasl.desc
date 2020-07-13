@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10461
+NAME=检查RealServer拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查RealServer7拒绝服务
+DESCRIPTION=通过发送一个畸形的http请求可能导致该RealServer7崩溃.;;解决方案:升级到最新版本的RealServer;风险等级:高
+COPYRIGHT=By John Lampe....j_lampe@bellsouth.net

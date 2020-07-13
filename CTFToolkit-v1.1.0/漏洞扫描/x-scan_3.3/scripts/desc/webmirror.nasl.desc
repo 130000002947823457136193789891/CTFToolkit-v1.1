@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10662
+NAME=Web 映射
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=快速web映射
+DESCRIPTION=此脚本将映射远程web站点并提取一份远程主机所用的CGI列表.;;建议你给此插件设置一个较高的超时值.;所要映射的页面需在客户端的'选项'中修改.;;风险等级:无
+COPYRIGHT=This script is Copyright (C) 2001 - 2003 Renaud Deraison;翻译 By ZDI

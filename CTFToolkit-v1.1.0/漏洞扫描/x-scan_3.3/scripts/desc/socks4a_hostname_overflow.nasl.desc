@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11126
+NAME=SOCKS4A主机名称溢出
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=过长的主机名会使SOCKS4A服务器崩溃
+DESCRIPTION=通过发送一个过长的主机名;可能会使远程SOCKS4服务器崩溃.;;攻击者可以利用这个缺陷使你的SOCK4服务器不断崩溃;或者甚至可以在你的系统上实现arbitrary code.;;解决方案:升级你的软件;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

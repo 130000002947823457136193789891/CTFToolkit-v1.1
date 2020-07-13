@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12004
+NAME=VCATCH detection
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=VCATCH 检测
+DESCRIPTION=远程主机正在运行VCATCH程序.;你可以肯定用户正在安装VCATCH，通常是在没有告知的情况下安装的;一般来说，这些软件是符合安全规则的。;;如果你想检查ad-ware或着spybot,删除这些软件;;详情参考http://www.safersite.com/PestInfo/v/vcatch_3_0.asp ;;解决方案：卸载这些软件;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

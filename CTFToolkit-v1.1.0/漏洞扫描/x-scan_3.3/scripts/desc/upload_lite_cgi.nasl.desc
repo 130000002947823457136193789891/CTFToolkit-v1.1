@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11359
+NAME=UploadLite cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测/cgi-bin/upload.cgi存在
+DESCRIPTION='Upload Lite'（upload.cgi）已被安装。该CGI有一个众所周知的安全漏洞：任何人可以向远程web服务器上传任意CGI文件。;;解决方案：将UploadLite cgi从/cgi-win移除。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;Translate by Sniffer

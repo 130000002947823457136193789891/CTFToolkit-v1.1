@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12111
+NAME=检测PhatBOT
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测PhatBOT
+DESCRIPTION=远程主机安装了PhatBOT.  ;此程序允许他人远程通过P2P对主机进行控制. ;;解决方案 : 删除PhatBOT;具体信息可参考: http://www.lurhq.com/phatbot.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

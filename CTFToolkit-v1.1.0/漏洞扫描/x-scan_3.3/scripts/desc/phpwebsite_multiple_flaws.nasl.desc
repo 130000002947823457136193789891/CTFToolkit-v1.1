@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11816
+NAME=phpWebsite 的若干缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL Injection and more.
+DESCRIPTION=远程主机运行着phpWebSite;; 在phpWebSite的远程版本中有多个漏洞;有的可能会允许攻击者取得远程的控制权限;数据库, 或者完全使该站点失效.;;解决办法 :升级到该软件的最新版本;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

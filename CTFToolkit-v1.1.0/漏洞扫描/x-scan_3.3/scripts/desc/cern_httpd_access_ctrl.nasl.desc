@@ -1,0 +1,7 @@
+ID=17230
+NAME=CERN HTTPD访问控制避开
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定web访问控制是否被避开
+DESCRIPTION=通过改变/为//或/./能够访问受保护的网页，这是老版本CERN Web服务器中存在的一个bug;;这方面的手段包括注入//*;*//*;/./*;*/./*;;解决方案：升级你的web服务器或加强过滤规则;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14708
+NAME=PhpGroupWare XSS
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查PhpGroupWare版本
+DESCRIPTION=远程主机可能运行了PhpGroupWare, 一个PHP多用户组件.;;由于没有对用户输入的数据进行过滤,因而存在漏洞.;攻击者利用漏洞能进行跨站脚本攻击.;;解决办法 :升级到0.9.16.003或更新的版本 ;参考 : http://www.phpgroupware.org/;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak<Translated By Stravadivaly>

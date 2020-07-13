@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12208
+NAME=Outlook Express积累升级包(837009)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-013
+DESCRIPTION=远程主机使用某一版本的Outlook express中存在一个bug;MHTML URL处理程序允许攻击者在主机上执行任意程序。;;要利用这个缺陷，攻击者需要构造一封恶意的邮件给使用Outlook express的用户或者引诱他们访问一个恶意的网站。;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-013.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译 by yztgx

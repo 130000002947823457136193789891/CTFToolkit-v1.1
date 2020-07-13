@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11167
+NAME=Webserver4everyone超长URL
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=根据主机地址设置，Webserver4everyone超长URL漏洞
+DESCRIPTION=如果主机地址设置为127.0.0.1，向Webserver4everyone发送超长的url可能导致Webserver4everyone执行任意代码。;;风险等级: 高;;解决方案: 升级web服务端。
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

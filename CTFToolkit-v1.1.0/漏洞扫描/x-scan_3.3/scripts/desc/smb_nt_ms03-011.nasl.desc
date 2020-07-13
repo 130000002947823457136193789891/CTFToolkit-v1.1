@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11528
+NAME=微软虚拟机的缺陷(816093)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远端主机的虚拟机版本
+DESCRIPTION=远端主机运行了存在一个bug的微软虚拟机;它的字节码校验器可能允许一个远端的攻击者在主机上;以运行虚拟机用户的权限执行任意的代码.;;为执行这种攻击,攻击者需要发送一个畸形的;applet给当前主机的一个用户, 并让这个用户执行它. 接着这个恶意的;applet 将能够在虚拟机的sandbox之外执行代码.;;;Solution : 查看 http://www.microsoft.com/technet/security/bulletin/ms03-011.asp;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

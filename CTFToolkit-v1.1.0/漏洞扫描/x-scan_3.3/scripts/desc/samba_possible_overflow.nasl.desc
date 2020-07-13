@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11113
+NAME=Samba Buffer Overflow
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测samba的版本号
+DESCRIPTION=根据远程Samba服务器的版本号判断，这儿可能存在一个溢出漏洞。;;由于这是根据版本号作的判断，有可能是误报。;详细信息参考 : http://lists.samba.org/pipermail/samba-technical/2002-June/037400.html;;解决方案: 升级到Samba 2.2.5或更新的版本;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

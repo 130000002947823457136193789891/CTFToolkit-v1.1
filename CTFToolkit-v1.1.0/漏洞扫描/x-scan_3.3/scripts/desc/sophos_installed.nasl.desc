@@ -1,0 +1,10 @@
+[CHINESE]
+ID=12215
+NAME=Sophos Anti Virus Check
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+摘要=检查远程主机安装Sophos 防病毒软件，然后保证最新的Vdefs被安装上。 
+描述=这插座检查远程主机安装有Sophos 防病毒工具； 并且它正在运行。
+解决办法： 保证Sophos被安装并且使用最新的VDEFS。
+危险因素： 高
+版权=该版本的版权(C)2004属于贾森·海尔

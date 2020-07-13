@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15722
+NAME=CVSTrac检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在CVSTrac
+DESCRIPTION=远程主机正在运行CVSTrac -- 一款基于Web的跟踪软件故障和补丁的CVS系统.;;更多信息参阅http://www.cvstrac.org .;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

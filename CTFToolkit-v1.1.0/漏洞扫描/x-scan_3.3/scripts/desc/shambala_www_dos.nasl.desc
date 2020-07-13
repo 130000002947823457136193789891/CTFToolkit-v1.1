@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10967
+NAME=Shambala web 服务器拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使Shambala web服务器当机
+DESCRIPTION=通过发送如下的请求可以使web服务器当机: GET !"#?%&/()=?;解决方案: 升级现有版本或更换为其他更安全的服务端;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

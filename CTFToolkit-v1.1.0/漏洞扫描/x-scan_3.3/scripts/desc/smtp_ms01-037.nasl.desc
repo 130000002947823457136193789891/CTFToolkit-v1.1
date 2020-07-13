@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10703
+NAME=SMTP 认证错误
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程邮件服务器能否被用来转发垃圾邮件
+DESCRIPTION=远程SMTP服务器的认证进程包含可被利用漏洞;;这个漏洞可以使未认证用户使用远程SMTP服务器.;;攻击者可以用这个漏洞来发垃圾邮件;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS01-037.asp.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

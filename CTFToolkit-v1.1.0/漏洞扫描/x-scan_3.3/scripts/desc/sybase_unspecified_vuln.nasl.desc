@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17163
+NAME=Sybase企业级关系型数据库未披露的漏洞
+CATEGORY=攻击
+FAMILY=WINDOWS
+SUMMARY=检查远程Sybase数据库的版本
+DESCRIPTION=远程主机运行了Sybase企业级关系型数据库, 一种具有网络能力的SQL数据库.;;据Sybase公司称此软件早期版本存在一个未披露的漏洞 .;;解决方案 : 升级到12.5.4.0或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

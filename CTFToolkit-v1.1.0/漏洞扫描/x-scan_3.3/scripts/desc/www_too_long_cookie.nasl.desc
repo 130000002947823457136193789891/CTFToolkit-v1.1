@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11077
+NAME=HTTP Cookie溢出
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=Cookie过大导致WEB服务器阻塞
+DESCRIPTION=向该WEB服务器发送一个具有过长名称或值的残缺的Cookie请求将有可能导致该WEB服务器故障。;计算机破坏者可以利用这个弱点使该WEB服务器频繁崩溃，或在该系统上执行任意代码。;;风险等级：高;解决方案：升级软件或使用过滤 代理保护该服务器
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi;Translate by Sniffer

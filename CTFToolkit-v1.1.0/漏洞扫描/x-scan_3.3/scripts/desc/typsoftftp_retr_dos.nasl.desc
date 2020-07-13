@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14699
+NAME=TYPSoft FTP 'RETR' DoS
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检测TYPSoft FTP 服务器的版本
+DESCRIPTION=运行着TYPSoft FTP 1.11或更早版本的远程FTP服务器.;;TYPESoft FTP 服务器容易受到远程拒绝服务攻击;攻击者通过向目标主机发送一个畸形的;'RETR' 指令而导致服务器崩溃 ;;解决方案 : 使用别的 FTP服务器或者升级到最新版;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security（翻译：kill_ads)

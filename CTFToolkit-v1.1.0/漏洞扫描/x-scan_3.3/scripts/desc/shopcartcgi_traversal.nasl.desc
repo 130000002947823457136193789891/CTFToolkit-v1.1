@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12061
+NAME=ShopCartCGI 可读任何文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 ShopCart
+DESCRIPTION=当远程主机在运行 ShopCartCGI (一种以CGIS设计的在线购物装置;(shopping cart).;;它有一个可以让攻击者以WEB身份在远程主机上读任意文件的BUG;;;解决方案 : 升级到最新版本或者不用这个软件;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

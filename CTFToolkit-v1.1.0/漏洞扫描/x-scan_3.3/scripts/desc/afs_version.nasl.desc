@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10441
+NAME=AFS 客户端版本
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=AFS 客户端版本
+DESCRIPTION=通过连接到AFS回叫端口，处理接收数据缓冲区就能识别AFS客户端的版本.;客户端版本泄漏使攻击者得到更多受攻击系统信息。应尽量使版本和类别被忽略。;;解决方案: 无.;; 风险等级: 低
+COPYRIGHT=This script is Copyright (C) CERN

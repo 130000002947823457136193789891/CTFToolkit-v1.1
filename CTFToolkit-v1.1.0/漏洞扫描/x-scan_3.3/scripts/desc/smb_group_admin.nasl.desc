@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10902
+NAME=管理员组里的用户名
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举特殊组里的用户
+DESCRIPTION=当前脚本列举了管理员组里的用户名。;;你需要确认只有合适的用户才能加入这个组。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

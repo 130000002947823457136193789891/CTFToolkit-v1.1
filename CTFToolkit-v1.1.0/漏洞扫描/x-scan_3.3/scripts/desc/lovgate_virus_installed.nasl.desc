@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11633
+NAME=lovgate virus is installed
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Checks for the presence of Luvgate
+DESCRIPTION=远程主机可能被'lovgate'病毒所感染;它在该端口打开一个命令行提示符.;;解决方案 : 参考 http://securityresponse.symantec.com/avcenter/venc/data/w32.hllw.lovgate.c@mm.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;;Dedicate this to Sierra

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14784
+NAME=存在Tutos SQL注入攻击和透过站点脚本攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+脚本摘要信息=检查Tutos的版本
+DESCRIPTION=此远程主机正在运行Tutos, 是一个开源团队开发的软件;用PHP封装.;;此版本的Tutos已经被确认易受到多种方式攻击;此安全漏洞可让一个认证用户透过站点脚本攻击;可以透过此远程服务进行SQL注入攻击;;解决方案 : 升级到Tutos-1.2 或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (translated by zuola.com@gmail.com)

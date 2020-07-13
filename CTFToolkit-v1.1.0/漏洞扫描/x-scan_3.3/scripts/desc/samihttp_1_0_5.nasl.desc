@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16468
+NAME=Sami HTTP Server 中的多个漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查Sami HTTP 服务器的版本
+DESCRIPTION=远程主机运行的Sami HTTP,是一款Windows下的HTTP服务器.;;该软件易受数个漏洞影响。;Sami HTTP 服务器易受拒绝服务攻击。攻击者通过发送字符串'\r\n\r\n'就能利用该漏洞。;;Sami HTTP 服务器还易受交叉目录漏洞影响。;攻击者利用此漏洞可获取敏感数据，比如密码文件。;;解决方案 : 目前无法解决;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15443
+NAME=WordPress HTTP分离漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查WordPress
+DESCRIPTION=远程主机正在运行WordPress BLOG -- 一个PHP编写的web博客blog管理系统.;;这个软件容易受到HTTP分离漏洞的影响, 攻击者可以插入CR LF字符, 然后引诱无辜的用户访问这个URL. 客户端将解析攻击者所提供的第二个头信息, 并可能对此头信息有所反应.;;解决方案 : 升级软件到最新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

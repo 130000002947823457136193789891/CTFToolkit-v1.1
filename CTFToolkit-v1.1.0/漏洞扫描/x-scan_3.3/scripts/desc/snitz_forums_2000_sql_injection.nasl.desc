@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14205
+NAME=Snitz Forums 2000 SQL injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Snitz forums版本
+DESCRIPTION=目标主机正在运行Snitz Forum 2000;;该版本允许攻击者在目标主机上执行存储过程以及一些非交互的系统命令. ;;由于register.asp模块对'Email'变量检查不完全,;从而导致攻击者通过'xp_cmdshell'存储过程执行任意非交互式命令.;;解决方案: 升级到 3.4.03 或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

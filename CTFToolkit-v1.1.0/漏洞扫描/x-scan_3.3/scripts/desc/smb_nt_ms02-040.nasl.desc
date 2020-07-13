@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11301
+NAME=MDAC函数缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测MDAC版本
+DESCRIPTION=如果攻击者可以登录数据库并执行数据库查询,可能以用户权限在远程Microsoft Data Access Component (MDAC)服务器上执行任意指令.;;漏洞影响: 提升权限 ;;涉及程序: ;;MDAC version 2.5 Service Pack 2;MDAC version 2.5 Service Pack 3;MDAC version 2.6 Service Pack 2;MDAC version 2.7 RTM;MDAC version 2.7 Service Pack 1;;建议: 使用受影响程序的用户应尽快安装补丁;;参见;http://www.microsoft.com/technet/security/bulletin/ms03-033.asp;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

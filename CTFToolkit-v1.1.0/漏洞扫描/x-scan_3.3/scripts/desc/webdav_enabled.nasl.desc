@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11424
+NAME=WebDAV enabled
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查当前WebDAV服务状态
+DESCRIPTION=远程服务器当前运行WebDAV服务，WebDAV 服务是HTTP规范的一个扩展的标准。它让远程用户对服务器添加授权的用户和管理添加服务器的内容。如果你不使用这个功能，请禁用它。;;解决方案：http://support.microsoft.com/default.aspx?kbid=241520;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison, 插件翻译：sleky

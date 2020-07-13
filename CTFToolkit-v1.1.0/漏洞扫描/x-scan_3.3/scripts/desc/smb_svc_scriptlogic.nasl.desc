@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11562
+NAME=ScriptLogic服务正在运行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查是否存在ScriptLogic服务
+DESCRIPTION=ScriptLogic服务正在运行。;;在4.05以及以前的版本中存在一个缺陷，这可以允许攻击者;以管理员的特权向远程注册表写入任意值，从而被用来获得;这个主机上一个shell。;;***由于Nessus无法检测运行在这个主机上的ScriptLogic的版本，;***所以这可能是误报。;;解决方案: 确保你正在运行ScriptLogic 4.15或以后的版本。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Chinese version by Dancefire)

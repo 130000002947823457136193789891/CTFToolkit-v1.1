@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14319
+NAME=MySQL 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程 MySQL 数据库版本
+DESCRIPTION=你正在运行一个低于4.0.21版本的 MySQL 数据库;;MySQL 是一个可运行在 Linux/BSD 和 Windows 平台上的数据库软件。;这个版本的 mysql_real_connect() 函数中存在一个缓冲区溢出。;溢出是由处理返回的域名(DNS)记录时的一个错误所引起的。;攻击者需要控制 MySQL 去查询的那台 DNS 服务器才能利用这个缺陷。;一次成功的攻击将给攻击者在远程机器上执行任意代码的能力。;;风险等级 : 中;解决方案 : 更新到最新的 MySQL 4.0.21 或以上版本
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak, translate by Chang Zhao.

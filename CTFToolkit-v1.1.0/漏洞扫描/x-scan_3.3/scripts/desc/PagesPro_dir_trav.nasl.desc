@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11221
+NAME=Pages Pro CD目录遍历
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=Pages Pro CD目录遍历
+DESCRIPTION='Pages Pro'存在一个安全漏洞, 攻击者可以使用目录遍历攻击来读取或修改本来不具备访问权限的文件.;攻击者可以利用这个漏洞读写敏感文件或甚至拨电话.;;参阅: http://www.certa.ssi.gouv.fr/site/CERTA-2002-ALE-007/index.html.2.html;;解决方案: 升级软件(版本2003)或卸载这个产品;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

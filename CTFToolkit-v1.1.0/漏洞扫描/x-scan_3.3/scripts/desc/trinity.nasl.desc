@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10501
+NAME=Trinity v3 检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测是否存在 Trinity v3
+DESCRIPTION=远程机器可能正在运行一个木马程序 Trinity v3;该程序可以被用来控制你的系统或使其攻击其他网络(该程序是分布式拒绝服务攻击工具);;这台主机很可能已经被入侵了。; 解决方案 : 从备份恢复你的系统，并联系 CERT 和你本地的权威机构;;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Translated by chice)

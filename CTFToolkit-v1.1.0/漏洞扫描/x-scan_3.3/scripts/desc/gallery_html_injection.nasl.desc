@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15624
+NAME=Gallery不明HTML注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Gallery的版本
+DESCRIPTION=远程服务器正在运行Gallery -- 一款基于web的相册管理软件.;;此软件存在一个允许攻击者向远程web服务器注入任意HTML标记的漏洞.;;解决方案 : 升级到Gallery 1.4.4-pl2或更高;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

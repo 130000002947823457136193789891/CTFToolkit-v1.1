@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11784
+NAME=Abyss httpd溢出
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=Tests远程abyss服务器的版本
+DESCRIPTION=远程Abyss Web服务器可受缓冲区溢出的攻击，此漏洞可被攻击者利用来在此主机上执行任意代码.;;解决方案:升级至Abyss 1.1.6以上版本的;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

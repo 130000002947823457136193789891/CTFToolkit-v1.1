@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15405
+NAME=检测URCS服务器
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=确定是否存在URCS服务器
+DESCRIPTION=这台主机似乎正在运行URCS服务器--Unmanarc远程控制服务器。 ;URCS服务器可作为'后门'来悄悄地安装/使用，从而让入侵者获得远程系统的文件访问. 如果这个程序不是用做远程管理，则意味着此主机已经受到危害. ;;攻击者可以使用此软件窃取文件、密码，或者重定向远程系统的端口来发起其他的攻击.;;解决方案 : 参阅 http://www.rapter.net/jm5.htm ;还可参阅 - http://urcs.unmanarc.com; - http://securityresponse.symantec.com/avcenter/venc/data/backdoor.urcs.html;风险等级 : 高
+COPYRIGHT=This script is Copyright(C) 9/2004 J.Mlodzianowski

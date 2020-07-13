@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15829
+NAME=KorWeblog Remote Directory Listing Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks the version of the remote KorWeblog
+DESCRIPTION=远程主机用KorWeblog，一种web日志请求;php版的。;;一个弱点存在这远程版本的堆积;能帮助攻击者更进一步的攻击.;;解决方案:升级KorWeblog到1.6.2版;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

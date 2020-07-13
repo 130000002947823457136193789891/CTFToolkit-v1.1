@@ -1,0 +1,10 @@
+[CHINESE]
+ID=16152
+NAME=Nullsoft Winamp 多种版本位置漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定WinAMP的版本
+DESCRIPTION=当远程主机使用WinAMP这种流行的媒体播放软件时，（WinAMP支持多种文件类型mp3, wavs 等等...)。这个软件的远程版本容易受到多种不明攻击，这个漏洞允许攻击者在远程主机上执行任意代码，攻击者可能发送一个变形文件到受害主机，
+Solution : 升级到WinAMP 5.0.8c or 更新的版本
+Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

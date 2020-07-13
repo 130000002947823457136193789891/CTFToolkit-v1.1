@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12256
+NAME=在JPortal中的SQL Injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL Injection
+DESCRIPTION=看来远程主机运行着JPortal CGI组件。;在远程主机的软件中存在一个漏洞，;允许任何人注入SQL命令，;可能会在远程主机上添加管理员账号。;;解决方案：升级软件到最终版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security & Powered by Robur!

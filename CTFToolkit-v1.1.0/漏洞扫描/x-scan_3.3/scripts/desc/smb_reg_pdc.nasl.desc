@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10413
+NAME=SMB 注册表: 检测远程主机是否为PDC/BDC
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程主机是否为PDC/BDC
+DESCRIPTION=远程主机是一个主域控制器或备份域控制器。;;HKLM\SYSTEM\CurrentControlSet\Control\ProductOptions;下的字符串ProductType的值包含了上述信息。;该漏洞可以帮助攻击者进一步攻击主机。;;解决方案: 过滤该端口接收的数据;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11296
+NAME=CSCdx54675
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程VPN 集中器支持端对端的IPSEC隧道技术,这里存在一个漏洞，可以使远程攻击者引起拒绝服务攻击. 如果一个新的连接;准备建立，但确认没有到达，为了检测此连接是否来自一个适当的网络，现存的连接;能因此而丢失;;这个漏洞相关的Cisco漏洞ID为：CSCdx54675;;解决方案 : http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml;风险等级 : 中;;*** 因为Nessus探测依赖于远程主机的标志，;*** 所以报告可能是错误的
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

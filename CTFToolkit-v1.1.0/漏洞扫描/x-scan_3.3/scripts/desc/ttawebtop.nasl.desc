@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10696
+NAME=ttawebtop
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/ttawebtop.cgi
+DESCRIPTION=安装有名为'ttawebtop.cgi'的CGI.这个CGI存在一个著名漏洞，容许攻击者以http邮件后台(通常是root或nobody)的权利执行任意命令.;;解决方案 : 将其从/cgi-bin中删除.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

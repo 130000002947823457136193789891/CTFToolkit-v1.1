@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15772
+NAME=phpScheduleIt Unspecified Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for the presence of a vulnerability in phpScheduleIt
+DESCRIPTION=远程系统运行phpScheduleIt软件, 它是基于Web的资源规划系统;用PHP编写.;;根据它返回的提示信息, 这个版本被报告存在脆弱未被发现;的问题 有可能允许攻击者修改或者删除phpScheduleIt;的资源规划.;;解决方案 : 升级到此软件最新版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

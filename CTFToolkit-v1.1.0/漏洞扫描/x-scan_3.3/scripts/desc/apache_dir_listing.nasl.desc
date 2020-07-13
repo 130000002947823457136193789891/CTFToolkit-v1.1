@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10704
+NAME=Apache目录列表
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Apache是否提供目录列表
+DESCRIPTION=即使Apache web server存在index.html文件,向服务器提交一个以'?M=A'结尾的请求;有可能获得;一个目录列表;;看起来可能从被测试的Apache web server的root重新获得一个;目录列表. 尽管可能存在这种情况但是因为主机没有'index.html' 或 类似的 ;默认文件存在.; ;解决方案: ;;在给你的httpd.conf 文件做适当改变的时候关闭Indexing,;除非这是必须的.;;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2001 Matt Moore

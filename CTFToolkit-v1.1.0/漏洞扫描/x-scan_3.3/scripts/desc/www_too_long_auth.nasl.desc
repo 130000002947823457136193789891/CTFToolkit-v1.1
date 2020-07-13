@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10515
+NAME=超长验证字符串
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=Web服务器缓冲区溢出
+DESCRIPTION=这个漏洞可能导致Web服务器执行任意代码。攻击者也可能通过向服务器发送超长的验证字符串导致其崩溃。;;解决方案: 升级Web服务器;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

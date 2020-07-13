@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10394
+NAME=SMB 登陆
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=尝试登陆远程主机
+DESCRIPTION=当前脚本尝试使用多个login/password组合登陆远程主机;;参考资料: http://support.microsoft.com/support/kb/articles/Q143/4/74.ASP;参考资料: http://support.microsoft.com/support/kb/articles/Q246/2/61.ASP;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

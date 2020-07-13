@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12644
+NAME=Open WebMail Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测是否运行Open WebMail
+DESCRIPTION=这个脚本检测远程主机是否运行Open WebMail并得到其版本。Open WebMail是一个用perl写的提供用户pop3和IMAP服务的WebMail程序。;;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

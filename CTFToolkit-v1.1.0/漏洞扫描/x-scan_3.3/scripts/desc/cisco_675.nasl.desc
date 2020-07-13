@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10045
+NAME=Cisco 675 passwordless router
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=登录远程CISCO路由器
+DESCRIPTION=远程的CISCO router没有设置口令. 这意味着任何人都可以telnet并重新配置路由器以把你锁定在外面，阻止你使用你的内网连接。;解决方案: telnet到路由器并立即设置口令。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

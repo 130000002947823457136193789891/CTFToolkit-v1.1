@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17655
+NAME=KAME Racoon 畸形ISAMP包拒绝服务漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=IPSEC IKE check
+DESCRIPTION=远程IPSEC服务器协商畸形ISAKMP包的时候有一个漏洞.;;攻击者可以利用这个漏洞不断地使远程主机崩溃;并且使远程VPN失效.;;解决方案:联系您的供应商获得补丁;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

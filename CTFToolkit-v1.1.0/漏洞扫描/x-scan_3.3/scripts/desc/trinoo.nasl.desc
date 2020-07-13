@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10288
+NAME=Trin00 检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测 trin00
+DESCRIPTION=Trin00 是种分布式拒绝服务工具;;主机被安装Trin00 后将会被控制用来攻击其他网络 ;解决方案: 由备份文件来恢复系统,主动联系本地权威机构;风险等级：待定;
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

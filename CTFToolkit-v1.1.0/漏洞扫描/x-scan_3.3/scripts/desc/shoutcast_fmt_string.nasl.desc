@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16064
+NAME=SHOUTcast Format String Attack
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=SHOUTcast version check
+DESCRIPTION=远程主机正运行SHOUTcast服务.;;此版本存在一个格式化字符串漏洞，;攻击者通过发送畸形请求可以在远程主机上执行任意代码.;;解决方案 : 升级到shoutcast 1.9.5或者更新的版本.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(trans.tiannale)

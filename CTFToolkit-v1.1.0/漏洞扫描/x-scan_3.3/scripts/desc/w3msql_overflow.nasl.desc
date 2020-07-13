@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10296
+NAME=w3-msql 溢出
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=w3-msql溢出攻击
+DESCRIPION=W3-msql CGI附带的mini-sql程序容易受到缓冲区溢出攻击。;;攻击者可以利用这一漏洞在远程系统上获取一个Shell。;;Solution:与mini-sql供应商联系(http://hugues.com.au);以获得补丁。同时，从/cgi-bin删除w3-msql;;风险等级：高;
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

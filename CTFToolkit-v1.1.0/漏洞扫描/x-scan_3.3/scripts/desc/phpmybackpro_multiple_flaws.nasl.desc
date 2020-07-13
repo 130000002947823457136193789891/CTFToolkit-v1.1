@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14787
+NAME=PHPMyBackupPro 输入验证漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=获取phpMyBackupPro版本
+DESCRIPTION=远程主机可能运行了phpMyBackupPro. ;;据报告, 这个软件的远程版本根据用户的输入验证, 存在多个安全漏洞. ;;攻击者利用这些漏洞能连接到应用程序或隐藏的数据库.;;;解决办法 : 升级到这个软件的1.0.0 版;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security<Translated By Stravadivaly>

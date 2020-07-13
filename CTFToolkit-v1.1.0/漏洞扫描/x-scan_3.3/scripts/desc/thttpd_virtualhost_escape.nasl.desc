@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11576
+NAME=利用thttpd遍历主机目录
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=thttpd 漏洞
+DESCRIPTION=通过向HTTP服务器提交如下的请求，任何人可以浏览远程主机上的任意文件：field set to '../../'.;;解决方案: 升级到 thttpd 2.23 或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

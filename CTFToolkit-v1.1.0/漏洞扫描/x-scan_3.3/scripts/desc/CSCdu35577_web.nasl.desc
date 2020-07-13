@@ -1,0 +1,9 @@
+[CHINESE]
+ID=14718
+NAME=Cisco bug ID CSCdu35577 (Web Check)
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=Checks web interface for Cisco bug ID CSCdu35577
+DESCRIPTION=远程VPN集中器在应用层banner中会提供过多的信息;;一个错误的页面请求会提供所安装了的软件精确版本.
+;;漏洞相关的Cisco ID是CSCdu35577.;;解决方案: http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Michael J. Richardson

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16312
+NAME=Mambo全局变量非授权访问
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查index.php的异常申请漏洞
+DESCRIPTION=运行了基于WEB的Mambo开源文章管理系统的远程主机. ;;这个软件的远程版本包含一个漏洞 ;这个漏洞可以导致远程攻击者获得对于系统的非法访问. 这个问题发生在不正确的执行全局变量;由于对于用户提交的数据没有过滤. ;;解决方案 : 升级到4.5.1b.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12227
+NAME=HP Jet Admin 6.5 或更低版本漏洞
+CATEGORY=攻击
+FAMILY=普通漏洞
+SUMMARY=HP Jet Admin 6.5 或更低版本漏洞
+DESCRIPTION=远程的HP Web Jetadmin存在多种可利用的缺陷。这包括(但不限于)，完全的远程管理权限。;攻击者可以通过调用ExecuteFile函数远程的以SYSTEM级(或root)权限执行代码。;要进一步恶化这个问题，有可工作的利用这个产品内多个缺陷的代码。;;请见: ;http://www.phenoelit.de/stuff/HP_Web_Jetadmin_advisory.txt;http://xforce.iss.net/xforce/xfdb/15989;;解决方案 : 这个问题已经在HP Web Jetadmin版本7.5中解决;;风险等级 : 高
+COPYRIGHT=facq (Chinese version by Dancefire)

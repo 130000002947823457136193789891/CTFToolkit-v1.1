@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10757
+NAME=Webmin检测
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=Webmin检测
+DESCRIPTION=远程服务器正在运行Webmin。Webmin是采用基于WEB交互方式进行Unix系统管理的工具。;;解决方案：如果不是必须使用则停止Webmin服务或对其访问权限进行配置（使用菜单[Webmin Configuration（Webmin配置）][IP Access Control（IP访问控制）]与/或[Webmin Configuration（Webmin配置）][Port and Address（端口与地址）]，想得到更多相关信息请访问http://www.webmin.net/）。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com;Translate by Sniffer

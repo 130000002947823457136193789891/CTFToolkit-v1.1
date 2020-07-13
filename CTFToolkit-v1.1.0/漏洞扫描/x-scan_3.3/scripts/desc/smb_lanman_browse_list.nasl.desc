@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10397
+NAME=SMB LanMan 管道服务器浏览列表
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=获取远程主机浏览列表
+DESCRIPTION=当前脚本通过\PIPE\LANMAN交易管道获取远程主机浏览列表。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

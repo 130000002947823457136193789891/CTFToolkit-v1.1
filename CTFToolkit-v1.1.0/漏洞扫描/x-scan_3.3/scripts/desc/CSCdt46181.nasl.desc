@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10979
+NAME=CSCdt46181
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=点到点隧道传输协议(PPTP)允许用户;使用点对点协议传输网络协议(IP)数据包。;RFC2637里具体描述了这个协议。;;Cisco输入输出系统在PPTP的实现中存在一个漏洞，;使得路由器在接收到畸形数据包或特意构造的数据包的时候有可能崩溃。;如果要利用这个漏洞，必须要求路由器允许使用PPTP协议。;但是路由器都默认允许PPTP协议。;另外，利用的时候不再需要其它特殊的条件。;一个攻击者可以利用这个漏洞阻止网络正常工作。;这个漏洞的Cisco漏洞ID是：CSCdt46181。;;解决方法：;http://www.cisco.com/warp/public/707/PPTP-vulnerability-pub.html;;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

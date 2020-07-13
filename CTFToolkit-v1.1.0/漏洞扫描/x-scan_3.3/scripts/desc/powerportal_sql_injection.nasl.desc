@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15760
+NAME=PowerPortal Private Message HTML 注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测远程 PowerPortal 的版本
+DESCRIPTION=运行 PowerPortal的远程主机, 一个用PHP写的内容管理系统 , ;;一个漏洞存在于远程系统里，它允许攻击者使用sql注入攻击远程主机.;;攻击者可以利用这个缺陷执行任意的sql命令，攻击远程数据库，在远程主机上执行任意的命令.;;解决方案 : 升级软件到最新版;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security （翻译：kill_ads)

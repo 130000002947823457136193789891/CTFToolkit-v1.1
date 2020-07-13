@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10013
+NAME=存在alibaba.pl
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/alibaba.pl
+DESCRIPTION=该主机装有'alibaba.pl'CGI脚本.该CGI脚本存在一个众所周知的安全漏洞，可导致攻击者在远程主机上运行任意命令.;;解决方案:从web服务的CGI目录(通常为cgi-bin/)中删除'alibaba.pl'脚本.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

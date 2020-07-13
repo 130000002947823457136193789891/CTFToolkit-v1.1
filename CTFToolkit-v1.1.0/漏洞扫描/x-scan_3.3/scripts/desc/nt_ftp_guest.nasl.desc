@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10166
+NAME=Windows NT ftp 'guest'帐号
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY='guest'帐号检测
+DESCRIPTION=FTP存在一个'guest'帐号。;这不是一件好事，因为这个帐号;经常不在受保护的环境下运行，;这样一个攻击者就可能利用这个帐号侵入系统。;;解决方法：关闭这个FTP帐号。;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

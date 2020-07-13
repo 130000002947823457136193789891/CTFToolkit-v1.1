@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11490
+NAME=D-Link DSL 宽带调制解调器
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=通过SNMP枚举用户和密码
+DESCRIPTION=当前脚本使用SNMP获得远程ADSL连接的帐号和密码。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

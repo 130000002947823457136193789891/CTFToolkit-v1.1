@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10946
+NAME=Gnutella servent detection
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=探测Gnutella servent
+DESCRIPTION=我们检测到了工作在点到点模式下的文件共享软件Gnutella 'servent'。
+Risk factor : 低/无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

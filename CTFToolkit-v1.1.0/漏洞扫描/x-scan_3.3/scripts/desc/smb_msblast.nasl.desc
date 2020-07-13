@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11818
+NAME=远程主机中了msblast.exe蠕虫
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程主机是否中了msblast.exe蠕虫
+DESCRIPTION=远程主机中了MS Blaster/Nachi蠕虫。;中了蠕虫的主机会随即机攻击网上的其他主机。;;解决方案 : 参考; http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.worm.html;http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.b.worm.html;http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.c.worm.html;http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.d.worm.html;http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.e.worm.html;http://securityresponse.symantec.com/avcenter/venc/data/w32.blaster.f.worm.html;;http://www.symantec.com/avcenter/venc/data/w32.welchia.worm.html;http://www.microsoft.com/technet/security/bulletin/ms03-039.asp;;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

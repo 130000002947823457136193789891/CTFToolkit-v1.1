@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16056
+NAME=phpMyChat信息泄漏
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查phpMyChat是否存在信息泄漏
+DESCRIPTION= phpMyChat是一款基于php技术和数据库技术的易装易用多场景聊天软件, ;它支持MySQL,PostgreSQL和 ODBC数据库技术.;;此套脚本程序可能允许攻击者引发信息泄露，;通过它攻击者可以获取;sql的用户名和密码、phpmychat的管理权限密码以及一些别的敏感信息.;;参考: http://www.securiteam.com/unixfocus/6D00S0KC0S.html;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus(trans.tiannale)

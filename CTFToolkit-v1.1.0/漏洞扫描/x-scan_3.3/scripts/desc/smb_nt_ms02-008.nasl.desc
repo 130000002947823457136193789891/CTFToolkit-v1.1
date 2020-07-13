@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10866
+NAME=XML Core Services patch (Q318203)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=XML Core Services patch Q318203 是否被安装
+DESCRIPTION=XMLHTTP Control可能允许访问本地文件；这个缺陷在于IE安全选项中如何应用XMLHTTP控制，如何在请求某个网站信息重定向返回的数据流。攻击者可以在用户的本地系统中利用此漏洞进行渗透并确定数据源。利用这点从本地系统返回信息到攻击者的WEB站点。 漏洞影响:攻击者可以读客户系统上的文件.受影响的软件: Microsoft XML Core Services versions 2.6, 3.0, and 4.0.;受影响的 Microsoft XML 核心服务也可能包含在下列产品中：Microsoft Windows XP ；Microsoft Internet Explorer 6.0 ；Microsoft SQL Server 2000；注意: 早于2.6的版本不受此影响 ；受影响的msxml[2-4].dll可在system文件夹中找到。使用较早的版本却相反不受影响。）
+参见： http://www.microsoft.com/technet/security/bulletin/ms02-008.asp；
+风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell

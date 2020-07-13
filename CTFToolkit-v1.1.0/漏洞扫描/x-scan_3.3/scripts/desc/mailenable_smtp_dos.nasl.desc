@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14712
+NAME=MailEnable SMTP 连接服务DNS Lookup 查询拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable SMTP Connector 服务的DNS Lookup 拒绝服务漏洞
+DESCRIPTION=远程主机运行着 MailEnable服务 -;http://www.mailenable.com/ - 一个提供SMTP连接服务的软件.  Standard Edition 1.x 和 Professional Edition 1.x存在一处缺陷. 当收到的DNS 回应超过100MX纪录时,会导致服务挂起.  一个远程攻击者可以利用该漏洞对目标主机的SMTP服务进行攻击. ;;***** Nessus 通过安装在主机上的MailEnable版本号来判断该漏洞存在于目标主机. ;***** installed there.;;解决方案 :从http://www.mailenable.com/hotfix/ (2004年9月9日)安装 DNS Lookup 补丁 ;.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

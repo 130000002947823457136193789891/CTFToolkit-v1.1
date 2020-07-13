@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10530
+NAME=没有密码的Alcatel ADSL调制解调器
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=登陆远程Alcatel ADSL调制解调器
+DESCRIPTION=远程Alcatel ADSL调制解调器没有设置密码.;;攻击者可以登陆到调制解调器并且重新配置，反而将您锁住. 这将阻止您使用Internet连接.;;解决方案 : 立即登陆到调制解调器设置密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17321
+NAME=PlatinumFTPServer多个畸形用户名连接拒绝服务漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检查PlatinumFTPServer中多个畸形用户名连接拒绝服务漏洞
+DESCRIPTION=远程主机上安装的PlatinumFTPServe存在拒绝服务漏洞.  特别是当用户用带有斜杠, '\',的用户名登陆时, 应用程序将显示'Incorrect Format:;HKEY_LOCAL_MACHINE\SOFTWARE\PlatinumFTPserver\Configuration\Users\'对话框, 并停止登陆进程直到管理员确认消息.  显然, 多次尝试(大约50次)这样的连接后,服务器将会瘫痪. ;;另见 : http://www.securityfocus.com/archive/1/393038;;解决办法 : 未知;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated by Stravadivaly>

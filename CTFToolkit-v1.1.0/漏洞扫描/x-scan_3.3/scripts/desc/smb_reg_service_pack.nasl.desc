@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10401
+NAME=SMB 注册表: NT4 Service Pack 版本
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程主机补丁版本
+DESCRIPTION=当前脚本通过读取注册表中HKLM\SOFTWARE\Microsoft\Windows NT\CSDVersion的键值检测主机正在运行的补丁版本。;;易受攻击的服务器应该及时更新补丁。;;风险等级: 严重 / 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

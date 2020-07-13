@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12099
+NAME=越过F-Secure SSH 密码验证策略
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=F-Secure SSH 版本
+DESCRIPTION=远程主机正在运行 F-Secure SSH。 ;;该版本存在漏洞，允许用户使用不符合服务端策略的密码登陆。;;攻击者可以利用该漏洞对远程SSH服务端进行字典攻击，最终进入主机。;;解决方案: 升级到F-Secure SSH 3.1.0 build 9 或更新的版本;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

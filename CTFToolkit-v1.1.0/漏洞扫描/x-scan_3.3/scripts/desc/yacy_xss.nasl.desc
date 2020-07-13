@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16058
+NAME=YACY Peer-To-Peer Search Engine XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks YACY Peer-To-Peer Search Engine XSS
+DESCRIPTION=远程主机在运行 YACY, 一个Java开源共享软件缓存;HTTP代理和全球基于P2P的搜索引擎.;;远程主机此软件的版本存在漏洞可以 跨站 ;脚本攻击源于对用户提交的数据缺少适当的过滤.;;这个漏洞成功的利用可以导致攻击者利用;远程服务器执行对第三方用户的攻击.;;解决方案: 升级这个软件的最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

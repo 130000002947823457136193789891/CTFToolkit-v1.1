@@ -1,0 +1,12 @@
+[CHINESE]
+ID=10847
+NAME=SilverStream database structure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 SilverStream 数据库结构是否可视
+DESCRIPTION=通过访问http://www.example.com/SilverStream/Meta/Tables/?access-mode=text页面
+可能下载远程的SilverStream数据库的结构。攻击者可能利用这个漏洞来获得关于主机的信息。
+参见 : http://online.securityfocus.com/archive/101/144786;
+Risk factor : 中级;
+解决方案: 重新配置服务器，使其它人不能访问数据库结构。
+COPYRIGHT=This script is Copyright (C) 2002 Tor Houghton

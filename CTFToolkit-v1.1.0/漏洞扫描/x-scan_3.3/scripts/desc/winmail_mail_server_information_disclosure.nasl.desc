@@ -1,0 +1,7 @@
+[CHINESE]
+ID=16042
+NAME=Winmail 邮件服务信息泄露
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=在Winmail服务器中检测存在的信息泄露漏洞
+DESCRIPTION=远程主机运行Winmail服务.;;Winmail服务是一种企业级的邮件系统软件，它提供稳定的特性设置,包括高代价的安全措施.Winmail 服务支持SMTP,POP3,IMAP,Webmail,LDAP,;多域名,SMTP验证,垃圾邮件保护,反病毒保护,SSL/TLS 安全,网络存储,远程访问,基于Web页面管理和标准的email多范围操作;如过滤,签名,实时监控,归档,;和公共的邮件目录.;;然而有三个脚本文件(chgpwd.php,domain.php,user.php)使以上的服务允许远程攻击者泄露远程主机的敏感信息.;;解决方案:升级到软件的最新版本;风险等级:中;COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

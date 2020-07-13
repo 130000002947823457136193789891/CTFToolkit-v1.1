@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17220
+NAME=phpMyAdmin 库和主题中的若干跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=在phpMyAdmin 库和主题中发现若干跨站脚本漏洞
+DESCRIPTION=安装后的 phpMyAdmin 版本由于在几个用于库和主题的PHP脚本中没有适当处理用户输入，存在多个跨站脚本漏洞.  一个远端的攻击者可以利用这些漏洞来在其他用户的浏览器中执行任意代码来偷取验证后的或类似的cookie. ;;解决方案 : 升级到 phpMyAdmin 2.6.1 pl1 或之后的版本.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

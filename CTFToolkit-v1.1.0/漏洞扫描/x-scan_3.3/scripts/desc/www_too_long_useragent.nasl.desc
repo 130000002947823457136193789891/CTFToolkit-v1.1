@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11069
+NAME=HTTP User-Agent overflow
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=太长的 User-Agent 字段使 Web 服务器停止工作
+DESCRIPTION=通过发送一个带过长 User-Agent 字段的 GET 请求可能会使 Web 服务器停止工作。;;黑客可以利用这个漏洞来不断地破坏你的 Web 服务器或者甚至在你的系统上执行任意代码。;;解决办法：升级你的软件或者用包解析过滤代理保护你的 Web 服务器。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi, translated by JayJew.

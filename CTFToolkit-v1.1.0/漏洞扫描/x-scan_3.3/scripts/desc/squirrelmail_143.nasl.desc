@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12228
+NAME=SquirrelMail 跨站脚本攻击和本地越权
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SquirrelMail 跨站脚本攻击和本地越权
+DESCRIPTION=这个远程的主机正在运行 SquirrelMail, 一种基于Web的邮件服务器。;;在所有低于1.4.3的版本中存在很多漏洞，可以允许本地root访问和远程;的跨站脚本攻击。;;解决方案 : 升级到SquirrelMail 1.4.3 或更高;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

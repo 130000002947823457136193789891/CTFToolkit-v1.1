@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10883
+NAME=OpenSSH Channel代码实现off-by-one(偏移一个单位)漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查远程OpenSSH版本
+DESCRIPTION=远程主机正在运行的OpenSSH版本低于3.1.;;该版本存在一个off by one(偏移一个单位)漏洞;一个有合法登录帐号的用户可以利用此漏洞得到主机的root权限, 可能导致;远程用户;获得非授权的访问权限.;;并且, 一个恶意的ssh服务器也可能利用此漏洞在用户的客户机上执行任意指令.;;解决方案 : 升级到OpenSSH 3.1或者安装补丁. (参考: http://www.openssh.org);;风险等级 : 高
+COPYRIGHT=This script is Copyright (c) 2002 Thomas Reinke(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11515
+NAME=AutomatedShops WebC.cgi installed
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查现有的webc.cgi
+DESCRIPTION=远程主机所使用的webc.cgi, 是一个购物车程序。;;默认情况下, webc.cgi发送某些信息给每个使用者, 这些信息包括其版本号、序列号和公司名称。这个脚本获取这些信息并显示给用户。;;;解决方案 : 无;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

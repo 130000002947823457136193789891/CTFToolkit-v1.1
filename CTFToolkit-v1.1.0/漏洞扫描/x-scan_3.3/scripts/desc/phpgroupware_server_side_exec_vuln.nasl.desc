@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14295
+NAME=PhpGroupWare 日历服务执行任意脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查你的PhpGroupWare 版本
+DESCRIPTION=远程主机运行的一些版本的PhpGroupWare包含漏洞。;;PhpGroupWare是一个多用户组件，它用PHP写成。;;有报告说一些版本的组件可能存在一个漏洞，它允许远程进攻者执行任意脚本。; 该漏洞允许进攻者上传一些脚本到服务器上，然后执行它。;;解决方案：升级到0.9.14.007或更新版。;;详情请看：http://www.phpgroupware.org/;;风险等级：中
+COPYRIGHT=脚本版权David Maciejak 翻译：Heart is flying

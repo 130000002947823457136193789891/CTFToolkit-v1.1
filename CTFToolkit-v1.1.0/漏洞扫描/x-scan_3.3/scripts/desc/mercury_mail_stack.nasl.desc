@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15867
+NAME=Mercury Mail IMAP服务远程堆栈溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查 Mercury Mail版本
+DESCRIPTION=远程主机上运行着 Mercury Mail 服务, 一个为Windows 平台提供 IMAP 服务的程序.;;其被发现 4.01 及以下版本存在远程缓冲区溢出. 一个拥有认证帐户的攻击者可以利用该漏洞让远程主机执行任意代码.攻击者必须有认证帐户权限才可利用此漏洞;攻击IMAP服务.;;解决方案 : 目前没有解决方案.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

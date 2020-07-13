@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10981
+NAME=CSCdt65960
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=Cisco 6400 的Node Route Processor 2 (NRP2)模块允许在没有设置密码时通过Telnet登陆。 ;正确的反应是用户设置口令前不允许远程登陆。;此漏洞可能导致他人无意中获得系统的控制权。;;这个漏洞相关的Cisco漏洞ID为：CSCdt65960.;;解决方案 : ;http://www.cisco.com/warp/public/707/6400-nrp2-telnet-vuln-pub.shtml; 风险等级 : 高;;注意：因为Nessus根据远程主机的BANNER信息来判断该漏洞是否存在，因此这可能是误报。
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

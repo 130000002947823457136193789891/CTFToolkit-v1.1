@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11798
+NAME=RPC DCOM Interface DoS
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=远程关闭135服务
+DESCRIPTION=通过发送恶意请求，可能将远程主机的RCP DCOM接口关闭，只有重新启动才能恢复。攻击者可以通过这种方式关闭与RPC相关的应用程序。;;Solution : http://www.microsoft.com/technet/security/bulletin/ms03-039.asp;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

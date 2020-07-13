@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12249
+NAME=ReadDesign 检查器
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=ReadDesign 检查器
+DESCRIPTION=这个插件检查远程Web服务器上的ReadDesign缺陷。;;更多信息请见：;;https://www.appsecinc.com/Policy/PolicyCheck1520.html;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Net-Square Solutions Pvt Ltd. (Chinese version by Dancefire)

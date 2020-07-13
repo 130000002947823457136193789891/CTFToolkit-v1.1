@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12231
+NAME=RIS安装检查
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查远程主机是否是通过RIS安装的。
+DESCRIPTION=这个插件检查机器是否是通过RIS安装的。;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 Jorge Pinto And Nelson Gomes (Chinese version by Dancefire)

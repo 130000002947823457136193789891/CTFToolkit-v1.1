@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>extcap - The Wireshark Network Analyzer 2.0.2</title>
+<link rel="stylesheet" href="ws.css" type="text/css" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:ASSI@cygwin.nonet" />
+</head>
+
+<body>
+
+
+
+<h1 id="NAME">NAME</h1>
+
+<p>extcap - Extcap grammar elements</p>
+
+<h1 id="DESCRIPTION">DESCRIPTION</h1>
+
+<p>Grammar elements:</p>
+
+<dl>
+
+<dt id="arg-options">arg (options)</dt>
+<dd>
+
+<p>argument for CLI calling</p>
+
+</dd>
+<dt id="number">number</dt>
+<dd>
+
+<p>Reference # of argument for other values, display order</p>
+
+</dd>
+<dt id="call">call</dt>
+<dd>
+
+<p>Literal argument to call (--call=...)</p>
+
+</dd>
+<dt id="display">display</dt>
+<dd>
+
+<p>Displayed name</p>
+
+</dd>
+<dt id="default">default</dt>
+<dd>
+
+<p>Default value, in proper form for type</p>
+
+</dd>
+<dt id="range">range</dt>
+<dd>
+
+<p>Range of valid values for UI checking (min,max) in proper form</p>
+
+</dd>
+<dt id="type">type</dt>
+<dd>
+
+<p>Argument type for UI filtering for raw, or UI type for selector:</p>
+
+<pre><code>    integer
+    unsigned
+    long (may include scientific / special notation)
+    float
+    selector (display selector table, all values as strings)
+    boolean (display checkbox)
+    radio (display group of radio buttons with provided values, all values as strings)
+    fileselect (display a dialog to select a file from the filesystem, value as string)
+    multicheck (display a textbox for selecting multiple options, values as strings)</code></pre>
+
+</dd>
+<dt id="value-options">value (options)</dt>
+<dd>
+
+<pre><code>    Values for argument selection
+    arg     Argument # this value applies to</code></pre>
+
+</dd>
+</dl>
+
+<h1 id="EXAMPLES">EXAMPLES</h1>
+
+<p>Example 1:</p>
+
+<pre><code>    arg {number=0}{call=channel}{display=Wi-Fi Channel}{type=integer}
+    arg {number=1}{call=chanflags}{display=Channel Flags}{type=radio}
+    arg {number=2}{call=interface}{display=Interface}{type=selector}
+    value {arg=0}{range=1,11}
+    value {arg=1}{value=ht40p}{display=HT40+}
+    value {arg=1}{value=ht40m}{display=HT40-}
+    value {arg=1}{value=ht20}{display=HT20}
+    value {arg=2}{value=wlan0}{display=wlan0}</code></pre>
+
+<p>Example 2:</p>
+
+<pre><code>    arg {number=0}{call=usbdevice}{USB Device}{type=selector}
+    value {arg=0}{call=/dev/sysfs/usb/foo/123}{display=Ubertooth One sn 1234}
+    value {arg=0}{call=/dev/sysfs/usb/foo/456}{display=Ubertooth One sn 8901}</code></pre>
+
+<p>Example 3:</p>
+
+<pre><code>    arg {number=0}{call=usbdevice}{USB Device}{type=selector}
+    flag {failure=Permission denied opening Ubertooth device}</code></pre>
+
+<h1 id="Security-awareness">Security awareness</h1>
+
+<dl>
+
+<dt id="Users-running-wireshark-as-root-we-cant-save-you">- Users running wireshark as root, we can&#39;t save you</dt>
+<dd>
+
+</dd>
+<dt id="Dumpcap-retains-suid-setgid-and-group-x-permissions-to-allow-users-in-wireshark-group-only">- Dumpcap retains suid/setgid and group+x permissions to allow users in wireshark group only</dt>
+<dd>
+
+</dd>
+<dt id="Third-party-capture-programs-run-w-whatever-privs-theyre-installed-with">- Third-party capture programs run w/ whatever privs they&#39;re installed with</dt>
+<dd>
+
+</dd>
+<dt id="If-an-attacker-can-write-to-a-system-binary-directory-were-game-over-anyhow">- If an attacker can write to a system binary directory, we&#39;re game over anyhow</dt>
+<dd>
+
+</dd>
+<dt id="Dont-let-wireshark-be-told-to-look-for-capture-binaries-somewhere-else">- Don&#39;t let wireshark be told to look for capture binaries somewhere else?</dt>
+<dd>
+
+</dd>
+</dl>
+
+<h1 id="SEE-ALSO">SEE ALSO</h1>
+
+<p>wireshark(1), tshark(1), dumpcap(1), androiddump(1)</p>
+
+<h1 id="NOTES">NOTES</h1>
+
+<p><b>Extcap</b> is feature of <b>Wireshark</b>. The latest version of <b>Wireshark</b> can be found at <a href="https://www.wireshark.org">https://www.wireshark.org</a>.</p>
+
+<p>HTML versions of the Wireshark project man pages are available at: <a href="https://www.wireshark.org/docs/man-pages">https://www.wireshark.org/docs/man-pages</a>.</p>
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16204
+NAME=Nullsoft Winamp .WSZ Overflow
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of WinAMP
+DESCRIPTION=远程主机正运行着WinAMP,这是一个可处理多种文件格式(mp3,wavs等等)的流行媒体播放器.当远程主机上的该版本软件处理一个变形的.WSZ Winamp Skin 文件时,易受到对编码执行漏洞的攻击.一个攻击者可能发送一个变形的.WSZ 文件到远程受害者的主机上,并且等待他的WinAMP装载这个文件.;;解决方案:升级到WinAMP 5.0.5或者更新的版本.;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

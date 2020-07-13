@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15764
+NAME=FastStream Web Server HEAD DoS
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=Checks for version of FastStream NetFile
+DESCRIPTION=运行 FastStream提供WEB服务的远程主机;只要是比7.1老的版本.;;这个老版本的软件不会关闭连接在;一个HTTP HEAD请求当keep-alive 被设置时.一个攻击者;可能利用这个漏洞发送多个HEAD请求到远程主机，;从而占尽所有的文件描述符，直到不再同意任意更多的连接.;;解决方案:升级到这个软件最新的版本;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,7 @@
+[CHINESE]
+ID=11692
+NAME=WebStores 2000 browse_item_details.asp SQL注入漏洞
+CATEGORY=信息搜集
+SUMMARY=WebStores 2000 SQL注入漏洞
+DESCRIPTION=WEB服务器运行WebStore 2000,是一个asp应用程序;一款基于WEB的在线购物应用程序;;在这个版本中存在一个漏洞;;这个漏洞可以被攻击者用来执行任意SQL语;非法访问数据库;;攻击者可以利用这个漏洞控制你的数据库.;;;解决方案：无;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 夏雪天

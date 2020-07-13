@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13645
+NAME=osTicket附件远程命令执行漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=Checks for Attachment Code Execution Vulnerability in osTicket
+DESCRIPTION=运行osTicket的目标主机使远程用户可以建立一个包含任何PHP代码附件的新ticket，然后运行这些代码。;;解决方案 : 打FileTypes补丁或升级至osTicket STS 1.2.7或更新。 ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall      翻译 : laughterwym

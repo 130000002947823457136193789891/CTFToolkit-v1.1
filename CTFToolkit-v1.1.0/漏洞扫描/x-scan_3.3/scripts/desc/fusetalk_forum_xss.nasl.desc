@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15479
+NAME=FuseTalk论坛跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查FuseTalk的跨站脚本
+DESCRIPTION=远程主机正在使用FuseTalk -- 一个基于web方式的论坛管理系统.;;此软件中的'tombstone.cfm'脚本存在一个漏洞, 可导致攻击者在用户浏览器上执行任意HTML和脚本代码.;;解决方案 : 升级软件到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

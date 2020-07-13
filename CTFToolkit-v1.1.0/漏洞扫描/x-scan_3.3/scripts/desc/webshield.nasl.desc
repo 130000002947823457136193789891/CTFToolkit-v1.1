@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10557
+NAME=WebShield
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=Checks the remote banner
+DESCRIPTION=远程WebShield服务器存在连个缺陷:;;	- 当攻击者的邮件中存有某些特殊字符时会通过一些过滤器;	  - 有可能从外部攻击此程序，并迫使其重新安装;*** Nessus 如今还不能探测到这些缺陷，只能用过标志识别它们。;*** 因此, 这些警告可能是不正确的;;解决方案 : 尚无;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

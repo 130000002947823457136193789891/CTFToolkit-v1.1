@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14198
+NAME=DrWeb 未名缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定存在于Dr.Web
+DESCRIPTION=远程主机上运行Dr.Web（杀毒软件）;;该版本Dr.Web存在一个缓冲区溢出，可能允许攻击者在远程主机上执行任意命令。当前对该漏洞的详细信息知之甚少;;解决方案：升级到4.31.5或更新版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security。

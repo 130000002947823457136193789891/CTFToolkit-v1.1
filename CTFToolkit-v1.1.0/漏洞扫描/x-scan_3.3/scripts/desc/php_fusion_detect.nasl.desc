@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16335
+NAME=PHP-Fusion检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查远程主机PHP-Fusion的位置
+DESCRIPTION=此脚本显示远程主机安装了'PHP-Fusion';并且将其路径写入了KB.;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

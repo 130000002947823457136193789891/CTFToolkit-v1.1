@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10702
+NAME=Zope拒绝服务
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Zope
+DESCRIPTION=远程web服务器上运行的Zope版本低于2.2.5。;;所有低于2.2.5的版本都存在安全问题，可能导致任何Zope用户通过修改Zope数据结构发起拒绝服务攻击使主机瘫痪。;;*** Nessus的唯一判据就是该服务端的版本号，如果你已经给服务端打过补丁，请忽略这个警告。;;解决方案：升级到Zope 2.2.5 ;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

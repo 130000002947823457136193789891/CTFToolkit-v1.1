@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11188
+NAME=XFont Service缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=使远程XFS崩溃
+DESCRIPTION=远程X Font Service (xfs) 存在缓冲区溢出漏洞。攻击者可以利用这个漏洞远程获得主机管理员权限。;;解决方案：参见CERT Advisory CA-2002-34;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

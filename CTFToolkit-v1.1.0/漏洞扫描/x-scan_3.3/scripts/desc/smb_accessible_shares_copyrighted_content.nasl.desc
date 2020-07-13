@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11777
+NAME=SMB 共享包含授权材料
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=找到.mp3, .avi 和 .wav 文件
+DESCRIPTION=当前脚本连接了远程SMB共享，并尝试寻找是否存在潜藏的授权内容。;(例如 .mp3, .ogg, .mpg 或 .avi 文件)。
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

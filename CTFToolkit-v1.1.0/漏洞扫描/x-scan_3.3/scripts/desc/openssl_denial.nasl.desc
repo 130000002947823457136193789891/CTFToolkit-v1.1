@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12110
+NAME=OpenSSL 拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查OpenSSL的版本
+DESCRIPTION=远程主机运行的OpenSSL版本早于0.9.6m 或 0.9.7d。;;该版本存在多个漏洞，允许攻击者对远程主机发起拒绝服务攻击。;;*** Nessus 只是根据远程主机的banner进行判断并发出警告。;;解决方案: 升级到 0.9.6m (0.9.7d) 或 更新的版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

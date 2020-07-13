@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15563
+NAME=Abyss httpd拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=尝试传递一个MS-DOS设备名称使远程web服务器崩溃
+DESCRIPTION=在HTTP请求中发送一个MS-DOS设备名称可能会使远程web服务器崩溃.;;攻击者可以利用这个漏洞来阻止这台主机正常运行.;;解决方案 : 升级web服务器到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

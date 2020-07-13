@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10803
+NAME=Redhat Stronghold文件系统泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Redhat Stronghold文件系统泄露
+DESCRIPTION=Redhat Stronghold Secure Server 文件系统泄露缺陷;;;问题:;在Redhat Stronghold 内从版本 2.3 到 3.0 存在一个漏洞，如果对服务;器状态报告的访问限制没有启用，允许一个远程的攻击者访问包括;httpd.conf在内的系统文件，这可能帮助一个攻击者进行进一步的攻击。;通过尝试下列的URL，攻击者可以得到敏感信息:;http://target/stronghold-info 将提供更多的配置上的信息;http://target/stronghold-status 将返回请求模式中的其他信息;;请注意，这个攻击可以在默认安装后被执行。这个缺陷似乎影响所有;
+Stronghold以前的版本。;;生产商状态:;补丁已经发布(2001年11月19日);;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Felix Huber (Chinese version by Dancefire)

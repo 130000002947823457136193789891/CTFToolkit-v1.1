@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11191
+NAME=WM_TIMER消息处理权限提升漏洞(Q328310)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=在注册表中检测WM_TIMER权限提升漏洞补丁(Q328310)
+DESCRIPTION=WM_TIMER被证实存在一个危及计算机运行的安全漏洞,该漏洞可导致恶意攻击者完全控制被攻击的windows系统。;建议: 所有装有该产品受影响版本的用户立刻安装最新的补丁。;严重级别: 危急 ;;影响版本 ;;微软Windows NT 4.0 ;Windows NT 4.0服务器终端版 ;Windows 2000 ;Windows XP ;;详细信息请查看;http://www.microsoft.com/technet/security/bulletin/ms02-071.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell

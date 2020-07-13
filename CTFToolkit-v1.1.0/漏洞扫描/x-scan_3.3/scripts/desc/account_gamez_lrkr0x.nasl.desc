@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11263
+NAME=账号 gamez 的密码是默认的: lrkr0x
+CATEGORY=信息搜集
+FAMILY=默认的UNIX账号
+SUMMARY=登录到远程主机
+DESCRIPTION=;账号'gamez'的密码是默认密码'lrkr0x'.攻击者可以利用该账号获得系统上的更多权限。;;风险等级：高;解决办法：为该账号设置密码或者禁用此账号
+COPYRIGHT=该脚本由xfocus汉化

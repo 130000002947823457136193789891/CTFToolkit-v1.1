@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11205
+NAME=守护进程CWD/MKD命令缓冲溢出
+CATEGORY=攻击
+FAMILY=FTP
+SUMMARY=守护进程CWD/MKD命令缓冲溢出
+DESCRIPTION=这台主机所运行的War FTP守护进程的版本容易受到缓冲溢出攻击. 这是由于在处理CWD和MKD命令的代码没有正确检查边界而造成的. 利用这个漏洞可以造成服务器崩溃并可能在此系统上执行任意命令.;;解决方案:;访问下列链接并下载最新版本的 :;;ftp://ftp.jgaa.com/pub/products/Windows/WarFtpDaemon/;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense, Inc.

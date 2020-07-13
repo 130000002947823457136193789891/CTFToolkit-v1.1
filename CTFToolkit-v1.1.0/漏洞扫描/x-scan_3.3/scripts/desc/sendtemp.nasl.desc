@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10614
+NAME=sendtemp.pl
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/sendtemp.pl是否存在
+DESCRIPTION=主机安装了CGI程序'sendtemp.pl'。该CGI存在著名的安全漏洞，允许攻击者以http服务端的权限（通常是root或nobody）浏览主机上任意文件。;;解决方案: 从/cgi-bin里删除该程序。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

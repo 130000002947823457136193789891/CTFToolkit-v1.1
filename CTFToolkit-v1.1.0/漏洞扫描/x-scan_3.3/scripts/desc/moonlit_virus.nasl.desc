@@ -1,0 +1,17 @@
+[CHINESE]
+ID=15586
+NAME=MoonLit Virus Backdoor
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测MoonLit病毒
+DESCRIPTION=系统已被MoonLit感染, 
+;后门端口已经打开.
+;后门.Moonlit是一个特洛伊木马它可以 
+;下载并执行程序, 并且扮演成一个代理服务器. 
+;
+;也可以看这里: http://securityresponse.symantec.com/avcenter/venc/data/backdoor.moonlit.html
+;
+;解决方案: 确定已应用MS所有的补丁并且升级到最新的
+;	病毒库.
+;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 KK Liu

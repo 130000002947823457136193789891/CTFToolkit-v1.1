@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11728
+NAME=ddicgi.exe漏洞
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在ddicgi.exe文件
+DESCRIPTION=该web服务器存在ddicgi.exe文件.;一些版本的该程序存在远程可利用漏洞,可导致攻击者利用该漏洞读取机密文件或者在该主机上提升权限.;;解决方案: 从cgi-bin或教本目录中删除该程序.;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe

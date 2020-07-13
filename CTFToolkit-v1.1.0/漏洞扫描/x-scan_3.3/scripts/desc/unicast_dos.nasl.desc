@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10289
+NAME=微软Media服务器4.1拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程Media服务器崩溃
+DESCRIPTION=通过发送一个精心制作的特殊数据包可以使远程微软Media服务器崩溃。;;风险等级：严重;解决方案：http://www.microsoft.com/technet/security/bulletin/fq00-013.asp
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison;Translate by Sniffer

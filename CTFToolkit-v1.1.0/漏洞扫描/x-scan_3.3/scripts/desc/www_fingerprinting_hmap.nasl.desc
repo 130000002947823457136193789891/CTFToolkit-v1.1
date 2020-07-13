@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11919
+NAME=HMAP
+CATEGORY=混合攻击
+FAMILY=普通漏洞
+SUMMARY=使用指纹识别检测web服务器
+DESCRIPTION=该脚本向HTTP服务端发送一些错误请求，以此鉴定该服务端的类型和版本。;;攻击者可以对此加以利用识别远程web服务端的种类并且进一步收集更多的相关信息。;;对指纹识别的防范措施请参考http://acsac.org/2002/abstracts/96.html;;也可以参考:	http://ujeni.murkyroc.com/hmap/;		http://seclab.cs.ucdavis.edu/papers/hmap-thesis.pdf;		;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi - HMAP research by Dustin Lee

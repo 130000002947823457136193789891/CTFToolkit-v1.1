@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11173
+NAME=Savant cgitest.exe缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=Savant cgitest.exe缓冲区溢出
+DESCRIPTION=该Savant web服务器装有cgitest.exe程序.该CGI程序存在一个缓冲区溢出漏洞可导致攻击者利用该漏洞使该主机当机或者在该系统上运行任意命令.;;风险等级:高;;解决方案: 升级该web服务器或者删除该CGI程序.
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

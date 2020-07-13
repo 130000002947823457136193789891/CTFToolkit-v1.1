@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11808
+NAME=Microsoft RRPC接口缓冲区溢出漏洞(823980)
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=检测[LSD]组织发现的Microsoft RRPC接口缓冲区溢出漏洞(823980)
+DESCRIPTION=远程Windows主机的RPC接口存在缓冲区溢出漏洞。; 该漏洞可导致远程攻击者以SYSTEM权限在系统中执行任意代码。;;远程攻击者或蠕虫能据此获得主机的控制权。;;该漏洞已经引发了至少一个蠕虫：MSBlast。;;解决方案:参考 http://www.microsoft.com/technet/security/bulletin/MS03-026.asp ;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 KK LIU

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10284
+NAME=TFS SMTP 3.2 MAIL FROM 溢出
+CATEGORY=混合攻击
+FAMILY=SMTP
+SUMMARY=对远程邮件服务器进行溢出
+DESCRIPTION=远程SMTP邮件服务器可能有一个缓冲区溢出漏洞,;当远程服务器处理的'MAIL FROM'参数过长时，就会导致溢出;;这可能导致攻击者使用这个邮件服务器或者执行任意代码;;Solution：如果你使用TFS SMTP，升级到4.0版，否则与你的供应商联系并要求一个补丁程序;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

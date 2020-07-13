@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15436
+NAME=php的PHP_Variables内存泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP版本
+DESCRIPTION=远程主机正在运行版本低于5.0.2的PHP.;;这些版本在PHP_Variables中存在一个内存泄露漏洞. 攻击者可以利用这个缺陷远程读取httpd进程的内存信息.;;参阅 : http://www.php.net/ChangeLog-5.php#5.0.2;解决方案 : 升级到PHP 5.0.2;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

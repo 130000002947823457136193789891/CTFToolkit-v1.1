@@ -1,0 +1,9 @@
+[CHINESE]
+ID=
+NAME=Simple Form 邮件转发漏洞
+CATEGORY=
+FAMILY=CGI漏洞
+SUMMARY=
+DESCRIPTION=一些主机运行的Simple Form软件（主页:
+http://worldcommunity.com/opensource/utilities/simple_form.html);不能对admin_email_to函数的参数作检查。一个远程攻击者可以利用该漏洞;把主机的该服务当作一个开放的邮件转发程序，还允许攻击者定制/修改邮件内容。;;解决方案：升级到2.2或更新版。;;风险等级：高
+COPYRIGHT=翻译:Heart is flying

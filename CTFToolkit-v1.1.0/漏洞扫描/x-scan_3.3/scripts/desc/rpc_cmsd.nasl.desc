@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10213
+NAME=cmsd服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测是否存在该RPC服务
+DESCRIPTION=远程主机正在运行cmsd RPC服务. ;该服务存在有安全漏洞, 因此你应该明确了解是否需要此服务运行.;;*** 由于并没有针对该服务进行攻击测试 ;*** 因此这可能是一个误报;;解决方案 : 我们建议你禁用该服务.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(chinese version by lsy)

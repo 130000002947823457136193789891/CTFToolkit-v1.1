@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15566
+NAME=MoniWiki跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试MoniWiki的跨站脚本缺陷
+DESCRIPTION=远程主机正在运行MoniWiki -- 一个PHP编写的基于web的wiki应用.;;此软件容易受到通过'board.php'脚本的跨站脚本攻击的危害.;;通过发送一个人工特别构造的URL, 攻击者可以在用户浏览器上执行任意代码, 从而导致丧失完整性.;;解决方案: 升级软件到版本1.0.9;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

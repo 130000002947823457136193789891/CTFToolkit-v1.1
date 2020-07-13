@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15935
+NAME=IlohaMail Unspecified Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Ilohamail的版本
+DESCRIPTION=目标主机至少运行一个实例的IlohaMail版本;0.8.13或更早. ;;远程版本的这个软件被官方公告存在一个未明的漏洞.;;解决方案 : 升级到IlohaMail 0.8.14RC1版本或更新.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15927
+NAME=HFS+ 'data fork' 文件访问
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=下载一个远程脚本的源代码
+DESCRIPTION=远程主机正在运行着MacOS X 或者 MacOS X Server.;;远程web服务器中有一个漏洞,攻击者能够通过直接读取数据指令,来获取远程web服务器上指定文件的源代码 .攻击者能够利用这个漏洞获取远程脚本的源代码.;;解决方案 :  安装最新的 Apple 安全补丁;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

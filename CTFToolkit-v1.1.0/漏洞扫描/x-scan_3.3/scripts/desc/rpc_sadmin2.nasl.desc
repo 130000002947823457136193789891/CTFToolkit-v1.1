@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11841
+NAME=sadmind远程执行命令
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=在远程主机上执行命令
+DESCRIPTION=远程主机上运行着sadmind RPC服务，该服务有可能导致攻击者以root的身份执行命令。;;Solution : 禁用该服务或者进行patch。;Risk Factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

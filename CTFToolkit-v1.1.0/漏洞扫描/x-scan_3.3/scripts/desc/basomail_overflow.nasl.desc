@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11674
+NAME=BaSoMail SMTP HELO 命令溢出
+CATEGORY=破坏性攻击
+FAMILY=SMTP
+SUMMARY=检查远程邮件服务器是否可被溢出
+DESCRIPTION=当接收到一个带有大于2100个char的参数的HELO命令时，远程SMTP服务器会崩溃.;;这个问题可能使攻击者关闭你的SMTP服务器.;;解决方案 : 升级SMTP服务器;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13639
+NAME=IIS 重定向漏洞 (841373) (检查注册表)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Checks for ms04-021 over the registry
+DESCRIPTION=运行IIS 4.0的远程主机存在着一个远程漏洞，这可以让攻击者控制远程Web服务器并且使用SYSTEM权限在远程主机上执行任何命令。 ;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-021.mspx ; 风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security     翻译 : laughterwym

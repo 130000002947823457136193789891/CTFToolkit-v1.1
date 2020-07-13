@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15770
+NAME=phpMyAdmin XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks the version of phpMyAdmin
+DESCRIPTION=运行phpmyadmin的远程主机;它是一个开放源代码，用PHP编写的方便用web形式管理MYSQL软件.;;这个版本有一个易于受到攻击的脚本;read_dump.php这个脚本文件;;通过构造一个特别的URL，攻击者能;执行任意的代码.;;解决方案:升级到2.6.0-pl3或者更新的版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

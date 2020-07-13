@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11732
+NAME=Webnews.exe 漏洞攻击
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Webnews.exe
+DESCRIPTION=Webnews.exe存在于这台web服务器上.;此文件的某些版本会遭远程利用.;;解决方案:从/cgi-bin中移除此文件.;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe;翻译 By ZDI

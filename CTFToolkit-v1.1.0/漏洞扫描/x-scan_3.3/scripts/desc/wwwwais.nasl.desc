@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10597
+NAME=wwwwais
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/wwwwais的存在
+DESCRIPTION=“wwwwais”这个CGI有广为人知的安全缺陷，利用它攻击者可以以http守护进程的级别（通常是root或nobody）执行任意的命令。;;解决方案：把它从/cgi-bin中删除。;;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

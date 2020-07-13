@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14709
+NAME=FTP Serv-U 4.x 5.x DoS
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使 Serv-U 崩溃
+DESCRIPTION=通过发送 STOU 命令，可能使远端的 FTP 服务器崩溃。;;这个缺陷使攻击者能让你不能通过FTP正常共享数据，甚至可能使远端主机崩溃。;;解决方案：升级该软件到最新版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

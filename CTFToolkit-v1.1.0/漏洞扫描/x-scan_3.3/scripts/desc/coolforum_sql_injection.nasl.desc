@@ -1,0 +1,9 @@
+[CHINESE]
+ID=16275
+NAME=CoolForum SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查CoolForum的存在
+DESCRIPTION=远程的主机运行了由PHP编写的公告板CoolForum,这个公告板上有一个漏洞.;;这个版本的CoolForum易受到远程SQL注入攻击.;;攻击者利用这个漏洞,可能伪造数据并;在远程系统上执行命令.;;解决方案：将CoolForum升级到0.7.3或者更高;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security
+

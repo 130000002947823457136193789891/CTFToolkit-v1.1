@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10280
+NAME=Telnet
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检查当前Telnet的状况
+DESCRIPTION=当前的Telnet在未加密的状态下进行数据传输，任何人通过sniff都很容易监听telnet客户端与telnet服务端之间的登陆用户名与密码！;;解决方案：如果你使用的是Unix系列的操作系统，使用OpenSSH替代telnet服务;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison, 插件翻译：sleky

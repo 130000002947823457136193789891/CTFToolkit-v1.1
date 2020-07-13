@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17349
+NAME=Phorum Detection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Phorum是否存在
+DESCRIPTION=此脚检测远程主机是否运行Phorum，如果发现运行的实例则可以抽取出其版本号与位置信息。;;Phorum是一个用PHP编写的基于Web的留言板，详情参见http://phorum.org/ 
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

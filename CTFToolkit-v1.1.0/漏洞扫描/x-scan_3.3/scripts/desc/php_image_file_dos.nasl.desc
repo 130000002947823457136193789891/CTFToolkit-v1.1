@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17687
+NAME=PHP 图像文件格式DOS漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查PHP中的图像文件格式DOS漏洞
+DESCRIPTION=根据其标识,远程主机上安装的PHP的这个版本容易受到DOS漏洞的攻击;;这是由于在'php_handle_iff'和;'php_handle_jpeg'中'getimagesize'函数不能正确的效验文件数据造成的.; 通过使用一个精心构造的图像文件,在图像上传功能开启情况下;远程攻击者在'getimagesize'函数被调用的时候产生一个死循环;;;解决方案 : 升级到 PHP 4.3.11 / PHP 5.0.4 或者更新.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

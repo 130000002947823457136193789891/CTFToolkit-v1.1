@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10788
+NAME=Solaris finger信息泄露漏洞
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=使用finger命令枚举账户
+DESCRIPTION=Solaris fingerd实现上存在安全问题, 远程攻击者可能通过利用此漏洞得到系统用户相关信息;通过提交以下请求, 远程攻击者可能获取系统上的所有帐号名:;;        finger 'a b c d e f g h'@target;        ;账号名列表可以帮助攻击者判断远程主机的操作系统类型. 并且可以了解各个账号的使用情况以帮助其进行攻击.;;解决方案 : 配置/etc/inetd.conf以关闭finger服务并重启inetd进程,或者安装Sun Microsystems提供的补丁.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison(chinese version by lsy)

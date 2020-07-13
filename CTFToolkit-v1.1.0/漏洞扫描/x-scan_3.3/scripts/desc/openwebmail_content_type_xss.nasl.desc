@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12262
+NAME=Open WebMail Content-Type 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=在Open WebMail里存在着Content-Type检查跨站脚本漏洞
+DESCRIPTION=远程运行Open WebMail 2.32或更早版本的服务器系统;容易受到跨站脚本漏洞攻击;攻击者无论在何地,只要向目标发送一封包含精心构造的特定Content-Type或Content-Description报头信息的MIME邮件, 而一旦邮件被阅读,其中包含的Javascript代码就会后台执行. ;;可以参考SquirrelMail (包含了详细的漏洞描述)相似的漏洞描述, 访问:;;  - http://www.rs-labs.com/adv/RS-Labs-Advisory-2004-1.txt;;注意: Nessus已经确认该漏洞存在于目标系统;可以透过查看安装好的Open WebMail系统版本号来确认是否存在漏洞;;目前还不会正式披露该漏洞的具体细节. ;;解决方法: 升级到Open WebMail version 2.33或更高的版本.;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall (Chinese by Goward,2004-06-08,WX)

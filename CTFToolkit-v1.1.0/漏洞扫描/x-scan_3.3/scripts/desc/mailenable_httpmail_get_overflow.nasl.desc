@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14656
+NAME=MailEnable HTTPMail 服务 GET请求溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable HTTPMail服务GET请求溢出漏洞
+DESCRIPTION=;目标主机运行着MailEnable服务程序-http://www.mailenable.com/(MEHTTPS.exe)专业版企业版存在缺陷,当提交发起的HTTP GET请求Content-Length字段长度大于4045 bytes(如果日志被记录关闭时需要8500bytes)时,将导致堆溢出,引起HTTPMail服务挂起,并可能导致执行任意代码 ;;解决方案 : 更新到  MailEnable Professional / Enterprise 1.19 或;更新版本 ;;风险等级 : 高;  
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

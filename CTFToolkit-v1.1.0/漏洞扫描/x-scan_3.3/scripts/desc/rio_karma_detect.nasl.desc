@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16462
+NAME=Rio Karma 网络端口
+CATEGORY=信息搜集
+FAMILY=服务检测
+SUMMARY=检测Rio Karma MP3播放器
+DESCRIPTION=远程服务器可能正在运行Rio Karma文件上传服务.;这个远程设备可能是Rio Karma MP3播放器.;;确定使用此类设备是否符合你们公司的规范.;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

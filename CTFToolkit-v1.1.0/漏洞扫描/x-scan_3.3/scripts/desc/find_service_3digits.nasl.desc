@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14773
+NAME=鉴别FTP，SMTP，NNTP等服务
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=鉴别服务需要返回3个 ASCII代码
+DESCRIPTION=此插件补足 find_service.nes;通过返回3个 ASCII 代码来确认服务;(象FTP, SMTP, NNTP...);;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi（Translated by cloud2046）

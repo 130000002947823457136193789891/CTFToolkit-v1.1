@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11792
+NAME=Windows Shell缓冲区溢出漏洞(821557)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=hotfix Q823980检测
+DESCRIPTION=Windows shell中存在一个漏洞。;攻击者可以创建一个恶意的Desktop.ini文件;来触发这个漏洞，并将其放在一个共享;目录下，然后等待别人来浏览它。;;解决方法：;见http://www.microsoft.com/technet/security/bulletin/ms03-027.asp。;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

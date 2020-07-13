@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10250
+NAME=Sendmail 重定向检查
+CATEGORY=信息收集
+FAMILY=SMTP
+SUMMARY=Redirection check
+DESCRIPTION=远程SMTP服务器容易受到一种重定向攻击。如果一个邮件发给:;;         user@hostname1@victim;           ;远程SMTP服务器（被攻击者）就会把邮件发给:;          user@hostname;            利用这个缺陷,攻击者可以经由防火墙发送消息，从而利用;从外面不可达的其它SMTP服务器。;;解决方案:在/etc/sendmail.cf中,在规则设置98的顶;插入下面的语句:;R$*@$*@$*       $#error $@ 5.7.1 $: '551 Sorry, no redirections.';;风险等级:低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

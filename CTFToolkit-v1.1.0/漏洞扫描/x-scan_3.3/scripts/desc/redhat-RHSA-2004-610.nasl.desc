@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16009
+NAME=RHSA-2004-610: XFree
+CATEGORY=信息搜集
+FAMILY=本地检测Red Hat系统安全
+SUMMARY=检测XFree补丁包版本
+DESCRIPTION= 现在更新XFree86升级包,可以修复一些在Red Hat Linux 2.1企业版libXpm中的安全漏洞.XFree86 是一个基于X Windows系统的开源组件.它提供了基本的低级图形功能模块和完整的图形用户接口(GUIS),如GNOME和KDE就是基于它之上而开发.;;在X.Org中,用于加密XPM(XPixMap)图形的libXpm库中被发现一些整型溢出漏洞.攻击着通过创建一个精心构造的XP文件,当使用者打开它,就会造成系统冲突或攻击者可执行任意代码.在CAN-2004-0914中,描述了通常情况下由此漏洞引起的易受攻击和暴露信息的项目(cve.mitre.org).劝告用户们升级补丁包,它包含了此漏洞的安全补丁和其他漏洞补丁.;;;;;解决方案:: http://rhn.redhat.com/errata/RHSA-2004-610.html;风险等级:高;
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15451
+NAME=GoSmart message board multiple flaws
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检验GoSmart论坛漏洞
+DESCRIPTION=远程主机使用GoSmart message board;------一个用asp编写的论坛程序.;;;该程序由于不能够;正确地过滤用户提供的输入而存在几个漏洞,;;同时也容易受到跨站点的脚本攻击.;由于这个脆弱性,远程攻击者可以制造;一个含有可以在用户浏览器运行的脚本的恶意链接.;;而且它含有的asp漏洞;可以使得攻击者通过SQL注射执行恶意命令.;;解决方法:升级到该软件的最新版本.风险等级:中
+COPYRIGHT=Copyright (C) 2004 David Maciejak

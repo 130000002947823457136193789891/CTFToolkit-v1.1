@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17653
+NAME=ASP PortalApp 的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL 注入
+DESCRIPTION=远程主机运行着ASP PortalApp;（一个用ASP编写的web应用软件），;;这个远程应用程序的缺陷将允许任意用户注入恶意的SQL语句，进而获得远程主机的管理员级别的访问权限。;;解决方案：将ASP PortalAPP升级至最新版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security Translated by SilentHunter

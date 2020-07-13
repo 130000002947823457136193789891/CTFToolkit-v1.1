@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10125
+NAME=Imap缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=Imap缓冲区溢出
+DESCRIPTION=一个Imap的缓冲区溢出会允许一个远程用户轻易地获取管理员权限。;风险系数：高;解决方案：将您的Imap服务器升级到最新版本
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

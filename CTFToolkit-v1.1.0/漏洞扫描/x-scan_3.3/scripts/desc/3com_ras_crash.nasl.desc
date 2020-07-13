@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11475
+NAME=3com RAS 1500 拒绝服务漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使3comp RAS 1500崩溃
+DESCRIPTION=如果向远程主机发送一个自己构造的特殊的IP数据包，;将IP选项#0xE4设为空的长度，则远程主机可能崩溃。;;一个攻击者可以利用这个漏洞阻止远;程主机正常地完成它的任务。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

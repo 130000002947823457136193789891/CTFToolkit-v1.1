@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11276
+NAME=CuteNews 代码注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测到存在 search.php
+DESCRIPTION=在第三方服务器使用CuteNews可能使远程主机包含 php文件.;;攻击者可以使用此漏洞注入任意代码到远程主机;并在WEB服务器上获得一个有权限的SHELL.;;解决方案 : 升级到 CuteNews 0.89 或更高;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

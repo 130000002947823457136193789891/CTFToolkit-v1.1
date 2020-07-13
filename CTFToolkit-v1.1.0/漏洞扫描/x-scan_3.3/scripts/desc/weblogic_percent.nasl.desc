@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10698
+NAME=WebLogic 服务端/%00/ 漏洞
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=使用类似http://www.example.com/%00/ 的请求
+DESCRIPTION=发送以'%00', '%2e', '%2f' 或 '%5c'结尾的URL请求可以让一些WebLogic 服务端生成页面目录的列表，从而暴露一些潜在的敏感文件。;;攻击者可以利用该漏洞浏览JSP文件的源代码，或其他动态内容。;;参考资料: http://www.securityfocus.com/bid/2513;风险等级: 高;解决方案: 升级到WebLogic 6.0 并打上Service Pack 1补丁
+COPYRIGHT=This script is Copyright (C) 2001 StrongHoldNet

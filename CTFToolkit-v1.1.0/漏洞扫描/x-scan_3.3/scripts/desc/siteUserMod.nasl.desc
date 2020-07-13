@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10253
+NAME=Cobalt siteUserMod cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/.cobalt/siteUserMod/siteUserMod.cgi
+DESCRIPTION=该站点安装有Cobalt 'siteUserMod' CGI程序. ;一些老版本的该程序存在漏洞，可以导致任意用户修改管理员密码.;;确保你使用的是最新版本.;;解决方案: ;;RaQ 1 用户, 下载:;ftp://ftp.cobaltnet.com/pub/experimental/security/siteUserMod/RaQ1-Security-3.6.pkg;;RaQ 2 用户,下载:;ftp://ftp.cobaltnet.com/;	pub/experimental/security/siteUserMod/RaQ2-Security-2.94.pkg;;RaQ3用户,下载:;ftp://ftp.cobaltnet.com/pub/experimental/security/siteUserMod/RaQ3-Security-2.2.pkg;;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

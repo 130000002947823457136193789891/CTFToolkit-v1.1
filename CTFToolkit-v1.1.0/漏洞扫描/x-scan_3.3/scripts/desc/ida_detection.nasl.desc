@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17258
+NAME=IDA Pro 检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=IDA Pro 检测
+DESCRIPTION=远程主机可能在运行IDA Pro Disassembler Program反汇编程序。;;解决方案：过滤掉进入该端口的流量。;也可以参考：http://www.datarescue.com/;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

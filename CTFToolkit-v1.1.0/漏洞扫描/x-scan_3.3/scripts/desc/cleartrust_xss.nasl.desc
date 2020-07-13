@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11399
+NAME=ClearTrust 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ClearTrust XSS漏洞
+DESCRIPTION=当向脚本ct_login.asp请求一个不适当的参数时，远程ClearTrust服务器容易受跨站脚本攻击,;比如:;;GET /cleartrust/ct_logon.asp?CTLoginErrorMsg=<script>alert(1)</script>;;;解决方法 : 目前还没有;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

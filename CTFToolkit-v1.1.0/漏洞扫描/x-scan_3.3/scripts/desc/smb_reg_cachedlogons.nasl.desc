@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11457
+NAME=SMB 注册表: Winlogon缓存保存了密码
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的键值
+DESCRIPTION=注册表子键;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\CachedLogonsCount;内容非空。这意味着当用户登陆时，远程主机把他们的密码保存在本地缓存中，以便PDC出现问题时用户依然可以正常登陆。;;;解决方案: 使用regedt32把该子键的值设置为0。;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

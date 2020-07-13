@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15892
+NAME=Yard Radius远程溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=yardradius缓冲区溢出
+DESCRIPTION=该远程radius服务器运行着Yard Radius 1.0.20或更低的版本.;;该radius服务存在一个缓冲区溢出漏洞可导致恶意攻击者利用该漏洞获得该主机的shell命令行.;;*** 注意本检测可能导致远程radius服务崩溃;;解决方案:升级到该软件的最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

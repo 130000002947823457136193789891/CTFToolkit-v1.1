@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15909
+NAME=PAFileDB 错误消息泄露安装路径漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查psFileDB的路径泄露
+DESCRIPTION=paFileDB是一种基于PHP的文件数据库.;它使用帐户进行文件的访问控制,使用口令对下载进行保护.;;运行它的远程主机存在一个安全漏洞,攻击者通过向脚本'admins.php', 'category.php'或'team.php'发送一个畸形的请求就可以获得它在远程主机上的物理安装路径;;知道这个信息可以帮助攻击者实施更进一步的攻击.;;解决方案 : 目前没有;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

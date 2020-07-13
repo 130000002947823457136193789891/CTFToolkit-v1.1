@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16328
+NAME=PNG处理中的漏洞导致远程代码执行(890261)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检查Media Player版本
+DESCRIPTION=远程主机运行Windows Media Player 9 或 MSN Messenger.;;这些软件的远程版本包含一个允许攻击者执行恶意代码的漏洞.;;为了利用这个缺陷,攻击者需要创建一个伪造的PNG图片并且发送给位于远程系统的受害者.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms05-009.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10898
+NAME=用户信息: 从未更改过的密码
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=枚举特权用户
+DESCRIPTION=脚本列举了从未更改过自己密码的用户名。;;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

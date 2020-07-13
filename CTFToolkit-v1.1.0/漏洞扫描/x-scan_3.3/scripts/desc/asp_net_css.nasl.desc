@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10844
+NAME=ASP.NET Cross Site Scripting
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试ASP.NET的CSS漏洞
+DESCRIPTION=ASP.NET存在跨站脚本执行漏洞，该漏洞导致Web应用程序在将输入应用到动态Web页面前无法进行正确的合法性验证。;;解决方案：这个漏洞被发布时没有还没有，请联系供应商;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

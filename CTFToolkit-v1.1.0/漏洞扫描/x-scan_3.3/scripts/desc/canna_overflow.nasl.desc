@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11114
+NAME=Canna 缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检查远程Canna能否被缓冲区溢出
+DESCRIPTION=通过向远程Canna服务器发送一个超长的字串可能使它崩溃.;;解决方案 : 升级到最新版本或者联系你的提供商得到补丁;又见: http://www.shadowpenguin.org/sc_advisories/advisory038.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

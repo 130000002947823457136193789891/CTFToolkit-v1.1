@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12230
+NAME=rsync 路径遍历
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=探测rsync是否正在运行
+DESCRIPTION=远程的rsync服务器可能存在一个路径遍历问题的缺陷。攻击者可以使用;这个缺陷访问到模块目录以外的主机上的任意文件。;;解决方案 : 升级到rsync 2.6.1;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11280
+NAME=Usermin会话ID欺骗
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=欺骗会话ID
+DESCRIPTION=该远程服务器正在运行一个易受会话ID欺骗的版本的Usermin程序。攻击者/程序可以利用此缺陷作为管理员登录至此主机，并基本获得完全控制权限。;;风险等级：高;解决方案：升级至Usermin 1.000
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;Translate by Sniffer

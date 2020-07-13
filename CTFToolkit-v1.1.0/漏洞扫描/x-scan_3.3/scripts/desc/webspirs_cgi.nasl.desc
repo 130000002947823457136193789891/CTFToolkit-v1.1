@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10616
+NAME=webspirs.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/webspirs.cgi是否存在
+DESCRIPTION=主机安装了'webspirs.cgi' CGI。该CGI存在一个著名的安全漏洞：攻击者能以http服务端的运行权限（通常是root或nobody）浏览任意文件。;;解决方案: 从/cgi-bin里删除该文件。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Laurent Kitzinger

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=
+NAME=Sympa invalid LDAP passwod DoS
+CATEGORY=
+FAMILY=CGI漏洞
+SUMMARY=
+DESCRIPTION=一些主机使用的Sympa是一个开放源码的邮件列表程序。;;3.4.4.1以下的版本中包含了一个漏洞，它允许远程中止正在运行的服务。;特别地，当发送一个无效的LDAP密码时，该问题就会被触发，它导致应用程序被强行中止，数据完整性也会损失。;;解决方案：升级到3.4.4.1或更新版本。;;详情请看:http://www.sympa.org/;;风险等级：中
+COPYRIGHT=翻译：Heart is flying

@@ -1,0 +1,7 @@
+ID=12266
+NAME=敲击者蠕虫检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=敲击者蠕虫检测
+DESCRIPTION=W32.Dabber蠕虫病毒攻击FTP服务器。它是W32.Sasser蠕虫病毒的一个变种。感染主机后安装后门并监听9898端口。如果监听失败会依次测试9899到9999直到找到可用端口。详细资料：http://securityresponse.symantec.com/avcenter/venc/data/w32.dabber.b.html;http://www.microsoft.com/technet/security/bulletin/MS04-011.mspx;;解决办法：关闭445端口和9898到9999端口：Apply Microsoft MS04-011 patch:-升级您的病毒数据库::风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11286
+NAME=WinXP帮助中心任意文件删除漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测微软补丁 Q328940
+DESCRIPTION=Windows XP 远程帮助与支持中心存在一个安全漏洞可导致恶意攻击者删除目标机器上任意文件。;要利用该漏洞，攻击者必须创建一个恶意的网页并使目标机器访问该网页。;解决方案: 请访问 http://www.microsoft.com/technet/security/bulletin/ms02-060.asp;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

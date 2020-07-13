@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15626
+NAME=TIPS MailPost若干漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=测试远程的mailpost.exe
+DESCRIPTION=远程主机正在使用一个存在若干漏洞的TIPS MailPost.;;TIPS MailPost是一个HTML表单内容的邮件应用程序, 可方便地将HTML表单数据以邮件形式传递到第三方.;;此软件存在若干漏洞 :;;- 一个远程文件枚举漏洞会允许攻击者确定某个文件是否存在;;- 两个跨站脚本漏洞会允许攻击者窃取第三方用户的cookie ;;- 一个信息泄露漏洞会允许攻击者获得有关远程主机的更多信息  ;;解决方案 : 升级软件或过滤反向代理以加强保护;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10243
+NAME=ypupdated服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测是否存在该RPC服务
+DESCRIPTION=远程主机正在运行ypupdated RPC服务.  该服务进程存在的安全漏洞可导致远程攻击者以root权限在主机上执行任意指令.;;*** 由于并没有针对该服务进行攻击测试 ;*** 因此这可能是一个误报;;解决方案 : 我们建议你禁用该服务.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(chinese version by lsy)

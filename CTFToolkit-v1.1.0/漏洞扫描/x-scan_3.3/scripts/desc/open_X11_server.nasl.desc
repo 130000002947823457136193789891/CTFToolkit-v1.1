@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15897
+NAME=Open X Server
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=当前的一个开放的X Window System Server
+DESCRIPTION=一个未正确配置的X服务器能接受来自任何地方的客户端的连接请求;.这使得攻击者制造一个客户端连接X服务器;记录用户的按键,这里边可能包含敏感信息,;例如账户密码.;;要解决这个问题，请使用xauth 或者 MIT cookies.;;解决方案:使用xhost,MIT cookies,并且过滤端口上进入的TCP连接.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi（kill_ads翻译）

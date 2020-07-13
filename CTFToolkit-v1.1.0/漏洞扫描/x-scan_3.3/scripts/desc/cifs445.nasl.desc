@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11011
+NAME=SMB 运行在445端口上
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查445端口是否开放
+DESCRIPTION=远程主机开放了445端口，没有开放139端口。;;两台Windows 2000 主机间的'Netbios-less'通讯通过445端口完成。攻击者可以利用该漏洞获取主机的共享连接，用户名列表及其他信息...;;解决方案: 过滤该端口收到的数据。;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

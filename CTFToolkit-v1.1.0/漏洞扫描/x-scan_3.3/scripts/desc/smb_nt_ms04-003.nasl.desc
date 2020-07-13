@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11990
+NAME=MDAC 缓冲区溢出漏洞 (832483)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查MDAC版本
+DESCRIPTION=远程Microsoft Data Access Component (MDAC)主机存在一个安全漏洞 ;当攻击者假冒一SQL服务器应答请求时,;将导致攻击者在系统上执行任意指令.;;要成功的利用这个漏洞,攻击者需要等待;存在该漏洞的MDAC主机发送一个广播请求. 攻击者;需要假冒一个SQL服务器回应恶意构建的包应答请求.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-003.asp;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

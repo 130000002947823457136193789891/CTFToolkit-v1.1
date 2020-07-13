@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10097
+NAME=GroupWise buffer overflow
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=IIS缓冲区溢出
+DESCRIPTION=通过"GET /servlet/AAAA...AAAA"的请求可能会使远程的Web服务器崩溃。;风险等级 : 高;解决方案:  如果运行的是Groupwise服务器, 则安装GroupWise Enhancement Pack 5.5 Sp1
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

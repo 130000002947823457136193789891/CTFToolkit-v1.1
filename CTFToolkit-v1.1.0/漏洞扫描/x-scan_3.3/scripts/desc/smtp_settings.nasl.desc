@@ -1,0 +1,7 @@
+ID=11038
+NAME=SMTP 设置
+CATEGORY=设置
+FAMILY=配置错误
+SUMMARY=SMTP 设置
+DESCRIPTION=这脚本设置多个SMTP参数.;;多个检查需要使用第三方主机/域名才能正常工作.;;需要这个条件的检查是SMTP或DNS Relay的检查.;;默认情况下，使用nessus.org，但是，在部分条件下，这会把你网络的信息泄露给这个域，因此做这个测试牵涉到隐私问题。'nessus.org'的属主不保留这些包的记录，你可以更改这个值最大程度保护隐私。注意你必须需要设置这个选项来设置第三方域。这表示这个域没有对你测试网络的域名做任何操作;;风险等级: None
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi and Renaud Deraison

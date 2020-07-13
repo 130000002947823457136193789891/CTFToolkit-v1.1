@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11029
+NAME=Windows RAS溢出漏洞(Q318138)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=MS Hotfix Q318138检测, 权限提升
+DESCRIPTION=RAS电话薄服务存在一个溢出漏洞，;可以允许一个本地普通用户以本地系统权限运行任意代码。;;漏洞的影响：权限提升。;;受影响的系统：;;Microsoft Windows NT 4.0 ;Microsoft Windows NT 4.0 Server, Terminal Server Edition ;Microsoft Windows 2000 ;Microsoft Windows XP;;建议：任何使用受影响系统的用户应该立即安装补丁程序。;;最高危险等级：待定(本地用户);;详见：;http://www.microsoft.com/technet/security/bulletin/ms02-029.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

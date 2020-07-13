@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17298
+NAME=phpMyFAQ中 username 参数SQL注入漏洞
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检查phpMyFAQ中 username 参数SQL注入漏洞
+DESCRIPTION=远程主机正在运行某个版本的phpMyFaq,它在提交'username'这个参数供SQL查询的时候,没有进行充分检查.;  以致于远程入侵者可以构造恶意的输入并将其作为SQL查询语句提交;这将导致查询逻辑语句被修改,数据库中的数据暴露,甚至造成数据库本身的数据被修改. ;;解决方案 : 将phpMyFAQ升级到 1.4.7 或1.5.0 RC2或者更高版本.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

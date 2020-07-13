@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12247
+NAME=DefaultNav checker
+CATEGORY=攻击
+FAMILY=其他
+SUMMARY=DefaultNav checker
+DESCRIPTION=本插件检查远程web服务器上存在的DefaultNav漏洞，更多细节请参见：;http://www.nextgenss.com/advisories/defaultnav.txt;;Risk : 高
+COPYRIGHT=This script is Copyright (C) 2004 Net-Square Solutions Pvt Ltd.

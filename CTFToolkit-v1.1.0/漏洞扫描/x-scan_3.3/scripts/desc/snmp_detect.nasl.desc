@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10265
+NAME=SNMP代理正在运行
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=SNMP代理正在运行
+DESCRIPTION=主机的UDP:161和UDP:162有一个或两个都是开放的，;这表明SNMP代理服务正在运行。;通常SNMP代理服务会泄漏主机的许多敏感信息，许多SNMP代理的实现都存在拒绝服务漏洞。;甚至有的SNMP代理能使远程攻击者用root权限执行系统命令。;更多信息参考:;http://www.securiteam.com/exploits/Patrol_s_SNMP_Agent_3_2_can_lead_to_root_compromise.html;; 风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam

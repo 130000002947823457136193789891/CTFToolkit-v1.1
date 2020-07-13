@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15469
+NAME=IceWarp Web Mail的多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查IceWarp WebMail的版本
+DESCRIPTION=远程主机正在运行IceWarp Web Mail -- 一个Microsoft Windows平台的webmail软件.;;此软件存在多个输入验证问题，可导致攻击者危害远程主机的完整性.;;解决方案 : 升级IceWarp Web Mail到5.3.0或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

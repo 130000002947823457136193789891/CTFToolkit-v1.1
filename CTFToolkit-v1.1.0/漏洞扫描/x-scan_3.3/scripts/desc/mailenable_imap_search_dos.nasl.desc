@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15487
+NAME=MailEnable Professional IMAP服务的Search拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable Professional IMAP服务中的Search拒绝服务漏洞
+DESCRIPTION=目标主机正在运行至少一个MailEnable Professional的IMAP服务的实例. 此软件在版本1.5a-d中存在一个当收到一个搜索(SEARCH)命令时服务会崩溃的缺陷.  一个已鉴权的用户可以有意地发送这个命令进行拒绝服务攻击，或者由于诸如IMP和Vmail等IMAP客户端在常规登陆过程中使用此命令而无意地发送. ;;解决方案 : 升级MailEnable Professional到1.5e.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

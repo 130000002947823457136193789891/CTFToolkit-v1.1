@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11640
+NAME=CesarFTP 使用明文存放密码
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查CesarFTP的settings.ini文件是否存在
+DESCRIPTION=远程系统安装了CesarFTP.exe.;;该程序有一个设计上的问题，使得它将ftp服务器的用户名和密码以明文存在文件'settings.ini'中.;;拥有该主机账号的用户可能能够读到这个文件，得到密码连接该FTP服务器.;;解决方法 : 无;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

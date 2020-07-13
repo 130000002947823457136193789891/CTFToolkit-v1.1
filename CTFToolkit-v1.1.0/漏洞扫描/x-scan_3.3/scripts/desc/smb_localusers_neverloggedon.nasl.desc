@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10915
+NAME=本地用户信息: 从未登陆过的用户
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列举从未登陆过的用户
+DESCRIPTION=当前脚本显示了从未登陆过的本地用户名。;;;无人使用的账号有利于攻击者入侵。;;解决方案: 删除这些无人使用的账号;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

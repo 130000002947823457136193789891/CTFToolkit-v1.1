@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10387
+NAME=cisco http拒绝服务攻击漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=拒绝服务攻击Cisco路由设备
+DESCRIPTION=攻击者提交如下请求将可能导致远程CISCO设备拒绝服务 :;;    GET /%% HTTP/1.0;    ;;需要重新启动才能使CISCO路由器恢复正常工作.;    ;攻击者可利用这一缺陷使CISCO设备崩溃.;    ;要预防这个问题:建议在路由器上添加如下规则:;; no ip http server;;;解决方案 :  联系CISCO以获取补丁;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

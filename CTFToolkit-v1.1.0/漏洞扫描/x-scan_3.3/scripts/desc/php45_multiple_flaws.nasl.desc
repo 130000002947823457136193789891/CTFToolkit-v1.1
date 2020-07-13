@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15973
+NAME=php4/5漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查PHP的版本
+DESCRIPTION=运行有版本低于5.0.3或者4.3.10的PHP软件的远程主机存在一些安全问题.;;在特定条件下,假如能够传送任意数据到一些函数, 我们就可以在远程主机上执行任意代码, 或者可以规避safe_mode.;;参见 : http://www.php.net/ChangeLog-5.php#5.0.3;解决方案 : 升级到 PHP 5.0.3 或 4.3.10;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译: HUIVER

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10267
+NAME=SSH服务的版本和类型
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+DESCRIPTION=通过登陆目标服务器并经过缓冲器接收可查出SSH服务的类型和版本。这些信息给予潜在的攻击者们关于他们要攻击的系统的额外信息。版本和类型会在可能的地方被泄露。;;解决方案：运用过滤器拒绝信息从不被信赖的主机进入此端口。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 SecuriTeam(Chinese version by Bestwc)
+

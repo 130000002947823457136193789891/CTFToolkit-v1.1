@@ -1,0 +1,9 @@
+[CHINESE]
+ID=10857
+NAME=SNMP 错误长空间拒绝服务攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=简单网络管理协议 拒绝服务攻击
+DESCRIPTION=通过发一个畸形的带有过长的空的假广告包可以使远程的SNMP daemon瘫痪;一个攻击者可以使用这个漏洞来阻止你使用SNMP来管理你的网络;(或者用其它漏洞来任意执行SNMP daemon的特权代码;解决方法:看看www.cert.org/advisories/CA-2002-03.html 风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison
+          翻译者freebeme http://www.uptmd.com :)

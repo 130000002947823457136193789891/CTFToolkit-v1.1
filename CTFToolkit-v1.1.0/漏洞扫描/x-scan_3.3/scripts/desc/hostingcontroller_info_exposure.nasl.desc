@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17308
+NAME=Hosting Controller多个信息泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=下载 HCDiskQuoteService.csv
+DESCRIPTION=远程主机运行了Hosting Controller, 一个网络主机管理程序.;;这个软件的远程版本中存在信息泄露漏洞, 使得攻击者能收集更多的远程主机信息.;;攻击者能下载$path/logs/HCDiskQuotaService.csv 文件并获得主机域名列表.;;解决办法 : 屏蔽到$path/logs/HCDiskQuoteService.csv文件的连接;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16177
+NAME=SparkleBlog SQL注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查id参数是否存在SQL注入漏洞
+DESCRIPTION=改远程主机运行着SparkleBlog,一种PHP编写的页面blog管理程序.;;该版本的程序在'journal.php'文件中存在一个漏洞;可导致攻击者利用该漏洞向远程数据库插入任意SQL指令.;;解决方案:升级到该软件最新版本或禁用该软件.;风险等级:中等
+COPYRIGHT=This script is Copyright (C) 2005 Noam Rathaus

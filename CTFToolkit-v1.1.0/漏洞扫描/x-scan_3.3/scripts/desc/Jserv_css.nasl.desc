@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10957
+NAME=JServ跨站脚本
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=测试JServ的跨站脚本
+DESCRIPTION=老版本的JServ (包括与Oracle9i应用服务器v1.0.2一起发行的版本)容易受到通过请求不存在的.JSP文件而引起的跨站脚本攻击.;;解决方案: 升级到java.apache.org上的最新版本的JServ;. 同时也可考虑将JServ换成TomCat, ;因为JServ不再维护了.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore

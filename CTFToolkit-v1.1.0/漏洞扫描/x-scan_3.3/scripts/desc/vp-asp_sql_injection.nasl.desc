@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11786
+NAME=ProductCart电子购物系统SQL Injection漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测ProductCart电子购物系统是否存在SQL Injection漏洞
+DESCRIPTION=远程主机使用了VP-ASP软件系统。;;该系统存在SQL Injection漏洞，攻击者可通过该漏洞得到服务器的系统管理员权限。然后获得所有的用户列表，窃取信用卡信息和其他敏感资料。;;另外，该软件还可能受到跨站脚本攻击。;;解决方案: 升级到最新版本的VP-ASP;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

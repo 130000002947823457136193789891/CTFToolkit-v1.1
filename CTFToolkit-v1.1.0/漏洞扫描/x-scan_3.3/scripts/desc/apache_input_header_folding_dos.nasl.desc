@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12293
+NAME=Apache请求数据包导致拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查Apache的版本信息
+DESCRIPTION=该远程主机运行的Apache2.x版本低于2.0.50.;;恶意攻击者可通过发送特殊构造的HTTP请求可导致apache httpd 2.0.x产生拒绝服务.;;该攻击可导致远程主机耗用大量内存.在低于4G虚拟内存的64位系统上，该攻击可导致基于该文件的堆缓冲区溢出;;;更多信息请查看: http://www.guninski.com/httpd1.html;解决方案: 升级到Apache/2.0.50 或者更新的版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

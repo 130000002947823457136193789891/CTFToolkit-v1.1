@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10239
+NAME=tooltalk服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检查开放的 RPC 服务
+DESCRIPTION=tooltalk RPC服务正在运行，可能存在对tooltalk对象数据库的漏洞，容易导致root远程执行命令。 ;;*** 由于本漏洞只能本地检查最为精确，因此这个报警可能是误报。;    ;Solution : 关闭tooltalk RPC服务;See also : CERT Advisory CA-98.11;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

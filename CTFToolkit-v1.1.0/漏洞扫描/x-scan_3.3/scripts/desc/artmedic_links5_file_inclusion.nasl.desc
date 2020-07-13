@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12289
+NAME=artmedic_links5文件包含漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查artmedic_links5的PHP文件包含漏洞 
+DESCRIPTION=Artmedic链接有一个链接产生PHP脚本,;该脚本被证实存在一个外部文件包含漏洞;;影响:;该文件包含漏洞可允许远程攻击者包含外部PHP文件(如果该文件是服务器所有).该漏洞可导致该程序运行任意代码;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

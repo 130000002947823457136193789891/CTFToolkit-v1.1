@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11306
+NAME=ASP.NET程序处理未检测溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测微软热补丁Q322289
+DESCRIPTION=远程ASP.NET的配置在运行一个状态服务器模式的程序时可能存在缓冲区溢出漏洞.;;攻击者可利用该漏洞导致拒绝服务攻击或者以该程序进程同样的权限运行任意程序(特别的;一个无特权帐户).;;解决方案: 查看http://www.microsoft.com/technet/security/bulletin/ms02-026.asp;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

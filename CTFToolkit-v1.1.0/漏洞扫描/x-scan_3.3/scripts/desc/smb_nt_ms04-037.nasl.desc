@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15460
+NAME=Windows命令行工具(shell)漏洞 (841356)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否安装841356修补程序
+DESCRIPTION=Windows的命令行工具(shell)有一个缺陷，可导致攻击者在远程主机上执行任意代码.;;为利用这个漏洞，攻击者需要引诱受害者访问恶意站点或者打开一个恶意的文件附件.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-037.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

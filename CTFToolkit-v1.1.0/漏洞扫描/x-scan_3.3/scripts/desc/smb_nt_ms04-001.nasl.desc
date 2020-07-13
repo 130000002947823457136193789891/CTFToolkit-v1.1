@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11992
+NAME=Microsoft ISA Server 2000 H.323 filter漏洞(816458)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查hotfix Q816458
+DESCRIPTION=在基于 Microsoft Internet上存在 H.323 filter安全漏洞 ;安全和加速服务器2000会允许攻击者;远程溢出基于微软的网络防火墙 ;安全和加速服务器2000.;;攻击者可以尝试利用这个漏洞，并且运行 ; 经过选择的微软防火墙服务的代码. ;攻击者将获得最高权限. ;H.323过滤器默认在运行ISA Server 2000服务的系统上启用;计算机以集成或防火墙模式安装.;;漏洞影响: 远程代码执行 ;;受影响软件: ;;Microsoft Internet Security and Acceleration Server 2000 Gold, SP1;;解决方案: 安装补丁.;;http://www.microsoft.com/technet/security/bulletin/ms04-001.asp;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams

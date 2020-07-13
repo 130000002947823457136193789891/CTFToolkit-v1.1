@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16224
+NAME=FKey Remote Arbitrary File Disclosure
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=fkey文件泄漏
+DESCRIPTION=对于the finger daemon（也可为"fkey"）的远程版本，用户通过提供一个少于10个字符的文件名的方式，就能读取远程主机上的任意文件。;;解决方案：禁用该软件;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

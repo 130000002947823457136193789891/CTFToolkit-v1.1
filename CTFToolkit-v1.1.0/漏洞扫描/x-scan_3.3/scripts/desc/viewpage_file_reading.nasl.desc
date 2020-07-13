@@ -1,0 +1,7 @@
+[CHINESE]
+ID=11472
+NAME=利用viewpage.php 浏览任意文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=viewpage.php存在漏洞，允许攻击者以cgi/httpd用户权限浏览任意文件。DESCRIPTION=viewpage.php (PHP-Nuke的一部分) 没有过滤用户提交的数据。;;这导致了攻击者可以利用该漏洞伪造'file'参数值，从而浏览远程主机上的任意文件。;;解决方案: 不要使用php-nuke。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

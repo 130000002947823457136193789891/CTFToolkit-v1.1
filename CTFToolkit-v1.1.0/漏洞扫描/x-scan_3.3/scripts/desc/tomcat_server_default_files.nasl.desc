@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12085
+NAME=Apache Tomcat servlet/JSP贮存器默认文件
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查Apache Tomcat默认文件
+DESCRIPTION=该Apache Tomcat servlet/JSP贮存器安装了默认文件。;;这些文件有助于攻击者猜测主机上运行的Apache Tomcat的真实版本并提供其他的有用信息，应予以删除。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

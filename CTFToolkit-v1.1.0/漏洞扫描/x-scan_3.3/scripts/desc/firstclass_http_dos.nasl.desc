@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15934
+NAME=OpenText FirstClass HTTP Daemon Search DoS
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查FirstClass
+DESCRIPTION=远程主机正在运行OpenText FirstClass,他是一个基于web的标准管理系统 .;;这个版本很容易受到拒绝服务攻击，远程攻击者可以远程使主机拒绝服务.;;解决方案 : 升级到比FirstClass OpenText 8.0.0新的版本;风险等级 :中 
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security（翻译：kill_ads)

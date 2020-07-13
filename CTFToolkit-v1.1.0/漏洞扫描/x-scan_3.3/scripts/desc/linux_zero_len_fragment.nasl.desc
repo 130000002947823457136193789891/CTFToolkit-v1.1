@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10134
+NAME=Linux 2.1.89 - 2.2.3 : 0 length fragment 缺陷
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=使远程linux主机当机
+DESCRIPTION=利用linux的'zero fragment'缺陷;有可能使远程主机当机.;;攻击者利用该缺陷可以阻止;你的网络正常运转.;;解决方案 : 如果该远程主机为Linux服务器,升级至;一个更新的内核(2.2.4). 否则, 联系你的供应商;取得相应补丁.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

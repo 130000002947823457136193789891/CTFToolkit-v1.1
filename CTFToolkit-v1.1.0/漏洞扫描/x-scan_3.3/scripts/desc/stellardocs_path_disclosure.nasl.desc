@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11817
+NAME=StellarDocs路径泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL注入等.
+DESCRIPTION=远程主机正在运行StellarDocs;;在这个系统中存在一个缺陷，允许远程攻击者得到StellarDocs;远程安装的物理路径。;;解决方案 : 升级到这个软件最新的版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

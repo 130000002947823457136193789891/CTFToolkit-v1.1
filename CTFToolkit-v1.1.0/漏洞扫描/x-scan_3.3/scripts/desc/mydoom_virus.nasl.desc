@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12029
+NAME=MyDoom蠕虫后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测MyDoom蠕虫
+DESCRIPTION=MyDoom蠕虫留下的后门在远程主机的端口监听着。;一个攻击者可以连接到此端口获取系统敏感信息，如：密码、信用卡信息。;;参考 :  ;http://securityresponse.symantec.com/avcenter/venc/data/w32.novarg.a@mm.html;更详细的信息参见:;http://www.math.org.il/newworm-digest1.txt;;解决方案: 使用杀毒软件扫描系统以删除此后门。;;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

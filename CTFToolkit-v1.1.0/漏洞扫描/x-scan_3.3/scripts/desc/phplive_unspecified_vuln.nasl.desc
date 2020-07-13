@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15928
+NAME=PHP Live! Remote Configuration File Include
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查PHP Live!（2.8.2以下版本）的一个缺陷
+DESCRIPTION=远程主机正在运行PHP Live! 一个网站的在线支持系统.;;远程版本包含一个未详细说明的缺陷;攻击者可以借助第三方主机上的一个配置文件.;;利用这个缺陷在远程主机上执行任意PHP代码.;;解决方案 : 升级到2.8.2版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

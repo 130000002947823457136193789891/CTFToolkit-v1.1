@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15965
+NAME=DHCP代码扩展(885249) (注册表检查)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=为MS04-042检查远程注册表
+DESCRIPTION=远程主机已经安装了Windows DHCP服务器.;;在这个服务器版本里存在一个漏洞，使得攻击者可以在远程主机上利用SYSTEM权限执行任意代码.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-042.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

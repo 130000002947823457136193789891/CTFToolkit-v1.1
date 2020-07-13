@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11231
+NAME=XP Redirector中未检查缓冲区 (Q810577)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查微软热补 Q810577
+DESCRIPTION=远程主机的RPC redirector中存在一个缺陷，可以让本地攻击者以;SYSTEM特权执行任意代码。;;解决方案: 请见;http://www.microsoft.com/technet/security/bulletin/ms03-005.asp;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 SECNAP Network Security (Chinese version by Dancefire)

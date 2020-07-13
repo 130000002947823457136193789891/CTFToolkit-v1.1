@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16326
+NAME=SMB漏洞可能导致远程代码执行(885250)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=确认是否安装了hotfix 885250补丁
+DESCRIPTION=远程windows主机包含了一个位于Server Message Block (SMB)中的缺陷.; 此缺陷将导致攻击者可以在远程主机上执行恶意代码.;;为了利用这个漏洞, 攻击者需要发送畸形包到远程日志服务上,;这个漏洞不仅可以导致远程代码执行.还可以导致拒绝服务攻击.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS05-011.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

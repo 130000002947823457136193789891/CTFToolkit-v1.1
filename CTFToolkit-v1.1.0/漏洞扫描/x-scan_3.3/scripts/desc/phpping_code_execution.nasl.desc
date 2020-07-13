@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11324
+NAME=phpping code execution
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查phpping的存在
+DESCRIPTION=使远程主机使用CGI phpping 执行任意的DOS 命令是可能的.;;一个攻击者可能使用这处缺陷从web服务器的特权获得一个shell.;;解决方案 : 浏览 http://www.security-corp.org/advisories/SCSA-009.txt 或与开放商联系获得补丁;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

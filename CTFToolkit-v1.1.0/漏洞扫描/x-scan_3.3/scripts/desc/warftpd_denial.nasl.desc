@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16270
+NAME=War FTP Daemon Remote Denial Of Service Vulnerability
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=Checks the version of War FTP
+DESCRIPTION=远程主机上正运行着War FTP Daemon,一个Windows下的FTP服务器,;;远程主机上的这个版本的软件易受到D.O.S攻击.;一个攻击者可能使用这个漏洞破坏这个远程服务器.;;解决方案:升级到War FTP Daemon 1.82-RC10;;风险等级:高
+COPYRIGHT=This script is Copyright (C)Tenable Network Security梦魇虚空

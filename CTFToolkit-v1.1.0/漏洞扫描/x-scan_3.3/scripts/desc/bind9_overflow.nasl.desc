@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11318
+NAME=BIND 9 溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测BIND版本信息
+DESCRIPTION=根据远程BIND 9 DNS服务器的版本号判断，此服务器存在缓冲区溢出漏洞。;该漏洞可导致远程攻击者获取系统shell访问或实施拒绝服务攻击。;;解决方案 : 升级bind到9.2.2及更新的新版本或使用8.x系列版本。;参考 : http://www.isc.org/products/BIND/bind9.html; 	   http://cert.uni-stuttgart.de/archive/bugtraq/2003/03/msg00075.html;	   http://www.cert.org/advisories/CA-2002-19.html;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

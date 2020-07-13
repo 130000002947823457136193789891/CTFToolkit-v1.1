@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11949
+NAME=Snif 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Snif跨站脚本漏洞
+DESCRIPTION=远程主机正在运行'Snif' CGI 套件。该程序存在漏洞，允许攻击者在回复其他用户帖子的时候插入恶意HTML 和/或 Javascript脚本(即众所周知的跨站脚本漏洞)。;;;解决方案: 目前暂无 - 禁用该CGI套件;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

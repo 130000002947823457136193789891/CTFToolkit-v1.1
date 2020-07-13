@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11378
+NAME=MySQL mysqld权限提升漏洞
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查MySQL的版本
+DESCRIPTION=您正在运行版本早于3.23.56的MySQL.;这些版本存在一个漏洞, 可导致以被提升了的权限来启动mysqld服务.;;攻击者可以创建一个DATADIR/my.cnf文件，并在其中的[mysqld]选项部分包括一行'user=root'.;;当执行mysqld服务时, 将以root用户而不是默认用户的身份运行. ; ;解决方案 : 至少升级到版本3.23.56;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 StrongHoldNet

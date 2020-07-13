@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11373
+NAME=SunFTP服务存在缓冲区溢出漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检测远程SunFTP服务是否存在缓冲区溢出漏洞
+DESCRIPTION=SunFTP build 9(1)中存在的溢出漏洞允许远程攻击者实现;对该服务的拒绝服务攻击甚至远程执行命令。; 问题的根源在于服务器在处理用户输入超过2100个字符时发生了溢出。;;解决方案 : 不使用SunFTP服务，选择其他的FTP Server;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

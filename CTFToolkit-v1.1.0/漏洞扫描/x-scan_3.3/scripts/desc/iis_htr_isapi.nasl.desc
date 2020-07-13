@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10932
+NAME=IIS .HTR ISAPI过滤器漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测IIS .htr ISAPI过滤器
+DESCRIPTION=远程IIS服务器存在.HTR映射.;;.HTR映射存在一个缓冲区溢出漏洞. 细节请参考Microsoft安全公告;MS02-018, 这个漏洞会导致攻击者获取SYSTEM权限. ;;建议, 即使已经为该漏洞安装补丁, ;最好还是删除.HTR 映射以及其它在该站点中不需要的映射.;;解决方案 : ;删除.HTR映射:; 1.打开Internet 服务管理器. ; 2.右击你的服务器. ; 3.在菜单中选择"属性"栏; 4.选择WWW服务-> 编辑 -> 主目录 -> 配置 ;在扩展名列表中删除".htr"项.;;另外, 你可以到微软技术站点上下载URLSCAN并安装.  URLSCAN缺省设置下就会拒绝所有对.htr文件的请求.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

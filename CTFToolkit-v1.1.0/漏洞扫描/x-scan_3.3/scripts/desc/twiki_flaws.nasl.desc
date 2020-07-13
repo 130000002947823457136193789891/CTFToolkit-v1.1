@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17210
+NAME=TWiki的多个漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装TWiki
+DESCRIPTION=远程主机运行Twiki,wiki系统使用Perl语言编写的.;;该软件的早期版本存在多个用户输入验证漏洞，这些漏洞可能被攻击者利用以web服务器的特权在远程主机上执行任意命令.;;解决方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11111
+NAME=rpcinfo -p
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=列出已注册的RPC服务
+DESCRIPTION=该脚本从port mapper探测RPC服务, 获取并列出所有已注册的RPC服务.;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17231
+NAME=CERN httpd CGI 名堆溢出
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=请求包含点号的超长CGI名
+DESCRIPTION=通过发送GET /cgi-bin/A.AAAA[...]A HTTP/1.0请求能使远程服务器瘫痪;	;在某些服务器如CERN HTTPD上有堆溢出漏洞. ;攻击者能利用这个漏洞使您的服务器中断. 这*也许*能被溢出从而执行恶意代码.;;解决办法 :向您的供应商索要补丁包或者更换服务器;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi<Translated By Stravadivaly> 

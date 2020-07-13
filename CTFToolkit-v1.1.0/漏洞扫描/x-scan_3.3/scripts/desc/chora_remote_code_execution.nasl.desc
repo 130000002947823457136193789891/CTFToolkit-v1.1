@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12281
+NAME=Chora 远程代码执行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=在Chora中检查远程代码执行漏洞
+DESCRIPTION=远程服务器运行有某版本的 Chora（一个基于 PHP 接口的查看 CVS 仓库的项目;来自 Horde）低于1.2.2版。;该版本在 diff viewer 有一处漏洞使远程攻击者;可以上传代码并且通过PHP脚本的权限运行它;;*** Nessus 确定在目标上存在漏洞;*** 只用看看安装的Chora的版本号即可;*** 没有企图真正利用此漏洞。;;请参看: http://security.e-matters.de/advisories/102004.html;解决方案: 将 Chora 的版本升级到 1.2.2 或者以上。;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

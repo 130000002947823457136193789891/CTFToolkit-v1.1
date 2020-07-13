@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12121
+NAME=Racoon malloc 不正确cookie 漏洞
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=Racoon malloc 不正确cookie 漏洞
+DESCRIPTION=远程系统在处理包含不正确cookie值的非法请求时存在问题。至少racoon这一种VPN产品存在该漏洞。Racoon 可以集成在:;;FreeBSD 4.0 及以上版本;OpenBSD 2.7 及以上版本;NetBSD  1.5 及以上版本;BSD/OS  4.2 及以上版本的系统上。;;不过，现在只在FreeBSD系统上证实了该漏洞。;;攻击者可以利用此漏洞远程禁用VPN。;;解决方案: 如果正在运行racoon VPN, 从http://www.kame.net 下载最新的SNAP工具并安装。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

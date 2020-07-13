@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16060
+NAME=Help Center Live Multiple Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 Help Center Live 是否能引用第三方文件
+DESCRIPTION=远程主机正运行Help Center Live,一个桌面应用帮助;用PHP写的.;;远程主机上该版本的软件存在多处漏洞;攻击者可以在远程服务器执行任意命令.;;解决方案 : 升级到该软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

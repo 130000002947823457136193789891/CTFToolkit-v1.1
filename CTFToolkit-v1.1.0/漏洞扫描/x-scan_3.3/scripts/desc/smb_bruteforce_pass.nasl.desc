@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10524
+NAME=Windows 9x SMB密码检验漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=通过穷举（或绕开）口令访问远程主机的共享目录
+DESCRIPTION=Microsoft Windows9x 中SMB通信协议的口令检验部分存在安全漏洞。;该漏洞允许远程攻击者不必知道共享口令即可访问共享文件。;详细信息参考 : http://www.securiteam.com/windowsntfocus/Microsoft_Windows_9x_NETBIOS_password_verification_vulnerability.html;;解决方案 : 参考 http://www.microsoft.com/technet/security/bulletin/ms00-072.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

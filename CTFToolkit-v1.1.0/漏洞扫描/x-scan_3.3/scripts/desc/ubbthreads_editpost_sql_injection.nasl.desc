@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17316
+NAME=UBB.threads editpost.php SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查editpost.php SQL 注入漏洞是否存在于UBB.threads中
+DESCRIPTION=远程主机运行的UBB.threads版本在使用'Number'参数在editpost.php进行SQL查询之前;未能充分的清除'Number'参数内容.; 这可能导致,远程攻击者;可以通过恶意的输入数据库查询, 潜在的导致;数据泄露, 修改查询逻辑, 甚至数据;修改或攻击数据库本身. ;;解决方案 : 升级到UBB.threads 版本 6.5.1.1 或者更高.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

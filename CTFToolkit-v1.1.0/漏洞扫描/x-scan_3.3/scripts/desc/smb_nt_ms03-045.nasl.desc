@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11885
+NAME=ListBox和ComboBox控件缓冲区溢出 (824141)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查补丁Q824141
+DESCRIPTION=ListBox和ComboBox控件均会调用user32.dll中的一个函数，这个函数存;在一个缓冲区溢出漏洞。有权限交互登录系统的攻击者，发送特殊窗口消息给任何;由ListBox或ComboBox控件实现的应用程序后，此应用程序将会执行攻击者指定的;代码。攻击者必须有可用账号交互登录系统，此漏洞不能被远程利用。;;解决方案 : 参见http://www.microsoft.com/technet/security/bulletin/ms03-045.asp;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Jeff Adams

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10354
+NAME=vqServer 管理端口开放
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查vqServer 的管理端口
+DESCRIPTION=vqSoft's vqServer 管理端口是开放的. 有可能被暴力破解, 此漏洞存在于1.9.9及以前所有版本中，可以远程修改配置文件来修补.;;更多信息参见:;http://www.securiteam.com/windowsntfocus/Some_Web_servers_are_still_vulnerable_to_the_dotdotdot_vulnerability.html;;解决方案: 禁止远程连接此端口.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 SecuriTeam

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11491
+NAME=Sambar默认CGI程序
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试testcgi.exe和environ.pl
+DESCRIPTION=远程服务器上运行着两个默认cgi程序T(environ.pl和testcgi.exe)，该程序会泄露大量主机信息，如物理路径等。;;Solution : 删除两个cgi程序;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

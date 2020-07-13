@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11187
+NAME=检测 4553 Parasite Mothership 后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测是否存在 4553 Parasite's Mothership 后门
+DESCRIPTION=一个叫 '4553' 的后门可能已被安装到这台主机上. 也就是说，它已经被入侵了. ;;解决方案 : 重新安装并配置这台主机;风险等级 : 待定
+COPYRIGHT=This script is (C) 2002 Violating (Translated by chice)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11560
+NAME=WebServer 4D GET 缓冲区溢出
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=使4D WS当机
+DESCRIPTION=通过在GET请求里发送超长的 '<' 字符串作为变量可以使web服务器当机。攻击者可以利用该漏洞使web服务器反复当机或在主机上执行任意代码。;;解决方案: 升级软件或使用过滤反向连接的代理来保护主机。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

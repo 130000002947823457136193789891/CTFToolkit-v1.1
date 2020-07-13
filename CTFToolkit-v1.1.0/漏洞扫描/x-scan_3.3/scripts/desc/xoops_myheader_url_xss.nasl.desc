@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11962
+NAME=Xoops myheader.php URL 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测 Xoops myheader.php URL 跨站脚本
+DESCRIPTION=运行Xoops CGI套件的远程主机存在跨站脚本漏洞。Xoops的weblinks模块包含一个名为myheader.php的文件，其目录是/modules/mylinks/。该模块没有充分过滤用户提交的数据。攻击者可以通过myheader.php文件中使用的URL参数向网页插入恶意HTML或者JavaScript代码。;;解决办法：升级Xoops到最新版本;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Noam Rathaus

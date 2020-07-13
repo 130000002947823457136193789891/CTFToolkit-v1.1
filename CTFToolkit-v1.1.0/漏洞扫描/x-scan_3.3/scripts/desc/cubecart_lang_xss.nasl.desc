@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17227
+NAME=Brooky CubeCart index.php language XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 Brooky CubeCart 跨站脚本漏洞
+DESCRIPTION=远程主机运行了 CubeCart, 一个用 PHP & MySQL 编写的电子商务脚本.;;这个版本存跨站脚本漏洞和远程执行服务器脚本漏洞 ;脚本攻击源于对用户提交的数据缺少适当的过滤.;入侵者将能够在服务器上执行 ;恶意脚本代码. ;;Solution: 升级到 2.0.5 或更高;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

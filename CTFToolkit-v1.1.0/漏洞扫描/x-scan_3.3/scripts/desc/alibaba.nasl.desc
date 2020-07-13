@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10010
+NAME=AliBaba文件遍历漏洞
+CATEGORY=信息搜集
+FAMILY=访问远程文件
+SUMMARY=获取../../file
+DESCRIPTION=远程HTTP服务器可以让攻击者读取任意文件，比如通过;下面的命令：; 	GET /../../winnt/boot.ini;这样就可以读取boot.ini文件的内容。;;解决办法：更新服务器版本，或者使用其他的WEB服务器，比如Apache。;风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

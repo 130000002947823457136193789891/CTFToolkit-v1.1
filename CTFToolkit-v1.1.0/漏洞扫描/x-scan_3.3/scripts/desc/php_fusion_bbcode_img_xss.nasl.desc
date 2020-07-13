@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17302
+NAME=PHP-Fusion BBCode IMG 标签脚本注入攻击
+CATEGORY=混合攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查PHP-Fusion BBCode IMG 标签脚本注入攻击
+DESCRIPTION=远程主机上运行的PHP-Fusion版本可以;携带不是十分安全的Javascript代码.  特别应该指出的是, 攻击者可以;注入Javascript代码并能安全的通过旁路过滤.PHP会;把他作为HTML代码来翻译.  这个恶意BBcode代码将在;用户通过浏览器查看时被执行. ;;解决方案 : 安装PHP-Fusion 5.01 Service Pack或者更高的版本;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

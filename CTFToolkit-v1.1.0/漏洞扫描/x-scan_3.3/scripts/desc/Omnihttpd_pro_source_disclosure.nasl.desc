@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10716
+NAME=OmniPro HTTPd 2.08脚本文件源代码完全泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查OmniPro HTTPd 2.08是否泄露脚本文件的源代码.
+DESCRIPTION=OmniPro HTTPd 2.08存在一个允许恶意用户获取脚本文件完整源代码的安全漏洞.;;当在所请求的脚本文件后面填加一个ASCII/Unicode空格字符'%20'时, web服务器将不再解释脚本文件, 反而将整个文件发送回去, 这种行为与处理HTML文件的行为类似.;;在CGI目录(如cgibin和cgi-win)内文件不受这个漏洞影响;;利用方法: GET /test.php%20 HTTP/1.0;;受影响的系统: 直至2.08前的所有版本;;解决方案: 供应商已察觉到这个问题, 但目前没有提供补丁. 请联系web服务器供应商咨询可能的解决方案. 在完全解决这个问题之前, 应当删除不可执行目录内的所有脚本文件.;;风险等级 : 中
+COPYRIGHT=INTRANODE - 2001

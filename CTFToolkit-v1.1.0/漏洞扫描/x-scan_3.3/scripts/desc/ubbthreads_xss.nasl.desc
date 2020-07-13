@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15951
+NAME=UBB.threads Cross Site Scripting Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=XSS UBB.threads
+DESCRIPTION=远程的主机正在运行UBB.threads, 一个用PHP编写的BBS.;;多个不同的跨站脚本执行漏洞影响着远程这个版本的;软件. 攻击者可以利用这些漏洞使用远程的网站发起;攻击对第三方.;;解决方案 : 升级到这个软件的最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

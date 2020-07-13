@@ -1,0 +1,12 @@
+[CHINESE]
+ID=14224
+NAME=BasiliX SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查BasiliX是否存在SQL注入漏洞
+DESCRIPTION=该远程主机运行着某个低于1.1.0或更低版本的BasiliX程序.此版本的BasiliX存在取决于PHP配置的SQL注入漏洞. 
+;***** Nessus已经检测是该远程主机存在此漏洞
+;***** 请查看BasiliX的版本信息及安装路径.
+;解决方案:升级BasiliX到1.1.1或更新版本.
+;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

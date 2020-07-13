@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15704
+NAME=WhitSoft Development SlimFTPd Remote Buffer Overflow Vulnerability
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=SlimFTPd FTP服务器远程溢出漏洞 
+DESCRIPTION=远程主机正运行着有问题的SlimFTPd服务,它是一个小型Ftp;Windows下的服务器. 报告称3.15以下版本的SlimFTPd存在缓冲区;溢出漏洞这允许攻击者远程执行恶意代码;在主机上. 攻击者需要一个有效的帐户来完成溢出.;;解决方案: 升级SlimFTPd至 3.16或者更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

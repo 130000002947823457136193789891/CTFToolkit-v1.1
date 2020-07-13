@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12240
+NAME=CVS pserver堆溢出
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=登录进远程的CVS服务器并且询问版本
+DESCRIPTION=根据其版本号，远程的CVS服务器可能因为在cvs pserver代码上的堆溢出漏洞，;而导致允许攻击者在该远程系统上执行任意命令。;;解决方案 : 升级到CVS1.12.8或者1.11.16;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security (Chinese version by Dancefire)

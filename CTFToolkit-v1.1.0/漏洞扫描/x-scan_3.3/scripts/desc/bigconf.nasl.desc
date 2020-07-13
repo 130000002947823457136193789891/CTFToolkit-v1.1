@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10027
+NAME=bigconf
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 /cgi-bin/bigconf.cgi 是否存在
+DESCRIPTION='bigconf' cgi 已经安装. 这个CGI有一个著名的安全缺陷，使得任何人通过他以http守护程序(root或者nobody)的权限执行任意命令.;;解决方案 : 将其从/cgi-bin删除.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

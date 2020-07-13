@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11584
+NAME=webweaver FTP 拒绝服务
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=禁用远程WebWeaver FTP服务端
+DESCRIPTION=通过请求不存在的文件名可以使远程WebWeaver FTP 服务端停止工作。;;攻击者可以利用该漏洞妨碍FTP服务器的正常工作。;;解决方案: 目前暂无;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

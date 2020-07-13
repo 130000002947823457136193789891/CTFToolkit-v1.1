@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17223
+NAME=phpWebSite Arbitrary PHP File Upload as Image File Vulnerability
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测phpWebSite上传伪装成图片的任意PHP文件的缺陷
+DESCRIPTION=远程主机运行某一个版本的phpWebSite，它允许;远程攻击者通过通告模块上传;"伪装"成图片的PHP脚本然后通过网站;的授权用户运行它. ;;解决方案 : 升级到最新版本（至少比此高0.10）;或者卸载通告模块功能.;;风险等级 : 高
+

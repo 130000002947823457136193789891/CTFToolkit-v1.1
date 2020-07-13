@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15540
+NAME=Faq-O-Matic中fom.cgi跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Faq-O-Matic的跨站脚本
+DESCRIPTION=远程主机正在运行Faq-O-Matic -- 一个常见问题(FAQ)自动化管理的基于CGI的系统.;;这个软件的'fom.cgi'脚本文件容易受到跨站脚本攻击的危害.;;通过一个人工特别构造的URL, 攻击者可以执行任意代码，从而使系统丧失完整性;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

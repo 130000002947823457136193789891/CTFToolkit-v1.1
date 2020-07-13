@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11794
+NAME=WebCalendar 文件浏览漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查remotehtmlview.php是否存在
+DESCRIPTION=远程主机正在运行webcalendar, 一套PHP脚本。;;该套脚本允许攻击者向long.php文件提交'user_inc'参数，最终浏览主机上的任意文件。;;;解决方案: 升级到WebCalendar 0.9.42;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

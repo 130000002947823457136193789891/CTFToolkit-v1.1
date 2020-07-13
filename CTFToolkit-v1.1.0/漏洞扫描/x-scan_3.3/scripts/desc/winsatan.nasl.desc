@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10316
+NAME=WinSATAN
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查是否安装了WinSATAN
+DESCRIPTION=该主机安装了WinSATAN。;;该后门允许任何人部分的控制远程系统。;;攻击者可以利用它窃取密码或者使系统工作不正常。;;解决方案: 使用RegEdit, 在 HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run下找到'RegisterServiceBackUp'子键。键值就是文件的路径。;如果主机感染了WinSATAN, 注册表中该程序以'fs-backup.exe'命名。;;其他信息: http://online.securityfocus.com/archive/75/17508;其他信息: http://online.securityfocus.com/archive/75/17663;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Julio C閟ar Hern醤dez

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15442
+NAME=CubeCart的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=CubeCart的SQL注入
+DESCRIPTION=远程主机正在运行Brooky CubeCart -- 一个PHP编写的在线商店应用.;;此软件存在一个SQL注入问题, 攻击者可发送错误格式的参数值到'index.php'文件中的'cat_id'参数, 从而可在远程主机上执行任意SQL语句或潜在地覆盖远程系统上的任意文件.;;解决方案 : 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

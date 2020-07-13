@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10723
+NAME=LDAP允许匿名绑定
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查LDAP是否允许匿名绑定
+DESCRIPTION=不正确的配置LDAP服务器会导致任意用户可以连接服务器并且查询信息。;;解决方案：在LDAP服务器上禁止NULL BIND。;;另外LDAP bind函数在Exchange 5.5上存在缓冲区溢出,在Exchange server SP2之前的所有版本，都可能被拒绝服务攻击或者执行任意代码。加上NULL BIND，一个匿名用户可以远程攻击服务器。;;Note:没有检测正在运行的Exchange服务器是哪一版本。;;解决方案：http://www.microsoft.com/technet/security/bulletin/ms99-009.asp;风险等级：中
+COPYRIGHT=By John Lampe....j_lampe@bellsouth.net

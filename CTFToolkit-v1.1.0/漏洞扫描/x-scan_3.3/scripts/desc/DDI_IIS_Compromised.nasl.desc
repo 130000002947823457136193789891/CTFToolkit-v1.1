@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11003
+NAME=IIS可能受到威胁
+CATEGORY=攻击
+FAMILY=后门
+SUMMARY=搜索到威胁系统的迹象
+DESCRIPTION=在这台主机上找到的一个或多个文件指示了一个潜在的威胁。;;解决方案：调查被发现的文件。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense Inc. & Powered by Robur!

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15530
+NAME=Coppermine Gallery检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装了Coppermine Gallery
+DESCRIPTION=这个插件确定远程web服务器是否安装了Coppermine Gallery像册并将其位置保存在知识库中.;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

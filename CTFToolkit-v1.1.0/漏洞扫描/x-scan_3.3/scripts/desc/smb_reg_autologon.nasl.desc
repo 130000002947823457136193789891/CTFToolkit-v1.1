@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10412
+NAME=SMB 注册表: Autologon
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否安装了autologon功能
+DESCRIPTION=当前脚本检测 autologon 功能是否可用。该功能允许入侵者使用默认用户名（DefaultUserName）和默认密码（DefaultPassword）远程登录主机。;;;解决方案: 删除HKLM\SOFTWARE\Microsoft\Window NT\CurrentVersion\Winlogon下的AutoAdminLogon和DefaultPassword两个子键。 ;; 参考资料: http://www.microsoft.com/windows2000/techinfo/reskit/en-us/regentry/12315.asp;; 风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

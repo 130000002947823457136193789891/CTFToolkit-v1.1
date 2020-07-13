@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11066
+NAME=SunSolve CD CGI用户输入认证
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=SunSolve CD CGI脚本存在用户输入认证易受攻击的问题
+DESCRIPTION=SunSolve CD CGI脚本没有有效的判断用户输入,攻击者可以利用它在系统中执行一些命令.;;**
+注意:Nessus 没有尝试执行攻击.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(Chinese version by Q-Q)

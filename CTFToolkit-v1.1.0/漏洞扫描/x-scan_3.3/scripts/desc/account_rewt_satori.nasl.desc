@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11265
+NAME=默认密码漏洞
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=以默认密码登录远程系统
+DESCRIPTION=帐号'", account, "'的默认密码是", password, ";攻击者可能利用此漏洞获取系统得进一步权限;;风险等级: 高;解决方案: 为此帐号设置一个密码或者禁用它
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

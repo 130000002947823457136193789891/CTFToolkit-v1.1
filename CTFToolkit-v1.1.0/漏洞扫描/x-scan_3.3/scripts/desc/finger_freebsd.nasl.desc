@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10534
+NAME=FreeBSD 4.1.1 Finger
+CATEGORY=信息搜集
+FAMILY=FINGER
+SUMMARY=Finger /path/to/file
+DESCRIPTION=远程finger存在一个漏洞 ;通过对目标文件发送一个'finger'命令所有人都可以读取;该主机上的任何文件. ;;例如:;;	finger /etc/passwd@target;	;;就可以显示/etc/passwd文件的内容;;解决方案 : 在/etc/inetd.conf终止finger服务 并重新起动inetd;进程, 或升级你的finger守护进程;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

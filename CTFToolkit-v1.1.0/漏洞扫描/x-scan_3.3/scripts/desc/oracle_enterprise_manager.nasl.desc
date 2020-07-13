@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17586
+NAME=Oracle企业级管理器
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测Oracle企业级管理器网络接口
+DESCRIPTION=远程主机似乎在运行Oracle企业级管理器, ;连接允许网络控制台管理.;;如让攻击者知道你正在使用这个软件就帮助他们;导致他们的攻击或是使他们改变策略.;;此外, 攻击者将试图使用暴力攻击;登录远程接口.;;解决方案 : 过滤此端口的信息;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

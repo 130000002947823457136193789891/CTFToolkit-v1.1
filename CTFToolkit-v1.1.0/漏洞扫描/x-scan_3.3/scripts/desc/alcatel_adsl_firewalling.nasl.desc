@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10760
+NAME=Alcatel ADSL Modem关闭了防火墙
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检测到Alcatel ADSL路由器关闭了防火墙
+DESCRIPTION=在Alcatel Speed Touch Pro ADSL Modem上，;有一个保护装置确保任何人不会获得远程连接的权限（通过WAN/DSL接口）。;这个装置可以防止别人在外网连接到你的Modem，并更改它的设置。;但是这个保护装置并没有在当前系统上启用。;;解决方案：Telnet到Modem上，并按照如下方法调整安全设置：;=> ip config firewalling on;=> config save ;;更多信息：http://www.alcatel.com/consumer/dsl/security.htm;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com & Interpreted By Robur

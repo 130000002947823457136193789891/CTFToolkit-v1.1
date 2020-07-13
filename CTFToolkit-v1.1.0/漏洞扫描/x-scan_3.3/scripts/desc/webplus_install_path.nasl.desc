@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12074
+NAME=Talentsoft Web+ 泄漏安装路径
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Webplus安装路径泄漏
+DESCRIPTION=远程主机正在运行Web+应用程序服务端。当该服务接收到一个脚本文件错误时，会泄漏应用程序的物理路径。;;例子： http://<host>/cgi-bin/webplus.exe?script=;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

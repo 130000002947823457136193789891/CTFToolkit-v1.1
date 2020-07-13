@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10892
+NAME=获取用户信息
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=利用NetUserGetInfo()
+DESCRIPTION=当前脚本获取每个NT用户的信息并储存在KB里。;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

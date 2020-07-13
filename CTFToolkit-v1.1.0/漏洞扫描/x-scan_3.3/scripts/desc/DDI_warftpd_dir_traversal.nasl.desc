@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11206
+NAME=War FTP守护进程目录遍历
+CATEGORY=攻击
+FAMILY=FTP
+SUMMARY=WarFTPd目录遍历
+DESCRIPTION=这台主机所运行的WarFTPd版本包含一个漏洞. 此漏洞可导致入侵者读取ftp根目录外的目录和文件. 通过发送人工构造的'dir'命令, ;服务器可能泄露任意目录.;;解决方案:;访问下列链接并下载最新版本的WarFTPd:;;ftp://ftp.jgaa.com/pub/products/Windows/WarFtpDaemon/;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Digital Defense, Inc.

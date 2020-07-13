@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10474
+NAME=GAMSoft TelSrv 1.4/1.5的溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=GAMSoft TelSrv telnet服务器崩溃.
+DESCRIPTION=发送一个4550个字符的用户名称可导致远程telnet服务器崩溃.;;攻击者可以利用这个缺陷来阻止远程管理主机.;;解决方案 : 联系供应商补丁事宜.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Prizm <Prizm@RESENTMENT.org

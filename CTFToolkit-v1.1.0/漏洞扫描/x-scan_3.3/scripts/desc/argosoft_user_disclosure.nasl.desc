@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16094
+NAME=ArGoSoft FTP Server User Disclosure
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程FTP服务的出错信息
+DESCRIPTION=远程主机运行了ArGoSoft FTP服务. ;;当用户以不存在的用户名或错误口令进行登陆时,;此版本的远程软件返回不同的出错信息.;;攻击者可能利用此漏洞进而对远程主机设置;字典类型攻击,以便获取有效用户清单.;;解决方案 : 升级到ArGoSoft FTP 的 1.4.2.2版本或者更新的版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(trans.tiannale)

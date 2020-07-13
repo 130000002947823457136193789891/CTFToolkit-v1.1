@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11210
+NAME=Win32平台Apache < 2.0.44文件越权访问
+CATEGORY=攻击
+FAMILY=远程文件访问
+SUMMARY=请求web根目录并得到回应
+DESCRIPTION=远程主机上运行着Apache的windows版本，并且版本号低于2.0.44，在这一版本的Apache中存在漏洞，允许攻击者通过输入特殊的url，越权读取某些文件。;;Solution : 升级到2.0.44以上版本;See also : http://www.apache.org/dist/httpd/Announcement.html;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

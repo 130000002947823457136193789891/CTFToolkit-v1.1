@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>FindStr</TITLE>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 8.00.7600.16385"></HEAD>
+<BODY>
+<DIV align=center>
+<CENTER>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=700>
+  <TBODY>
+  <TR>
+    <TD>FindStr: A program to find key words in text files. It can 
+      search in sub-folders and ZIP/RAR files. 
+      <P>作者：马健<BR>邮箱：<A 
+      href="mailto:stronghorse_mj@hotmail.com">stronghorse_mj@hotmail.com<BR></A>主页：<A 
+      href="http://www.comicer.com/stronghorse/">http://www.comicer.com/stronghorse/</A></P>
+      <P><A href="#FAQ">FAQ<BR></A><A 
+      href="#使用说明">使用说明<BR></A>&nbsp;&nbsp;&nbsp; <A 
+      href="#软件安装/删除">一、软件安装/删除<BR></A>&nbsp;&nbsp;&nbsp; <A 
+      href="#软件使用">二、软件使用<BR></A><A href="#附录A 鸣谢">附录A 鸣谢<BR></A><A 
+      href="#版本更新记录">附录B 版本更新记录</A></P>
+      <H1><A name=FAQ><FONT color=#ff0000>FAQ</FONT></A></H1>
+      <P>Q：FindStr是什么？<BR>A：这是一个专门用来查找文本内容的程序。它支持在多级子目录中查找，也可以不解包直接在普通或加密的zip/rar文件中查找。可能的用途包括： 
+
+      <OL>
+        <LI>全文检索。搜集的资料、小说、源代码多了以后，经常连自己都搞不清什么东西存放在哪里，手工建立、维护索引太累，使用Windows自己提供的全文检索又太耗资源，这个时候用FindStr来搜就很合适，而且可以不解包直接在zip/rar中搜索、查看，并且能够自动记忆加密压缩文件的密码。zip包括uvz、jar、war、cbz等扩展名，rar包括cbr等扩展名。 
+
+        <LI>对搜集到的资料进行整理。我自己就经常用它整理下载到或反编译出来的电子书，包括批量去除广告链接、将绝对URL改为相对URL等。 
+      </LI>
+		<LI>支持ANSI、Unicode、utf-8编码的文本文件。Unicode编码的文件必须以FE FF或FF 
+		FE开头，utf-8文件如果以EF BB BF开头可省略判断编码的时间，否则会周游全文以判断是否是utf-8编码的文件。</LI></OL>
+      <P>Q：为什么要开发FindStr？<BR>A：FindStr的开发历史比较长，最初的版本出现在Windows 
+      95下。当时Windows本身还没有提供全文检索工具，VC本身提供的批量查找功能也不尽如人意，所以我才想到要开发自己的批量查找工具，便于对搜集到的源代码进行检索、利用。后来陆续根据需要添加了一些功能，包括支持zip/rar（Windows 
+      到 XP 都不支持 RAR 文件），支持替换，与MyReader集成等等。</P>
+      <P>Q：FindStr收费吗？<BR>A：FindStr是一个“友情软件”（Friendware），用户在承诺不用于商业目的，也不对文件及其附件进行任何更改的条件下，不需要为使用该软件支付任何费用，最多是在小说或动漫讨论区看到我发帖子灌水时，进去捧个人场，作为友情回报，或者在年节时发个email问声好（所以叫“友情软件”）。我承诺绝不在程序中暗藏任何商业广告、木马，但不承诺为使用FindStr的后果承担任何责任。如果您需要将它用于商业目的，或加入您的网站，请<A 
+      href="mailto:stronghorse_mj@hotmail.com">与我联系</A>，否则保留追究一切责任的权利。</P>
+      <H2><A name=使用说明><FONT color=#ff0000>使用说明</FONT></A></H2>
+      <P><A name=软件安装/删除><FONT color=#ff0000>一、软件安装/删除</FONT></A></P>
+      <P>删除本软件： 
+      <OL>
+        <LI>启动本软件，点击“取消注册”按钮，然后退出本程序，关闭所有资源浏览器窗口。 
+        <LI>删除本软件所在目录即可。删除时如果还提示DLL删除不了，请关闭所有程序、窗口，重启一次Windows，然后再删除。 </LI></OL>
+      <P>本软件对ZIP、RAR等文件的支持采用网路上流行的C/C++代码库，未使用任何无聊的OCX、DLL，因此软件安装非常简单： 
+      <OL>
+        <LI>如果已经安装过本软件，请先按上面的步骤删除本软件。 
+        <LI>创建一个目录，用WinZip将下载下来的ZIP包解压缩到该目录即可。 
+        <LI>如果需要创建快捷方式，可以启动本软件，点击“注册快捷菜单”按钮，以后在资源浏览器的快捷菜单中就会多出一项FindStr，以方便用户快速启动FindStr。 
+        </LI></OL>
+      <P>如果需要将本软件与MyReader集成，请注意将这两个软件放在同一个目录下。</P>
+      <P>本软件原始ZIP包中包含下列文件： 
+      <OL>
+        <LI>FindStr.exe：主程序文件。 
+        <LI>FindStr.htm：本帮助文件。 
+        <LI>FindStr.dll：资源管理器右键菜单所需的DLL文件，用于32位Windows。
+        <LI>FindStr_x64.dll：资源管理器右键菜单所需的DLL文件，用于64位Windows。</LI></OL>
+      <P>本软件在运行过程中会生成下列文件： 
+      <OL>
+        <LI>FindStr.ini：现场记录文件。程序第一次运行后即会产生该文件。 
+        <LI>Findstr.rst：查找结果记录文件，程序第一次运行后即会产生该文件。 
+        <LI>FindStr.pwd：ZIP/RAR文件口令表，只有在输入口令后才会生成此文件。 </LI></OL>
+      <P>除此之外的所有文件均为非法添加，尽管删除。</P>
+      <P><A name=软件使用><FONT color=#ff0000>二、软件使用</FONT></A></P>
+      <P>本软件有两种启动方式： 
+      <OL>
+        <LI>直接启动本软件：在资源管理器中双击FindStr.exe即可运行。 
+        <LI>在资源管理器中，选中需要查找文件所在目录，点右键，在弹出的菜单中选择“FindStr”项即可启动本程序。前提是已经点过“注册快捷菜单”按钮。 
+        </LI></OL>
+      <P>字符串查找：</P>
+      <OL>
+        <LI>点击“源文件夹”右侧的按钮，选择源文件夹，告诉程序需要在哪个文件夹下查找。 
+        <LI>在“源文件”框中，选择或输入源文件名称。如果选“*.*”，则在所有文件中查找。 
+        <LI>在“需查找的字符串”框中，输入需要查找的关键字。每个关键字占一行。 
+        <LI>如果输入了多个关键字，请在“关键字组合条件”框中，选择关键字之间是“与”还是“或”关系。 
+        <LI>根据需要，设置“选项”中的各项。其中前两项对中文检索无意义，只对字母文字有用。 
+        <LI>点击“开始”按钮开始查找，查找过程中“开始”按钮会变成“停止”，点击可以中断查找过程。 
+        <LI>查找结束后，程序会弹出对话框，告诉用户查找到多少条记录，并询问用户是否要查看查找记录。 
+        <LI>用户选择查看查找记录，则程序弹出新窗口，显示结果。用户在结果窗口中双击某行，程序会弹出对话框，让用户选择查看双击内容的浏览器，选择后用选择的浏览器打开文件。 
+
+        <LI>用户如果想反复查看查找结果，点击“查看结果”按钮即可弹出结果查看窗口。 </LI></OL>
+      <P>点击程序窗口右上角的叉叉按钮，可以退出本程序。<BR>点击程序窗口中部右侧的书图标，将显示本帮助文件；点击黄色图标，将弹出本程序的版权对话框，显示软件版本号、作者、版权信息等。</P>
+      <H2><A name="附录A 鸣谢"><FONT color=#ff0000>附录A 鸣谢</FONT></A></H2>
+      <P>本软件的ZIP文件处理采用了<A 
+      href="http://www.info-zip.org/pub/infozip/">Info-ZIP</A>提供的源代码，RAR文件处理采用了<A 
+      href="http://www.rarlab.com/">www.rarlab.com</A>网站提供的UnRAR源代码，同时本软件是在一些朋友的支持与鼓励下完成的，在此对 
+      他们表示衷心的感谢！</P>
+      <H2><A name=版本更新记录><FONT color=#ff0000>附录B 版本更新记录</FONT></A></H2>
+      <P>Version 6.00<br>
+		UnRAR升级至5.0.11，兼容RAR5压缩格式。</P>
+	<P>Version 5.02<br>
+		功能增强：如果文件不以FE FF、FF FE或EF BB BF开头，则周游全文以判断是否是utf-8编码的文件。判断所用的代码来自Windows 
+		2000的记事本源代码。</P>
+	<P>Version 5.01<br>
+		错误修正：在某些情况下会出错退出。</P>
+	<P>Version 5.00<br>
+		功能修正：去掉“替换”功能，仅保留“查找”功能。<br>
+		功能增强：支持zip64标准。<br>
+		功能增强：除ANSI编码的外部文件外，还支持Unicode、UTF-8编码的文本文件，但必须有规范的文件头。<br>
+		错误修正：查找zip文件过程中，“停止”按钮有时不起作用。<br>
+		取消ANSI版发行，改为发行Unicode版。</P>
+	<P>Version 4.79<br>
+		功能修正：压缩文件密码支持大小写敏感。</P>
+	<P>Version 4.78<BR>功能增强：“注册快捷菜单”支持64位Windows。</P>
+      <P>Version 4.77<BR>允许文件中出现多个连续的00字符。</P>
+      <P>Version 
+      4.76<BR>功能增强：支持搜索jar、war中的内容。<BR>功能增强：加大中文版字号。<BR>功能增强：主界面上增加4个快捷键：Alt+B、Alt+G、Alt+V、Alt+Z。</P>
+      <P>Version 4.75<BR>功能增强：能够记忆更多的参数。</P>
+      <P>Version 4.74<BR>错误修正：将含有Form Feed字符的文件误判为非文本文件。</P>
+      <P>Version 
+      4.73<BR>新增功能：可以改变主窗口大小。<BR>新增功能：支持名为uvz、cbz，实为zip的文件；支持名为cbr，实为rar的文件。</P>
+      <P>Version 4.72<BR>错误修正：打开某些加密RAR时，会出错退出。</P>
+      <P>Version 4.71</P>
+      <OL>
+        <LI>功能增强：更换了文件夹选择对话框。 
+        <LI>功能增强：RAR解压代码升级为unrarsrc-3.6.8，兼容WinRAR 3.6。 
+        <LI>错误修正：在开始查找后，“包括zip/rar”选项不能被封锁。 
+        <LI>错误修正：某些HTML文件中如果包含ASCII码为00的字符，则这些文件不能被处理。 </LI></OL>
+      <P>Version 
+      4.70<BR>新增功能：支持从资源管理器中将文件、文件夹直接拖拽到主界面上，选择源文件夹。<BR>功能增强：重写线程控制机制，避免出现查找过程中点了“停止”按钮，但是查找过程停不下来。</P>
+      <P>Version 4.69 
+      <OL>
+        <LI>错误修正：在替换单个汉字时，可能会因为半个汉字而造成乱码。 
+        <LI>错误修正：如果选择“匹配全词”，可能会出现漏查。 
+        <LI>对英文版界面进行了调整。 </LI></OL>
+      <P>Version 4.68<BR>功能增强：修正TXT文件判别标准，减少误判。 </P>
+      <P>Version 4.67 
+      <OL>
+        <LI>发行简体中文版，及使用说明书（中文版）。 
+        <LI>新增功能：“注册快捷菜单”、“取消注册”。 
+        <LI>新增功能：与MyReader集成，如果找到的文件可以用MyReader打开，则用户可以选择直接用MyReader打开。 
+        <LI>新增功能：内嵌的文本浏览器，可以在不解包的情况下，直接查看zip/rar中的文本内容。 
+</LI></OL></TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>

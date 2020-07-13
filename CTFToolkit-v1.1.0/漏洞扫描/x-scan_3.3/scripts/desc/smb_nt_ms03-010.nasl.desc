@@ -1,0 +1,18 @@
+[CHINESE]
+ID=11485
+NAME=RPC Endpoint Mapper缺陷 (MS03-010)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查热补Q331953
+DESCRIPTION=
+在RPC endpoint mapper中存在一个缺陷，可以让攻击者远程禁用掉它。;;
+攻击者可以利用这个漏洞使这个主机无法正常工作。;;;
+受影响软件:;;
+Microsoft Windows NT 4;Microsoft Windows 2000;Microsoft Windows XP;;
+解决方案: ;
+Win2k 和 XP: 请见;
+http://www.microsoft.com/technet/security/bulletin/ms03-010.asp;;
+没有NT 4.0的补丁。;;
+微软强烈建议仍然使用Windows NT 4.0的用户通过将其放置到防火墙后并且;
+过滤135端口来保护这些系统;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Chinese version by Dancefire)

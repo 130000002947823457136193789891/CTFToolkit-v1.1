@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16317
+NAME=ht://Dig htsearch.cgi XSS (2)
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查ht://Dig的htsearch.cgi文件里是否有一个跨站脚本（XSS）漏洞
+DESCRIPTION=远程主机运行着ht://Dig，该程序易受一个未指定的跨站脚本攻击。;;攻击者利用一个精心制作的URL，就可以使用远程主机对用户发起跨站脚本攻击。;;解决方案 : 升级到ht://Dig 3.2.0b7 和更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

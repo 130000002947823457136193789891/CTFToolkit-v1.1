@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10880
+NAME=AdMentor登陆漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=AdMentor登陆漏洞
+DESCRIPTION=AdMentor是一个用asp编写的完全免费的广告脚本,该产品存在一个安全漏洞可导致攻击者不用用户名和密码而登陆asp管理页面(通过绕过任何安全检查访问ASP文件).;;解决方案:联系作者以获得该问题的补丁;更多信息请查看:http://www.securiteam.com/windowsntfocus/5DP0N1F6AW.html;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 SecurITeam

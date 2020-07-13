@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15514
+NAME=Lotus Domino的跨站脚本(2)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Lotus Domino的跨站脚本
+DESCRIPTION=远程主机容易受到跨站脚本的影响，这种情况发生在使用html参数请求.nsf文件时，例如:;;GET /FormReflectingURLValue?OpenForm&Field=[跨站脚本];;;解决方案 : 目前没有解决方案;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

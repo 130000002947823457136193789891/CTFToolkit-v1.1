@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10642
+NAME=SMB 注册表: SQL7 补丁
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测相关子键是否存在及其键值内容
+DESCRIPTION=远程SQL服务端存在微软technet文章Q256052中描述的SQL命令验证漏洞。拥有在主机上执行SQL命令权限的攻击者可以利用该漏洞提升自己的权限。;;解决方案: 参见http://support.microsoft.com/default.aspx?scid=kb;en-us;256052;参考资料: http://online.securityfocus.com/archive/1/285915;参考资料: http://online.securityfocus.com/advisories/4308;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2001 Intranode <plugin@intranode.com>

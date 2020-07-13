@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16318
+NAME=Claroline 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查Claroline是否可受到跨站脚本攻击
+DESCRIPTION=远程主机正在运行一个PHP编写的基于web的合作工具Claroline。;远程主机运行的版本在文件add_course.php里存在几个跨站教本漏洞。;使用特殊构造的URL，攻击者可以利用远程主机来对一个用户实现跨站教本攻击。;解决方案 ：升级到该软件的最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15967
+NAME=UseModWiki Cross Site Scripting
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查wiki.plk是否容易受到xss攻击
+DESCRIPTION=远程主机正在使用UseModWiki, 一个用PERL写的wiki CGI.;;这个 'wiki.pl' 很容易受到cross-site-scripting攻击;攻击者可以窃取到第三方的cookies.;;解决方案: 升级到最新版.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译：kill_ads)

@@ -1,0 +1,11 @@
+[CHINESE]
+ID=12104
+NAME=Netware LDAP 搜索请求
+CATEGORY=信息搜集
+FAMILY=NETWARE
+SUMMARY=利用LDAP搜索请求来获得Nowell Netware服务器的信息
+DESCRIPTION=服务器的目录等级通常是设为空的. 这样就允许在不需要任何权限认证的情况下获得服务器目录结构;;
+解决方案: 禁止或限制匿名用户使用LDAP;
+相关内容请见 : http://support.novell.com/cgi-bin/search/searchtid.cgi?/10077872.htm ;
+风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

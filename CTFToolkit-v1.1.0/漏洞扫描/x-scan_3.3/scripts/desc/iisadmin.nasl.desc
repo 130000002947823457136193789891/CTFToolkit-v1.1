@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10358
+NAME=/iisadmin可读
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在目录/iisadmin
+DESCRIPTION=/iisadmin的使用仅限于回环地址.;任何人都能够通过这个目录来配置的web服务器.;;解决方案: 通过IIS ISM严格限制对目录/iisadmin的访问;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11715
+NAME=针对HTPP代理的Header 缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=使用超长HTTP报头可使HTTP代理服务器崩溃
+DESCRIPTION=通过发送一个无效的超长报头HTTP请求有可能可以停止掉HTTP代理;;攻击者可以利用这个漏洞使代理服务器反复崩溃;甚至在你的系统上执行任意代码.;;解决方案 : 升级软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

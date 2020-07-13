@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10432
+NAME=SMB 注册表: 可以修改普通路径的相关子键的权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的连接权限
+DESCRIPTION=本脚本用于检查非管理员组的用户是否有权限修改下列子键的内容:;;;HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths;HKLM\Software\Microsoft\Windows\CurrentVersion\Controls Folder;HKLM\Software\Microsoft\Windows\CurrentVersion\DeleteFiles;HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer;HKLM\Software\Microsoft\Windows\CurrentVersion\Extensions;HKLM\Software\Microsoft\Windows\CurrentVersion\ExtShellViews;HKLM\Software\Microsoft\Windows\CurrentVersion\Internet Settings;HKLM\Software\Microsoft\Windows\CurrentVersion\ModuleUsage;HKLM\Software\Microsoft\Windows\CurrentVersion\RenameFiles;HKLM\Software\Microsoft\Windows\CurrentVersion\Setup;HKLM\Software\Microsoft\Windows\CurrentVersion\SharedDLLs;HKLM\Software\Microsoft\Windows\CurrentVersion\Shell Extensions;HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Compatibility;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Drivers;HKLM\Software\Microsoft\Windows NT\CurrentVersion\drivers.desc;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Drivers32\0;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Embedding;HKLM\Software\Microsoft\Windows NT\CurrentVersion\MCI;HKLM\Software\Microsoft\Windows NT\CurrentVersion\MCI Extensions;HKLM\Software\Microsoft\Windows NT\CurrentVersion\Ports;HKLM\Software\Microsoft\Windows NT\CurrentVersion\ProfileList;HKLM\Software\Microsoft\Windows NT\CurrentVersion\WOW;;这些子键包含了指向普通应用程序和DLL的路径。如果用户在主机某个位置（比如C:/temp）放置了木马，他可以修改原来的路径，使之指向木马的位置。;;解决方案: 使用regedt32把这些子键的权限设置为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

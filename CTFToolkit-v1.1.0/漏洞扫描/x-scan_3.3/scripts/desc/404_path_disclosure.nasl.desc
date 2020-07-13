@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11714
+NAME=不存在的页面导致本地物理路径暴露的漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试适用于普通的泄漏本地物理路径漏洞
+DESCRIPTION=Web服务器暴露了Webroot的物理路径;当请求一个不存在的页面.;;这一特征在服务器商本来没有被激活.;;解决方案：升级服务器或者重新配置;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi
+

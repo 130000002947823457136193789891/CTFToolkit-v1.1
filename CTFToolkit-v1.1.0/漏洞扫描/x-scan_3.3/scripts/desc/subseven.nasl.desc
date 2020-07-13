@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10409
+NAME=SubSeven
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测SubSeven是否存在
+DESCRIPTION=探测到主机正在该端口运行SubSeven。SubSeven是一个木马程序，允许入侵者远程控制主机。攻击者可以利用该木马窃取密码，修改数据，并影响主机的正常运行。;;解决方案: 重新安装系统;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

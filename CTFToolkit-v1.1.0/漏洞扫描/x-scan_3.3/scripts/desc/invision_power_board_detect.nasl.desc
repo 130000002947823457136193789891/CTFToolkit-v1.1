@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17203
+NAME=Invision Power Board Detection
+CATEGORY=信息搜集
+FAMILY=服务检测
+SUMMARY=检查是否存在IPB
+DESCRIPTION=此脚本检测远程主机是否运行IPB论坛并且获取其版本号以及位置. ;;IPB是一种PHP的web论坛程序. ; 浏览http://www.invisionboard.com/获取更多信息.
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

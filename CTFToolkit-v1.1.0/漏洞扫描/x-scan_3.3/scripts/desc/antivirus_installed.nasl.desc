@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16193
+NAME=反病毒软件检测
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+脚本摘要信息=检测远程主机是否已经安装反病毒软件。
+脚本详细描述=本插件检测远程主机是否已安装反病毒软件;;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(Translated By Forza)

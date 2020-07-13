@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10276
+NAME=TCP 干扰
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=统计对一个SYN的ACK的数量
+DESCRIPTION=Microsoft Windows 95 和 98 客户端可以简单的通过在控制面板;中将TCP/IP协议添加多次的方式在一个相同的MAC地址上绑定多个;TCP/IP协议栈。这个远程的主机在相同的MAC地址上用相同的IP上;绑定了多个TCP/IP协议栈。因此导致它会对一个包回复多次，;例如：对一个SYN发送多个ACK，造成你网络上的噪音。如果很;多主机都是这样那么将会给你的网络带来性能上的下降。;;解决方案 : 删除远程主机上其他的IP堆栈，只保留一个。;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison (Chinese Version by Dancefire)

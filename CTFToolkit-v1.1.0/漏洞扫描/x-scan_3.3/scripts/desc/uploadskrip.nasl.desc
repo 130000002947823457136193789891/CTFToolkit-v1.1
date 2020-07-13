@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11746
+NAME=AspUpload 漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测AspUpload软件
+DESCRIPTION=服务器运行了AspUpload 软件.;;这个软件的某些版本容易受到远程溢出攻击.;;解决方案：到http://www.aspupload.com 升级你的软件;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe

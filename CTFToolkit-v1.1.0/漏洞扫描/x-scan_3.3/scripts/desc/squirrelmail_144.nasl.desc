@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16228
+NAME=SquirrelMail 1.4.4以下版本跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测SquirrelMail 1.4.4以下版本的跨站脚本漏洞
+DESCRIPTION=远程主机运行的SquirrelMail版本存在多个跨站脚本漏洞;;;- 在webmail.php文件里的整形变量溢出允许攻击者在SquirrelMail的页面包含HTML和脚本（受影响版本：1.4.0-RC1 - 1.4.4-RC1）;;- 在webmail.php里没有检查输入的URL导致攻击者包含一个页面在框架中（受影响版本：1.4.0-RC1 - 1.4.4-RC1）;;- prefs.php文件里最新的修改导致攻击者可以精心构造一个URL将本地代码插入到SquirrelMail代码里——如果PHP的变量register_globals开启的话（受影响版本1.4.3-RC1 - 1.4.4-RC1）;;***** Nessus 已经检测出目标机器存在此漏洞;***** 但仅仅是简单的通过Squirrelmail的版本信息判断;;解决方案：使用SquirrelMail 1.4.4 或更高版本.;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2005 George A. Theall and Tenable Network Security

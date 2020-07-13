@@ -1,0 +1,83 @@
+Version 2.2.0
+* Features:
+- add a "wipe effect" to enhance difference between images
+
+Version 2.1.x
+* Features:
+- add keys for zooming with keyboard (Ctrl+/Ctrl-)
+- add YUV format
+* Bugs
+- Invalid restore of maximized window state
+Version 2.0.2
+* Features:
+- Change default location of translation file on linux ("/share/diffimg/locale" instead of "/share/locale")
+- Add OSX target
+- Add debian package files
+- Add portable option
+* Bugs
+- minor fixes
+Version 2.0.1
+* Features:
+- ability to add a comment on loaded images
+- ability to display difference histogram with or without zero level
+- Add Chinese translation. Thanks to mikechang.
+- Add Romanian translation. Thanks to Jaff.
+- Add German translation. Thanks to sixforone.
+* Bugs
+- find the correct path for translation files on linux in some cases
+- incorrect display on multiple screen configuration in some cases
+- incorrect display of splashscreen on linux in some cases
+Version 2.0.0
+* Features:
+- new metric engine allowing easy addition of new metric
+- support of 16 bits and 32 bits mono channel image (tiff)
+- add drag&drop
+- add a new metric "perceptual diff" from http://pdiff.sourceforge.net/
+- add gain/offset on displayed image
+- add an interactive "navigator" window
+- slideshow mode can use files with differents suffix (e.g. compare a file.png with a file.jpg)
+- Add Vietnamese translation. Thanks to ppanhh.
+- Add Swedish translation. Thanks to eson.
+- Add Portuguese translation. Thanks to  rafaelff1 .
+* Bugs
+- incorrect loading of translation file in some cases
+- incorrect layout (switch mono/dual panel mode)
+Version 1.5.1
+- some code refactoring
+- add a direct link to website for help
+- update .pro file for missed translation files
+Version 1.5.0
+* Features
+- add the ability to save image difference in batch mode
+* Misc
+- clean code (cppcheck)
+Version 1.4.0
+* Features
+- add new mode to compute image difference (channel mean difference and lightness difference)
+* Fix
+- incorrect error number reporting
+Version 1.3.1
+* Features
+- add italian translation. Thanks to thanks to Nicola Giacobbe  ( nicolagiacobbe at users dot sourceforge dot net )
+Version 1.3.0
+* Features
+- add a basic batch mode
+Version 1.2.1
+* Features
+- add Czech translation. Thanks to Pavel Fric (pavelfric at seznam dot cz)
+* Fix
+- add flag for splashscreen incorectly displayed on some plaforms
+Version 1.2.0
+* Features
+- add command line argument to reset the stored preference
+- fix incorrect .desktop definition
+Version 1.1.0
+* Features
+- add changelog access in interface
+- add some test files in the Windows setup.exe
+- add opacity of error mask in preferences
+- add the ability to set a threshold in RMS value to compare the two images
+* Bugs
+- correct missing DLLs in the Windows installer for mingw compilation
+Version 1.0.0
+- First official release

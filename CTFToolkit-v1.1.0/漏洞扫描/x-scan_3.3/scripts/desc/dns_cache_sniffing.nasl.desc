@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12217
+NAME=DNS 缓存泄露
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=DNS 缓存泄露
+DESCRIPTION=远程DNS服务器回应没有设置递归查询标志位的查询请求。;这会允许远程攻击者判断最近哪个域名通过这个服务器被解析了，;和因此哪个主机最近被访问了。;;例如，如果攻击者关心你的公司是否使用特定的金融机构的在线服务，;他们将可以用这个攻击建立起一个关于公司对上述金融机构的使用的;统计模型。当然，这个攻击也可被用来发现B2B的伙伴、上网浏览的特征、;外部的邮件服务器等等. ;;要想得到更多的关于允许DNS缓存信息被匿名的请求的潜在威胁的讨论，请看：;http://community.sidestep.pt/~luis/DNS-Cache-Snooping/DNS_Cache_Snooping_1.1.pdf;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

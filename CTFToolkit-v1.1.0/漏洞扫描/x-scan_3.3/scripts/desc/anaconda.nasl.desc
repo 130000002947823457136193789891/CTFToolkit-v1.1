@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10536
+NAME=Anaconda 远程文件读取
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Anaconda 根目录远程文件读取
+DESCRIPTION=远程 Anaconda 的根目录存在一个漏洞;允许任何人以 root (super-user) ;权限, 读取任意文件, 方法是在url中插入两个空字节, 例如 :;;http://www.YOURSERVER.com/cgi-bin/apexec.pl?etype=odp&template=../../../../../../..../../etc/passwd%00.html&passurl=/category/;;解决方案 : 联系官方要求他们更新软件.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

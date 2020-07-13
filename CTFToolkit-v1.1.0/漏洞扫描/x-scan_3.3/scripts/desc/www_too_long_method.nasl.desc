@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11065
+NAME=HTTP （超文本传输协议） method 字段溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=太长的HTTP （超文本传输协议） method 字段使 Web 服务器停止工作
+DESCRIPTION=通过发送一个带过长 HTTP （超文本传输协议） method 字段的无效请求可能会使 Web服务器停止工作。;;黑客可以利用这个漏洞来不断地破坏你的 Web 服务器或者甚至在你的系统上执行任意代码。;;解决方案：升级你的软件或者用包解析过滤代理保护你的 Web 服务器。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi, translated by JayJew.

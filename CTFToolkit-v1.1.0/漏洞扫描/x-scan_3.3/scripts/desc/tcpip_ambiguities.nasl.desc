@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11618
+NAME=远程主机响应 SYN+FIN
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=发送一个 SYN+FIN 包并等待回应 SYN+ACK 
+DESCRIPTION=远程主机没有屏蔽带有SYN+FIN标志的TCP包;;根据你所使用的防火墙类型，攻击者有可能利用该漏洞绕过你的防火墙规则;;参见 : http://archives.neohapsis.com/archives/bugtraq/2002-10/0266.html;           http://www.kb.cert.org/vuls/id/464113;	   ;解决方案 : 联系你的防火墙供应商;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security (Translated by chice)

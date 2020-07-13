@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14337
+NAME=CSCec16481
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=运行了某版本的输入输出系统的Cisco设备易因接受到畸形的OSPF（Open Shortest Path First，开放最短路径优先）数据包而遭到拒绝服务攻击。在接受到OSPF的信息后，区域编码,网络掩码,欢迎信息,和有效时间等参数可在目标的界面中进行配置。注意,虽然OSPF协议在默认时不是开启的，但是远程攻击者仍然可发送一个畸形的OSPF数据包并导致设备几分钟时间的重启.;;漏洞相关的Cisco ID是CSCec16481.;;;解决方案: http://www.cisco.com/warp/public/707/cisco-sa-20040818-ospf.shtml;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2004 Tenable Network Security and George Theall

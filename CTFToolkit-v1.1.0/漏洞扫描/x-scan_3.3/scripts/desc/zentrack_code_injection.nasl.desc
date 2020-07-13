@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11702
+NAME=zentrack插入代码漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查index.php文件是否存在
+DESCRIPTION=远程主机包含的php文件是架设在第三方服务端上的，该服务端使用了zentrack CGI套件。;;攻击者可以利用这个漏洞向远程主机插入任意代码并获得一个具有web server权限的shell。;;解决方案：升级到最新版本;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

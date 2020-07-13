@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13856
+NAME=Citadel/UX Username overflow
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查目标机Citadel版本
+DESCRIPTION=目标主机正在运行Citadel/UX, 它是一款应用于UNIX平台的BBS软件.;;目标主机运行的该软件版本存在缓冲区溢出漏洞;攻击者可以利用它在远程主机上执行任意代码.;;要利用该漏洞,攻击者需要手动输入USER command参数.;;解决方案 : 升级到Citadel 6.24 或更新;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

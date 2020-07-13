@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12221
+NAME=3Com NBX VoIP NetSet 探测
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=测试3Com NBX VoIP NetSet 探测
+DESCRIPTION=我们已经发现3Com NBX VoIP NetSet正在远程主机上运行。;3Com NBX VoIP NetSet的web server是基于VxWorks。;这个web server存在一个已知的缺陷，可以使远程攻击者;通过对它使用简单的运行端口扫描或者漏洞扫描引擎而导致;拒绝服务。;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus (Chinese version by Dancefire)

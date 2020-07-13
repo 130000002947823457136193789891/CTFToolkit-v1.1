@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11097
+NAME=TypSoft FTP STOR/RETR拒绝服务
+CATEGORY=拒绝服务
+FAMILY=FTP
+SUMMARY=导致远程TypSoft FTP服务器崩溃
+DESCRIPTION=向远程TypSoft FTP服务器发送如下命令时会导致其崩溃;	RETR ../../*;或者;	STOR ../../*;;攻击者会利用这个漏洞使你的FTP服务器崩溃.;;解决方案 : 更新你的TypSoft FTP服务器软件或者使用其他的FTP服务器软件.;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi Translate by delphi007

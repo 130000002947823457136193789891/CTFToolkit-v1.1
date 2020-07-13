@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11847
+NAME=检查点对点软件WinMX
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=检测远程系统是否运行了WinMX
+DESCRIPTION=如果远程机器是一台运行了点对点软件WinMX的客户端,;可能这台机器不适合用于商业环境. ;;解决方法：卸载这个软件;风险等级：低 
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Security

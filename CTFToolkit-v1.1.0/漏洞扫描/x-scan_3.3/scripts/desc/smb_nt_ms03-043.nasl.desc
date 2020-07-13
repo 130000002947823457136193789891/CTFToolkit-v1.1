@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11888
+NAME=微软Messenger Service溢出漏洞 (828035)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否安装了hotfix Q828035补丁
+DESCRIPTION=Windows信息服务存在溢出漏洞。;远程攻击者能利用该漏洞在系统中以Local System权限执行任意代码，;或对Messager服务实施拒绝服务攻击。;;注意：此插件是通过读远程注册表中的补丁信息，依据MS03-043补丁是否安装;来判断该漏洞是否存在的，;因此可产生误报。;;解决方案 : 参考http://www.microsoft.com/technet/security/bulletin/ms03-043.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Jeff Adams

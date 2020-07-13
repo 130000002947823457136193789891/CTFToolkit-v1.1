@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12062
+NAME=Ecommerce Corp. Online Store Kit的More.php 文件插入命令漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=More.php SQL 插入漏洞
+DESCRIPTION=远程主机正在运行Ecommerce Corportation Online Store Kit, 一个基于web的电子商务CGI套件。;;more.php文件被发现存在漏洞，允许非法用户进行SQL命令注射或者实行跨站脚本攻击。;;攻击者可以利用该漏洞获得远程数据库的控制权。;;解决方案: 升级该软件到最新版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

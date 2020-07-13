@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17158
+NAME=Knox Arkeia Type 77 Request Remote Buffer Overrun
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查远程 Arkeia daemon 版本
+DESCRIPTION=远程主机运行了 Arkeia Network Backup 代理, 一个代理系统;应用于对远程主机执行远程备份.;;远程版本的代理存在缓冲区溢出;攻击者可在远程主机上执行任意口令;拥有 arkeia daemon 的权限;;;解决方案 : 无;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

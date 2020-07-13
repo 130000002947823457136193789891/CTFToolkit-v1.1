@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15852
+NAME=MailEnable IMAP 服务远程溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检查MailEnable IMAP 服务远程溢出漏洞
+DESCRIPTION=目标主机运行着MailEnable's IMAP;服务.  该服务在MailEnable Professional Edition 1.52及更早期版本和 MailEnable Enterprise Edition 1.01 及更早期版本 - 存在堆栈溢出以及对象指针覆盖问题.远程攻击者可以利用该漏洞使运行该服务主机执行任意代码. 更多信息请参考 :;;  http://www.hat-squad.com/en/000102.html;;解决方案 : 安装 IMAP hotfix dated 25 November 2004年11月25日的hotfix补丁,可以在如下地址找到 :;;  http://www.mailenable.com/hotfix/default.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

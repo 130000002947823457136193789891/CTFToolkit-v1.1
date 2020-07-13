@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16475
+NAME=Lighttpd远程CGI脚本泄漏漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Sami HTTP的版本
+DESCRIPTION=远程主机正在运行Lighttpd,;一种小型的web服务软件.;;此版本的Lighttpd包含一个缺陷,;攻击者可以构建一个包含'%00'的申请来读取脚本源代码.;;解决方案 : 升级到lighttpd 1.3.8或更新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

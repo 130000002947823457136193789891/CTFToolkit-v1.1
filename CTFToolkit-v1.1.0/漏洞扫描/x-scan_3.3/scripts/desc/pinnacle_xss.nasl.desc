@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15485
+NAME=Pinnacle ShowCenter换肤(skin)跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Pinnacle ShowCenter的换肤跨站脚本
+DESCRIPTION=远程主机正在运行Pinnacle ShowCenter的web接口.;;由于在SettingsBase.php脚本中缺乏对换肤参数的正确检查, 此软件容易受到跨站脚本攻击.;;通过一个人工精心构造的URL, 攻击者可以造成任意代码执行并导致丧失完整性.;;解决方案: 升级软件到最新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

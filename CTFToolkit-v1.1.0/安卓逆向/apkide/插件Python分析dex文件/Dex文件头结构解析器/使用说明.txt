@@ -1,0 +1,1 @@
+把classes.dex替换成你需要解析的classes.dex文件，然后双击Dex文件头结构解析器.bat文件即可。如果失败，请一定要注意python环境安装与其环境变量。

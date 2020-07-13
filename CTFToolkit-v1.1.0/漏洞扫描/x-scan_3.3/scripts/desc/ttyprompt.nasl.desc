@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11136
+NAME=/bin/login存在溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=尝试通过/bin/login的漏洞登入远程系统
+DESCRIPTION=远程/bin/login存在一个溢出漏洞。;该漏洞允许攻击者不经过任何认证以任意用户身份（root除外）进入系统。;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

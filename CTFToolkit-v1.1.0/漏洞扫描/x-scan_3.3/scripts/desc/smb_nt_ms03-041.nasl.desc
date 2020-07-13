@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11886
+NAME=Authenticode Verification中的缺陷可以允许远程代码执行 (Q823182)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查补丁Q823182
+DESCRIPTION=在Authenticode中存在一个缺陷，在特定的小内存环境下，可以允许ActiveX控件下载并安装;并且不会出现用户许可对话框。要利用这个缺陷，攻击者需要有一个恶意的网站用来利用这个;漏洞。如果攻击者说服用户浏览那个站点，ActiveX控件可能在用户的系统上被安装和执行。攻;击者也可以通过构造一个特殊形式的HTML电子邮件并且发送给用户。;攻击者在利用了这个缺陷后将会获得当前用户一样的权限。;;解决方案：请见：;http://www.microsoft.com/technet/security/bulletin/ms03-041.asp;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Jeff Adams (Chinese version by Dancefire)

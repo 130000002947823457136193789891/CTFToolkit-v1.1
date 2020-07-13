@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10235
+NAME=statd服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检查开放的RPC服务
+DESCRIPTION=statd RPC服务正在运行。这一服务历史上曾经出现过多种安全漏洞，所以如果不需要使用statd的功能，请勿继续使用。;;*** 这里并未进行实际溢出测试，因此可能是误报。;;Solution : 建议关闭该服务;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

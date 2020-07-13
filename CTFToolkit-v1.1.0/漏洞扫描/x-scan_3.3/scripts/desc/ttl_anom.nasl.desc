@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11858
+NAME=TTL不规则数据检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测远程主机上的TTL是否正常
+DESCRIPTION=当向远程主机的开放端口发出连接请求时，回返回不同的TTL值.;这就表明远程主机可能使用了代理或者远程主机就是一个路由器、蜜罐等。;;攻击者可能利用这个信息找到你的网络的边界主机.;Solution:联系供应商获得解决这个信息泄漏问题的方法.;;风险等级：低
+COPYRIGHT=This script is (C) 2003 Tenable Network Security

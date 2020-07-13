@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17214
+NAME=OpenConnect WebConnect6.5.1以下版本存在的多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查OpenConnect WebConnect6.5.1以下版本存在的多个漏洞
+DESCRIPTION=远程主机运行了OpenConnect WebConnect程序, 该程序是一个基于web的图形化用户界面，它给使用基于jave的通过HTTP安全通信的telnet控制台登陆的远程用户提供能够访问大型机, 中小型机, 和Unix系统的控制台.  OC WebConnect 6.44 and 6.5 (以及一些早期版本)存在多个漏洞 - 远程攻击者可以通过发送附带MS-DOS的设备名的HTTP GET or POST请求实施拒绝服务攻击(仅限于windows平台). ;;- jretest.html的一个只读目录遍历缺陷能够暴露INI格式的所有文件(任何平台). ;;参见 :http://cirt.dk/advisories/cirt-29-advisory.pdf;解决方案: 升级到OpenConnect WebConnect 6.5.1或者更新版本.;风险等级:低 / 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

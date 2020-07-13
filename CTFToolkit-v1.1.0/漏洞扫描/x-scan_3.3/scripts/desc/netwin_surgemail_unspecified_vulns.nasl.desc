@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17594
+NAME=NetWin SurgeMail Multiple Remote Unspecified Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测远程主机的NetWin服务版本
+DESCRIPTION=远程主机正在运行NetWin SurgeMail,一个Mail服务软件。;;远程主机正在运行的这个版本有未明确的漏洞;这些漏洞是被vendor发现的.;;解决方案: 升级到 NetWin SurgeMail 3.0.0c2 或者更新版本;风险级别: 中 
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security 中文翻译:Aydge(阿吉) <Translated by Aydge/aydge.lee@gmail.com>

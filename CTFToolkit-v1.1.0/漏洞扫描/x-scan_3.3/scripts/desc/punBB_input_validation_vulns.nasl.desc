@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17224
+NAME=PunBB Input Validation Vulnerabilities
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测PunBB输入验证的缺陷
+DESCRIPTION=远程主机运行的PunBB处理用户输入的一些脚本时发生;错误导致攻击者可以进行SQL注入攻击.; 另外, profile.php使得;任何人可以调用change_pass把;指定存在用户ID的密码修改为, 有效地;把他们从系统中删除.获取更多地信息,看这里:;; http://forums.punbb.org/viewtopic.php?id=6460;;解决方案 : 升级到PunBB1.2.2或更高.;风险等级 : High
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

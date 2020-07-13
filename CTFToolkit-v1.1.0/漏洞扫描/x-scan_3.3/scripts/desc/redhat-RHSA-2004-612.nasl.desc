@@ -1,0 +1,4 @@
+CATEGORY=信息搜集
+FAMILY=检测本地Red Hat系统安全
+SUMMARY=检测XFree补丁版本
+DESCRIPTION=现在可以更新 XFree86 补丁包去修复libXpm上的一些安全缺陷;Red HatLinux 3.0企业版存在这样的缺陷.;;XFree86 是XWindow系统的开源组件.;它提供了基础的低级图形功能接口;如GNOME 和KED就是基于它而开发.;;用于加密XPM(X pixMap)图象的X.Org libXpm库中被发现存在整型溢出缺陷.;攻击者能够创建一个精心构造的XPM 文件来产生整型溢出;如果受害者偶然打开这种潜在文件,则攻击者可以执行任意代码.;通常情况下是一些脆弱且易暴露的项目被执行.CAN-2004-0914有详细描述.;;用户们最好更新修复程序包,它包含了象其它修复漏洞一样的安全补丁.;;;;;解决方案:http://rhn.redhat.com/errata/RHSA-2004-612.html;风险等级：高;COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

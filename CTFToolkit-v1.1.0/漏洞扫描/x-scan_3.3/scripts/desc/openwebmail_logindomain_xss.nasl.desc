@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16463
+NAME=Open WebMail长域名参数跨站脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检查Open WebMail是否存在长域名参数跨站脚本漏洞
+DESCRIPTION=至少有一个Open WebMail的实例在确认用户输入长域名参数时发生错误.  这个错误导致攻击者可以在浏览器窗口中执行任意脚本代码. 想得到更多信息,;请查看 :;;  http://openwebmail.org/openwebmail/download/cert/advisories/SA-05:01.txt;;解决方案 :升级至2.50 20040212版或更高.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 George A. Theall & Translated By Mrcool

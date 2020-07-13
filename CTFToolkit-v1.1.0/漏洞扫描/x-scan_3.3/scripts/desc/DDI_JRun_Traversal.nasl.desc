@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10997
+NAME=JRun目录遍历
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=尝试目录遍历攻击
+DESCRIPTION=远程主机正在运行Allaire JRun web服务器. 版本2.3.3、3.0和3.1容易受到目录遍历攻击的影响.  潜在的攻击者可以查看系统中的任一文件的内容.;;解决方案:  厂商已经在Macromedia Product Security Bulletin MPSB01-17中解决了这个问题. 请到http://www.allaire.com/将JRun升级到最新版本;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense Inc.

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12080
+NAME=FTP Serv-U Server MDTM 堆栈溢出漏洞
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=Serv-U 堆栈溢出
+DESCRIPTION=远程主机正在运行Serv-U FTP服务端。;;该服务端处理MDTM请求参数过程中存在漏洞。攻击者可能通过缓冲区溢出攻击终止主机服务或远程在主机上执行任意代码。;;解决方案: 升级Serv-U服务端，至少升级到4.3版本。或使用其他服务端;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

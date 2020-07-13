@@ -1,0 +1,13 @@
+[CHINESE]
+ID=10948)
+# Modified by Scott Shebby scotts@scanalert.com
+#
+if(description)
+{
+ script_id(12279
+NAME=QPopper 用户名信息泄漏
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=QPopper 用户名信息泄漏
+DESCRIPTION=远程服务器正在运行一个版本号低于 ; 4.0.5 的 QPopper 软件。;;版本号低于 4.0.5 的 QPopper 存在一个漏洞使得远程 ;攻击者能够通过在认证过程中穷举用户名来查看服务器的反应 ;从而得到有效的用户名。;;解决方案 : 将 Qpopper 升级到 4.0.6 或更高;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Scott Shebby(translated by kunlong)

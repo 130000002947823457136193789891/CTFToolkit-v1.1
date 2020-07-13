@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11053
+NAME=IMC SMTP EHLO 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程的 IMC SMTP 版本是否是存在可利用的缓冲区溢出的版本
+DESCRIPTION=在用于产生回应EHLO协议命令的IMC代码中存在一个未检查的缓冲区，;从而导致一个可利用的安全问题。如果缓冲区被数据溢出，会导致IMC;失败，或者可以允许以IMC所处的安全向下文，就是运行Exchange 5.5;服务的帐户，运行代码。;;**  Nessus只使用banner头去检测这个漏洞是否存在，而不是试图去;** 真的溢出。;;解决方案 : 请见：;http://www.microsoft.com/technet/security/bulletin/MS02-037.asp;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 SECNAP Network Security, LLC (Chinese version by Dancefire)

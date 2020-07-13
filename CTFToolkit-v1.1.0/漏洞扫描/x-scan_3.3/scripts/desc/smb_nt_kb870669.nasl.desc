@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12298
+NAME=IE 的 ADODB.Stream 对象(KB870669)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查 KB870669
+DESCRIPTION=ADO 流对象指内存中的一个文件。该流对象包含用于读写二进制文件和文本文;件的几个方法。当此项特意设计的功能与 Microsoft Internet Explorer 中的;已知安全漏洞组合后，Internet Web 站点就可以从本机域执行脚本。;;出现此问题的原因是，当 Internet Explorer 中存在 ADODB.Stream 对象时，;ADODB.Stream 对象允许对硬盘进行访问。;;解决方案 : http://support.microsoft.com/?kbid=870669;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

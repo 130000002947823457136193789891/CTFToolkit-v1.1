@@ -1,0 +1,7 @@
+[CHINESE]
+NAME=W32.Sasser.Worm
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=诊断机器是否感染了W32.Sasser蠕虫病毒
+DESCRIPTION=W32.Sasser蠕虫病毒感染。;W32.Sasser蠕虫病毒是一种尝试利用MS04-011漏洞进行攻击的蠕虫病毒。;它通过扫描随机选择的IP地址找到具有漏洞的系统进行传播。;本插件用于检查W32.Sasser蠕虫病毒和W32.Sasser.B蠕虫病毒的变体;;解决方案:使用最新的反病毒工具清理机器。病毒确认和移出工具最新发布于2004年5月1日;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams

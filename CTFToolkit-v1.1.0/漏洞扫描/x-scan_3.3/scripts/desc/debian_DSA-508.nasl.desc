@@ -1,0 +1,7 @@
+[CHINESE]
+ID=15345
+NAME=[DSA508] DSA-508-1 xpcd
+CATEGORY=信息搜集
+FAMILY=Debian SUMMARY=DSA-508-1 xpcd
+DESCRIPTION= Jaguar 在xpcd的组件中发现了一个漏洞, 它是一个PhotoCD;阅读器.  xpcd-svga, xpcd 的一部分, 用于svgalib 在控制台下显示图形, 它将用pcd_open函数把用户输入的任意长度的数据复制到一个确定大小的缓冲区里:;;在当前稳定的发行版(woody) 2.08-8woody2中, 这些问题已经被修复.;;在不稳定的发行版(sid)中, 这些问题也将在不久后被修复.;我们建议您升级你的 xpcd 包.;;;解决方案: http://www.debian.org/security/2004/dsa-508;风险等级:高
+COPYRIGHT=(C) 2004 Michel Arboi

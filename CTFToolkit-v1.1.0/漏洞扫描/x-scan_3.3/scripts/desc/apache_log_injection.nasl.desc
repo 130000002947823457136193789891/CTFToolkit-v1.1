@@ -1,0 +1,7 @@
+CHINESE]
+ID=12239
+NAME=Apache错误日志避开连续注入
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+DESCRIPTION=目标主机正在运行一个Apache web 服务;注入任意连续的ESCAPE到服务器的错误日志里面.  一;攻击者有可能利用这个漏洞做一次类似于漏洞溢出的尝试;在客户端. ;;注意: Nessus 肯定有这个漏洞存在着;服务头将返回这个web服务运行在目标主机. ;;解决方案: 升级Apache的版本到1.3.31 或 2.0.49 或更新版本.;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

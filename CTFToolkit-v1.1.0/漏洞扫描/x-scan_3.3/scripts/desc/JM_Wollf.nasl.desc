@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11881
+NAME=Wollf backdoor detection
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Determines the presence of Wollf
+DESCRIPTION=这台主机似乎正在这个端口运行Wollf. Wollf可被入侵者用于远程访问计算机文件. ;如果这个程序不是用于远程管理, 则表明这台主机可能受到了伤害.;;攻击者可用此程序窃取密码, 或重定向系统的端口来发起其他攻击;;解决方案 : 参阅 www.rapter.net/jm4.htm中详细的清除方法;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 J.Mlodzianowski

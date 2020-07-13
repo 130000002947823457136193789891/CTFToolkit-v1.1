@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11110
+NAME=SMB null param count 拒绝服务攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使windows崩溃
+DESCRIPTION=通过发送特殊构造的数据包可以使远程windows崩溃。;;攻击者可以利用该漏洞妨碍主机正常工作。;;该攻击被称作SMBDie。;;;解决方案: http://www.microsoft.com/technet/security/bulletin/ms02-045.asp;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

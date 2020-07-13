@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15711
+NAME=PhpGroupWare arbitrary command execution
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=Checks for PhpGroupWare version
+DESCRIPTION=远程主机正在运行PHPGroupware程序,它是多用户群件系统;用PHP编写.;;这个版本存在漏洞允许远程攻击者; 执行任意命令通过触发phpgw_info 参数在 ;phpgw.inc.php中的文件脚本, 原因在于没有检查参数.;;解决方案 : 升级到这个软件的0.9.7或者更新的版本;更多的请看: http://www.phpgroupware.org/;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

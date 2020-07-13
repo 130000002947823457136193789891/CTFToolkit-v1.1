@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11413
+NAME=ntdll.dll未检测溢出漏洞(Q815021)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测微软反入侵补丁 Q815021
+DESCRIPTION=在ntdll.dll里存在一个远程溢出漏洞;可导致攻击者通过利用该漏洞获得系统特权。;举例来说,IIS5.0中的WebDAV(其他服务同样可以导致本地或者远程的溢出);注意 : 在Win2000上, 该安全建议的标号为 MS03-013;解决方案: 请查看http://www.microsoft.com/technet/security/bulletin/ms03-007.asp;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Trevor Hemsley

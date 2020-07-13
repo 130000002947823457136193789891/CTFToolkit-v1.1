@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15972
+NAME=iWebNegar 中的SQL注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL 注入
+DESCRIPTION=远程主机上正在运行 iWebNegar, 一个PHP写的网络日记应用程序.;;软件中有一个漏洞，任何人都可以注入任意的SQL命令，导致远程主机上的管理入口被获取.;;解决方案 :升级到最新版;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

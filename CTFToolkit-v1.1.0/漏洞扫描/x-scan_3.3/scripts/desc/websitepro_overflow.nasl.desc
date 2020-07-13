@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10476
+NAME=WebsitePro 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查WebSitePro
+DESCRIPTION=远程web服务器运行的WebSitePro版本低于2.5;;所有早于2.5版本的该服务端都存在缓冲区溢出漏洞。;;解决方案: 升级到WebSitePro 2.5或更新的版本;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

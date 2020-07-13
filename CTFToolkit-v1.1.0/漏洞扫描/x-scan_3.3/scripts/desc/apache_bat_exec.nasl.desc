@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10938
+NAME=Apache通过 .bat文件远程执行命令 
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Apache通过 .bat文件远程执行命令漏洞
+DESCRIPTION=Apache 2.0.x Win32 包含了一个个文件;/cgi-bin/test-cgi.bat, 它允许攻击者在Apache服务器上执行命令(虽然有人报告任意.bat文件都能触发这个漏洞.); ;攻击者通过发送包含管道符'|'作为参数的命令, ;就能让Apache执行.;;解决办法: ;;这个漏洞在1.3.24 和 2.0.34-beta中修复, 或 删除 /cgi-bin/test-cgi.bat;;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore<Translated By Stravadivaly>

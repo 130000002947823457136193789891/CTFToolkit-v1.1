@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11215
+NAME=SMB签名组策略修改漏洞(329170)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测MS补丁329170
+DESCRIPTION=Microsoft Windows 2000和Windows XP系统中的SMB签名实现存在缺陷;远程攻击者可以利用这个漏洞在没有任何提示的情况下降低SMB签名设置,进行更改SMB会话数据等非法操作, 例如更改从域控制器传播给新登录系统的组策略信息.;;建议: 管理员应当尽快安装补丁. ;;涉及程序: ;;Microsoft Windows 2000;Microsoft Windows XP;;参见;http://www.microsoft.com/technet/security/bulletin/ms02-070.asp;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 SECNAP Network Security(chinese version by lsy)

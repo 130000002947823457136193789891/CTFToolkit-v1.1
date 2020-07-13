@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10393
+NAME=spin_client.cgi 缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/spin_client.cgi 缓冲区溢出
+DESCRIPTION='spin_client.cgi' CGI 程序存在缓冲区溢出漏洞。该漏洞允许任何人以web服务端权限（root或nobody）执行任意命令。;;解决方案: 从/cgi-bin里删除该程序或联系销售商寻求修复方案;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15421
+NAME=NetworkActive Web服务器溢出
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查NetworkActive的Web服务器
+DESCRIPTION=远程主机正在运行NetworkActive Web服务器.;;此软件的远程版本存在一个漏洞，攻击者可以向远程服务器发送一个包含'%25'字符的HTTP GET请求，从而导致服务器拒绝服务.;;解决发方案 : 升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

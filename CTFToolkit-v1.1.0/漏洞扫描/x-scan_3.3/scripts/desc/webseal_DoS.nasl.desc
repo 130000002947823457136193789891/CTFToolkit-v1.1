@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11089
+NAME=Webseal拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=发送以%2E结尾的请求是WebSeal崩溃
+DESCRIPTION=远程web服务器处理以%2E结尾的URL时会崩溃。;;攻击者可以利用此漏洞使服务器连续崩溃。;;解决方案: 升级服务端或启用防火墙保护。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

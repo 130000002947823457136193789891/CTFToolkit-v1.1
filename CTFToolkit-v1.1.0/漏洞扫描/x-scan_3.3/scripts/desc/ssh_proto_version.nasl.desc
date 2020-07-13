@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10881
+NAME=检测远程SSH支持的协议版本
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测远程SSH支持的协议版本
+DESCRIPTION=此Nessus插件检测远程SSH Server支持哪些通信协议版本。;;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

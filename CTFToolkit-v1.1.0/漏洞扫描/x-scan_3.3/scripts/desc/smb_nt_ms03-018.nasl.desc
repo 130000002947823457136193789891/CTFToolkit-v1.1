@@ -1,0 +1,14 @@
+[CHINESE]
+ID=11683
+NAME=Internet Information Services(IIS)的累积补丁包 (Q811114)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否安装了Q811114热补
+DESCRIPTION=Internet Information Services(IIS)的累积补丁包 (Q811114);;
+远程主机正在运行一个存在许多缺陷的IIS版本，这可以使远程攻击者远程禁用掉这个服务，;
+并且可以使本地攻击者(或拥有上传任意文件到服务器上的远程攻击者)获得访问这个主机的;
+SYSTEM级别权限。;;;
+解决方案: 正在使用受影响产品的用户应立即安装补丁。;;
+最大危害度: 危险;;
+受影响软件: ;;Microsoft Internet Information Server 4.0 ;Microsoft Internet Information Services 5.0 ;Microsoft Internet Information Services 5.1 ;;请见;http://www.microsoft.com/technet/security/bulletin/ms03-018.asp;;另;http://www.microsoft.com/technet/security/bulletin/ms02-062.asp;http://www.microsoft.com/technet/security/bulletin/ms02-028.asp;http://www.microsoft.com/technet/security/bulletin/ms02-018.asp;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security (Chinese version by Dancefire)

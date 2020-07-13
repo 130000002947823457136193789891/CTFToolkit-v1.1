@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11319
+NAME=GTcatalog代码注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在index.php
+DESCRIPTION=远程主机有可能会运行一个使用GTcatalog的第三方服务器上的PHP包含文件.;;攻击者可以利用这个漏洞在远程主机上注入任意代码并以web服务器特权获得命令行.;;解决方案 : 参阅 http://www.phpsecure.org或者联系供应商安装补丁;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

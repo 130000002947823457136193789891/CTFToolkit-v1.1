@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15486
+NAME=DB2若干漏洞
+CATEGORY=拒绝服务
+FAMILY=远程获取命令行
+SUMMARY=检查IBM DB/2的版本
+DESCRIPTION=远程主机正在运行IBM DB/2数据库. ;此软件存在若干漏洞. 这些漏洞可导致攻击在远程主机上执行任意命令或引发远程数据库拒绝服务.;;解决方案: 升级到IBM DB2 V8 + FixPack 7a;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

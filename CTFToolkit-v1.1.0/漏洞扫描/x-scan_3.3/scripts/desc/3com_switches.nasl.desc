@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10747
+NAME=3Com Superstack II 交换机使用默认密码
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=用默认密码连接 3Com Superstack II 交换机
+DESCRIPTION=3Com Superstack II 交换机使用了默认密码.;;攻击者可以利用默认的密码获得交换机的远程访问权限;并重新配置交换机。 默认密码也可能被用从交换机上来收集有关该网络的敏感信息;;解决方案 : 用Telnet 登陆到交换机，立刻修改默认密码;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Patrik Karlsson (Translated by chice)

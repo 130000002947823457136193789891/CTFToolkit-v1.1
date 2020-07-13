@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15639
+NAME=Moodle SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=判断Moodle是否比1.4.2更老
+DESCRIPTION=远程主机正在运行的Moodle软件包是开放源代码的PHP编写的课程管理系统,其版本低于1.4.3.;远程的软件版本在‘glossary’模块中缺少对用户输入的校验而存在SQL注入的问题.;;解决方案 : 升级到Moodle 1.4.3;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(Translation by sunwear and luke)

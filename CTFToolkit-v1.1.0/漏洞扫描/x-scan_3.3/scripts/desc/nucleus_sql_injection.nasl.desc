@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14194
+NAME=Nucleus CMS SQL Injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Nucleus版本
+DESCRIPTION=目标主机正在运行Nucleus CMS, 它是一款开源的内容管理系统.;;在目标主机运行的该软件版本中存在一处SQL注入漏洞,;导致攻击者可以执行任意SQL语句更改数据库.;;同时,攻击者还可以利用这个漏洞获取未认证的数据库访问权并且获得管理员权限.;;解决方案 : 升级到 Nucleus 3.1 或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

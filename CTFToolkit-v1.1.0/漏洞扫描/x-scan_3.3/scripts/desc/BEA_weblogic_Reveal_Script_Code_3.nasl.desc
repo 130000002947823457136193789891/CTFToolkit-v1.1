@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11604
+NAME=BEA WebLogic Scripts Server 脚本源码暴露 (3)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=BEA WebLogic 可能被欺骗导致暴露JSP脚本的源代码.
+DESCRIPTION=BEA WebLogic 可能被欺骗导致暴露JSP脚本的源代码;通过在.jsp文件的路径中添加 /*.shtml/;;;解决方案: 安装官方正式补丁在http://www.bea.com;或升级版本到5.1以上;;风险等级 : 中
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

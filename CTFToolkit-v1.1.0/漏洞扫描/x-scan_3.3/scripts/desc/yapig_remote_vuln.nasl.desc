@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14269
+NAME=YaPiG 执行远程服务器端脚本漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查 YaPiG 版本
+DESCRIPTION=远程主机可能在运行YaPiG,YaPiG是PHP图象库脚本.;;当前的版本可能允许远程攻击者在有漏洞的系统上执行恶意脚本。该问题是由于缺乏对用户提交数据的过滤造成的。;;据报道攻击者能上传内容并以'.php' 为扩展名保存在服务器上。当攻击者对上传的文件递交请求，文件内容将不会被发送而是由PHP引擎解析执行;;成功的利用该漏洞可能允许攻击者在存在漏洞的服务器上执行恶意脚本代码;;解决方案:更新或禁用该CGI组件。;;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

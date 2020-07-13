@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17161
+NAME=Sybase TCP/IP监听者默认运行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Sybase TCP/IP监听者默认运行
+DESCRIPTION=Sybase SQL server服务器默认监听TCP/IP的端口可能接受不被信任的主机的连接.;;解决方案: 对不被信任的连接主机的流量进行过滤;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

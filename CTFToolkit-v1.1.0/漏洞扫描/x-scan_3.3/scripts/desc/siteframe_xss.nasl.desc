@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11448
+NAME=Siteframe跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Siteframe是否存在跨站脚本攻击漏洞
+DESCRIPTION=Siteframe 2.2.4存在一个跨站脚本漏洞. 攻击者可利用该漏洞在本主机上进行跨站脚本攻击.;;另外,该文件可能存在使恶意攻击者获得服务器web服务根目录的物理路径.;;解决方案:升级到最新的版本.;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 k-otik.com

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15583
+NAME=没有密码的", account, "帐号
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=使用"+account+ "帐号登陆远程主机
+DESCRIPTION=帐号'", account, "'没有设置密码. ;攻击者可以利用这一点获得此系统的更高的特权;;此帐号可能是由某个欺骗性的Linux Redhat补丁所安装的后门创建的.;;参考 http://www.k-otik.com/news/FakeRedhatPatchAnalysis.txt ;;风险等级 : 高;解决方案 : 禁止这个帐号并检查系统
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi

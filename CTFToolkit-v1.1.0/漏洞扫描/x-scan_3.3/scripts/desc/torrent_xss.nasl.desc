@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15924
+NAME=Blog Torrent Cross Site Scripting
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Looks for a XSS in Blog Torrent.
+DESCRIPTION=Blog Torrent存在一个远程目录遍历漏洞, ;一个基于web的应用程序允许用户存放Bit Torrent文件.;;一个跨站脚本执行漏洞影响着远程这个版本的;软件允攻击者发起攻击对第三;方使用远程的服务器.;;解决方案 : 升级到 BlogTorrent 0.81;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) Tenable Network Security.

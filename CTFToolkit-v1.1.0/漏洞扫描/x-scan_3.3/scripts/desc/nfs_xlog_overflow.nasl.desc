@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11800
+NAME=Linux nfs-utils xlog() off-by-one 溢出漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=检查 NFS
+DESCRIPTION=rpc.mountd 进程 包含可被远程利用的 off-by-one 溢出漏洞;攻击者可以利用该漏洞获取 root 权限.;;解决方案 : 升级到最新版本的 nfs-utils; 风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

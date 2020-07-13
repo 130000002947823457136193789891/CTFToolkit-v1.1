@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12263
+NAME=IMP Content-Type 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=存在于IMP里的Content-Type检查性跨站脚本漏洞
+DESCRIPTION=所有运行IMP v2至3.2.3的远程服务系统均存在漏洞.  ;攻击者无论在何地,只要向目标发送一封包含精心构造的特定Content-Type报头信息的MIME邮件, 而一旦邮件被阅读,其中包含的Javascript代码就会后台执行. ;;注意: Nessus已经确认该漏洞存在于目标系统;可以透过查看安装好的IMP系统版本号来确认是否存在漏洞;;目前还不会正式披露该漏洞的具体细节. ;;解决方法: 升级到IMP 3.2.4或更高的版本.;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall (Chinese by Goward,2004-06-08,WX)

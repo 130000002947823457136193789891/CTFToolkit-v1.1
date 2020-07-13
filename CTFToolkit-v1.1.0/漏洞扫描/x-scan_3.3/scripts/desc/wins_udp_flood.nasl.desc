@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10315
+NAME=WINS UDP洪水攻击
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使远程系统WINS服务崩溃
+DESCRIPTION=我们可以通过向远程WINS服务器发送大;;量的随机生成的UDP数据报使其崩溃.;;如果你不是非使用WINS不可，那么关闭这项服务.;;攻击者可以利用这个漏洞使你的NT系统网络崩溃.;;解决方案:安装Win NT SP4补丁;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

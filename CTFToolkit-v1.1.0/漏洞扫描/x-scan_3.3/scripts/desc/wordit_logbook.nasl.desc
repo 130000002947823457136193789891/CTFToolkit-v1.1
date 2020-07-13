@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11360
+NAME=Wordit Logbook
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/logbook.pl是否存在
+DESCRIPTION=该CGI安装了logbook.pl文件。;该CGI存在著名的安全漏洞，允许任何人读取主机上的任意文件。;;解决方案: 从/cgi-bin里删除该文件。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

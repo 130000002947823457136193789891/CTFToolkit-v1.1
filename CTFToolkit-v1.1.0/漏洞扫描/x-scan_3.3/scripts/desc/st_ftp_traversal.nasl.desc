@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11677
+NAME=ST FTP 遍历漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=尝试突破FTP根目录限制
+DESCRIPTION=远程FTP服务端存在漏洞，允许用户接触到FTP服务端根目录以外的文件。;;攻击者可以通过命令:;;CWD C:;;突破FTP限制。;;解决方案: 联系销售商索取补丁程序。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

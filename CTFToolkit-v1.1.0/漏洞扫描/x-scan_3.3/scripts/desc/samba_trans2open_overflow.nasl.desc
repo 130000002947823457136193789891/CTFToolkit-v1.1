@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11523
+NAME=Samba trans2open缓冲区溢出漏洞
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=溢出攻击远程samba服务器
+DESCRIPTION=远程Samba服务器的trans2open()函数存在缓冲区溢出漏洞.;;远程攻击者可以利用这个漏洞以root用户权限在系统上执行任意指令.;;解决方案 : 升级到Samba 2.2.8a或者3.0.0;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

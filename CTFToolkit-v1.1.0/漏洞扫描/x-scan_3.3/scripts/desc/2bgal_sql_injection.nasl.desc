@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16046
+NAME=2BGal SQL 注入
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL 注入
+DESCRIPTION=远程主机正在运行2BGal, 一个PHP写的图片展示软件.;;此版本存在一个漏洞，任何人都可以注入任意的SQL命令,获取到远程主机的管理入口.;;解决方案 :升级到最新版 ;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

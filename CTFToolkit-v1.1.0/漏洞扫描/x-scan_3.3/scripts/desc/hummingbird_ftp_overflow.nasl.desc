@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15613
+NAME=Hummingbird Connectivity FTP服务的XCWD命令溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=尝试XCWD命令缓冲溢出
+DESCRIPTION=远程主机正在运行Hummingbird Connectivity FTP服务器.;;发送一个带有超长参数的XCWD命令可能会使远程FTP服务器关闭.;;攻击者可以利用这个问题来阻止远程站点共享其某些资源.;;解决方案 : 升级到更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

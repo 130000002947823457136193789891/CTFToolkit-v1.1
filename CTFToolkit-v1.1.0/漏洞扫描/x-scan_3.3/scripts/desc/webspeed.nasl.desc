@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10304
+NAME=WebSpeed远程配置漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=可管理WebSpeed
+DESCRIPTION=攻击者可以通过提交请求:/scripts/wsisa.dll/WService=anything?WSMadmin来重新配置远程WEB服务器。;;解决方案：编辑ubroker.properties文件，修改:;AllowMsngrCmds = 1;为:;AllowMsngrCmds = 0;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison;翻译 By ZDI

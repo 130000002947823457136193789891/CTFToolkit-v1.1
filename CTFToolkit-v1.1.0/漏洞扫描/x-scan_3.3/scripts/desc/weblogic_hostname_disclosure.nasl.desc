@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11606
+NAME=WebLogic 服务端泄漏主机名
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=发送类似GET . \r\n\r\n的请求
+DESCRIPTION=远程WebLogic服务端处理生成重定向的请求时会泄漏该主机的NetBIOS主机名;;攻击者可以利用该信息对主机进一步实行攻击。;;解决方案: 无;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

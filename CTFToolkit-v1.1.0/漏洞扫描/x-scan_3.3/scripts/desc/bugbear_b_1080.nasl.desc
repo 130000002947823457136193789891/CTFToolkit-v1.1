@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11733
+NAME=Bugbear.B蠕虫
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测Bugbear.B蠕虫
+DESCRIPTION=BugBear.B正在该端口监听. ;远程攻击者可以连接到该端口以获得该主机的敏感信息;例如密码信息或者信用卡账号...;;BugBear.B蠕虫自身包含有一个键盘纪录器并且可以终止;反病毒软件或者个人防火墙的进程. 同时还可以通过邮件或Windows共享传播自身.;;解决方案: ;- 使用反病毒软件清除该蠕虫.;- 关闭Windows共享;- 参见http://www.symantec.com/avcenter/venc/data/w32.bugbear.b@mm.removal.tool.html;;风险等级 : 待定
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11295
+NAME=CSCdx39981
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=远程的VPN集中器受制于一个VPN客户端;当接受到一个很长字段的用户名时，验证漏洞可导致集中器强制重启 .;;漏洞相关的Cisco ID是CSCdx39981;;解决方案: ;http://www.cisco.com/warp/public/707/vpn3k-multiple-vuln-pub.shtml;风险等级：中。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=18006
+NAME=PostNuke多个模块SQL注入/跨站脚本及路径泄露漏洞
+CATEGORY=攻击
+FAMILY=CGI abuses : XSS
+SUMMARY=检测PostNuke中op和module的Cross-Site脚本漏洞
+DESCRIPTION=安装在远程主机PostNuke对用户录入的内容没有适当的过滤，'admin.php'脚本对'module'参数值，'user.php'脚本对'op'参数值过滤不严.远程攻击者可能利用这些漏洞对用户注入任意的HTML和脚本、跨站脚本执行、cookies欺骗等攻击.解决方案 :将PostNuke更新到0.760 RC4版或等待以后更高的版本。;;风险等级:低 
+COPYRIGHT=脚本属于 Copyright (C) 2005 Tenable Network Security

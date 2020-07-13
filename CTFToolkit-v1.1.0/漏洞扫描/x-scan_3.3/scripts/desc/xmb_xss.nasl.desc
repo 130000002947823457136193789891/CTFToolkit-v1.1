@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11527
+NAME=XMB跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测XMB论坛是否存在跨站脚本漏洞
+DESCRIPTION=运行XMB论坛的远程主机存在跨站脚本漏洞。该漏洞允许攻击者窃取合法用户的cookie。;;解决方案：升级论坛程序到最新版本。;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16232
+NAME=VERISTAS Backup Exec Agent Browser 远程缓冲区溢出(DoS)
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=测试 VERISTAS Backup Exec Agent Browser 缓冲区溢出
+DESCRIPTION=远程主机运行着存在远程缓冲区溢出漏洞的VERITAS Backup Exec Agent Browser版本。攻击者通过发送一个精心构造的数据包可以执行任意代码或者发动拒绝服务攻击;;解决方案：http://support.veristas.com/docs/273419;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

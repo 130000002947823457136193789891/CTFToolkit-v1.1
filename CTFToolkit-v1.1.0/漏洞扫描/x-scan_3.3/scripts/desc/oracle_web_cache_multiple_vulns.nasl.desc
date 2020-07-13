@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12126
+NAME=Oracle AS Web Cache 多个漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Oracle AS WebCache的版本
+DESCRIPTION=远程主机正在运行版本为9.0.4.0或更早版本的Oracle Application Server Web Cache。;;该版本存在多个未公开漏洞。;;解决方案: http://otn.oracle.com/deploy/security/pdf/2004alert66.pdf;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

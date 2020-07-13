@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10349
+NAME=sojourn.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在 /cgi-bin/sojourn.cgi
+DESCRIPTION=远程主机存在'sojourn.cgi'脚本. 该脚本存在一个安全问题;可导致攻击者以http进程的权限读取任意文件(通常是root或者nobody).;;解决方案 : 从/cgi-bin目录中删除该脚本.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

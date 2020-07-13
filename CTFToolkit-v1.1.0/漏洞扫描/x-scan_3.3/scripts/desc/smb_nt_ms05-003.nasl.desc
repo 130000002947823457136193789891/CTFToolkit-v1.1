@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16125
+NAME=索引服务中的漏洞可能允许远程执行代码 (871250) (注册表检查)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=以 MS05-003 安全公告检查注册表
+DESCRIPTION=远程主机的索引服务(Indexing Service)具有;一个易受攻击的安全漏洞。此漏洞可能允许攻击者通过发起恶意查询命令;在远程计算机上执行任意的代码。;;解决方法 : http://www.microsoft.com/technet/security/bulletin/ms05-003.mspx ;风险等级 : 高
+COPYRIGHT=此脚本版权归 Copyright (C) 2005 Tenable Network Security 所有。翻译：wbpluto黄俊伟

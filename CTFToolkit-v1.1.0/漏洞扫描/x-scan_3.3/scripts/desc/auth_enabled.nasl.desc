@@ -1,0 +1,7 @@
+ID=10021
+NAME=Identd enabled
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检测是否安装了identd
+DESCRIPTION=远程主机正在运行ident（或称为'auth')守护进程。ident 服务向潜在的攻击者提供敏感信息，例如有哪些用户在运行哪些服务等。这有助于攻击者集中在那些对其有价值的服务（那些拥有管理员权限的服务）上。如果你不需要使用identd这个服务，就要禁用它。;解决方案:针对Unix, 在/etc/inetd.conf文件中注释'auth' 或者 'ident'所在行并重新启动inetd服务;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

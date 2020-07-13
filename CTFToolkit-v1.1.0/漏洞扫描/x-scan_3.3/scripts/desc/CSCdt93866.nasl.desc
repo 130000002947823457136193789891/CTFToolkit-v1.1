@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10982
+NAME=CSCdt93866
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=发送一个精心构造的NTP控制包, 将可能促发一个 ;NTP后台程序的缓冲区溢出。此漏洞可以被远程溢出。 ;如果溢出成功可能导致任意;代码在目标机器上执行。;;这个漏洞相关的Cisco漏洞ID为： CSCdt93866.;;;攻击者可能通过此漏洞在目标主机上执行;任意代码(虽然这很难做到);解决方案 : http://www.cisco.com/warp/public/707/NTP-pub.shtml;Risk 风险等级 : 高;;注意：因为Nessus根据远程主机的BANNER信息来判断该漏洞是否存在，因此这可能是误报。
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12250
+NAME=WebAdmin.nsf迂回访问检查器
+CATEGORY=攻击
+FAMILY=其他
+SUMMARY=WebAdmin.nsf迂回访问检查器
+DESCRIPTION=远程的Lotus webserver在admin.nsf文件的访问控制上存在一个可以被绕过的漏洞。;;成功的利用这个漏洞会导致攻击者访问到远程系统上的敏感文件。;;请见：http://www.nextgenss.com/advisories/replicaid.txt;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Net-Square Solutions Pvt Ltd. (Chinese version by Dancefire)

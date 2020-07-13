@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11454
+NAME=SMB 使用W32/Deloder密码登陆
+CATEGORY=破坏性攻击
+FAMILY=WINDOWS
+SUMMARY=尝试登陆远程主机
+DESCRIPTION=W32/Deloder 是一个蠕虫。该蠕虫自带一系列内建的管理员密码，并尝试使用这些密码连接远程主机。;;当前插件尝试使用上述的密码登陆远程主机。;;解决方案: 更换强壮的管理员密码。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

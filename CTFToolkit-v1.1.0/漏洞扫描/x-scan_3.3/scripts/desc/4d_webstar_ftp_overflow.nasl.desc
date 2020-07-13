@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14195
+NAME=4D WebStar FTP缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查4D FTP服务器
+DESCRIPTION=该远程主机运行着4D WebStar FTP服务器软件.;;此版本的该软件存在一个缓冲区溢出条件,攻击者可利用此漏洞以FTP服务器的权限(root)在该主机上运行任意命令.;;解决方案:升级到4D WebStar 5.3.3或者更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

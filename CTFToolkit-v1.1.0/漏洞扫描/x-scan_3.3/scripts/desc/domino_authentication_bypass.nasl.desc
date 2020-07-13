@@ -1,0 +1,7 @@
+ID=10953
+NAME=Authentication bypassing in Lotus Domino
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否可以绕过必要的认证而访问Lotus Domino数据库
+DESCRIPTION=只要构造一个特殊的url，就可以绕过Domino数据库的认证机制。这样的url如下所示：http://host.com/<databasename>.ntf<buff>.nsf/ 其中<buff> 是一个特定的长度.;解决方案: 升级到最新版本的Domino.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2002 Davy Van De Moere

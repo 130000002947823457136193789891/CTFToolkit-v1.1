@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11411
+NAME=Backup CGIs download
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=尝试下载远程CGIs
+DESCRIPTION=这个脚本通过对每个后缀为.bak, ~ 或 .old CGI文件的GET请求，尝试下载它们的备份文件.
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison<Translated By Stravadivaly>

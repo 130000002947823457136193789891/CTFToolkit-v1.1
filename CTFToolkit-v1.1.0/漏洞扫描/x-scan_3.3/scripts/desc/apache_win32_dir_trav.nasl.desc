@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11092
+NAME=Apache 2.0.39 Win32目录遍历漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Apache 2.0.39 Win32目录遍历
+DESCRIPTION=Windows平台上的Apache 2.0.39存在一个安全漏洞;攻击者可能进行目录遍历攻击,远程攻击者可以利用这个漏洞获得服务器上任意文件内容甚至执行系统命令.;;解决方案: ;    - 升级到Apache 2.0.40;    - 或者将Apache安装到Unix平台;    - 或者编辑httpd.conf文件，在第一个'Alias'或者'Redirect'指示前，增加如下全局服务配置:;    RedirectMatch 400 \\\.\.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

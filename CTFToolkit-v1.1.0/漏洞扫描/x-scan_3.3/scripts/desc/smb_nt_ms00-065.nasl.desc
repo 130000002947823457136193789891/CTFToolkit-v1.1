@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10504
+NAME=静态图像服务特权提升补丁
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测补丁Q272736是否安装
+DESCRIPTION=检测到静态图像服务特权提升补丁没有安装.;;这可能导致一个已经在本地登陆到系统中的恶意用户提升自己的权限.;;解决方案 : 参见http://www.microsoft.com/technet/security/bulletin/ms00-065.asp;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison(chinese version by lsy)

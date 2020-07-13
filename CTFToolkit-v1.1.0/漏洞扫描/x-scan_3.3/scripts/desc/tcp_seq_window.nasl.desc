@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12213
+NAME=TCP序号相近
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测远程主机TCP序号是否相近
+DESCRIPTION=远程主机可能存在TCP序号是否相近漏洞;这个漏洞可能导致攻击者向远程主机发送欺骗的RSP数据包;导致远程主机关闭TCP连接。;;这可能导致一些专门的服务(BGP,VPN等...)TCP连接中断。在BGP里面，会造成Internet中断;;解决方案：参考http://www.securityfocus.com/bid/10183/solution/;风险等级：中
+COPYRIGHT=This script is (C) 2004 Tenable Network Security 翻译 by yztgx

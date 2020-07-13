@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17998
+NAME=CubeCart检查
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+摘要= 检查CubeCart是否存在
+描述= 这个脚本能检查远程计算机是否在运行CubeCart并提取其版本号和实例的位置。 ;;CubeCart 是一个用PHP 和 MySQL 编写，用于电子商务的脚本。;更多资料请参阅http:// www.cubecart.com/ 
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10917
+NAME=SMB Scope
+CATEGORY=设置
+FAMILY=配置错误
+SUMMARY=SMB scope 选项
+DESCRIPTION=当前插件配置了Nessus以便其探测是否可以本地获取各主机及局域网信息(例如: 向PDC发送请求)。;;如果正在检测一个工作站，局域网的信息也是需要了解的。如果正在检测整个网络，包括PDC，也有必要过滤掉冗余信息。;;更多信息请参见插件的preferences控制面板。;;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

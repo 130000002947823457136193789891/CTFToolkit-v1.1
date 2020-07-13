@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15477
+NAME=MySQL若干缺陷(3)
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查MySQL的版本
+DESCRIPTION=您所运行的MySQL的版本低于4.0.20.;;这些版本的数据库存在两个缺陷 :;;- 存在一个未经授权的数据库授予(GRANT)特权漏洞, 可导致攻击者不正当地使用已授予他的GRANT特权并将此特权用于其他数据库;;- 不正当使用全文检索功能可能会触发拒绝服务漏洞.;;解决方案 : 升级MySQL到4.0.21;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

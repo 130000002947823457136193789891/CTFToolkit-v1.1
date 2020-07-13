@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14255
+NAME=Outlook Web Access Version
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Outlook Web Access version check
+DESCRIPTION=带有 Outlook Web Access (OWA) 的Microsoft Exchange Server 在默认 HTML WEB 页上;包含 Exchange 版本号.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

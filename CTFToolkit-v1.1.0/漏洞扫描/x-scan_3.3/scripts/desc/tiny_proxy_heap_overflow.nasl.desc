@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10596
+NAME=Tinyproxy 堆溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=代理服务器堆溢出
+DESCRIPTION=向远程服务器发送一个connect AAA[...]AAAA.//命令可以使其崩溃.;;利用这个漏洞攻击者可能远程执行任意指令。;;Solution:如果你使用Tiny Proxy，升级到1.3.3a版或与你的软件供应商联系以获得补丁;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

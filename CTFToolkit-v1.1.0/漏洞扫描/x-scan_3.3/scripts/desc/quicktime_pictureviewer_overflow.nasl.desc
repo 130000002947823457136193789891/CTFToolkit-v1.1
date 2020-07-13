@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17637
+NAME=Quicktime PictureViewer 缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测QuickTime Player/Plug-in的版本
+DESCRIPTION=远程主机正在使用QuickTime,QuickTime是一款流行的媒体播放器,它能够播放大多数的媒体文件.;;在QuickTime中附带的PictureViewer(图片浏览)工具存在缓冲区溢出漏洞,利用该漏洞有可能允许一个攻击者在远程主机上执行任意代码.要利用该漏洞,攻击者必须构造一个畸形的文件,并诱使用户使用QuickTime PictureViewer打开.;;解决方法:卸载该软件或升级到该软件的6.5.2版(如果可能的话);危险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

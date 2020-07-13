@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16334
+NAME=ArGoSoft FTP 服务器快捷方式文件扩展名过滤绕过
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=获得远程ArGoSoft服务器的版本
+DESCRIPTION=远程服务器正在运行ArGoSoft FTP 服务器。;据报道，ArGoSoft FTP 服务器存在一个允许用户绕过限制上传连接过滤器的漏洞。;攻击者可以利用这个漏洞获得读写ftp服务器上任意文件和目录的权限.;;解决方案 : 升级ArGoSoft FTP到1.4.2.7或最近;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

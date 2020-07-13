@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12084
+NAME=多个Checkpoint 4.x格式化字符串漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使Checkpoint防火墙崩溃
+DESCRIPTION=特殊构造的HTTP请求会让远程的Checkpoint防火墙崩溃。该漏洞表明远程服务器上的Checkpoint FW-1 4.x存在多个漏洞。 ;;解决方案: 升级到Checkpoint-NG;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

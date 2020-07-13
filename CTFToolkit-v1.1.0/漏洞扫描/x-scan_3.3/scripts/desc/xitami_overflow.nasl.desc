@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10322
+NAME=Xitami Web Server缓冲区溢出
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=Xitami缓冲区溢出
+DESCRIPTION=通过向远程web主机的TCP81端口发送大量数据可能使主机执行任意代码。;该漏洞可能允许攻击者在远程系统上执行任意代码或令远程系统拒绝服务。;;解决方案: 目前暂无。请联系Xitami;;参考资料: http://www.securiteam.com/exploits/3F5QLPPQ1A.html;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

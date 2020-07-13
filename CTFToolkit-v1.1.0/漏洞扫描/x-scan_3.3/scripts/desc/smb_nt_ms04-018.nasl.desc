@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13643
+NAME=Cumulative Security Update for Outlook Express (823353)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-018
+DESCRIPTION=远程主机没有安装Outlook Express客户端的拒绝服务漏洞安全补丁，攻击者可利用此漏洞发送畸形数据使Outlook崩溃，导致用户无法正常阅读电子邮件;;解决方案：http://www.microsoft.com/technet/security/bulletin/ms04-018.mspx;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

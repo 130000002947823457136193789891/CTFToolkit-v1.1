@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15617
+NAME=Cherokee auth_pam格式化字符串漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查Cherokee的版本
+DESCRIPTION=远程主机正在运行Cherokee -- 一款快速小巧的web服务器.;;此软件在处理使用auth_pam的鉴权请求时容易受到格式化字符串攻击的危害.;;解决方案 : 升级到Cherokee 0.4.17.1或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

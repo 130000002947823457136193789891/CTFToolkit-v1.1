@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15398
+NAME=ICECast的libshout库远程缓冲溢出
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查icecast的版本
+DESCRIPTION=远程服务器运行版本早于1.3.9的ICECast。ICECast是一个开放源代码的音频流媒体服务器.;;Icecast和libshout库由于没有正确地检查客户所发送数据的边界，因而会受到一个远程缓冲溢出的影响. ;;这个漏洞会导致远程攻击者以服务器的权限造成堆栈溢出，从而执行任意的代码.;;*** Nessus仅使用收集到的信息来;*** 报告这个漏洞.;;解决方案 : 升级到更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

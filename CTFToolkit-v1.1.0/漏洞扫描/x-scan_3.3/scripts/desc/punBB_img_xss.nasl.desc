@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15937
+NAME=PunBB IMG Tag Client Side Scripting XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 PunBB 的版本
+DESCRIPTION=远程主机上正在运行PunBB,一个开放源码,高速的,轻量级的PHP论坛.;;这个版本存在跨站脚本漏洞;应用程序不支持IMG标签验证.;;使用一个特殊构造的URL, 攻击者可以执行任意代码导致完整性遭到破坏.;;解决方案：升级到 1.0.1以上版本;;请参阅: http://www.punbb.org/;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak 翻译:HUIVER

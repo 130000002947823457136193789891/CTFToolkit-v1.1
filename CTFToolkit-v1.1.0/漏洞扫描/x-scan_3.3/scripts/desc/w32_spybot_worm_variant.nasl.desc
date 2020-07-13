@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15520
+NAME=w32.spybot.fcd蠕虫感染
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查防火墙日志中有关8080端口的外部连接
+DESCRIPTION=系统受到w32.spybot.fcd蠕虫的一个变种的感染. ;;被感染的系统为扩散将扫描同一子网内其他系统.;;这个蠕虫还会对互联网的目标进行DDoS攻击.;;解决方案 : 确保安装了所有的MS补丁和最新的杀毒软件(AV).;;;参阅 : http://securityresponse.symantec.com/avcenter/venc/data/w32.spybot.fcd.html;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 jorge rodriguez

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14591
+NAME=Titan FTP Server CWD 命令堆溢出
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查 Titan FTP server 的版本
+DESCRIPTION=Titan FTP 3.21（包括3.21）之前的所有版本，在执行 CWD 命令时都有一个远程堆溢出漏洞。;;攻击者可能使服务器对合法用户拒绝服务，或者在远端主机执行任意指令。;;解决方案 : 升级到 Titan FTP 3.22 或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

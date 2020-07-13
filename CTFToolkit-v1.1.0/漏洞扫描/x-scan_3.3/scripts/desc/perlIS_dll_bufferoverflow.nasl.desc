@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10811
+NAME=ActivePerl perlIS.dll缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=检测是否可以利用perlIS.dll执行任意命令
+DESCRIPTION=攻击者可以在远程主机上执行任意命令.;检测到远程IIS服务器正在运行的;ActivePerl版本低于5.6.1.630并且检测到;没有针对perlIS.dll配置"检查文件是否存在"选项.  ;;解决方案:  升级ActivePerl 版本;或者配置"检查文件是否存在"选项.;要配置这个选项参考以下步骤, 打开Internet 服务管理器, 右击你的服务器,在菜单中选择"属性"栏, ;点击配置... 按钮, 在扩展名列表中找到对应perlIS.dll的项,;点击配置, 然后点击"检查文件是否存在"选项.;;更多信息: http://www.securityfocus.com/bid/3526;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 H D Moore & Drew Hintz ( http://guh.nu )(chinese version by lsy)

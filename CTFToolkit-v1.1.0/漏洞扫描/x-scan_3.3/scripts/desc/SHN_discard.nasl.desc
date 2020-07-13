@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11367
+NAME=Discard端口开放
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检查是否开放了'discard'端口
+DESCRIPTION=远程主机正在运行'discard'服务. 此服务建立一个监听套接字并忽略所有接接收到的数据. ;;目前此服务已不再使用, 因此告诫禁止此服务.;;;解决方案 : ;;- 在Unix系统, 注释/etc/inetd.conf文件中的'discard'行并重新启动inetd进程; ;- 在Windows系统, 将下列注册表项设置为0 :;  HKLM\System\CurrentControlSet\Services\SimpTCP\Parameters\EnableTcpDiscard;   ;然后运行cmd.exe并键入如下命令来重新启动服务 :;;   net stop simptcp;   net start simptcp;   ;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 StrongHoldNet

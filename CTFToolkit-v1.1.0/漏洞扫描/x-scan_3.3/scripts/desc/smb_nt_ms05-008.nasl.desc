@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16324
+NAME=Windows Shell漏洞 (890047)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=确认hotfix 890047已经被安装
+DESCRIPTION=远程系统包含一个在Windows Shell中的漏洞.;此漏洞允许攻击者在远程主机上提升权限并且执行恶意代码.;;为了利用这个缺陷, 攻击者需要诱使受害人访问一个恶意站点或者打开一个恶意文件附件.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS05-008.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

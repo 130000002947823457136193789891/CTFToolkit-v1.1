@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17204
+NAME=Open News server
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=公共NNTP服务对外开放
+DESCRIPTION=远程主机对所有人开放.;一些用户喜欢打开公共NNTP来使用匿名读取和发送文章.;注意在Internet上许多机器人程序收集这些主机,; 所以你不能指望长时间不为人知.;;不必要的连接将耗费你的带宽,;如果外部人员使用你的服务来读取或者发表有'政治问题'的文章,;可能会带来法律问题.;;** 由于基于IP地址的认证非常普遍,;** 如果Nessus的IP也在目标扫描的IP中,可能会有误报.;;解决方案: 加强认证方式或者过滤外来的IP地址;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi & Translated by 代码罐头

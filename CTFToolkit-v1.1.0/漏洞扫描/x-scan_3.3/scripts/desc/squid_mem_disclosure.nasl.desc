@@ -1,0 +1,9 @@
+[CHINESE]
+ID=15929
+NAME=Squid Proxy Failed DNS Lookup Random Error Messages
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查 freed pointer 的使用方法
+DESCRIPTION=远程主机的此端口上正在运行Squid 代理.;;这个版本中存在一个漏洞;攻击者通过使用freed pointer，导致内存泄漏.;;解决方案: 安装官方补丁, 对于 squid，请访问: ;www.squid-cache.org.  通过使用代理服务器上的访问列表来保护你自己.;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)
+

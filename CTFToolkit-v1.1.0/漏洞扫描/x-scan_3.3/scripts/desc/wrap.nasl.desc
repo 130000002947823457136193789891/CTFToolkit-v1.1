@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10317
+NAME=wrap
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/wrap是否存在
+DESCRIPTION=主机安装了'wrap'CGI程序.;这个CGI允许任意用户列举文件标志为+755的目录。;;注意所有的'wrap'应用都不易受到攻击。;;请参考相关的CVE文档。;;解决方案：从/cgi-bin删除'wrap'.;;风险等级：低/中;
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13640
+NAME=任务计划攻击(841873)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Checks for ms04-022 over the registry
+DESCRIPTION=远程Windows系统存在一个安全漏洞，系统的任务计划程序可能被利用来执行非授权的命令。;;要利用这个漏洞，攻击者需要欺骗远程主机上的用户执行一个.job文件;或者引诱该用户访问一个恶意的站点，然后就可能在用户的系统上执行任意命令。;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-022.mspx;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 RedStorm Network Security Website- REDSEC.ORG

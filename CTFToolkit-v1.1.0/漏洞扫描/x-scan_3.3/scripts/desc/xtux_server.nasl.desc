@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11016
+NAME=检测xtux server
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检测xtux server
+DESCRIPTION=xtux server正运行在该端口上。如果攻击者连接该端口并发送垃圾数据，服务段程序可能会陷入死循环使CPU过载。;;解决办法: 禁用该服务，至少起用防火墙保护;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

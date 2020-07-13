@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16194
+NAME=运行着Gopher代理
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检测gopherd是否能被用于代理
+DESCRIPTION=远程主机运行着Gopher服务。;攻击者可以通过发送'ftp://hostname.of.the.ftp.server'连接到第三方FTP服务器而不会泄漏自己的IP地址;;攻击者也可以利用这个ping到你网络里的主机;;解决方案：禁止FTP支持gopher服务;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

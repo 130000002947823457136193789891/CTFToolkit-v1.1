@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14196
+NAME=4D Webstar 信息泄露
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查4D WebStar
+DESCRIPTION=远程主机运行4D WebStar Web服务器;;服务器存在两个缺陷:;;-攻击者可以通过在路径名后添加一个"*"号获取目录文件清单;;-攻击者可以通过请求"/cgi-bin/php.ini"获取php.ini内容;;解决方案：升级软件到5.3.3或更新;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

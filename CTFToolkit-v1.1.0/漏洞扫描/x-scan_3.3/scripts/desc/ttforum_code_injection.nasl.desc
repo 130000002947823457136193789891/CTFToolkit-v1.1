@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11615
+NAME=ttforum 多个漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测ttforum是否存在插入代码漏洞
+DESCRIPTION=远程主机正在运行ttforum。该套CGI程序存在多个漏洞，允许攻击者获得论坛管理员权限或在主机上执行任意代码。;;解决方案: 禁用该论坛或升级到修复后的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

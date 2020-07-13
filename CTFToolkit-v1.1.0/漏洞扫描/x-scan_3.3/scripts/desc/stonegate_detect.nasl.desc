@@ -1,0 +1,8 @@
+[中文]
+ID=11762
+NAME=StoneGate客户端认证检测
+CATEGORY=信息搜集
+FAMILY=防火墙
+脚本摘要信息=检验StoneGate防火墙客户端认证提示符
+脚本详细描述=如果你通过Internet或非授权的内部网络看到StoneGate防火墙登录提示符可能出错了.;;解决办法 : 限制到此端口的输入流量;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 it.sec/Holger Heimann

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11438
+NAME=Apache Tomcat 目录列表和文件泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Apache Tomcat泄露目录列表和文件的缺陷
+DESCRIPTION=Apache Tomcat (在3.3.1a之前版本)存在一个泄露目录列表和文件的缺陷;它允许远程攻击者通过Index.html和其它的引索文件列出目录;或者得到未被编译的*.JSP文件原代码.;;解决方案: 升级到Tomcat 4.1.18或更高的版本.;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 A.D.Consulting;Interpreted by robur!

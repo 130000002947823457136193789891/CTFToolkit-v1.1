@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10398
+NAME=SMB 获取域SID
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=获取域SID
+DESCRIPTION=当前脚本模仿LsaQueryInformationPolicy()函数获取域（或主机）的SID (安全身份验证)。;;域/主机的SID可以用来获取域用户或本地用户帐号的列表。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

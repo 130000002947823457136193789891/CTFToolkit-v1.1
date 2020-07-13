@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10791
+NAME=Ultraseek Web 服务器检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=Ultraseek Web 服务器检测
+DESCRIPTION=Ultraseek Web 服务器在此主机上运行。;已知 Ultraseek 含有一些安全漏洞 ;包括缓冲区溢出及跨站脚本问题等。;;解决方案：确认您正在运行最新版本的 Ultraseek ;Web 服务器，若您不用它或者也可以禁用之。;;附加信息：;http://www.securiteam.com/cgi-bin/htsearch?config=htdigSecuriTeamwords=Ultraseek;;风险等级：低
+COPYRIGHT=版权所有 (C) 2001 SecuriTeam  , 翻译：hutuworm

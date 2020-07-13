@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13839
+NAME=eSeSIX Thintune Thin Client Multiple Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查当前 eSeSIX 软件后门
+DESCRIPTION=Thintune 是德国eSeSIX GmbHis 出售的一系列瘦客户应用。它们提供基于定制的linux上的 ICA, RDP, X11 ， SSH 支持;;已经发现了多个安全漏洞，其中一个是后门，使用口令('jstwo') 可以完全控制系统;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15437
+NAME=w-Agora远程目录遍历缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查w-Agora的目录遍历
+DESCRIPTION=远程主机正在运行w-agora -- 一个PHP编写的基于web的论坛管理软件.;;此软件有受到目录遍历攻击的倾向.;攻击者可以发送人工精心构造的URL，然后以web服务器进程的特权来读取远程系统上的任意文件.;;解决方案 : 升级软件到最新的版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,10 @@
+[CHINESE]
+ID=12209
+NAME=Microsoft Hotfix for KB835732 (检查SMB)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=通过使用远程的SMB服务来检查Microsoft Hotfix KB835732。
+DESCRIPTION=运行某版本Microsoft操作系统的远程主机可能会存在几种形式的漏洞：包括拒绝服务，远程执行任意代码等。Microsoft已经发布了修订补丁(KB835732)来解决这些问题。
+解决方案：安装从Microsoft下载的更新补丁。参考: http://www.microsoft.com/technet/security/bulletin/ms04-011.mspx
+风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

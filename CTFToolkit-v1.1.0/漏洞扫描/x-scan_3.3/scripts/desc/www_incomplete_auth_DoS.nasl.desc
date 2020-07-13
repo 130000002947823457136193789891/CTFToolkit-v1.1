@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12200
+NAME=基本验证缺陷导致Web服务器Dos
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=没有密码保护的基本验证导致Web服务器Dos
+DESCRIPTION=通过发送一个不完整的基本验证请求导致Web服务器Dos。;;远程攻击者可以利用这个漏洞致使Web服务器Dos或者执行任意命令。;;解决方法：升级你的Web服务器或者通过过滤来保护你的系统;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi 翻译 by yztgx

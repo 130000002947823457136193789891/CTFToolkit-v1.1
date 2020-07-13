@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11768
+NAME=proftpd mod_sql injection
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=执行一个SQL注入
+DESCRIPTION=远程FTP服务器在处理USER命令的时候存在SQL注入的漏洞.;攻击者可以利用这个缺陷以任何用户登陆远程主机.;;解决方案 : 如果远程主机是Proftpd,请尽可能升级到1.2.10或者更换数据库为postgreSQL.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(Translation by sunwear and luke)

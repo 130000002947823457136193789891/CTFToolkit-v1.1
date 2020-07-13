@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10685
+NAME=IIS ISAPI缓冲区溢出漏洞
+CATEGORY=攻击
+FAMILY=远程获取管理员
+SUMMARY=测试远程IIS缓冲区溢出漏洞
+DESCRIPTION=远程IIS服务器存在一个ISAPI缓冲区溢出漏洞.; ;可导致攻击者以SYSTEM权限执行任意代码.;;解决方案: 参见 http://www.microsoft.com/technet/security/bulletin/ms01-044.asp;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison(chinese version by lsy)

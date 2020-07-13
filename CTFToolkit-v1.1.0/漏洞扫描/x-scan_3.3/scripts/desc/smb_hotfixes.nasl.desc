@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13855
+NAME=已安装的Windows Hotfixes
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=用已安装的Hotfixes列表填写KB 
+DESCRIPTION=该脚本列举出远程主机上已安装的hotfixes;并将它们存储在知识库中,为其它的SMB脚本使用, 从而避免到远程注册表的无用连接.;;该脚本需要资格凭证,用以登录到远程主机.
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security翻译:HUIVER

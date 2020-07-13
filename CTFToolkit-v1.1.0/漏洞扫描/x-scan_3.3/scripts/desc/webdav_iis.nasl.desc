@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10526
+NAME=IIS：通过WebDAV进行目录列表
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测索引服务器服务的存在
+DESCRIPTION=可以通过使用有WebDav的主机的索引服务器服务对该服务器进行HTTP检索以获得远程目录的列表,而不是远程主机的主页。此问题使攻击者/程序可以获得有关该远程主机的更多信息，也可能使攻击者/程序知道隐藏的HTML文件。;;解决方案：禁止索引服务器服务，或参考http://www.microsoft.com/technet/support/kb.asp?ID=272079 。;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison;Translate by Sniffer

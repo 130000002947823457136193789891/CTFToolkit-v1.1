@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10907
+NAME=Guest belongs to a group
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=检测guest的所在组
+DESCRIPTION=guest用户隶属于guest用户组或guest域之外的其它用户组，用为guest不应该具有其它任何权限，需要修复这个问题。
+Risk factor : 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison
+

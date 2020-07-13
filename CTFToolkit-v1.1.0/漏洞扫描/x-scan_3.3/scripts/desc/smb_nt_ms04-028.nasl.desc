@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14724
+NAME=Buffer Overrun in JPEG Processing (833987)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查ms04-028
+DESCRIPTION=这台远程主机正在运行Windows的一个版本，此版本在浏览JPEG文件的时候容易受到缓冲溢出漏洞的攻击，可导致攻击者在远程主机上执行任意代码.;;为利用这个缺陷，攻击者需要发送一个错误格式的JPEG文件到远程主机上，等待用户使用受影响的Microsoft应用程序打开这个文件.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-028.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

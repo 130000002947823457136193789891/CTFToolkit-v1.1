@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11787
+NAME=SMB 请求句柄缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查 Q817606 补丁
+DESCRIPTION=远程主机存在SMB攻击漏洞，允许未经验证的攻击者破坏主机内存资料。这可能导致攻击者在主机上运行任意代码，或者远程禁用该主机。;;解决方案: 参见 http://www.microsoft.com/technet/security/bulletin/ms03-024.asp; ;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11109
+NAME=Achievo代码注入漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在Achievo
+DESCRIPTION=Achievo可能导致远程主机包含由第三方服务器提供的php文件.;;攻击者可能利用该漏洞在远程主机上插入任意代码并获取web服务权限的shell.;;解决方案: 升级到Achievo 8.2或更新版本;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

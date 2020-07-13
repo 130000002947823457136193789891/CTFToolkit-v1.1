@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11487
+NAME=Advanced Poll的info.php
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在info.php
+DESCRIPTION=远程主机正在运行Chien Kien Uong的Advanced Poll -- 一款使用PHP的简单的网上问卷调查系统.;;此软件默认包括两个分别位于[poll路径]/db/misc/info.php和[poll路径]/text/misc/info.php的info.php文件.;;这两个文件调用了显示远程主机及PHP配置大量信息的phpinfo().;;攻击者可以利用这个漏洞获取远程主机更多机密信息并为攻击作更好的准备.;;解决方案 : 删除这两个文件;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

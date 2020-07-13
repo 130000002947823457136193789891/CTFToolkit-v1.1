@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17157
+NAME=Knox Arkeia Network Backup Agent Unauthorized Access
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查 Arkeia 默认账户的存在
+DESCRIPTION=远程主机运行了 Arkeia Network Backup 代理, 一个代理系统;应用于对远程主机执行远程备份.;;远程版本的代理包含了一个默认的账户 ;攻击者可能利用这个账户取得访问远程主机的任何文档;拥有 arkeia daemon (常也是 root) 的权限;;;解决方案 : 过滤进入端口内容;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

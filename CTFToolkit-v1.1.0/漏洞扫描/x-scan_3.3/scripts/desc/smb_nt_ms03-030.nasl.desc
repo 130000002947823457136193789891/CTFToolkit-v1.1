@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11803
+NAME=DirectX MIDI 溢出 (819696)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查hotfix 819696
+DESCRIPTION=远端主机运行着的Windows中的DirectX存在一个缺陷,;在处理MIDI文件的模块中会引起缓冲区溢出.;;为了利用这个缺陷, 攻击者需要手工制作一个欺诈的MIDI文件;然后把它发送给这台计算机的一个用户. 当这个用户试图读取这个;文件时, 将会触发缓冲区溢出条件并且使得攻击者;可能在当前主机上取得一个shell.;;Solution : 查看 http://www.microsoft.com/technet/security/bulletin/MS03-030.asp;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

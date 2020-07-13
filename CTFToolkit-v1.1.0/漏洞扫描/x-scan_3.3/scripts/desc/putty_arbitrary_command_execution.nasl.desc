@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14262
+NAME=PuTTY 窗口字符导致任意命令执行
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determine PuTTY version
+DEXCRIPTION=PuTTY是一个免费的SSH客户端。;;0.54以下的版本包含了一个漏洞,该漏洞允许恶意用户注入并执行任意命令。;当攻击者发送一条命令后，可以改变程序运行顺序。;;这给攻击者执行任意命令提供条件，;导致数据完整性损失.;;解决方案:升级到0.54或更新版本;;风险等级:高
+COPYRIGHT=脚本版权: David Maciejak 翻译:Heart is flying

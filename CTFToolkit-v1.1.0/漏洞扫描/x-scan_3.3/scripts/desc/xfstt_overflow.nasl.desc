@@ -1,0 +1,11 @@
+[CHINESE]
+ID=11814
+NAME=xfstt存在有执行代码
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=有能力的可以远程进入xfstt
+DESCRIPTION=远程TrueType字体服务(xfstt)有一个漏洞，;可以执行引起这个服务缓冲区溢出的代码。;;并可以获得一个系统管理员账号，可以利用这个漏洞的一个攻击来获得，;可以完全拒绝X11工作;;修补这个漏洞的办法 : 升级到最新版本的xfstt;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security
+
+
+

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12252
+NAME=Korgo蠕虫检测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=Korgo蠕虫检测
+DESCRIPTION=远程主机可能被Korgo蠕虫感染；通过TCP端口445 上的LSASS弱点衍生(就像微软安全公告MS04-011上描述的一样)，打开TCP端口113和3067的后门；参见http://securityresponse.symantec.com/avcenter/venc/data/w32.korgo.c.html;http://www.microsoft.com/technet/security/bulletin/MS04-011.mspx;;方案:；通过使用防火墙禁止访问端口445；加打微软MS04-011补丁；风险级别：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11981
+NAME=vbulletin 日历模块 SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查vbulletin 日历模块 SQL 注入漏洞
+DESCRIPTION=远程主机安装有vBulletin日历模块, 是一个在线日历程序.;;;在calendar.php文件中发现一个漏洞，它容许未被授权的用户注入SQL命令语句.;;一个攻击者可以利用此漏洞控制远程数据库。;;解决方案 : 升级到此软件的最新版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

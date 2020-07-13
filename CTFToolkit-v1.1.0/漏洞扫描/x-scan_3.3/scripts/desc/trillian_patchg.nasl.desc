@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12076
+NAME=Trillian 远程溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=监测Trillian.exe的版本
+DESCRIPTION=Trillian是一个点对点（P2P）的客户端。世界各地的用户可以借助此软件聊天或共享文件。AOL报告：Trillian的即时信使（AIM）部分存在漏洞。远程攻击者可以利用此漏洞在运行Trillian的客户端执行代码。;;解决方案: 升级到Trillian 0.74 补丁 G (或者更高);;参见: http://security.e-matters.de/advisories/022004.html;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

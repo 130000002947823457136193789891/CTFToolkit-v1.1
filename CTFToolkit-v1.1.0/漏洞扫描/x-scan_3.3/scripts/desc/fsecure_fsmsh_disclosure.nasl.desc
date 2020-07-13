@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15931
+NAME=F-Secure 策略管理器路径泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 /fsms/fsmsh.dll
+DESCRIPTION=F-Secure 策略管理器是一种分布式的管理软件,它允许系统管理员从一个web控制台来管理应用程序.;;运行该软件的远程主机上的文件'/fsms/fsmsh.dll' 存在一个安全漏洞,可能泄露该程序的物理路径.攻击者利用获取的路径信息可对远程主机实施更深入准确的攻击.;;解决方案 : 升级这个CGI到更新的版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

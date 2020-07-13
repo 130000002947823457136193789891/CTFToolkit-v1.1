@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15703
+NAME=BNC IRC服务器鉴权旁路漏洞
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查BNC的鉴权旁路
+DESCRIPTION=远程主机正在运行BNC -- 一款IRC代理软件.;此软件存在一个鉴权旁路漏洞.;攻击者可以利用这个漏洞来使用远程IRC代理服务器.;;Nessus可以用随机密码登陆.;;解决方案 : 目前没有解决方案;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15484
+NAME=版本低于1.2.11的proftpd远程用户枚举
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程proftpd的版本
+DESCRIPTION=远程ProFTPd服务器的版本为(或低于)1.2.10;;有可能通过基于登陆过程时间分析攻击的方式来确定远程主机上哪些用户名是有效的.;;利用这个漏洞, 攻击者可以建立有效用户名的清单来针对远程主机实施更有效的暴力破解攻击.;;解决方案 : 升级到更高版本;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

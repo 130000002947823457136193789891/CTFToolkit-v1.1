@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11039
+NAME=mod_ssl off by one缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测mod_ssl版本
+DESCRIPTION=远程主机正在运行的mod_ssl版本;低于2.8.10.;;该版本存在一个off by one缓冲区溢出漏洞;如果允许用户对.htaccess文件具有配置权限的话;将可能使之以WEB进程的权限执行任意命令.;;*** 注释 部分Linux 发行版本 (比方说RedHat);*** 给mod_ssl的老版本提供了补丁. 因此, ;*** 这可能是一个错误的漏洞报告. 请联系厂商;*** 以确定是否确实存在该漏洞;;解决方案 : 升级到2.8.10或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Thomas Reinke(chinese version by lsy)

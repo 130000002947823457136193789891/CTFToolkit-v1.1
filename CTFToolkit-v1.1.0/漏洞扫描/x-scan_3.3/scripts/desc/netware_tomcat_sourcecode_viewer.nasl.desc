@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12119
+NAME=Netware 6.0中Tomcat代码泄漏
+CATEGORY=信息搜集
+FAMILY=NETWARE
+SUMMARY=检查Netware 6.0中Tomcat代码泄漏漏洞
+DESCRIPTION=分布式Netware 6.0中Apache Tomcat 服务端存在一个目录信息泄漏的漏洞.类似本地AUTOEXEC.NCF文件中的RCONSOLE密码等敏感信息会被非法获得.;;例如 : http://target/examples/jsp/source.jsp?%2e%2e/%2e%2e/%2e%2e/%2e%2e/system/autoexec.ncf;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

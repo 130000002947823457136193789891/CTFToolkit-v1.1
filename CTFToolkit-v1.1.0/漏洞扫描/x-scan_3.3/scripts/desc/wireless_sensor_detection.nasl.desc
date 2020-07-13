@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11559
+NAME=Network Chemistry 无线设备探测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测无线设备
+DESCRIPTION=目标主机是Network Chemistry一类的遵从WSP100 802.11协议;的远程传感设备.;;这种设备嗅探802.11b局域网上的数据并将其转发到所有“订阅”;这个数据的设备.;;攻击者可以利用这种设备对802.11无线局域网进行跨区域嗅探。;;Solution:对设备的输入通信进行过滤，同时确保只有经过授权的主机才能连接。;;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

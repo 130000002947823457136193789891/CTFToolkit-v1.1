@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14302
+NAME=wu-ftpd 任意写入文件漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查你的 wu-ftpd 服务器 banner 
+DESCRIPTION=Wu-FTPd 服务器易受到远程的攻击。;;2.4.2以下的版本包含了一个漏洞，这个漏洞允许一个恶意的用户写入任意的文件，当一个攻击者发送一条精心制定的格式化rnft命令行就会触发该漏洞。这个漏洞可以让远程攻击者写入任意的文件。;;当你看到一条警告:  *** Nessus solely relied on the banner of the remote server *** 时，可能存在该漏洞。;;;解决方案:升级到2.4.2或更新版本;;风险等级:高
+COPYRIGHT=脚本的版权属 David Maciejak 翻译:Heart is flying

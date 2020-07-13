@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16479
+NAME=PaNews 交叉站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检测是否存在PaNews
+DESCRIPTION=远程主机运行PaNews, 一个用PHP写的新闻管理脚本程序。;;;PaNews易受XSS攻击。;攻击者利用此漏洞需能骗取一个受信用户访问恶意网站。 成功利用该漏洞之后，攻击者可能盗取证件或者执行浏览器端代码。;;解决方案:升级到可用的新版本的PaNews。;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

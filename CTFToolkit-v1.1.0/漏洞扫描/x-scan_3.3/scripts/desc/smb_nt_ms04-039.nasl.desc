@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15714
+NAME=ISA Server 2000 and Proxy Server 2.0 Internet Content Spoofing (888258)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=微软Q888258漏洞
+DESCRIPTION=Microsoft ISA Server和Proxy server被发现存在;一个伪造漏洞 导致允许攻击者伪造可信任的Internet ;内容. 用户会认为他们正在访问Internet上可信任的内容 ;实际上 是在访问恶意Internet内容,例如;恶意的网站. 当然, 攻击者首先要劝说(引诱)用户;访问攻击者的网站来达到溢出的目的.;;更多请访问 http://www.microsoft.com/technet/security/bulletin/ms04-039.mspx;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams

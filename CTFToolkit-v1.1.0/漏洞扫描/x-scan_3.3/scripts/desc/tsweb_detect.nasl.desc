@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12234
+NAME=Terminal Services Web 探测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=发现tsweb
+DESCRIPTION=远程主机提供客户端下载终端服务器客户端ActiveX插件的便利。;因此用户可以访问这个Web页面并且点击'connect'按钮，然后会提;示客户端下载一个.cab的文件，以用来通过远程桌面协议(Remote ;Desktop Protocol -- RDP)直接连接终端服务服务器。当然，你可;以手动的观察这个页面已得到可能的提供RDP访问服务的系统信息和;IP地址信息，等等。;;解决方案 : 用口令保护tsweb资源的访问;; 风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

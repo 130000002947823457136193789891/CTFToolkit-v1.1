@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11101
+NAME=PHPAdsNew代码注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查remotehtmlview.php
+DESCRIPTION=远程主机有可能会运行一个使用PHPAdsNew的第三方服务器上的PHP包含文件.;;攻击者可以利用这个漏洞在远程主机上注入任意代码并以web服务器特权获得命令行.;;解决方案 : 升级到PHPAdsNew Beta 6.1或更高;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

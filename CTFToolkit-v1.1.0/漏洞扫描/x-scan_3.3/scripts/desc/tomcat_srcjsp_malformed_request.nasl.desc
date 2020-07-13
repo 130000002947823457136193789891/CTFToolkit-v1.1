@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12123
+NAME=Apache Tomcat中source.jsp文件不规则数据请求信息泄漏
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Tomcat中source.jsp 不规则数据请求漏洞
+DESCRIPTION=向分布式Apache Tomcat服务器中的source.jsp文件发送一个不规则数据请求时，它会泄漏主机信息. 通过此方法可以获得的信息有：web服务的根路径和目录列表.;;例如: http://target/examples/jsp/source.jsp?? - 可以获得web的根路径;         http://target/examples/jsp/source.jsp?/jsp/ - 可以获得jsp的目录列表;;参见: http://www.securityfocus.com/bid/4876;;解决方案: 删除web服务的默认文件;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Kyger

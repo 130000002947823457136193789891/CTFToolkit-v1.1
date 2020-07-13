@@ -1,0 +1,1 @@
+得先安装JRE，双击BurpLoader.jar打开

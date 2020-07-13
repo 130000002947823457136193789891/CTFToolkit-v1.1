@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12075
+NAME=TYPSoft FTP 1.10
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查TYPSoft FTP 服务端的版本
+DESCRIPTION=远程主机正在运行TYPSoft FTP 1.10或者更低版本的服务端。;;TYPESoft FTP Server存在拒绝服务的漏洞。攻击者可能藉此发起远程攻击导致主机崩溃。;;解决方案: 使用其他FTP服务端 ;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 Audun Larsen

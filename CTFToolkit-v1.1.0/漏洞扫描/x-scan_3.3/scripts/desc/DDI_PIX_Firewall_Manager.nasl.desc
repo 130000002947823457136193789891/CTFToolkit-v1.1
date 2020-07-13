@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10819
+NAME=PIX防火墙管理器目录遍历
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=\..\..\file.txt
+DESCRIPTION=有可能使用相对路径的URL来读取这台机器的任意文件. 这个权限可用来绕过管理软件的密码保护并可能获取Cisco PIX的enable密码.;;这个漏洞的Cisco Bug ID为: CSCdk39378.;;解决方案: Cisco原来推荐升级到版本4.1.6b或4.2, 但是在版本4.3中又发现同样的漏洞. Cisco现在推荐您完全禁止此软件并升级到新的PIX设备管理器软件.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Digital Defense Inc.

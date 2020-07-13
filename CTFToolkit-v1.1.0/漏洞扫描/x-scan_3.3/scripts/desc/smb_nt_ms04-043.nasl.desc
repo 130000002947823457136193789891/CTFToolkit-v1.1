@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15964
+NAME=HyperTerminal的漏洞 (873339)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=为MS04-043检查远程注册表
+DESCRIPTION=远程主机的超级终端软件HyperTerminal存在一个安全漏洞; 利用这个漏洞,攻击者诱使目标主机上的用户使用超级终端Hyperterminal登录欺骗主机,从而可以在目标主机上执行任意代码.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-043.mspx;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

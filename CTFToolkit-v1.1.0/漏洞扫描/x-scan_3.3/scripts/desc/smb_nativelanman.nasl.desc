@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10785
+NAME=SMB NativeLanMan
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=提取远程native lan manager名
+DESCRIPTION=当前插件尝试探测远程native lan manager 名(Samba, Windows...)。;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

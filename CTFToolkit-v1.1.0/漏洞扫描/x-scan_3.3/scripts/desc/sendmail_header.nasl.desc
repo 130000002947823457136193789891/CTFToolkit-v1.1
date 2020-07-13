@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11316
+NAME=Sendmail邮件头处理存在远程溢出漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测Sendmail版本信息
+DESCRIPTION=根据远程Sendmail的版本号判断，此服务器存在远程缓冲区溢出漏洞。;该漏洞可导致远程攻击者获取系统的root访问权限。;版本5.79到8.12.7的Sendmail均受影响;;解决方案 : 升级Sendmail到8.12.8及更新的新版本;如果你不能升级，对于8.10-12版本这里有一些可用补丁:http://www.sendmail.org/patchcr.html;注意: 手工给Sendmail打补丁并不会修改其版本号。由于Nessus只是根据版本号;检测该漏洞，因此就可能导致一些厂商已经打过补丁的Sendmail出现误报。;; 
+参考:http://www.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=21950;    http://www.cert.org/advisories/CA-2003-07.html;    http://www.kb.cert.org/vuls/id/398025;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 SECNAP Network Security

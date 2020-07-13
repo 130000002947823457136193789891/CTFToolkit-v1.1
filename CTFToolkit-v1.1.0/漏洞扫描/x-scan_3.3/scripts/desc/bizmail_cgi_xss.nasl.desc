@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17193
+NAME=利用Bizmail.cgi漏洞作为邮件中转来发送邮件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查bizmail.cgi的版本
+DESCRIPTION=远程web服务器上运行了公共网关接口程序(CGI)bizmail.cgi , 此CGI应用程序用于向web表单发送邮件地址。;;此软件的远程版本存在一个易受攻击的漏洞,该漏洞可以使攻击者将此远程CGI程序作为一个邮件中转来加以利用。.;;垃圾邮件的发送者还可以利用此漏洞来以匿名的方式发送垃圾邮件。;;解决方案: 升级到Bizmail 2.2 或更高版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10271
+NAME=stream.c
+CATEGORY=洪水攻击
+FAMILY=拒绝服务
+SUMMARY=使用stream.c攻击可能导致主机崩溃
+DESCRIPTION=通过使用stream.c进行攻击有可能导致服务器崩溃。攻击者有可能使用这种方式使你的网络无法正常提供服务。;;解决方案 : 联系供应商获取进一步资料;;临时解决办法 : 如果你使用IP filter，可以使用如下规则阻塞攻击包:;;	block in quick proto tcp from any to any head 100;	pass in quick proto tcp from any to any flags S keep state group 100;	pass in all;;参考资料 : http://online.securityfocus.com/archive/1/42729;Reference : http://online.securityfocus.com/archive/1/42723;;Risk factor : High
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

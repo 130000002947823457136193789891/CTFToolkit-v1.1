@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16209
+NAME=Oracle 数据库多个安全漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=请检查远程数据库的版本
+DESCRIPTION=根据版本号，远程主机上运行的Oracle数据库有从信息泄漏到远程代码执行等多处安全漏洞.;;解决办法 : Oracle 已经发布了一个关键更新.;参见 : http://www.oracle.com/technology/deploy/security/pdf/cpu-jan-2005_advisory.pdf; 风险等级 : 高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security, plutochen翻译

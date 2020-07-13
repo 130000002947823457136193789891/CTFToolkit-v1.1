@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10396
+NAME=SMB 共享连接
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=获取远程共享连接列表
+DESCRIPTION=当前脚本检查是否可以从本地连接多个远程NetBios共享。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

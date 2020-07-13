@@ -1,0 +1,7 @@
+ID=12257
+NAME=Multiple MacOS X vulnerabilties
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=MacOS X的多种缺陷
+DESCRIPTION=远端主机正运行版本低于10.3.4的MacOS系统.;;版本低于10.3.4的系统包含了许多缺陷，这些权限使得攻击者可以在远端主机上以root权限执行任意的命令.;;Solution : 升级至MacOS X 10.3.4;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11989
+NAME=Exchange 特权提升(832759)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=请查看MS安全公告Q832759
+DESCRIPTION=远程服务器运行一个未打补丁（未授权）的 MS Exchange;可以允许攻击者通过一个有效的Exchange指令访问另一个用户;并可以控制Outlook&reg; Web Access for Microsoft;;解决方案:http://www.microsoft.com/technet/security/bulletin/ms04-002.asp;风险等级：中
+COPYRIGHT=This script is Copyright (C) 2001 Giovanni Fiaschi

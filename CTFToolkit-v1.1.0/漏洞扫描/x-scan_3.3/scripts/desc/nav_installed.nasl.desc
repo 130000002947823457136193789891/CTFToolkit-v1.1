@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12106
+NAME=诺顿杀毒软件检测
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测是否安装了诺顿防火墙并加载了最新的病毒库。
+DESCRIPTION=检测远程主机是否安装了诺顿杀毒软件并正常运行,;确认最新的病毒库已经加载。;;Solution：安装诺顿杀毒软件并使用最新的病毒库。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams

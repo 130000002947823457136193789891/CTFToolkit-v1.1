@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15554
+NAME=Apache mod_include的权限提升
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查Apache的版本
+DESCRIPTION=远程web服务器正在运行一个版本低于1.3.33的Apache.;;此版本在'mod_include'模块的get_tag()函数中存在一个本地缓冲溢出. 此溢出发生在通过HTTP会话请求一个包含错误格式SSI(Server-Side Includes)的特别构造的文档的时候.;;成功利用这个漏洞可导致以提升了的权限来执行任意代码, 但需要允许SSI.;;解决方案: 禁止SSI或升级到更高的版本.;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

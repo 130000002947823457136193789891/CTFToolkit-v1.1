@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11473
+NAME=EMule拒绝服务漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=远程电驴客户端崩溃
+DESCRIPTION=发送畸形的数据到EMule可能导致它崩溃.;;解决方案:升级到EMule 0.27c 版本;风险等级:中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison & Translated By Mrcool

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10879
+NAME=Shell命令执行缺陷
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=检查并过滤网络脚本中的恶意meta字符
+DESCRIPTION=远程端口看似在运行一些用户提供的shell脚本，这些输入脚本没有删除类似` ' |等的meta字符,这可能导致远程攻击者执行任意代码..;;解决方案阿:确保所有的恶意meta字符都被过滤,或者对不信任网络拒绝端口访问;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2001 SecurITeam

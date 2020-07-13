@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12254
+NAME=imapd任意文件检索
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查imapd任意文件检索漏洞
+DESCRIPTION=远程消息访问协议服务器允许一个已通过确认的用户检索文件;以致这个用户获得一个可用的shell。如果消息访问协议用户是;被拒绝的shell访问用户，你可以考虑这个攻击方法。;;更多发布的信息可参考:;;- http://www.washington.edu/imap/IMAP-FAQs/index.html#5.1;;解决方法:联系你的厂商获得一个补丁。;;风险等级:低～高
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall(Chinese by netke) 

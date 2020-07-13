@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10011
+NAME=get32.exe漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/get32.exe
+DESCRIPTION=这台机器安装了'get32.exe'CGI脚本. 这个CGI存在一个著名的安全缺陷，可导致攻击者在远程系统上以HTTP守护进程的身份(典型地为root或nobody)执行任意代码.;;解决方案 : 从web服务器的CGI目录(通常为cgi-bin/)删除'get32.exe'脚本..;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

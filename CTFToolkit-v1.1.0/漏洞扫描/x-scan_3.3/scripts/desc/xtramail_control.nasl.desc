@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10323
+NAME=XTramail control denial
+CATEGORY=混合攻击
+FAMILY=其他
+SUMMARY=在远程服务器上溢出
+DESCRIPTION=远程服务存在缓冲区溢出漏洞;当向远程服务发送如下的命令 :;;	用户名: (缓冲区);	;当这个缓冲区数据的长度大于15000个字符会导致溢出;;这个问题可能使攻击者在主机上执行任意命令;;解决方案 : 向相关商家要求相关补丁;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13654
+NAME=Artmedic Kleinanzeigen --一个极其脆弱的文件
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查脆弱的Artmedic Kleinanzeigen PHP 文件
+DESCRIPTION=Artmedic Kleinanzeigen,一个被证实的E-mail的PHP脚本,;已经被发现包含一个极其脆弱的外部文件.;;影响:这个脆弱的文件允许远程攻击者利用;如包含远程服务器上的恶意文件,这将导致;在被攻击服务器上执行任意代码;;解决方案:现在暂时没有;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus Translated by the Brownie

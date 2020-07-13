@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10916
+NAME=本地用户信息: 密码永不过期
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=枚举从未登陆过的用户
+DESCRIPTION=当前脚本显示了拥有永不过期密码的用户名。;;密码应该限定生存期。;;解决方案: 对上述用户禁用'password never expires'选项;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10768
+NAME=squid proxy server拒绝服务漏洞
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检测远程proxy服务器版本号
+DESCRIPTION=一个特殊构造的发向远程服务器的"mkdir-only"PUT请求, 可能导致Squid拒绝服务.;;攻击者可以利用这一缺陷使得被攻击的网络不能正常访问互联网.;;解决方案:  从squid网站上下载补丁并安装: ;www.squid-cache.org.  或者也可以在代理服务器上配置访问控制列表来防范攻击.;;*** 注释:Nessus仅仅是通过对远程代理服务器的版本号判断来给出的警报;*** ;;风险等级 : 中/高
+COPYRIGHT=This script is Copyright (C) 2001 Adam Baldwin(chinese version by lsy)

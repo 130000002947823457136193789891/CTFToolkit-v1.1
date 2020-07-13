@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10429
+NAME=SMB 注册表: winlogon权限
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测远程子键的权限
+DESCRIPTION=非管理员组的用户可以改写注册表子键 HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon的内容。;;该子键包含一个键值，定义了当用户登陆时，哪个程序会被运行。;;该程序会以SYSTEM权限运行，用户可以修改键值以获得主机上更多的权限。 ;;;解决方案: 使用regedt32设置该子键的权限为:;;	- admin group  : Full Control;	- system       : Full Control;	- everyone     : Read;	;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

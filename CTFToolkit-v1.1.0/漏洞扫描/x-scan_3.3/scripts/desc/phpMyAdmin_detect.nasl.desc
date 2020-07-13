@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17219
+NAME=phpMyAdmin检测
+CATEGORY=信息搜集
+FAMILY=服务检测
+SUMMARY=检测是否存在phpMyAdmin
+DESCRIPTION=此脚本检测远程主机上是否运行了phpMyAdmin,并且获取版本号和定位文件. ;;phpMyAdmin是一个PHP编写的基于web的MySQL管理工具. ;参见http://www.phpmyadmin.net/home_page/index.php可了解更多信息.
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

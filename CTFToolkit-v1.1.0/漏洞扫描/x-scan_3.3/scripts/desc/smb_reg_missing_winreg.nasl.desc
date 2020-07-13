@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10431
+NAME=SMB 注册表: winreg丢失
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测winreg子键是否存在
+DESCRIPTION=注册表子键 HKLM\SYSTEM\CurrentControlSet\Control\SecurePipeServers\Winreg 丢失。;;该子键可以确定哪些非管理员用户可以读取注册表。;;;解决方案: 如果没有安装service pack 3，先安装该补丁。然后自建以下子键 ;SYSTEM\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths;在该子键下，自建一个名为'Machine'的REG_MULTI_SZ型字符串。在字符串的值就是允许远程浏览的内容。;;参考资料: http://www.microsoft.com/technet/prodtechnol/winntas/maintain/mngntreg/admreg.asp;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

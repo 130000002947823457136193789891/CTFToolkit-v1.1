@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10923
+NAME=Squid存在缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测Squid版本信息
+DESCRIPTION=根据远程Squid代理服务器的版本号判断，此服务程序存在缓冲区溢出漏洞。; 该漏洞可导致攻击者获取系统的shell。;;解决方案 : 升级Squid到 2.4.STABLE7或最新版本。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

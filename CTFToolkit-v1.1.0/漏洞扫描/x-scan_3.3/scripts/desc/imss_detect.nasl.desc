@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17244
+NAME=趋势科技IMSS控制台管理检测
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=核查趋势科技IMSS网页控制台管理
+DESCRIPTION=运行了趋势科技防毒墙邮件安全版的远程主机, 允许连接web控制台管理器.;;确保只有被授权的用户可以连接此服务, 因为它存在的信息可以帮助攻击者对远程网络进行更复杂的攻击.;;解决方案: 对进入此端口的通信进行过滤;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

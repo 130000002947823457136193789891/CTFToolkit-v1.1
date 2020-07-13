@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10270
+NAME=Stacheldraht探测
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=探测是否存在Stacheldraht
+DESCRIPTION=远程主机似乎正在运行Stacheldraht，这是一个可以被用来控制你;的系统或者用它攻击其他网络的特洛伊木马。;;这个主机非常可能已经被损害了。;;解决方案 : 从备份中恢复系统，联系CERT和你本地的权威机构;;风险等级 : 待定(Critical)
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Chinese version by Dancefire)

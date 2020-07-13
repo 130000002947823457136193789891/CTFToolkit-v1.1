@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15774
+NAME=CCProxy Logging Function Overflow
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=CCProxy远程溢出漏洞
+DESCRIPTION=远程主机运行CCProxy,它是一款代理软件程序支持;多种协议 (Telnet, FTP, WWW, 和更多的协议...).;;软件中存在缓冲区溢出漏洞这导致;远程攻击者可以在远程主机上执行任意代码;以用户运行软件的权限.;;解决方案 : 升级到CCProxy 6.3版本 (当可以获得时候)或者r 不使用此软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

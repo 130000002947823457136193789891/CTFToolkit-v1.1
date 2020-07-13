@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10417
+NAME=存在Sambar /cgi-bin/mailit.pl程序
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/mailit
+DESCRIPTION=该Sambar服务器安装并运行着'mailit.pl' cgi程序.任意主机通过发送一个提供有mail地址的POST请求,将使该CGI程序发送一封邮件到所提供的email地址.;;;解决方案: 从/cgi-bin目录中删除该程序.;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2000 Hendrik Scholz

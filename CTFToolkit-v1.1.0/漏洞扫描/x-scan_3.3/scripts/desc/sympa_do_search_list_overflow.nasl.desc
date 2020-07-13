@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14298
+NAME=Sympa wwsympa do_search_list 溢出导致拒绝服务
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查你的sympa的版本
+DESCRIPTION=一些主机使用的sympa是一个开放源码的邮件列表程序;;一个远程溢出存在于4.1.2以下的版本;‘wwsympa.pl'脚本中的'do_search_list'函数缺少检查，通过精心制作的请求导可以导致一个溢出;远程攻击者可以通过溢出使应用程序崩溃，以致数据完整性得不到保证;;解决方案 : 升级到 4.1.2 或更新版;;详情请看: http://www.sympa.org/;;风险等级 : 中
+COPYRIGHT=脚本版权： David Maciejak 翻译：Heart is flying

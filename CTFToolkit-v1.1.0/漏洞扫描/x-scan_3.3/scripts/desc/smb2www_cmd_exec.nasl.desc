@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11375
+NAME=smb2www 远程命令执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=smb2www 命令执行
+DESCRIPTION=远程主机正在运行smb2www - 一个可以使用web浏览器连接的windows网络客户端。;;该版本的CGI存在漏洞，允许任何人向smbshr.pl组件发送变形的参数，从而在主机上执行任意命令。;;解决方案: 升级到最新版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

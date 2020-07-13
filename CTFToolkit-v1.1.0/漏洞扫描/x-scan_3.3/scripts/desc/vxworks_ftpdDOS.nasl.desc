@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11184
+NAME=vxworks ftpd 缓冲区溢出拒绝服务
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=试图通过CEL缓冲区溢出使VxWorks ftpd 服务器崩溃
+DESCRIPTION=很可能使远程主机系统崩溃通过使用FTP命令 :;;	CEL aaaa(...)aaaa;	;此问题对于'aix ftpd'是一个小溢出，但是在以vxworks为基础的系统中像3com nbx IP电话管理器等会造成服务器崩溃。;;解决方案: 如果您使用植入式vxworks产品, 请联系OEM提供商并且参考WindRiver field patch TSR 296292。如果是3com nbx IP电话管理器, 联系 3com 。;;此问题影响 VxWorks ftpd 版本 5.4 和 5.4.2;;更多信息参见 CERT VU 317417;http://www.kb.cert.org/vuls/id/317417;或者所有安全告警在;http://www.secnap.net/security/nbx001.html;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell

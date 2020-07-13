@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10826
+NAME=没有保护措施的Netware管理门户
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=没有保护措施的Netware管理门户
+DESCRIPTION=这台机器正在运行Netware的管理门户软件. 此门户软件允许任何人查看当前服务器的配置和定位网络上其他门户服务器. 如果拥有一个有效的用户帐号, 还可以通过在URL中请求卷的方式来浏览服务器文件系统.;;;解决方案: 如果不需要此服务则禁止此服务, 或者阻止对服务器TCP 8008和8009端口的连接.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Digital Defense Inc.

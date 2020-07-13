@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10903
+NAME='System Operator'组用户
+CATEGORY=信息搜集
+FAMILY=WINDOWS用户管理
+SUMMARY=列出特定用户组的用户
+DESCRIPTION=该脚本列出;'system operator'组的用户名.;;你应确保;只有适当的用户才是该组的成员.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

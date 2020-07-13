@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16208
+NAME=PHPMyWebHosting SQL注射漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测PHPMyWebhosting是否存在
+DESCRIPTION=主机运行有基于PHP的PHPMyWebHosting软件。这个软件没有检测用户输入导致SQL注射。攻击者可以利用登陆的login.php文件执行任意的SQL语句;;;解决方案：现在还没有;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

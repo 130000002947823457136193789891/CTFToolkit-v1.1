@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10741
+NAME=SiteScope Web Administration Server Detection
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=SiteScope Web 管理员服务器检测
+DESCRIPTION=远程web服务器正在运行SiteScope Administration. 如果攻击者获取一个有效认证的用户名与口令或通过暴力破解得到一个有效的用户名与口令，此服务器就可以允许他们配置你的SiteScope产品（防火墙监视程序）
+解决方案: 禁用SiteScope Web管理员服务器, 或者阻塞到达此端口的数据流
+Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

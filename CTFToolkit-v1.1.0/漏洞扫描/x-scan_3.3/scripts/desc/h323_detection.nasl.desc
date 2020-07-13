@@ -1,0 +1,10 @@
+[CHINESE]
+ID=12243
+NAME=H323应用程序检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=H323应用程序检测
+DESCRIPTION=H323是互联网上广泛流行的一种协议。它被用于Voice Over IP (VoIP),;
+Microsoft NetMeeting, 和不计其数的其他应用。Nessus能够检测远程设备是否支持;
+H323协议。最好针对这个IP运行单独的审核，以判断本应用程序所说到的风险等级。;;风险等级:信息的
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11398
+NAME=Samba碎片重组溢出
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查samba版
+DESCRIPTION=通过版本检查，远程samba服务器收到某一特殊的SMB碎片包时，会导致溢出。攻击者必须有权限访问共享才能够完成攻击。;;Solution : 升级Samba到2.2.8以上;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

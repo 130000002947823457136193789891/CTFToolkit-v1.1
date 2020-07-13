@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10516
+NAME=存在multihtml cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/multihtml.pl
+DESCRIPTION=该主机装有'multihtml.pl'CGI脚本.该CGI脚本存在一个众所周知的安全漏洞,可导致攻击者在远程主机上读取任意文件.;;解决方案:从/cgi-bin目录中删除'multihtml.pl'.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12242
+NAME=在osCommerce的文件管理器中存在文件泄露
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测osCommerce的文件管理器的文件泄露问题
+DESCRIPTION=osCommerce的文件管理器中存在一个缺陷，可以允许远程;攻击者获得web服务器上HTML根目录外的任意文件。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus (Chinese version by Dancefire)

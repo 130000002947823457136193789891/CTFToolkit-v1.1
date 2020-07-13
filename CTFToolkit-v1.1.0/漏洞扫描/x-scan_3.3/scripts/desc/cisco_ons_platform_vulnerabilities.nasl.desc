@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16202
+NAME=CISCO ONS 平台安全漏洞
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=通过SNMP判断是否存在安全漏洞
+DESCRIPTION=远程的 Cisco ONS 平台包含多个拒绝服务和认证上的安全漏洞 :;;-  TFTP 服务器未经认证即可执行TFTP GET and PUT 命令. 攻击者可以通过这个漏洞远程上载/下载ONS平台的系统文件;;;-  通过远程设备的网管端口可以进行拒绝服务攻击(1080/tcp) ;;;- Telnet中无法禁用超级用户账号 ;;;;解决办法 : http://www.cisco.com/warp/public/707/cisco-sa-20040219-ONS.shtml;风险等级 : 高
+COPYRIGHT=This script is (C) 2005 Tenable Network Security， plutochen翻译

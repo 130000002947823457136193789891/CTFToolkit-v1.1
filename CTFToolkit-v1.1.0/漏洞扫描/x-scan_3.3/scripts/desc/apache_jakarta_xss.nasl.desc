@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15908
+NAME=Apache jakarta跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查apache Jakarta Lucene的跨站脚本.
+DESCRIPTION=远程主机正在运行Apache Jakarta Lucene,一个有Java实现的全功能的文本搜索引擎库.;在这个版本的results.jsp脚本中存在跨站脚本漏洞,允许攻击者可以盗窃远程主机上合法用户的cookies.;;解决方案 : 升级到 Apache Software Foundation Jakarta Lucene 1.4.3;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:sunwear)

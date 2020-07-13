@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10921
+NAME=检测RemotelyAnywhere SSH
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测RemotelyAnywhere SSH服务器
+DESCRIPTION=远程主机正在运行RemotelyAnywhere SSH服务器.;通常有很多入侵者会将这个管理工具作为后门使用.;;如果该服务为自己安装, 可忽略此警告. 如果不是自己安装, 意味着机器已被入侵.;;风险等级 : 无 / 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

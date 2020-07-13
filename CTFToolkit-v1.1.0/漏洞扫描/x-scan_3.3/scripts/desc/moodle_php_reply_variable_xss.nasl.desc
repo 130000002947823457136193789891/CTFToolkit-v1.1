@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14257
+NAME=Moodle post.php文件跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=判断Moodle的post.php 是否存在跨站脚本漏洞
+DESCRIPTION=;远程主机运行Moodle PHP 套件.;;Moodle套件存在可被利用的跨站脚本攻击漏洞. ;此漏洞是由于没有对提交给'post.php' 脚本的'reply'变量进行验证. ;;攻击者可以构造一个特殊的URL,在用户浏览器与服务器的信任关系之内执行任意代码,导致数据完整性被破坏.;;;解决方案 : 升级 Moodle版本到 1.4 或更高;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

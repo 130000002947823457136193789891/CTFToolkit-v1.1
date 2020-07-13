@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11778
+NAME=WEB服务主机版权资料
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=检索 *.(mp3,avi,asf,mpg,wav,ogg)
+DESCRIPTION=此脚本是用来检查远程的WEB服务主机潜在性的存在一些与版本相关的文件, 如mp3,;wav, avi or asf 文件.
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

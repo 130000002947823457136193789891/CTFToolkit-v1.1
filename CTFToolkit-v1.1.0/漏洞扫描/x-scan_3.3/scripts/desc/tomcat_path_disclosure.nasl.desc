@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10807
+NAME=Jakarta Tomcat路径泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试Tomcat泄露路径缺陷
+DESCRIPTION=Tomcat在接受到一个特制的;访问.jsp文件的请求时,;会泄露Web根目录的物理位置;;攻击者可以利用这个缺陷;进一步了解远程系统的配置情况.;;解决方案:升级软件到最新版本;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison &Powered by Robur!

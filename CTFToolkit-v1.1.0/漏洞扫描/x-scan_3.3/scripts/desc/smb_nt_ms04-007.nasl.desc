@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12052
+NAME=ASN.1解析漏洞(828028)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查MDAC的版本
+DESCRIPTION=远程Windows主机的ASN.1库存在漏洞，可能允许攻击者在该主机执行任意代码。;要利用该漏洞，攻击者必须发送一个特殊构造的超长ASN.1编码的数据包（IPsec会话协商或者HTTPS请求等）。;解决方法：http://www.microsoft.com/technet/security/bulletin/ms04-007.asp;风险等级：高
+COPYRIGHT=Copyright (C) 2004 Tenable Network Security

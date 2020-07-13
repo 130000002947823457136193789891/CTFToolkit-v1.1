@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17368
+NAME=WebShield Appliance 检测
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查WebShield Appliance的控制台管理
+DESCRIPTION=远程主机看来是一个WebShield Appliance.;;连接可以被建立到控制台管理.;;这允许攻击者知道你正在使用Webshield,这将帮助他们;聚焦他们的攻击或使他们改变自己的策略. . 另外; 攻击者可以对远程端口建立一个暴力攻击.;;解决方案 : 过滤到此端口的输入流量;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

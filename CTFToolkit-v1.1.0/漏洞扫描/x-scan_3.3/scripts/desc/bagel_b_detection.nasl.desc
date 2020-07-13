@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12063
+NAME=检测Bagle.B
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查Bagel.B
+DESCRIPTION=远程主机感染了bagle.B病毒。该病毒是Bagel病毒的变种，通过邮件传播，安装的后门在8866端口监听。;;解决方案：使用反病毒产品杀除该病毒。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

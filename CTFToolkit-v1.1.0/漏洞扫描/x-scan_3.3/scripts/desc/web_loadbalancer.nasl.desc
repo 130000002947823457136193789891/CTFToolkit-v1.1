@@ -1,0 +1,6 @@
+NAME=Web服务平衡负载检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Web服务平衡负载检测
+DESCRIPTION=远程Web服务器似乎和其他服务器一起在一个负载平衡器后运行。;;风险等级：低;;解决方案：通过配置网络来隐藏容易暴露的信息
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

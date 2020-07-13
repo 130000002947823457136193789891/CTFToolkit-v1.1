@@ -1,0 +1,10 @@
+[CHINESE]
+ID=16175
+NAME=Novell GroupWise WebAccess Information Disclosure
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查群件XSS
+DESCRIPTION=远程主机如果运行Novell GroupWise WebAccess商业群件,此软件的较老版本通过请求特定文件来使其泄露敏感信息,攻击者可以请求文件:/com/novell/webaccess/WebAccessUninstall.ini,这样将会获得有关远程主机路径和安装信息等的敏感资料.
+解决办法: 删除 /com/novell/webaccess/WebAccessUninstall.ini 文件.
+风险等级:低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(Translation by shadow0king)

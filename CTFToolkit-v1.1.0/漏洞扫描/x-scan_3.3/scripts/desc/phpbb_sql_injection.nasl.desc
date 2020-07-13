@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11767
+NAME=phpBB SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL注入
+DESCRIPTION=远程主机正在运行phpBB.;;该程序存在的一个漏洞可以被远程攻击者利用这个漏洞通过SQL注入进行攻击;可以获取该主机的管理员权限;或者任意用户的MD5密码.;;解决方案 : 升级到最新版本;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security(chinese version by lsy)

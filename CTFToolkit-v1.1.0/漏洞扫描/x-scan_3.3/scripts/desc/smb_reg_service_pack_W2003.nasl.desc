@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17662
+NAME=SMB登陆 : Windows 2003 Server SP1
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查是否安装了远程服务包(the remote SP).
+DESCRIPTION=主机安装了windows 2003 server系统但没有;安装Service Pack 1.;;解决方案 : 安装Windows 2003 SP1;相关信息查看 : http://www.microsoft.com/windowsserver2003/default.mspx;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

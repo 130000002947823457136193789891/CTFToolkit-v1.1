@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10310
+NAME=Wingate拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=确定Wingate易被缓冲溢出攻击
+DESCRIPTION=远程Wingate服务能够被强制性的不断对自己进行连接直到其缓冲溢出。此时，telnet代理服务将停止。攻击者/程序可以通过上述方法停止该服务器的telnet代理服务，因此如果你需要使用telnet则必须确保你的系统不被过度使用。攻击者/程序同样可以使用这种方法强制性的使你的系统使用已被攻击者/程序控制的其它代理。;;解决方案：配置WinGate使得只有授权用户才可以使用。;风险等级：低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison;Translate by Sniffer

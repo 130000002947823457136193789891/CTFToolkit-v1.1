@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10818
+NAME=Alchemy Eye HTTP可执行命令漏洞
+CATEGORY=信息搜集
+FAMILY=CGI类
+SUMMARY=检测是否在Alchemy Eye上可以执行命令
+DESCRIPTION=;    Alchemy Eye 和 Alchemy Network Monitor是Windows平台上的网络;管理工具，这个工具可以通过HTTP来进行监视和控制。HTTP服务器上存在;漏洞，攻击者可以在服务器上执行命令。;    可以参考：http://www.rapid7.com.;;解决办法：可以取消Alchemy Eye的HTTP访问，或者要求进行认证。这些;都可以在Alchemy Eye的属性中进行设置。;    参考信息：http://www.securityfocus.com/archive/1/243404;风险等级：高
+COPYRIGHT=该脚本由xfocus汉化

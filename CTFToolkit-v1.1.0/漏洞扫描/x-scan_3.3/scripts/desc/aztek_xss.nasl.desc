@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15785
+NAME=Aztek Forum XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks XSS in Aztek Forum
+DESCRIPTION=远程主机运行着一使用PHP语言编写的Aztek论坛.;;该版本软件存在一漏洞 - 特别是'forum_2.php'文件,; 它可能允许攻击者利用该远程主机进行跨站脚本攻击.;;解决方案 : 升级至最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak;;Dedicate this to Sierra

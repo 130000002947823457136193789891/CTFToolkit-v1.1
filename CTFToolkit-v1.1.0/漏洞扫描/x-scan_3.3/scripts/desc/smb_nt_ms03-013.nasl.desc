@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11541
+NAME=NT内核消息处理缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测补丁Q811493
+DESCRIPTION=该版本的Windows在内核向调试器提交错误信息时存在一个缓冲区溢出。;攻击者可以利用该漏洞在目标机器上获得提升权限的特权。;要成功的利用该漏洞, 攻击者必须在目标机器上拥有一个本地帐号。;;解决方案 : 查看http://www.microsoft.com/technet/security/bulletin/MS03-013.asp;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,7 @@
+ID=10059
+NAME=Domino HTTP Denial
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=使Domini HTTP服务器崩溃
+DESCRIPTION=通过发送一个相对较长的/cgi-bin的URL，可能会使远程的HTTP服务器崩溃；这样的话，攻击者可以使你的Lotus Domino Web服务器不能处理正常的请求。;解决方案: 联系厂商并寻找补丁，或更换服务器，考虑阅读Notes NAB的服务器文档获取一些方法来更改cgi-bin的映射;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison et Alain Thivillon

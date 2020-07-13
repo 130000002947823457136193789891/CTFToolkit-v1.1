@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17323
+脚本名称=aeNovo数据库路径暴露攻击
+CATEGORY=信息收集
+FAMILY=CGI漏洞
+脚本摘要信息=检查目前使用中的aeNovo DB文件
+脚本详细描述=aeNovo是一个网页目录管理系统。由于不合理的文件被设置到数据库中，它很有可能导致远程的攻击者下载数据库文件、夺取它的敏感信息。；解决方法：通过设置文件目录权限，限制存取aeNovo的数据库文件。；风险等级：高
+COPYRIGHT=Copyright (C) 2005 Noam Rathaus

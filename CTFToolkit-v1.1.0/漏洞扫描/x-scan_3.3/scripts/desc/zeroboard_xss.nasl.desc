@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17199
+NAME=ZeroBoard XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查ZeroBoard XSS
+DESCRIPTION= 远程web主机运行ZeroBoard, 一种基于WEB的BBS程序.;;此软件的远程版本包含一个跨站脚本漏洞 ;以及由于缺乏对用户提交数据进行检测导致的远程脚本注入.;;成功的利用本文提及的漏洞,;入侵者将能够在服务器上执行恶意脚本代码. ;;解决方案: 升级到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak & Translated by 代码罐头

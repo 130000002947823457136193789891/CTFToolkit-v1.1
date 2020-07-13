@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10437
+NAME=NFS export
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查NFS
+DESCRIPTION=本插件检索NFS共享的文件列表，并标注出全局可读的文件。;;同时它警告用户如果不需要NSF服务，则可将其关闭。;;Risk factor : 低/中
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

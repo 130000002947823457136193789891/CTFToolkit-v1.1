@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11665
+NAME=版本低于2.0.46的Apache
+CATEGORY=混合攻击
+FAMILY=其他
+SUMMARY=检查Apache的版本
+DESCRIPTION=远程主机正在运行版本低于2.0.46的Apache 2.x;;这些版本存在若干缺陷:;;- 存在一个可导致攻击者禁止此主机基本鉴权功能的拒绝服务缺陷;;- 在mod_dav模块存在一个可导致攻击者远程使服务崩溃的拒绝服务漏洞;;解决方案: 升级到版本2.0.46;参阅: http://www.apache.org/dist/httpd/CHANGES_2.0;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

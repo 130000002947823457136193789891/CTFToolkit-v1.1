@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11155
+NAME=LiteServe的URL解码
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=长%字符串使LiteServe拒绝服务
+DESCRIPTION=当发送一个包含长无效字符%时, 远程web服务器将停止服务.;;破坏者可利用这个漏洞使服务器长时间停止服务.;;解决方案 : 升级服务器或使用防火墙过滤.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

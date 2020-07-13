@@ -1,0 +1,9 @@
+[CHINESE]
+ID=16168
+NAME=WebLibs File Disclosure
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查WebLibs文件漏洞
+DESCRIPTION= 'WebLibs'是一个采用Perl编写的CGI脚本，由于存在无法正确解析输入数据的漏洞，因此，一旦远程主机运行'WebLibs'，攻击者可能利用它来让CGI返回任何文件。
+解决方案：删除weblibs.pl文件
+风险等级：高

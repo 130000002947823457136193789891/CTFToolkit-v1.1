@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16140
+NAME=VideoDB Multiple Vulnerabilities
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查VideoDB的版本
+DESCRIPTION=远程主机是个VideoDB,用PHP写的基于万维网的视频数据库管理器;;该软件的这个版本易于被SQL入侵所攻击;该弱点由缺乏对用户代理的输入的过滤所引起。攻击者可以利用这个漏洞去更改远程数据库;;这个软件还易于被未授权的对文件“edit.php”的访问的攻击。该文件允许攻击者编辑数据库项;目.;;解决方案 :升级到 VideoDB 2.0.2 或者更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 woaishenghuo

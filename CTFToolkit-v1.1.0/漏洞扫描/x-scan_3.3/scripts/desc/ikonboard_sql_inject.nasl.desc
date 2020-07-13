@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15986
+NAME=IkonBoard SQL 注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Ikonboard.cgi
+DESCRIPTION=远程主机正在运行IkonBoard, 一个用Perl编写的论坛;;;这个版本存在一些SQL注入漏洞,攻击者可以在远程数据库中插入任意的SQL语句.;;解决方案 : 把这个CGI升级到最新版.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(翻译:kill_ads)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16271
+NAME=Alt-N WebAdmin 多个远程漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Alt-N WebAdmin的版本
+DESCRIPTION=远程的主机正在运行Alt-N WebAdmin, 一个网络接口MDaemon;邮件服务器.;;远程的这个版本的软件存在一个跨站;脚本执行漏洞是由于缺乏过滤用户的;输入在'useredit_account.wdm' 文件和'modalframe.wdm'文件.;攻击者可以利用这个漏洞窃取用户的认证.;;这个软件还存在着一个访问绕过漏洞;在'useredit_account.wdm'文件. 攻击者可以利用这个漏洞;修改用户帐户信息.;;攻击者需要服务器上的一个合法的email帐户利用这两个;漏洞.;;解决方案: 升级到WebAdmin 3.0.3.;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

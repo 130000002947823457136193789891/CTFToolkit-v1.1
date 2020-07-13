@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10107
+NAME=HTTP 服务器类型及版本
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=HTTP Server type and version
+DESCRIPTION=发现 HTTP 服务器的类型及版本号.;;解决方案: 配置服务器经常更改名称,如:'Wintendo httpD w/Dotmatrix display';确保移除类似 apache_pb.gif 带有 Apache 的通用标志, 可以设定 'ServerTokens Prod' 为受限;该信息来源于服务器本身的响应首部.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Securiteam / modified by H. Scholz

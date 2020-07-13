@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14233
+NAME=ASPrunner multiple flaws
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测ASPrunner的多个漏洞
+DESCRIPTION=远程主机运行着ASPrunner2.5以前的版本，;;在该版本的ASPrunner中存在多个漏洞，;;使得远程攻击者可以读出并（或）修改可能为机密的数据。;;通过该漏洞，攻击者可能会通过网络入侵网页服务器。;;解决方案:升级到最新版的 ASPrunner ;;或者访问:http://www.securityfocus.com/bid/10799;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) Tenable Network Security;;

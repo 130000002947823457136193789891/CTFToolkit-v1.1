@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12255
+NAME=mod_ssl SSL_Util_UUEncode_Binary 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查 mod_ssl 的版本号
+DESCRIPTION=远程主机采用的 mod_ssl 版本低于 2.8.18。该版本存在一个缓冲区溢出漏洞，攻击者可以对你的web服务器造成拒绝服务甚至执行任意命令。;;*** 由于多种 Linux 发行版对该漏洞进行了修补，因此该漏洞可能是误报***;;Solution : 升级 mod_ssl 到版本 2.8.18 以上;Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

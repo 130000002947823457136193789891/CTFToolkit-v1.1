@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10882
+NAME=允许使用低版本的SSH协议
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=关于SSH服务端的连接
+DESCRIPTION=远程SSH服务端支持version 1.33 和/或 1.5 的SSH 协议。这些协议加密的安全性并不可靠，推荐不要使用这些协议。;;解决方案: 如果正在使用OpenSSH, 设置'Protocol' 选项为 '2';如果正使用SSH.com的产品，设置'Ssh1Compatibility'选项为'no';		;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

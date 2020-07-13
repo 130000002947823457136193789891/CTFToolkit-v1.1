@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16329
+NAME=DHTML Editing Component中的漏洞可导致恶意代码的执行(891781)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=通过注册表检查KB 891781
+DESCRIPTION=运行某一Window系统的远程主机，在其DHTML Editing Component ActiveX Control里存在一个安全漏洞。;;攻击者利用此漏洞可在该主机上执行任意代码。;;攻击者通过构建一个恶意的Web页面就可以利用此漏洞，诱骗受害者上当。;;;解决方案: http://www.microsoft.com/technet/security/bulletin/ms05-013.mspx;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

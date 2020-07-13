@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11364
+NAME=Sendmail邮件转发权限提升漏洞
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检测版本号
+DESCRIPTION=按照远程sendmail服务器的版本号显示,;该版本sendmail存在邮件转发权限提升漏洞;这个漏洞是由于Sendmail没有正确处理部分用户'.forward'文件的属性.;;*** Sun在Solaris 7 和 8上修复这个漏洞以后没有修改sendmail的版本号;*** 因此如果系统是Solaris 7 或8的话这可能是一个误报;***.;;攻击者可以构造一个特别的.forward文件在自己的主目录中并把这封邮件发送给自己, 这将导致sendmail被欺骗而允许攻击者以root权限执行任意指令.;;风险等级 : 高 (本地) / 无 (远程)
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

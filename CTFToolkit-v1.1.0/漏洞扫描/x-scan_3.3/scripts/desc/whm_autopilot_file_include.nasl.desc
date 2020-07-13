@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16070
+NAME=WHM AutoPilot Multiple Vulnerabilities
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查WHM AutoPilot是否能包含第三方文件
+DESCRIPTION=远程主机正在运行WHM AutoPilot, 一个为管理员设计;的web主机环境脚本工具.;;此版本存在多个漏洞导致;允许攻击者在远程主机上执行任意命令.;;解决方案 : 升级这个软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

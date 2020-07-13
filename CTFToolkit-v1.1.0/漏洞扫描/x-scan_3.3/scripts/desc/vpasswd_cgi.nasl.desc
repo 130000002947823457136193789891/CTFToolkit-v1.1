@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11165
+NAME=vpasswd.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查vpasswd.cgi是否存在
+DESCRIPTION=主机安装了'vpasswd.cgi'文件。该CGI的某些版本没有充分检查特殊字符，允许攻击者执行任意命令。;;*** 警告: Nessus 只是凭借该CGI的存在判断漏洞，并不能确认当前版本是否真的存在上述安全漏洞。;;解决方案: 从/cgi-bin里删除该文件。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

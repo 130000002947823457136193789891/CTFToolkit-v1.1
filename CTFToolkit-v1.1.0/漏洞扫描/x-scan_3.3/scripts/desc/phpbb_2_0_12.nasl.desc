@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17225
+NAME=phpBB 2.0.12及以前版本中存在多个漏洞
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=phpBB 2.0.12及以前版本中存在多个漏洞
+DESCRIPTION=远程主机运行的phpBB存在下列漏洞 :;;  o 会话处理漏洞能使远程攻击者访问包括管理员在内的任意帐户.;  o viewtopic.php中的路径暴露漏洞.;;攻击者利用路径暴露漏洞能显示安装程序的敏感信息, 以便在对目标的深入攻击中起作用. ;;解决办法 : 升级到 phpBB 2.0.13 或更新的版本.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>
+ 

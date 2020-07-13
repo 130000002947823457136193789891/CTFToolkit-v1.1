@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11406
+NAME=BSD in.lpd 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=确定远程lpd守护进程是bsd-lpd
+DESCRIPTION=打印文件时,发送一个长文件名，并请求输出但因队列,远程守护进程bsd-lpd 则有可能遭受缓冲区溢出攻击;;攻击者可以利用至一缺陷得到;此主机的一个shell.;;** 由于难以确切监测到这一情况的发生;** 该缺陷很难遇到, 该警告也许是 ;** 没必要的.;;;首影响的系统 : BSD/OS (up to 4.1), FreeBSD (up to 4.2), ;                   NetBSD (up to 1.5.1), OpenBSD (up to 2.9),;		   SuSE Linux (up to 7.2), SCO Open Server (5.0.6);		  ;解决方案 : 确保你在运行罪行版本的BSD ;           lpd守护进程 ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

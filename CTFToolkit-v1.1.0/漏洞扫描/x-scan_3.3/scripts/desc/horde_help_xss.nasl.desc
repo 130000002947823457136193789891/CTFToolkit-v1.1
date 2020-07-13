@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15605
+NAME=Horde帮助子系统的跨站脚本
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Horde帮助子系统的跨站脚本缺陷 
+DESCRIPTION=远程主机正在运行至少一个Horde实例.  由于没有对传递到帮助子系统的信息进行适当的处理, Horde帮助子系统因而容易受到跨站脚本攻击的危害.;;解决方案: 升级到Horde 2.2.7或更高.;;风险等级: 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

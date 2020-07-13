@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10399
+NAME=SMB利用局域网SID枚举用户
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=枚举用户
+DESCRIPTION=当前脚本利用局域网SID从1000到1200枚举用户ID（枚举范围可根据需要设定）。;;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2000, 2001 Renaud Deraison

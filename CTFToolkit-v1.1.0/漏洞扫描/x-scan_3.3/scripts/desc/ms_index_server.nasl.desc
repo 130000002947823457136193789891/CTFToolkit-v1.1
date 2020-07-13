@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10356
+NAME=Microsoft 索引服务暴露 ASP 代码
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测 webhits.dll 存在的问题
+DESCRIPTION=通过提交以下请求可以获得ASP文件源代码:;;GET /null.htw?CiWebHitsFile=/default.asp%20&CiRestriction=none&CiHiliteType=Full;;ASP 源代码通常包含像用户名、密码等的敏感信息。;;解决方案 : 如果你需要使用WebHits提供的功能, 请安装以下补丁:; http://www.microsoft.com/technet/security/bulletin/ms00-006.asp;	;如果你不需要WebHits提供的功能, 请使用IIS的MMC控制台取消扩展名.htw 到 webhits.dll的映射. ;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison (Translated by chice)

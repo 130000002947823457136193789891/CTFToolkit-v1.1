@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11417
+NAME=MyAbraCadaWeb跨站脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=确定远程主机是否容易受跨站脚本攻击
+DESCRIPTION=远程主机似乎在运行MyAbraCadaWeb. 攻击者可以用其进行跨站脚本攻击或泄露其完整的物理路径.;;;解决方案: 升级到更高版本.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

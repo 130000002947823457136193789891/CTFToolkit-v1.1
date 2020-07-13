@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14707
+NAME=TYPSoft 空用户名 DoS
+CATEGORY=混合攻击
+FAMILY=FTP
+SUMMARY=检查 TYPSoft FTP server 空用户名 DoS
+DESCRIPTION=TYPSoft FTP server v1.10 版本有一个远程Dos缺陷。;通过发送空的用户名，攻击者可以使 FTP server 崩溃，不能给正常用户提供服务。;解决方案 : 使用其它的 FTP 服务器或升级到最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

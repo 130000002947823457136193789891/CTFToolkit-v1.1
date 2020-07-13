@@ -1,0 +1,9 @@
+[CHINESE]
+ID=16169
+NAME=查找Movable Type 初始安装脚本
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/mt/mt-load.cgi是否存在
+DESCRIPTION=;/mt/mt-load.cgi 由MT发布平台安装.如果未移除该文件,将会导致生成一个可为任意用户所访问的web日志.进而获取访问数据的权限. ;;解决方案: 安装完成后移除mt-load.cgi 脚本文件. ;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Rich Walchuck
+

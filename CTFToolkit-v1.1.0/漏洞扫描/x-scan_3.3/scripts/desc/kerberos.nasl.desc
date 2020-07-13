@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17351
+NAME=Kerberos configuration
+CATEGORY=设置
+FAMILY=配置错误
+SUMMARY=在KB中填写kerberos信息
+DESCRIPTION=本插件可以使用户输入Kerberos服务器的有关信息，当一些脚本（如SMB）连接到远程服务器时，就可以查询这些信息。;;风险等级: 无
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

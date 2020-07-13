@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15432
+NAME=Mozilla/Firefox默认安装的文件访问许可漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Mozilla/Firefox的版本
+DESCRIPTION=远程主机正在使用Mozilla和/或Firefox Web浏览器.;;此软件容易发生不正确的文件访问许可设置.;;这个缺陷仅在使用Mozilla Foundation软件管理来安装时才存在, 因此这些告警有可能是错误的.;;本地攻击者可以凭运行浏览器用户的权限来覆盖任意文件或执行任意代码.;;解决方案 : 升级软件到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

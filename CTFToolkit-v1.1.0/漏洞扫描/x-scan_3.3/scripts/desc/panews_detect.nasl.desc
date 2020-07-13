@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17253
+NAME=paNews 检测
+CATEGORY=信息搜集
+FAMILY=Service detection
+SUMMARY=检查paNews的存在
+DESCRIPTION=这个脚本检测远程主机是否运行paNews以及其版本号，并能够准确的定位发现的所有实例。;;
+paNews是一种用PHP编写的新闻管理脚本。详细信息请查阅：http://www.phparena.net/panews.php for more information.
+COPYRIGHT=This script is Copyright (C) 2005 Liu Yu

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10244
+NAME=ypxfrd服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测是否存在该RPC服务
+DESCRIPTION=远程主机正在运行ypxfrd RPC服务.  如果你不需要该服务, 建议将该服务禁用, 因为该服务很有可能出现安全问题.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(chinese version by lsy)

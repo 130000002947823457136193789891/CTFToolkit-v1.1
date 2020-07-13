@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15604
+NAME=Horde检测
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查是否存在Horde
+DESCRIPTION=这个脚本检测远程主机是否正在运行Horde并根据所检测到的Horde实例提取其版本号和位置. ;;Horde是一个源自Horde项目的基于PHP的应用框架. ;更多信息参阅http://www.horde.org/horde/ .
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall

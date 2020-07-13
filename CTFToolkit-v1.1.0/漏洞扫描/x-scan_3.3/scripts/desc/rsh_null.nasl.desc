@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10096
+NAME=远程rsh服务允许使用空用户名执行命令
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=尝试使用rsh命令远程登陆
+DESCRIPTION=远程rsh服务可能允许使用空用户名登陆执行命令。;客户端使用rsh，并指定一个空用户名即可在远程主机执行命令。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12067
+NAME=Oracle SOAP denial
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程数据库服务器的版本
+DESCRIPTION=远程的存在SOAP和XML服务Oracle数据库服务器的有些版本，有拒绝服务的漏洞。攻击者可以利用这个缺陷来禁用远程服务器的远程管理功能;;解决方案: 升级到Oracle 9.0.2.3 版本;http://metalink.oracle.com;http://otn.oracle.com/deploy/security/pdf/2004alert65.pdf;风险等级：高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security, 插件翻译：sleky

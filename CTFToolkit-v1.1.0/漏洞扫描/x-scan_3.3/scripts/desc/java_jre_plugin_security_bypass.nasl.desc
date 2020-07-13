@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15821
+NAME=Sun's Java 运行时环境安全保护可被绕过
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定Sun's Java 运行时环境版本
+DESCRIPTION=远程主机正使用着易被攻击的Sun's Java 运行时环境版本, 为了显示运行java的小应用程序applets，许多web浏览器都加入了java运行时环境，比如IE。;;据报道Sun's Java 运行时环境的安全保护能被绕过。;因此，一个攻击者可以利用它，通过创建一个恶意的java小应用程序applet去危害该电脑。;;解决方案: 将Sun's Java 运行时环境升级到 1.4.2_06 或 1.3.1_13 版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

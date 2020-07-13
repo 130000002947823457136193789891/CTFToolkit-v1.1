@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11581
+NAME=album.pl命令行执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查album.pl的版本
+DESCRIPTION=远程主机正在运行版本低于6.2的CGI 'album.pl';;根据其版本号，这个CGI可导致攻击者在这台主机上以HTTP守护进程的特权执行任意命令.;;解决方案 : 升级到album.pl到版本6.2.;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10660
+NAME=Oracle tnslsnr 没设置口令
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=确定Oracle tnslsnr 服务是否设置了口令
+DESCRIPTION=Oracle8i和9i tnslsnr 服务没有设置口令的话那么它存在很多安全问题。;;风险等级 : 高
+COPYRIGHT=James W. Abendschan <jwa@jammed.com> (GPL)

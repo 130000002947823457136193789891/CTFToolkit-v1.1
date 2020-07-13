@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17212
+NAME=OFF2000: Office 程序能浏览受限制驱动器(Q302753)
+CATEGORY=信息搜集
+FAMILY=Windows : 微软公告
+SUMMARY=检查MSO9.dll版本
+DESCRIPTION=远程主机运行了Microsoft Office 包含漏洞的程序版本, 通过它用户能浏览受限制驱动器.;;攻击者利用这个漏洞能获得他本不具有的连接文件权限.;;解决办法 : http://support.microsoft.com/?id=302753;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

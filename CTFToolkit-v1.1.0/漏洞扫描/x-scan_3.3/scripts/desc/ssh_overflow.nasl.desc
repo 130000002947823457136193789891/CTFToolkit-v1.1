@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10269
+NAME=SSH缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH版本号
+DESCRIPTION=远程主机运行的SSH的版本是1.2.27或者更低，并且在编译时使用RSAREF作为支持库，;此版本很可能遭受缓冲区溢出攻击，并且攻击者能利用它得到本地root权限。;;在远程主机上使用命令ssh –V可以查看编译时是否使用RSAREF作为支持库.;;风险等级：高;解决方案：使用SSH 2.x或者编译时不使用RSAREF作为支持库
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

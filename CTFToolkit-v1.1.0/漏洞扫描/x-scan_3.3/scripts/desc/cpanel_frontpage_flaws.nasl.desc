@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15515
+NAME=cPanel FrontPage Extension缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查cpanel的版本
+DESCRIPTION=远程主机所正在运行的cpanel的版本低于或等于9.9.1.;;此软件存在两个缺陷 :;;- 如果安装了FrontPage Extension，则存在一个信息泄露缺陷,;这个缺陷允许攻击者以'cpsvrd'进程的特权读取远程主机上任意文件.;;- 在FrontPage Extension中存在一个文件所有关系问题，这个问题可导致本地攻击者读取.htaccess文件的内容;;;解决方案 : 升级cPanel到最新版本或禁止这个服务;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

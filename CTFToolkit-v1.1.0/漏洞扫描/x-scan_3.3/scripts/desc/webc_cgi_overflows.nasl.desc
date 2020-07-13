@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11516
+NAME=AutomatedShops WebC.cgi 缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查webc.cgi是否存在
+DESCRIPTION=远程主机正在运行AutomatedShops的webc.cgi，其版本早于5.020。;;该CGI存在一个远程缓冲区溢出漏洞(包括所有早于或等于5.005的版本);和一个本地溢出漏洞(包括所有早于或等于5.010的版本);;攻击者可以利用该漏洞在远程主机上执行任意代码。;;解决方案: 升级到5.020版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

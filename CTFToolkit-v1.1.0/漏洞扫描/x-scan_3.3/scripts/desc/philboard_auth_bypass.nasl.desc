@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11675
+NAME=Philboard philboard_admin.ASP 认证被绕过
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=试着绕过Philboard的philboard_admin.ASP验证
+DESCRIPTION=远程主机运行的Philboard处理cookies时存在一个缺陷使得攻击者得到未授权的管理权限或者下载服务器的数据库。;解决方案：升级软件的最新版本;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

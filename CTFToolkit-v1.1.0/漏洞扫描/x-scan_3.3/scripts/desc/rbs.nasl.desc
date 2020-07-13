@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10521
+NAME=存在Extent RBS ISP
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在Extent RBS ISP 2.5
+DESCRIPTION=该系统装有Extent RBS ISP 2.5.该软件存在一个众所周知的安全漏洞,可导致任何人以http进程的权限(root或者nobody)读取任意文件.;;解决方案:删除该软件或为其打上补丁 (http://www.extent.com/solutions/down_prod.shtml);;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2000 Zorgon <zorgon@linuxstart.com>

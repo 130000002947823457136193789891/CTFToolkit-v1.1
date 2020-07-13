@@ -1,0 +1,9 @@
+[CHINESE]
+ID=11139
+NAME=wpoison (nasl 版)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=一些常见的SQL注入的技术
+DESCRIPTION=这个脚本会试图在CGI脚本上使用SQL注入技术;
+更多的信息:http://www.securiteam.com/securityreviews/5DP0N1P76E.html;;;解决方案 : 修改相关CGI使他们能合适的处理参数。;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2002 John Lampe...j_lampe@bellsouth.net (Chinese version by Dancefire)

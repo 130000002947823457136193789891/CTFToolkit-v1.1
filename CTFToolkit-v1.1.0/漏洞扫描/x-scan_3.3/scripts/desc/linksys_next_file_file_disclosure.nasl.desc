@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13636
+NAME=Linksys无线网络摄像机文件泄露
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=Tests for the Linksys CGI Disclosure
+DESCRIPTION=Linksys无线网络摄像机包含一个CGI，通过这个CGI，远程攻击者可以获得服务器上的敏感文件。;;例如，攻击者可以利用这个CGI获取包含root口令(MD5 值)的密码文件。 ;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus      翻译 : laughterwym

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11160
+NAME=Windows 管理员及FTP 密码为空
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检测到一个 Windows 管理员帐号及 FTP 密码为空.
+DESCRIPTION=远程主机配置错误;用户'Administrator'密码为空并且 FTP 可用. ; ;解决方案 : 更改管理员密码.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Keith Young

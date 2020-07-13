@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16154
+NAME=Invision Community Blog SQL Injection
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=SQL Injection
+DESCRIPTION=远程主机上似乎正运行着一个Invision Community Blog网上日志应用程序，存在一个漏洞可能使任何人远程插入SQL指令，依次获得远程主机上的数据。;解决方案：升级到最新版本;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

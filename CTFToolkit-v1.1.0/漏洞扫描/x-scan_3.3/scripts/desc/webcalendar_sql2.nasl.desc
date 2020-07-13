@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17142
+NAME=WebCalendar SQL 注入漏洞(2)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=向远程主机发送一个构造的cookie
+DESCRIPTION=远程主机运行一个由PHP编写，基于网络的日历程序WebCalendar.;远端这个版本的软件有SQL注入攻击缺陷,;使得攻击者能够向远端数据库执行任意SQL语句;;解决方案 : 升级 WebCalendar 1.0.0 RC1 或者更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

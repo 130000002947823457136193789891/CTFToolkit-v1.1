@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10817
+NAME=交互式Story目录遍历缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测存在/cgi-bin/story.pl
+DESCRIPTION=这有可能在服务器上读取任意文件;这个远程服务器被请求一个:;;GET：/cgi-bin/story.pl?next=../../../file_to_read%00;;一个攻击者有可能利用这个漏洞去读取服务器上任意文件;这个服务器.;;解决方案: 升级这个story.pl到最新的版本(1.4 或者更新).;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com (chinese version by cnstar)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10988
+NAME=Netware NDS对象枚举
+CATEGORY=信息搜集
+FAMILY=NETWARE
+SUMMARY=Netware NDS对象枚举
+DESCRIPTION=这台主机是Novell Netware服务器并对PUBLIC对象设置了浏览权限.  ;通过人工构造的查询的方式可能枚举所有NDS对象(包括用户).  攻击者可以利用这一点来获得主机的信息.;;解决方案: NDS PUBLIC对象不应当具有浏览权限; 对象树应当只对已鉴权用户开放.  从对象中删除浏览权限可以解决这个问题.  如果是外部系统则推荐禁止从互联网对524端口的访问.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Digital Defense, Inc

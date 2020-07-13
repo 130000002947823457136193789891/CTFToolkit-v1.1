@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10463
+NAME=vpopmail输入验证漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=使用伪造的用户名登陆pop3服务器
+DESCRIPTION=远程 vpopmail 服务器验证输入数据过程中存在漏洞，允许任何人提交伪造的用户名并在主机上执行任意代码。;;解决方案: 升级到vpopmail 4.8;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16043
+NAME=vBulletin last10.php SQL语句注入
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查存在的SQL和Last10
+DESCRIPTION=远程主机运行last10.php, 是用于vBulletin的非正式插件工具，它允许用户不断的循环添加纪录并且只显示最后10条的讨论。;;这个脚本允许攻击者引用SQL注入漏洞使他通过程序执行任意SQL语句。;;解决方案 :升级到最新的版本或者取消该功能;风险等级:高;
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

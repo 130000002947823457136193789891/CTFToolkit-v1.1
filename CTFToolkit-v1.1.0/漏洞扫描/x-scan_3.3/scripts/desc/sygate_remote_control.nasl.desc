@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10274
+NAME=SyGate 后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测SyGate remote controller是否正在运行
+DESCRIPTION=SyGate engine remote controller 正在该端口运行。恶意用户和主机存在于同一子网下可重新配置远程SyGate引擎。;;解决方案: 过滤通过该端口接受到的数据;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

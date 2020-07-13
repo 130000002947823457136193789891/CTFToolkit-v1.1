@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11708
+NAME=zentrack文件读取问题
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查index.php的存在
+DESCRIPTION=通过向服务器发送特定的请求，例如：;;index.php?configFile=../../../../etc/passwd;;就会使远程服务器显示任意的文件的内容。;;解决方案：升级至最新版本;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

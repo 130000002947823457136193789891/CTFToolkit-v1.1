@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10355
+NAME=vqServer web 信息泄漏
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=检查vqServer web 信息泄漏漏洞
+DESCRIPTION=vqSoft's vqServer web 服务器 (1.9.9版本及以前所有版本) 被发现存在有此漏洞.;这个安全漏洞容许攻击者访问包括web服务目录以外的所有文件.;;更多信息参见:;http://www.securiteam.com/windowsntfocus/Some_Web_servers_are_still_vulnerable_to_the_dotdotdot_vulnerability.html;;解决方案:;升级到最新版本, 升级地址: http://www.vqsoft.com.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2000 SecuriTeam

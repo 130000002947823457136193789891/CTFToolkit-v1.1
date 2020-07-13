@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11493
+NAME=Sambar 默认账号
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=测试默认账号
+DESCRIPTION=Sambar Web服务器存在部份默认账号，这一脚本用来确认该账号是否设置密码。;;Solution : 为每个账号设置密码;Risk factor : 中/高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

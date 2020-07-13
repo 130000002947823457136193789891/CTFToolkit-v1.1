@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10229
+NAME=sadmin服务
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检查该RPC服务的存在
+DESCRIPTION=sadmin RPC服务正在运行. ;该服务的Solaris版本存在一个漏洞，允许恶意攻击者在该系统上执行任意命令。;;;解决方案:停止该服务;风险等级:高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

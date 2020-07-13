@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10669
+NAME=A1Stats的目录遍历
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查A1Stats是否读取文件
+DESCRIPTION=在A1Stats有一个名称为'a1disp.cgi'的CGI脚本. 此脚本允许攻击者通过下列请求来查看任意文件 :;;GET /cgi-bin/a1disp*.cgi?/../../../../etc/passwd;;解决方案 : 删除'a1disp.cgi'脚本.;;风险等级 : 中/高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

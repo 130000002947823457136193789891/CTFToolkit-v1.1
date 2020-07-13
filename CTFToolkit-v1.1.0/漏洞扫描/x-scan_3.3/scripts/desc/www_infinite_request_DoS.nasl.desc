@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11084
+NAME=无限的HTTP请求 
+CATEGORY=破坏性攻击
+FAMILY=拒绝服务
+SUMMARY=无限的HTTP请求会破坏WEB服务器
+DESCRIPTION=通过给WEB服务器发送一个永不结束的无限请求使WEB崩溃;攻击者可能利用这种;;持续攻击使服务器崩溃甚至在系统上执行任意指令;;解决方案: 升级软件或使用反向代理来保护你的服务器;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi

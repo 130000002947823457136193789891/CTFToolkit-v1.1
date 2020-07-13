@@ -1,0 +1,8 @@
+[CHINESE]
+ID=
+NAME=Sympa 未授权建立安全列表
+CATEGORY=
+FAMILY=CGI漏洞
+SUMMARY=
+DESCRIPTION=一些主机使用的Sympa是一个开放源码的邮件列表程序。;;在4.1.2以下版本中有一个漏洞被报道, 它可以让恶意用户突破安全限制。;;特别的，用户可以在未被同意下批准邮件列表。;;解决方案 : 升级到 4.1.2 或更新版;;详情请看: http://www.sympa.og/;;风险等级：中
+COPYRIGHT=翻译:Heart is flying

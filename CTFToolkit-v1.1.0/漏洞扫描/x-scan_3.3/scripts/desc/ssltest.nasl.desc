@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11875
+NAME=OpenSSL处理畸形证书是存在缓冲区溢出
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测SSL的行为
+DESCRIPTION=远程主机似乎运行着低于0.6.6k或0.9.7c版本的OpenSSL。 ;;这些低版本的OpenSSL存在堆溢出漏洞，该漏洞可导致远程攻击者获得系统的shell。;;解决方案 : 更新你的OpenSSL到0.9.6k/0.9.7c或更高版本。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

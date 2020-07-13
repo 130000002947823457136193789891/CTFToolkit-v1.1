@@ -1,0 +1,9 @@
+[CHINESE]
+ID=17159
+NAME=PuTTY多个整型逸出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=PuTTY版本检查
+DESCRIPTION=远程主机运行了PuTTY, 一个免费的 SSH 客户端软件.;;这个主机的远程版本存在多个整型溢出漏洞, 可以使攻击者在远程主机上执行任意代码.;;要利用这个漏洞, 攻击者需要建立一个欺骗SSH;daemon并引诱远程主机受害者用PuTTY进行连接.;;解决办法 :升级到PuTTY 0.57或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>
+ 

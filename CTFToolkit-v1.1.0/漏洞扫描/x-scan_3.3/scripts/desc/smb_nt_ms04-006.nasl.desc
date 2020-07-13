@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12051
+NAME=WINS Buffer Overflow (830352)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查MDAC的版本
+DESCRIPTION=远程Windows 互连网命名服务(WINS)存在一个漏洞，可以让攻击者远程执行任意代码或者构造任意长度的数据包攻击远程服务器。;;解决方案：http://www.microsoft.com/technet/security/bulletin/ms04-006.asp;风险等级：低(Windows NT, Windows 2000) / 高(Windows 2003)
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security, 插件翻译：sleky

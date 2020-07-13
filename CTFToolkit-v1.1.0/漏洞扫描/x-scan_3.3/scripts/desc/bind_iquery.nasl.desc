@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10329
+NAME=BIND反向查询缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程BIND版本
+DESCRIPTION=从版本信息来看，该远程BIND服务器可能存在一个反向查询缓冲区溢出漏洞.;;解决方案: 升级到bind 8.1.2或者4.9.7;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

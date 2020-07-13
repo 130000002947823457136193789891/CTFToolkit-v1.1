@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17604
+NAME=Mozilla 浏览器版本低于1.7.6
+CATEGORY=信息搜
+FAMILY=WINDOWS
+SUMMARY=检测 Mozilla 的版本
+DESCRIPTION=远程机器运行有 Mozilla 浏览器.;;这个版本的软件具有多个安全问题;允许攻击者模拟网站来诱骗用户进入 ;允许接受执行任意格式的文件或者引起堆溢出;FireFox 在远程机器上处理和执行任意的代码.;;解决方案 : 升级道 Mozilla 1.7.6 以上版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

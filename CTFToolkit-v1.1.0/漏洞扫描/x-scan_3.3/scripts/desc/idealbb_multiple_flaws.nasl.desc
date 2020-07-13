@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15541
+NAME=IdealBB多个缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查IdealBB的版本
+DESCRIPTION=远程主机正在运行IdealBB -- 一个ASP编写的基于web的BBS系统.;;这个软件存在多个缺陷: SQL注入、跨站脚本和HTTP应答分离等漏洞. ;;解决方案: 升级软件到最新的版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

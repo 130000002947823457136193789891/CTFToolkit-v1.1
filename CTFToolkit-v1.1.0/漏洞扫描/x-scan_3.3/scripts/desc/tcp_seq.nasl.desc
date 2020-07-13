@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10443
+NAME=可预知的TCP序列号
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=TCP SEQ
+DESCRIPTION=远程主机的拥有可预知的TCP序列号。攻击者可以利用该漏洞欺骗主机建立虚假TCP连接。;;解决方案: 如果远程主机正在运行Windows, 参看http://www.microsoft.com/technet/security/bulletin/ms99-046.asp;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14726
+NAME=ZoneAlarm Pro 本地拒绝服务
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检查 ZoneAlarm Pro 版本
+DESCRIPTION=ZoneAlarmPro防火墙正在主机上运行.;;这一版本包含一个本地拒绝服务的漏洞.;为了利用这个漏洞,攻击者需要调试位于%windir%/Internet Logs的文件. ;;攻击者可以修改这些文件并阻止ZoneAlarm正常运行.;;解决方案 : 将此软件升级至最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak; Chinese version by peterbas.

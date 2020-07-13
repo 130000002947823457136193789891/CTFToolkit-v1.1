@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17638
+NAME=Avaya P330 可堆叠交换机默认密码
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=使用默认密码登陆Avaya交换机
+DESCRIPTION=远程主机看起来是Avaya P330可堆叠交换机,并使用的是出厂的默认密码.;;攻击者可以利用这个密码远程访问这个交换机.;这个密码也可能潜在的导致攻击者从这个交换机上得到这个网络的一些敏感信息.;;解决方案 : Telnet到这个交换机上并修改密码.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Charles Thier

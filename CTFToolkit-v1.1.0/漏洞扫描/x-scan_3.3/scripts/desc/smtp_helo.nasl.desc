@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10260
+NAME=HELO 溢出
+CATEGORY=混合攻击
+FAMILY=SMTP
+SUMMARY=检查远程邮件服务器是否可以发送匿名邮件
+DESCRIPTION=远程SMTP服务器允许远程用户在HELO命令里填入超长参数（超过1024个字符），从而可以发送匿名邮件。;;该漏洞允许恶意用户利用服务器匿名的发送恶意邮件或威胁邮件。;;风险等级: 低;;解决方案: 如果正在运行sendmail, 升级到8.9.x或更新的版本。如果没有，联系销售商。
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

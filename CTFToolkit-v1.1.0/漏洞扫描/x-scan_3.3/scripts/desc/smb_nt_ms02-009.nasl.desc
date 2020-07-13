@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10926
+NAME=IE VBScript补丁 (Q318089)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测IE VBScript补丁 (Q318089)是否安装
+DESCRIPTION=恶意的VBScript在IE中执行可允许网页 ;脚本读取本地文件.;;漏洞影响: 信息泄露;;涉及程序: ;;Microsoft Internet Explorer 5.01;Microsoft Internet Explorer 5.5 ;Microsoft Internet Explorer 6.0 ;;参考资源;http://www.microsoft.com/technet/security/bulletin/ms02-009.asp;和: 微软文章;Q319847 MS02-009 May Cause Incompatibility Problems Between; VBScript and Third-Party Applications;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Michael Scheidell(chinese version by lsy)

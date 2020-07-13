@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17607
+NAME=Non administrators can shut down Windows XP SP1 thru TSShutdn.exe (889323)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检测远程主机是否安装了KB 889323补丁 
+DESCRIPTION=远程主机安装的Microsoft Windows XP SP1 操作系统没有安装更新编号为889323的安全补丁.;; 造成任意一个非管理员用户(non-administrative user)能够在远端使用TSShutdn.exe命令来重启或关闭电脑。漏洞起因是远程桌面没有检查Force shutdown from a remote system用户权限.攻击者必须要在同一域内才能利用这个漏洞。(攻击方法:Tsshutdn 0 /SERVER:yyyzzz /DELAY:0);;解决方案:http://support.microsoft.com/kb/889323/;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security.(The sFqRy translation)

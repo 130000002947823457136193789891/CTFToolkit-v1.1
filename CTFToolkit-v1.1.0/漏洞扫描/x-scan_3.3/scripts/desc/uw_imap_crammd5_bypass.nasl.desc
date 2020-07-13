@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16272
+NAME=UW-IMAP CRAM-MD5 绕过远程认证易受攻击
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查UW-IMAP的版本
+DESCRIPTION=远程UW-IMAP服务器上有一个缺陷.它允许;认证用户以任何用户身份登录主机.缺陷;存在于CRAM-MD5认证中.;;攻击者要利用这个缺陷,只需识别出一带有易受攻击CRAM-MD5认证的UW-IMAP主机,就能以任何有效用户登录主机.可看出IMAP daemon非常重要，如果the /etc/cram-md5.pwd 这个文件存在,;自动授予CRAM-MD5的权力.;;;解决方案：将UW-IMAP升级到最新版本.;另外，事实上CRAM-MD5表明服务器将 IMAP 密码储存为明文形式.;请确保the /etc/cram-md5.pwd 这个文件是0400这种模式的.;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security紫电清霜

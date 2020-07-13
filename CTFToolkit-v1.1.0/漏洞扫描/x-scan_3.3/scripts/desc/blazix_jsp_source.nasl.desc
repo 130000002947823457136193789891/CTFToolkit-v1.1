@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17151
+NAME=Blazix Web服务器JSP源代码泄漏漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=试图读取Jsp页源代码
+DESCRIPTION=通过在请求Jsp页时给该文件扩展名追加一个“＋”或者一个“\”(例如:用文件名.jsp+代替文件名.jsp)，它可能使远程Web服务器泄漏JSP页源代码。;;攻击者利用该缺陷可获取到你的CGIs的源代码，并且还可能获取到主机的密码和相关信息。;;解决方案:升级到Blazix 1.2.1或者更新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

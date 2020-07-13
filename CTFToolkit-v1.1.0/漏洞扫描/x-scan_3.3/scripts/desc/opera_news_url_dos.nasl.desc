@@ -1,0 +1,8 @@
+CHINESE]
+ID=14249
+NAME=Opera web 浏览器新闻 url 拒绝服务的漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=决定 Opera.exe 的版本
+DESCRIPTION=远程主机使用的是 Opera - 一种可选的 web 浏览器。;;在处理 '新:' URL ;长度超过范围，可能导致拒绝服务时会报告此版本。;根据报告，此问题将触发一个条件，;即将阻止 Opera 运行，直至将程序;重新安装。;;;解决方案：安装 Opera 7.20 或更新版本。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

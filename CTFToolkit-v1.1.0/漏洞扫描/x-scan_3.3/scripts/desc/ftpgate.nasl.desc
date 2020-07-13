@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10091
+NAME=FTPGate traversal
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=\..\..\file.txt
+DESCRIPTION=通过特定的在文件名前设置../../或者 ..\..\ 可以读取远程服务器的任意文件。;解决方案: 使用其它的Web代理;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

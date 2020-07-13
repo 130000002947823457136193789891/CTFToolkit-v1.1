@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13843
+NAME=Moodle < 1.3.3
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测Moodle的版本是否低于1.3.3
+DESCRIPTION=远程主机是运行在一个低于1.3.3版本的Moodle PHP组件。;;这个远程的软件很容易受到基于help.php的交叉站点脚本发布的攻击以及基于语言设置管理的匿名漏洞攻击。;;解决方案:更新到Moodle1.3.3;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security (Chinese by netke)

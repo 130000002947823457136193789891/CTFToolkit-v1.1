@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16476
+NAME=OSCommerce Contact_us.PHP 跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI 漏洞 : XSS
+SUMMARY=检测是否安装OSCommerce
+DESCRIPTION=远程主机运行OSCommerce, 一种PHP的基于WEB的电子商务程序.;;;此版本的OSCommerce有一个跨站脚本执行的漏洞(XSS);攻击者可以诱使受害人访问一个非法站点来利用这个漏洞.;在成功利用之后,攻击者可以偷取信用卡信息或者执行客户端程序.;;解决方案 : 当更新的升级可用时升级软件;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

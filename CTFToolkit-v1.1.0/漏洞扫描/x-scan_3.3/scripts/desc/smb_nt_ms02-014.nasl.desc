@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11307
+NAME=Windows Shell未检测缓冲区漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=MS Hotfix Q216840检测
+DESCRIPTION=远程主机的Windows shell存在一个未检测缓冲区漏洞，;使得本地攻击者可以在主机上运行任意代码。;;受影响的系统：;;Microsoft Windows NT 4.0 ;Microsoft Windows NT 4.0 Server, Terminal Server Edition ;Microsoft Windows 2000 ;;建议：任何使用受影响系统的用户应该立即安装补丁程序。;;详见：;http://www.microsoft.com/technet/security/bulletin/ms02-014.asp;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

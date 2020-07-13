@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14275
+NAME=QuiXplorer目录遍历
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=测试关于QuiXplorer目录遍历
+DESCRIPTION=远程主机正在运行QuiXplorer CGI套件,该套件是PHP站点的一种文件管理器。;;当前远程主机的CGI版本有缺陷，使其存在目录遍历漏洞。;;这将可能导致攻击者下载etc/passwd 文件。;;解决方案:升级至2.3.1版本 -  http://quixplorer.sourceforge.net/;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

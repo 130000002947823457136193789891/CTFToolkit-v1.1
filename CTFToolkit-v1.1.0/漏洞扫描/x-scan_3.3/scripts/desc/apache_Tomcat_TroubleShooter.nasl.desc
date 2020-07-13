@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11046
+NAME=Apache Tomcat TroubleShooter Servlet Installed
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试Apache Tomcat的'故障排除'Servlet是否安装
+DESCRIPTION=Tomcat的默认安装包括许多示例JSP页面和servlet，其中一个是'故障排除'(TroubleShooter)Servlet，这个servlet会泄露Tomcat所安装系统的信息. 这个servlet还可能会被用来进行跨站脚本攻击.;;解决方案: ;;移走示例文件.;;参考: ;;http://company.chinansl.com/english/hole2.htm;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2002 Matt Moore

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11030
+NAME=Apache分块编码漏洞
+CATEGORY=混合攻击
+FAMILY=远程获取命令行
+SUMMARY=检测Apache版本
+DESCRIPTION=根据远程主机Apache版本信息判断，此服务存在分块编码(chunked encoding)漏洞。;;如果安全检测开关打开则此判断是不准确的。;; Apache 1.2.2版，1.3 - 1.3.24 版，及2.0 - 2.0.36版都受该漏洞影响。;译者注：Apache 2.0x版本错误条件会正确的被探测，不会让攻击者有机会执行任意代码.;Apache 1.3x会引起缓冲溢出，但由于需处理非常大的内存拷贝，;能否被攻击者利用取决于目标OS类型，目前已知BSD/Windows系统能执行任意代码，;Linux不受影响，其他商用Unix不详。;;解决方案 : 升级Apache到 1.3.26 （针对使用1.x系列的用户）或 2.0.39及更高版本。;详情参考 : http://httpd.apache.org/info/security_bulletin_20020617.txt;	   http://httpd.apache.org/info/security_bulletin_20020620.txt;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

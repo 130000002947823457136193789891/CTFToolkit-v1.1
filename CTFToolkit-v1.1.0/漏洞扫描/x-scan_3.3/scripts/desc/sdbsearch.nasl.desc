@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10720
+NAME=存在sdbsearch.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在sdbsearch.cgi
+DESCRIPTION=该机器安装有SuSE的cgi程序'sdbsearch.cgi'.;该cgi程序可允许本地或者远程用户以HTTP服务的权限运行任意命令.;;解决方案:修改该脚本并过滤HTTP_REFERRER参数,或者直接删除该脚本.;;风险等级:严重
+COPYRIGHT=This script was written by Renaud Deraison

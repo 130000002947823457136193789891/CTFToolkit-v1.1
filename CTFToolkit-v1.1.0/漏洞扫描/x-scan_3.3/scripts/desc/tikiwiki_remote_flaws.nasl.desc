@@ -1,0 +1,10 @@
+CHINESE]
+ID=16229
+NAME=TikiWiki multiple remote unspecified flaws
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks the version of TikiWiki
+DESCRIPTION=远程主机正运行着TikiWiki,这是一个写在PHP的管理系统目录.远程主机上的这个版本的软件存在的漏洞容易受到多种多样的攻击,这可能允许攻击者在服务器上执行任意脚本的代码.;解决方案:升级到最新版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak
+
+

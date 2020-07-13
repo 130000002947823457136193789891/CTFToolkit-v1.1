@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15987
+NAME=Singapore Gallery存在多个缺陷
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在Singapore Gallery
+DESCRIPTION=Singapore 是一款基于PHP的photo gallery web应用程序;;该软件存在着多个漏洞;可使得攻击者读取远程主机上的任意文件或是执行任意的PHP命令.;;解决方案: 升级Singapore到0.9.11 或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security 翻译:HUIVER

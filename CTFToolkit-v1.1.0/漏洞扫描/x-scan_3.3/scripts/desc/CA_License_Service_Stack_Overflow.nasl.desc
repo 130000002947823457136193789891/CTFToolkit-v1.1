@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17307
+NAME=CA许可服务的多种攻击
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=CA许可服务堆栈溢出
+DESCRIPTION=远程主机在运行Computer Associate的许可应用程序。;;这一软件的远程版本存在着多种易受攻击的漏洞可以使远程攻击者在该主机上利用管理员权限运行任意的程序代码。更多信息请查阅：http://www.eeye.com/html/research/advisories/AD20050302.html;解决方案：http://supportconnectw.ca.com/public/ca_common_docs/security_notice.asp ;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2005 KK Liu

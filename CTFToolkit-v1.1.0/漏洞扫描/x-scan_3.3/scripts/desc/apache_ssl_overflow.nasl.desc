@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10918
+NAME=Apache-SSL缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测Apache-SSL版本号
+DESCRIPTION=远程主机所运行的Apache-SSL版本低于1.47;;该版本存在一个远程缓冲区溢出漏洞,;尽管利用该漏洞进行攻击较为困难, 但仍然有可能导致攻击者在主机上执行任意指令.;;;解决方案 : 升级到1.47或更高版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison(chinese version by lsy)

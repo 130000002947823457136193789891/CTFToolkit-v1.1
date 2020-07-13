@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10312
+NAME=WindowsNT DNS 洪水拒绝服务
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=破坏远程DNS服务器
+DESCRIPTION=我们可以做到;.通过发送洪水式的字符对远程的DNS服务器进行.;这一定要用于NT下的DNS服务器;正在被攻击的DNS服务器可以让攻击者使你的网络失效; 或者 甚至引用;DNS 欺骗技术而获得;在网络上的特权;;解决方案 : 安装 SP3.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

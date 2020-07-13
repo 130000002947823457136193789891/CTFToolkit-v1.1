@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11418
+NAME=Sun rpc.cmsd缓冲区溢出漏洞
+CATEGORY=攻击
+FAMILY=RPC
+SUMMARY=检测Sun rpc.cmsd缓冲区溢出漏洞
+DESCRIPTION=远程Sun主机rpc.cmsd服务在xdr_array中存在一个整型溢出漏洞。;该漏洞可导致远程攻击者通过精心构造请求信息在系统;以RPC服务程序运行身份（通常是root）执行任意代码。;;解决方案: 禁用该服务或安装最新的相关补丁;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11495
+NAME=tanned 格式化字符串攻击
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=发送一个格式化字符串到远程主机
+DESCRIPTION=远程 tanned 服务器会受格式化字符串的攻击.;;攻击者可以利用这个漏洞在远程主机上获得一个shell.;;解决方案 : 升级到 tanned 0.7.1 或禁止该服务;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison (Translated by chice)

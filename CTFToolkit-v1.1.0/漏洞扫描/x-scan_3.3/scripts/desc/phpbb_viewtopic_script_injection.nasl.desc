@@ -1,0 +1,8 @@
+CHINESE]
+ID=16200
+NAME=phpBB < 2.0.11
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Check for the version of phpBB
+DESCRIPTION=远程主机上运行着的phpBB版本低于2.0.11.;;据报告这个版本的phpBB易受到对脚本注入的影响,这可能允许一个攻击者在远程主机上执行任意代码.;;解决方案:升级到phpBB 2.0.11或者更新.;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

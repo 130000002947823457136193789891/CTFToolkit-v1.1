@@ -1,0 +1,7 @@
+ID=14270
+NAME=ISS BlackICE 脆弱的配置文件
+CATEGORY=信息搜集
+FAMILY=WINDOWS系统
+SUMMARY=ISS BlackICE 脆弱查看的配置文件
+DESCRIPTION=在WINDOWS系统中安装的个人防火墙BlackICE ISS。 ; 基于版本号，远程Blackice安装； 由于错误的配置文件许可容易让攻击者利用造成一次于本地攻击。 ; ; ***Nessus把这次试验的结果建立在内容上； ***本地Blackice配置文件。 ; ; 解决办法： 对BlackICE的最新的版本升级；factor : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

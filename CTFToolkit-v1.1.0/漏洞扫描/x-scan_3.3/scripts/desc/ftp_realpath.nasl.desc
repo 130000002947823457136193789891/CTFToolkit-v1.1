@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10087
+NAME=FTP 真实路径
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=获取远程 FTP 本地真实路径
+DESCRIPTION=利用发送指令 CWD ,有可能推断出公开 FTP 服务器的本地真实路径( 如: /home/ftp );这一问题会帮助一个攻击者找出存放 .rhost 文件的位置以便于利用其它漏洞.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

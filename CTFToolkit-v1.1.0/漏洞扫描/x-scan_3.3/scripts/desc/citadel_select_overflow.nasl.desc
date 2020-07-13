@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16245
+NAME=Citadel/UX select()函数中的缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程Clitadel服务器的版本。
+DESCRIPTION=远程主机上的Citadel/UX(一款UNIX上的BBS软件)存在一个缓冲区溢出漏洞。;当执行系统调用select()的时候，给出一个详细的文件描述符， 攻击者利用此缺陷将修改内存里的至少一个字节数据。;;解决方案: 升级到Citadel 6.29或更新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

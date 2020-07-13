@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10205
+NAME=rlogin
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检测rlogin
+DESCRIPTION=远程主机正在运行'rlogin' 服务, 这是一个;允许用户登陆至该主机并获得一个交互shell的;远程登录守护进程.;;事实上该服务是很危险的,因为数据并未经过加密- 也就是说, ;任何人可以嗅探到客户机与服务器;间的数据, 包括登陆名和密码;以及远程主机执行的命令.;;你应当停止该服务而改用openssh  (www.openssh.com);;;解决方案 : 在/etc/inetd.conf 中注释掉'login' 一行并重新启动;inetd 进程.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

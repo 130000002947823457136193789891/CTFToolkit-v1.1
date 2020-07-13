@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10650
+NAME=VirusWall 的catinfo 溢出漏洞
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=catinfo中的溢出漏洞
+DESCRIPTION=当远程 cgi /catinfo 接受到超长字符串输入时会发生缓冲区溢出。这导致任意用户能以root身份执行任意命令。;;该 CGI 通常和VirusWall 套件绑定。;	   ;解决方案: 如果正在使用VirusWall, 升级到3.6版本  ;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

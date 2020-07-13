@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10802
+NAME=OpenSSH < 3.0.1
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检测远程SSH版本
+DESCRIPTION=远程主机正在运行的OpenSSH版本低于3.0.1.;;该版本存在一个安全问题;如果支持Kerberos V认证的话(通常在默认的OpenSSH中是不编译进来的), 可能允许任意用户获得对系统的访问.;;*** 如果系统没有使用Kerberos V,你可以忽略这个警告;*** ;;解决方案 : 升级到OpenSSH 3.0.1;风险等级 : 低 (如果没有使用Kerberos) 或者高 (如果使用kerberos)
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison(chinese version by lsy)

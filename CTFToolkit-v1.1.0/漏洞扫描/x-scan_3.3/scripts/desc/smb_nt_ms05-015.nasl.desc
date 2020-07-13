@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16330
+NAME=超链接对象库中的漏洞将导致恶意代码执行(888113)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检查KB 888113
+DESCRIPTION=远程windows系统包含一个超链接库中的一个缺陷.;;攻击者可以利用这个缺陷在远程系统上执行恶意代码.;;为了利用这个缺陷,攻击者需要构建一个恶意超链接并且引诱受害者点击.;;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms05-015.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

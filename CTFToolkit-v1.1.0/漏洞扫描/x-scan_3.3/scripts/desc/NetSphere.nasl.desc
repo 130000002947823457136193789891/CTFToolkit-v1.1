@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10005
+NAME=NetSphere后门
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查是否存在NetSphere
+DESCRIPTION=这台主机安装了NetSphere. ;;这个后门允许任何人部分控制远程系统.;;攻击者可以利用这个漏洞窃取机密数据、阻止系统正常工作或攻击网络中其他机器.;;解决方案: Telnet到计算机的TCP 30100端口并键入: '<KillServer>'(不含单引号), 按Enter. NetSphere服务将停止. 您应当手工确定机器被安装后门的根本原因并相应地清除后门.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

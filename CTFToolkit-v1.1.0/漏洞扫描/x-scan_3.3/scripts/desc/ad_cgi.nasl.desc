@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11464
+NAME=存在ad.cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/ad.cgi
+DESCRIPTION=该主机装有CGI程序'ad.cgi'.该CGI程序存在一个众所周知的安全漏洞可导致攻击者以http进程的权限(通常为root或者nobody)运行任意命令.;;解决方案: 从/cgi-bin中删除该文件.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

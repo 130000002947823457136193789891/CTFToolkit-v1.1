@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10321
+NAME=wwwboard远程管理口令泄露漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/wwwboard/路径下是否存在passwd.txt
+DESCRIPTION=/wwwboard/路径下存在passwd.txt;;Matt Wright的wwwboard留言簿程序默认安装时产生管理员口令文件passwd.txt.如果留言簿管理员口令与其他系统服务相同,这就有可能成为一个高风险的漏洞.入侵者通过下载该文件并进行破解可以相当容易的获取留言簿管理员权限.;;解决方案:通过修改wwwadmin.pl脚本源码,修改passwd.txt文件名或者存放路径.
+COPYRIGHT=This script is Copyright (C) 1999 Jonathan Provencher

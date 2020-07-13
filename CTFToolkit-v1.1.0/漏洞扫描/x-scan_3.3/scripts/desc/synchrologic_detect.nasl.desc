@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11657
+NAME=Synchrologic 用户帐户信息泄露
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=探测是否已安装Synchrologic
+DESCRIPTION=远程主机看起来正在运行Synchrologic Email Accelerator;;Synchrologic是一种允许远程PDA用户用来同步Email、日程等等;的产品。;;如果这个服务器在Internet网段(在内网外)，你可能需要限制访问;aggregate.asp页面的权限。;;这个服务器允许匿名用户查看Top Network用户ID，;例如 : http://IP_ADDRESS/en/admin/aggregate.asp;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe (Chinese version by Dancefire)

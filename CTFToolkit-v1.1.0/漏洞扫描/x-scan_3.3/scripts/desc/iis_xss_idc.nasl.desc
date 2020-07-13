@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11142
+NAME=IIS XSS via error
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=IIS idc错误跨站点脚本攻击检测
+DESCRIPTION=IIS服务器可能存在跨站点脚本攻击漏洞;该漏洞是由于处理一个过长的idc文件请求造成的，在结果处理页面中可能会出现java脚本URL注入.;;风险等级:中;;参考信息:http://online.securityfocus.com/bid/5900;;http://www.ntbugtraq.com/default.asp?;;pid=36&sid=1&A2=ind0210&L=ntbugtraq&F=P&S=&P=1391
+COPYRIGHT=This script is Copyright (C) 2002 Geoffroy Raimbault/Lynx Technologies

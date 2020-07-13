@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11833
+NAME=EZsite Forum向远程用户泄露密码
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查EZsiteForum.mdb密码数据库
+DESCRIPTION=远程主机正在运行EZsite Forum.;;据报告此软件将用户名和密码以明文的形式存储在'Database/EZsiteForum.mdb'文件中. 远程用户可以下载这个数据库.;;解决方案 : 目前没有解决方案. 配置web服务器禁止下载.mdb文件.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 deepquest

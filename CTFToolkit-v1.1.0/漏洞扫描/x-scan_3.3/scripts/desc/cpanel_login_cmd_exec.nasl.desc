@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12097
+NAME=cPanel登陆命令执行
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=命令注射
+DESCRIPTION=远程主机正在运行cPanel。;;该软件存在漏洞，允许攻击者以cPanel web 服务端的权限在主机上执行任意命令。具体方式是发送如下变形的登陆请求:;;	http://www.example.com:2082/login/?user=|"`id`"|;;;攻击者可以利用该漏洞控制远程主机并执行任意命令。;;解决方案: 升级到cPanel的最新版本或者禁用该服务;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

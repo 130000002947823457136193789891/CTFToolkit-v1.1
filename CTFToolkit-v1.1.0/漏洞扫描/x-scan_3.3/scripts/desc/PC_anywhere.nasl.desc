@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10006
+NAME=PC Anywhere
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检查PC Anywhere的当前状态
+DESCRIPTION=PC Anywhere被攻击者控制远程系统。攻击者还能盗去密码，影响系统的运行。;;解决方案：如果不使用它，禁用它;风险等级：中
+COPYRIGHT=This script is Copyright (C) 1999 Mathieu Perrin, 插件翻译：sleky

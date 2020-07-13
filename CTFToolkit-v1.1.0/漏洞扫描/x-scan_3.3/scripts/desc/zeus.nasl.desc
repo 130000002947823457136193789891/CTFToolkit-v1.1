@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10327
+NAME=Zeus显示cgi脚本的内容
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=对Zeus的检查
+DESCRIPTION=远程主机在运行Zeus Web服务器。;;这个服务器从版本3.1.x到3.3.5受一个漏洞的影响，利用这个漏洞攻击者可以看到CGI脚本的源代码。;;解决方案：确认运行的是3.3.5a或更高版本的软件。;风险等级：严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

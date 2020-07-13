@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15856
+NAME=IMAP Unencrypted Cleartext Logins
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY= 检查IMAP是否允许登录时的明文传输
+DESCRIPTION=远程主机运行了允许以非加密的明文进行登录的IMAP服务.在使用不安全的认证方式时(比如 LOGIN 命令, AUTH=PLAIN, AUTH=LOGIN)， 攻击者通过窃听网络上的IMAP包能够窃取用户的帐号信息.;;解决办法 : 和软件厂商联系以获取修复办法或者通过stunnel用SSL /TLS 加密. ;;关于SASL的信息也可参考 RFC 2222 .;  关于IMAP和TLS一起工作的问题可以参考 RFC 2595 .;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall plutochen翻译

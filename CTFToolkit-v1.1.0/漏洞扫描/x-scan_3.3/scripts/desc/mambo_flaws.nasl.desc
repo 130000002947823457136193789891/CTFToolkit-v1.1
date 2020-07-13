@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16315
+NAME=Mambo Site Server 存在跨站脚本漏洞或远程代码执行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=判断Mambo站点是否易存在跨站脚本漏洞或远程缺陷
+DESCRIPTION=;;Mambo Site Server 是一个开源的Web 内容管理系统.攻击者能利用Mambo某些版本的漏洞,在安装了Mambo的主机上执行跨站脚本攻击;或通过放置管理员目录下的图库图片执行任意代码 . ;;解决方案: 升级Mambo到最新版本.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

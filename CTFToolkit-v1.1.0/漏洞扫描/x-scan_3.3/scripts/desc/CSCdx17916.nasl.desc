@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11632
+NAME=CSCdx17916, CSCdx61997
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=当接受到畸形的响应时间回应器(RTR)数据包时，可能导致远程路由器瘫痪。;当这个漏洞被进行利用后,路由器需要重新将RTR回应器开启.;;漏洞相关的CISCO id分别是CSCdx17916和CSCdx61997;;解决方案:http://www.cisco.com/warp/public/707/cisco-sa-20030515-saa.shtml;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Tenable Network Security

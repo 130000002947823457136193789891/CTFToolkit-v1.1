@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16022
+NAME=Kayako eSupport SQL Injection and Cross-Site-Scripting
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查Kayako中的SQL和XSS
+DESCRIPTION=Kayako eSupport 是最有特色的帮助系统之一;在这;教程中你将明白为何数以千记的公司决定选用;eSupport来处理他们每天的帮助请求.  ;;程序中的这些脚本会允许攻击者进行SQL;注入攻击和跨站脚本漏洞.攻击者可以执行任意;SQL语句和/或任意JavaScript 代码..;;解决方法 : 升级至该软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus  翻译: esy

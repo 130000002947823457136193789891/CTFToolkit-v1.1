@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11395
+NAME=Microsoft Frontpage跨站脚本执行漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在Frontpage跨站脚本执行漏洞
+DESCRIPTION=当FrontPage脚本/_vti_bin/shtml.dll存在的时候.远程服务器存在一跨站脚本执行漏洞(XSS).;;解决方案 : 参见http://www.microsoft.com/technet/security/bulletin/ms00-060.asp;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison(chinese version by lsy)

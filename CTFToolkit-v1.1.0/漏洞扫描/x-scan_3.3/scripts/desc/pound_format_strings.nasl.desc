@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12007
+NAME=APSIS过载平衡处理格式字符缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=APSIS负载平衡处理格式字符缓冲区溢出漏洞
+DESCRIPTION=该远程主机存在远程格式字符缓冲区溢出漏洞;该漏洞可导致远程恶意攻击者利用该漏洞获取机密信息的权限。该版本低于1.6发行版本.;;、更多信息请查看: http://www.apsis.ch/pound/;解决方案: 升级APSIS Pound到该最低为1.6版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11772
+NAME=通用SMTP溢出
+CATEGORY=破坏性攻击
+FAMILY=SMTP
+SUMMARY=尝试利用SMTP命令参数溢出
+DESCRIPTION=如果接收到包含超长参数的命令，远程SMTP服务端会崩溃。;;攻击者可以利用该漏洞使服务器瘫痪或在服务器上执行任意命令。;	;解决方案: 升级或更换MTA。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi

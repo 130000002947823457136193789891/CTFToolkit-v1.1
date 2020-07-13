@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15716
+NAME=Nortel的Web Management默认用户名和密码(ro/ro)
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=检查是否存在默认的用户名和密码
+DESCRIPTION=有可能用默认的用户名和密码(ro/ro)访问远程网络设备的web管理控制台. 该用户名还可用于通过SSH、telnet、rlogin等方式访问此设备.;;解决方案 : 为该帐号设置强密码或禁止该帐号;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Noam Rathaus

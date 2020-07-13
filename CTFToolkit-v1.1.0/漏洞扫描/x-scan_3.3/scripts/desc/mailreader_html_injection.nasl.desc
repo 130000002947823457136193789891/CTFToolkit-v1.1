@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17661
+NAME=Mailreader远程HTML代码嵌入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查Mailreader远程HTML注入漏洞 
+DESCRIPTION=;依据banner信息, 运行于目标主机的该版本Mailreader, 存在远程HTML注入漏洞.由于没有有效过滤MIME类型为'text/enriched' 及 'text/richtext' 内容. 一个攻击者可以构造一个恶意消息发送给使用该版本Mailreader的用户.  当受攻击用户读取该消息时,内嵌的HTML或script代码将被执行,导致攻击者可以偷取认证Cookies信息或进行其他攻击 . ;;解决方案 : 升级 Mailreader 至2.3.36 或更高.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

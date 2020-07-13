@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11056
+NAME=CSCdy03429
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=小型文件传输协议(TFTP)是一个允许在网络内的设备之间进行简单文件传输的协议. ;;当Cisco输入输出系统配置为一个TFTP服务器时，TFTP在进行读取请求的文件名处理方面存在一个漏洞。;;漏洞相关的Cisco ID是CSCdy03429;;解决方案: ;http://www.cisco.com/warp/public/707/ios-tftp-long-filename-pub.shtml;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2002 Renaud Deraison

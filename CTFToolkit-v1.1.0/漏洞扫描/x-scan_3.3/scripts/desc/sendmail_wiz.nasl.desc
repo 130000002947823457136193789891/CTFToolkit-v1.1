@@ -1,0 +1,9 @@
+[CHINESE]
+ID=16024
+NAME=Sendmail WIZ
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查sendmail WIZ 命令
+DESCRIPTION=你的MTA接受WIZ命令.sendmail的版本一定很老.;WIZ允许在未登陆的情况下，远程用户以root来执行任意命令.;;解决方案 :重新设置并升级你的MTA.;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Michel Arboi(翻译：kill_ads)
+

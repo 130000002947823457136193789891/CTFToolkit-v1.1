@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10477
+NAME=Tomcat 的 /admin 所有人可读
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 /admin 的存在
+DESCRIPTION=页面 /admin/contextAdmin/contextAdmin.html;可以被访问到。;;这将允许攻击者添加内容到您的 Tomcat;web 服务器, 并且可能读取该服务器上的某些重要文件。;;解决方案 : 限制到 /admin 的访问或删除之，; 并且不要以 root 身份运行 Tomcat。;风险等级 : 严重
+COPYRIGHT=(C) 2000 Renaud Deraison ，翻译：hutuworm

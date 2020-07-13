@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17313
+NAME=MySQL 多个漏洞 (4)
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程 MySQL 版本 
+DESCRIPTION=远程主机运行的MySQL 版本早于 4.0.24 或 4.1.10a;;这个数据库软件的远程版本中存在一些漏洞; ,使得通过验证的攻击者在远程主机上能执行任意代码.;;解决办法 : 升级到MySQL 4.0.24或 4.1.10a;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

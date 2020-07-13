@@ -1,0 +1,7 @@
+[CHINESE]
+ID=10001
+NAME=ColdFusion Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=ColdFusion核对漏洞
+DESCRIPTION=可浏览到使用CGI的远程服务器上的任何文件:;;    /cfdocs/expeval/exprcalc.cfm;    ;此CGI允许任何人浏览、删除和上传任何文件到远程ColdFusion应用服务器.;;;相关请参阅: ;    http://www.l0pht.com/advisories/cfusion.txt;;;解决方案: Allaire对此漏洞发布一个补丁. This is currently available at:;http://www.allaire.com/handlers/index.cfm?ID=8727&Method=Full;;安装补丁后,将推荐不再在服务器上保存文件和范例代码。;;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11721
+NAME=CgiMail.exe 漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查 cgimail.exe 文件
+DESCRIPTION=这个服务器上有CGI 'CgiMail.exe'.  ;这个文件的一些版本有远程溢出漏洞.;;攻击者能利用这个漏洞获得重要数据连接, 或是提升他们的权限.;;解决办法 : 从cgi-bin或代码所在目录移除这个程序.;;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe <Translated By Stravadivaly>

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16327
+NAME=位于OLE和COM中的漏洞导致执行任意代码(873333)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=通过注册表检查KB 873333
+DESCRIPTION=运行WINDOWS系统的远程主机包含两个漏洞,;此漏洞在处理OLE 与(或) COM时发生. ;;这些漏洞可能允许本地用户提升权限并且允许远程用户执行恶意代码.;;在溢出这些缺陷后,攻击者需要发送一个精心构建的文档到远程主机.;;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms05-012.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17228
+NAME=NNTP信息头溢出攻击
+CATEGORY=破坏性攻击
+FAMILY=远程获取命令行
+SUMMARY=发送带超长头部信至nntp服务器
+DESCRIPTION=Nessus能够通过发送带超长头部的信息攻陷远程NNTP服务器. ;此缺陷可能是一个缓冲溢出漏洞并且可能被攻击者注入并运行任意代码.;;解决方案 : 升级到最新版本或使用安全软件.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

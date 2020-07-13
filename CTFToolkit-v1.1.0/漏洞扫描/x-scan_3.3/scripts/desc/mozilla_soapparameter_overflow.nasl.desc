@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14192
+NAME=Mozilla SOAPParameter整数溢出漏洞
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测Mozilla版本
+DESCRIPTION=该主机正在运行Mozilla浏览器.;;该版本中的SOAPParameter对象构造器存在一个整数溢出. 远程攻击者可以利用这个漏洞进行整数溢出攻击;可能在系统上执行任意指令.;;要利用该漏洞, 攻击者需要构建一个用于欺诈的http服务器 ;并诱使用户访问.;;解决方案 : 升级到Mozilla 1.7.1;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(chinese version by lsy)

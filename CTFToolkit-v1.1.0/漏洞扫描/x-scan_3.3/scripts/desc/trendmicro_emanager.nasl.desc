@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11747
+NAME=TrendMicro Emanager 软件检查
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查某个TrendMicro dlls
+DESCRIPTION=服务器上安装有 TrendMicro Emanager 软件.;这个软件的某些版本有容易受攻击的dlls. 如果容易受到攻击,;远程调用将成为可能. 获得更多信息,访问:;http:// www.securityfocus.com/bid/3327;; 解决办法: 除去这 CGI 或将这一个软件升级到最新版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe 翻译 by yuzhiice

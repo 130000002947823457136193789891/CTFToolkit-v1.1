@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10682
+NAME=CISCO view-source拒绝服务攻击
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=拒绝服务攻击远程交换设备
+DESCRIPTION=发送如下请求可导致远程交换设备重新启动:;;    GET /cgi-bin/view-source?/;    ;;攻击者可以利用这个漏洞来使被攻击的网络不能正常工作.;;解决方案 : 参见http://www.cisco.com/warp/public/707/httpserverquery-pub.shtml;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison(chinese version by lsy)

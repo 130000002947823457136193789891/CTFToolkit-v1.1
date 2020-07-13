@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12233
+NAME=eMule Plus Web 服务器探测
+CATEGORY=信息搜集
+FAMILY=点对点文件共享
+SUMMARY=探测 eMule Web 服务器
+DESCRIPTION=eMule Web Server在这个端口上运行。这种P2P客户端的一些版本;存在一种DecodeBase16缓冲区溢出的缺陷，这将允许攻击者执行;任意代码。;;感谢 Kostya Kortchinsky 报告这个问题给 bugtraq.;;已知存在缺陷版本:;eMule 0.42a-d;eMule 0.30e;eMulePlus <1k;;请见 : http://security.nnov.ru/search/news.asp?binid=3572;;* 注意: 这个脚本只检查4711端口是否打开和它的banner包含了eMule字串。 *;;解决方案: 禁止 eMule Web 服务器或者升级到已经修复了这个漏洞的版本 ;(eMule 0.42e, eMulePlus 1k 或更新);;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 A.Kaverin (Chinese version by Dancefire)

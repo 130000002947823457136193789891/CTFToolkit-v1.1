@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17201
+NAME=PaNews上admin_setup.php远程代码执行漏洞
+CATEGORY=攻击
+FAMILY=远程获取命令行
+SUMMARY=检查在PaNews上admin_setup.php中的远程代码执行漏洞 
+DESCRIPTION=远程主机运行PaNews, 一种新型的PHP管理脚本.  已安装的版本不能较好的清理传递给 'includes/admin_setup.php'脚本的输入, 此外, 允许用户往'includes'目录下写文件(而不是默认配置).  总之, 这些漏洞使得远程攻击者在用户运行web服务或者读目标主机上任意文件时可以执行任意代码. ;;解决方案 : 改变'includes/' 目录的许可权限以禁止网页用户向此目录写入文件.;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

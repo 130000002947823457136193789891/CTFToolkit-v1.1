@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10758
+NAME=检测VNC HTTP
+CATEGORY=信息搜集
+FAMILY=后门
+SUMMARY=检测VNC HTTP的存在
+DESCRIPTION=远程服务器正在运行VNC。VNC允许在远程监视器上显示控制台界面。;;风险等级：中;解决方案：使用防火墙来禁止从网络对VNC进行访问，或者如果不需要VNC可以停止其服务。
+COPYRIGHT=This script is Copyright (C) 2001 Alert4Web.com;Translate by Sniffer

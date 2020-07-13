@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11901
+NAME=spank.c
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=从多播地址发送TCP包
+DESCRIPTION=你的机器回应从多播地址发送过来的TCP包。这是一个被称为'spank'的拒绝服务攻击。;;攻击者可以利用这个缺陷使这个服务器当机并且让你的网络变得饱和，从而阻止你正常的;工作。这个也可被用来针对你的机器的秘密的扫描。;;解决方案 : 从你的操作系统供应商处获得补丁。;过滤掉多播地址(224.0.0.0/4);;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi (Chinese version by Dancefire)

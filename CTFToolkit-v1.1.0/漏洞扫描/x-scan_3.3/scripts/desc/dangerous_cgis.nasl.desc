@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11748
+NAME=多个危险cgi脚本
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=检查危险cgi脚本
+DESCRIPTION=该主机存在一系列危险CGI脚本.;;解决方案: 请访问cve.mitre.org并检查发现的cgi脚本的相关CVE ID.如果你运行着某个危险的版本,请删除或者升级该cgi程序.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 2003 John Lampe

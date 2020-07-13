@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12259
+NAME=Subversion检测
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Subversion检测
+DESCRIPTION=远程主机是运行Subversion的服务器。Subversion是一个和CVS相似的，能够管理文件修订和被多个客户端通过网络进行访问的软件产品。Subversion主要监听在TCP端口3690。;;更多信息查看:http://subversion.tigris.org;风险等级:低
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Chinese by netke)

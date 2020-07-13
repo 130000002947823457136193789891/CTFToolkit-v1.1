@@ -1,0 +1,7 @@
+[CHINESE]
+ID=17991
+NAME=Lotus Domino Server Web Service Remote Denial Of Service Vulnerability
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=检查Lotus Domino web服务的拒绝服务漏洞
+DESCRIPTION=远程主机运行着的Lotus Domino Server's web存在一个会导致拒绝服务的漏洞. ;攻击者通过发送一个特殊构造的长unicode字符串HTTP请求,能够导致nHTTP.exe进程崩溃，从而拒绝合法用户的请求 . ;;IBM对此已经发布了技术文章#1202446 ，但是还没有解决此问题.;;还可参考 : http://www.securityfocus.com/archive/1/395126;解决方案 : 升级到Lotus Domino Server 6.5.3 或者最近的不受影响的版本 ;风险等级 : 高COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security(翻译:kill_ads)

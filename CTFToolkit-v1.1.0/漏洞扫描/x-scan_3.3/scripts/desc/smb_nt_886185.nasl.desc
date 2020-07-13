@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15996
+NAME=Windows XP SP2 Firewall Critical Update (886185)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查远程主机KB886185补丁注册情况
+DESCRIPTION=远程主机的windows xp2 版本缺乏关键性安全;更新信息 886185.;;此更新修复了当用户以拨号方式上网时windows sp2防火墙无效的瑕疵;;解决方案 : http://support.microsoft.com/kb/886185;风险级别 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(trans.tiannale)

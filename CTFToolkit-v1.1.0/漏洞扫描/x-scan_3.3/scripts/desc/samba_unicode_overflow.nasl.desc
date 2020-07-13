@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11168
+NAME=Samba Unicode字符处理存在缓冲区溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测Samba版本号
+DESCRIPTION=根据远程Samba Server的版本号判断，此服务程接受客户;端的密码修改请求，效验加密的口令字串时存在漏洞。 ;客户端如果发送一个老的哈希口令，那么服务端smbd解密老的哈希口令时将发生栈溢出。;;解决方案 : 升级到Samba 2.2.7。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

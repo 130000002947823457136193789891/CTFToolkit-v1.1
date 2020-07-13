@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17983
+NAME=Comersus Cart 用户名域HTML注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查Comersus Cart中的用户名域HTML注入漏洞
+DESCRIPTION=根据其标识,远程主机运行的;Comersus Cart版本不能完全清除用户在 Username;域中的输入.  攻击者可以利用这个漏洞,在访问受此漏洞影响的WEB服务器用户浏览用户名,例如,在管理页面内的时候,的浏览器内;执行任意HTML和脚本代码.;;解决方案 : 升级到Comersus Cart 版本6.03 以上 ;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

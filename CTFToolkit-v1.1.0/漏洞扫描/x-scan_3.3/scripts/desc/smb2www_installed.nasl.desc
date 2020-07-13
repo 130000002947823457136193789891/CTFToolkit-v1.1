@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11377
+NAME=安装了smb2www
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=smb2www 命令执行
+DESCRIPTION=远程主机正在运行smb2www - 一个可以使用web浏览器连接的windows网络客户端。;;攻击者可以利用该CGI以代理的方式使用主机，从而可以不暴露自己IP地址连接第三方SMB主机。;;解决方案: 加强该CGI连接管制。;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

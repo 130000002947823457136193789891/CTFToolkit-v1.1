@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15623
+NAME=ArGoSoft FTP Server服务器快捷文件上传漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查远程ArGoSoft服务器的版本
+DESCRIPTION=远程主机正在运行ArGoSoft FTP服务器. ;;据报告ArGoSoft FTP服务器存在一个允许上传链接的漏洞. 利用这个漏洞的攻击者可以读写FTP服务器的任意文件和目录.;;解决方案 : 升级到ArGoSoft FTP 1.4.2.2或更高;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

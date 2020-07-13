@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10930
+NAME=HTTP Windows 98 MS/DOS device names DOS
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=Windows 98 崩溃
+DESCRIPTION=当通过 HTTP 访问使用 MS/DOS 设备名为文件名的文件时(例如: AUX.htm 或AUX.),会造成 Windows 的死机或重起.;;一个恶意者可以利用此漏洞使你的系统连续不断的崩溃, 干扰你的正常工作.;;解决方案 : 升级你的系统或使用 HTTP 服务器过滤掉这些文件名.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2001 Michel Arboi

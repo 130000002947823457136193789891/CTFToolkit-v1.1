@@ -1,0 +1,7 @@
+[CHINESE]
+ID=17976
+NAME=SMTP漏洞可能允许远程代码执行(885881)
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检测MS Hotfix K885881
+DESCRIPTION=远程主机的SMTP服务中含有一个缺陷可能允许远程代码执行。;;可能受攻击的服务是SMTP服务(Windows 2003)，Exchange 2003(Windows 2000)以及Exchange 2000。;;解决方案 : http://www.microsoft.com/technet/security/bulletin/ms04-035.mspx;风险级别 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

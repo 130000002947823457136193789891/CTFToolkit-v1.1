@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17663
+NAME=BayTech RPC3 Telnet Daemon 绕过认证漏洞
+CATEGORY=攻击
+FAMILY=远程获取命令行
+SUMMARY=检查BayTech RPC3 Telnet daemon中存在的绕过认证漏洞
+DESCRIPTION=远程主机运行的Bay Technical Associates RPC3;Telnet Daemon允许一个用户通过在输入用户名提示符的时候;发送一些特殊的键击来绕过身份认证.;自从BayTech 设备提供了远程管理,; 这个漏洞就允许攻击者发起一个DOS攻击,;关闭这个设备本身并可以连接到任意一个启用的设备上. ;;解决方案 : 现在还没有解决方案.可以过滤23端口的进站.;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

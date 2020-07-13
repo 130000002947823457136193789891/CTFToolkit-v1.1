@@ -1,0 +1,11 @@
+[CHINESE]
+ID=10740
+NAME=SiteScope Web Managegment Server Detect
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=SiteScope Web管理服务器检测
+DESCRIPTION=远程WEB服务器运行SiteScope　WEB管理服务器.这个服务可使攻击者获得服务器上的敏感信息.
+这些信息包含:许可证号,当前用户,管理员邮件地址,数据库用户名和密码,SNMP名称,UNIX用户名及密码，DLAP配置等信息，访问内部服务器（通过诊断工具）.
+解决方案: 禁用SiteScope Managment Web服务器, 或者阻塞到达此端口的数据流
+Risk factor : 低
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

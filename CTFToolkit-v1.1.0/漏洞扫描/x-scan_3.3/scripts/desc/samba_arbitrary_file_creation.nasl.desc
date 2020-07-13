@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10786
+NAME=Samba 远程生成任意文件
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查samba版本
+DESCRIPTION=根据版本，远程Samba服务端存在远程生成文件漏洞。;;该漏洞允许攻击者向服务器提交一个任意构造的NetBIOS主机名，从而改写主机上任意文件并有可能成为远程服务器的管理员。;;攻击者不需要任何特殊权限即可以利用该漏洞。;;解决方案: 升级到Samba 2.0.10 或 2.2.0a;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

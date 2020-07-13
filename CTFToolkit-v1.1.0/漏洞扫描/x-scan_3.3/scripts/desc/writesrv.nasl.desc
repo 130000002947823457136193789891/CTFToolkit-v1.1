@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11222
+NAME=Writesrv
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检测writesrv
+DESCRIPTION=writesrv正在该端口运行。;这个程序是用来向用户发送消息的。该服务为潜在的攻击者提供了用户在线信息，给例如社会工程学这样的攻击提供了便利。;;解决方案: 如果不需要此功能，禁用该服务;;风险等级: 低
+COPYRIGHT=Copyright (C) 2003 Michel Arboi

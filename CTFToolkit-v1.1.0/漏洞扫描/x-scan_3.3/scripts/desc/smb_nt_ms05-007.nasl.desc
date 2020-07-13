@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16331
+NAME=Windows漏洞导致信息泄漏(888302)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=确定hotfix 888302补丁是否已经被安装
+DESCRIPTION=远程Windows系统包含了一个可能导致信息泄漏的缺陷,;攻击者通过使用NULL会话的命名管道来引起此漏洞.;;攻击者可能利用此缺陷获取更多远程主机的相关信息.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS05-007.mspx;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

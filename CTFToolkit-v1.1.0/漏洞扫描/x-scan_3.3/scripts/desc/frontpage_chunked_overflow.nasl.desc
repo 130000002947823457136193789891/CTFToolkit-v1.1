@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11923
+NAME=Frontpage Overflow (MS03-051)
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=IIS Frontpage MS03-051
+DESCRIPTION=服务器运行着的Frontpage存在一个远程缓冲区溢出。利用此bug可以执行未经授权的操作。;下列系统被证明存在此漏洞：;Microsoft Windows 2000 Service Pack 2, Service Pack 3;Microsoft Windows XP, Microsoft Windows XP Service Pack 1;Microsoft Office XP, Microsoft Office XP Service Release 1;;解决方案：安装补丁程序或者参考：http://www.microsoft.com/technet/treeview/default.asp?url=/technet/security/bulletin/ms03-051.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

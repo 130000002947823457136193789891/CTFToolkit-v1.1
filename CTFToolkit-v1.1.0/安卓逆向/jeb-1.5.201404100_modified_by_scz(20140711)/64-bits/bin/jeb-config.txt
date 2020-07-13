@@ -1,0 +1,18 @@
+#JEB properties
+#Tue Oct 18 22:08:22 EDT 2016
+code_font=1|Courier New|10.2|0|WINDOWS|1|-17|0|0|0|0|0|0|0|1|0|0|0|0|Courier New
+db_autosave_timeout_minutes=-1
+shell_max=false
+eula_accepted=true
+ui_w_console_ratio=12
+last_opened4=C\:\\Users\\Administrator\\Desktop\\geek2_2.apk
+check_update=true
+last_opened3=C\:\\Users\\Sun\\Desktop\\classes.dex
+last_opened2=C\:\\Users\\Sun\\Desktop\\cff\\zrwvjslkuf3k40d82uvo1jbhouzwwyd4\\CFF_100~\\classes.dex
+last_version_run=1.5.201404100
+shell_width=1932
+last_opened1=C\:\\Users\\Sun\\Desktop\\CTF_500.apk.42abf30bd74ece3342e3617ccea694f8
+last_opened0=C\:\\Users\\Sun\\Desktop\\QQ\u793E\u5DE5\u76D7\u53F7_v1.03.apk
+shell_height=1048
+first_run=1475478436
+last_run=1476842866

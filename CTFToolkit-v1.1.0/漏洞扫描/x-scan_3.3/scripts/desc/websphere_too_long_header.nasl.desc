@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11181
+NAME=WebSphere 主机头溢出
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=利用长HTTP头来终止WebSphere
+DESCRIPTION=使用一个畸形的HOST头部来请求一个.jsp,可能会终止WebSphere.;;攻击者可以开发溢出工具来不断攻击存在漏洞的WEB服务器,使其失效.;;解决方案:安装PQ62144补丁;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi;翻译 By ZDI

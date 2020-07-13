@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11943
+NAME=rsync存在堆溢出漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测rsync是否运行
+DESCRIPTION=远程rsync服务可能存在堆溢出漏洞。;该漏洞可导致远程攻击者任意执行系统命令甚至获取一个系统Shell。;;注意：由于该漏洞的测试依赖rsync服务版本信息的反馈，因此可能是误报。;;解决方案 : 升级rsync到2.5.7或最新版本。;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

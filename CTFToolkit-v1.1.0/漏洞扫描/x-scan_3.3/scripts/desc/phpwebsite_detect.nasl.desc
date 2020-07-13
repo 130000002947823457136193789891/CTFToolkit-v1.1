@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17222
+NAME=探测 phpWebSite
+CATEGORY=信息搜集
+FAMILY=Service detection
+SUMMARY=检查是否存在phpWebSite
+DESCRIPTION=此脚本检查远程主机上是否运行了phpWebSite，获取其版本号和其任何实例的位置。;;phpWebSite是用PHP写的一款Web站点内容管理系统。参看;http://phpwebsite.appstate.edu/获取更多信息。
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12103
+NAME=Courier IMAP 远程溢出
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查版本号
+DESCRIPTION=远程邮件服务器是Courier-IMAP imap服务器。 ;;该软件的转换函数存在缓冲区溢出漏洞，从而允许攻击者在主机上执行任意代码。;;解决方案: 升级到Courier-Imap 3.0.0或更新的版本;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

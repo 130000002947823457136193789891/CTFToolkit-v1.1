@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14792
+NAME=vBulletin XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查vBulletin的版本
+DESCRIPTION=此远程主机正在运行vBulletin, 这是一个用PHP语言编写的网页BBS程序.;;该程序的当前版本由于对用户提交URI输入缺少充分过滤,;容易受到跨站脚本攻击.;;此漏洞可能导致一个远程攻击者创建一个恶意的包含脚本的链接,当另一个信任用户接着访问BBS时会在浏览器内执行此脚本. ;;这可能会让攻击者通过读取认证用户的cookies获得敏感信息.;;;解决方案: 升级vBulletin程序到3.0.2或更高版本;风险等级: 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak (Translate by Zuola.Com@Gmail.Com)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=13650
+NAME=PHP版本小于4.3.8
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for version of PHP
+DESCRIPTION=远程主机运行了旧于4.3.8版本的PHP;;PHP是充当Apache模块或独立解释器的一种脚本语言。在安装了这些版本软件的远程主机上存在着一个缺陷，只要设置了option memory_limit，攻击者就可以在远程主机上执行任何代码。函数strip_tags()有另外一个缺陷，提交数据时，可以让攻击者绕过content-restrictions，或导致cross-site-scripting。;;解决方案 : 升级至PHP 4.3.8 ；风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak      翻译 : laughterwym

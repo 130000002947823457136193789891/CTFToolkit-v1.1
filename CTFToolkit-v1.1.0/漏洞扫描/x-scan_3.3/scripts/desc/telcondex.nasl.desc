@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11927
+NAME=TelCondex Simple Webserver缓冲区溢出漏洞
+CATEGORY=拒绝服务
+FAMILY=拒绝服务
+SUMMARY=检测TelCondex缓冲区溢出
+DESCRIPTION=由于缺乏对HTTP头信息的必要长度检查，;导致了TelCondex SimpleWebserver;容易遭受远程实施的缓冲区溢出攻击。;;解决方案：升级到2.13版本 http://www.yourinfosystem.de/download/TcSimpleWebServer2000Setup.exe ;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Matt North & Powered by Robur!

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12107
+NAME=检查McAfee Anti Virus 
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=经检查，远程主机安装了McAfee Antivirus并确认已经加载了最新版本的Vdefs。
+DESCRIPTION=本插件检查到远程主机安装了McAfee Antivirus并确认已经加载了最新版本的Vdefs。;;解决方案: 确认安装了Mcafee并正在使用最新的VDEFS。;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Jeff Adams

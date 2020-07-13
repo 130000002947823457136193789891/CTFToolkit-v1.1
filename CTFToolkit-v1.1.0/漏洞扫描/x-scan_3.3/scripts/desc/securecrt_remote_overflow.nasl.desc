@@ -1,0 +1,7 @@
+ID=15822
+NAME=SecureCRT SSH1 protocol version string overflow
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=Determines the version of SecureCRT
+DESCRIPTION=远程主机正在使用SecureCRT的一个脆弱的版本，其中SecureCRT是一个为微软的操作系统而建立的SSH/Telnet客户端。据称，SecureCRT包含了一个远程的缓冲区溢出，允许一个SSH服务器通过一串特殊的SSH1协议版本的长字符串执行任意指令.;;解决方按 : 升级到SecureCRT 3.2.2, 3.3.4, 3.4.6, 4.1 或更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak  翻译：summitgf

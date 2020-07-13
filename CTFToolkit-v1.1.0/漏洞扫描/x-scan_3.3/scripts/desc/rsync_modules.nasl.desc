@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11389
+NAME=rsync模块
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=显示可以远程连接的rsync模块
+DESCRIPTION=本脚本检查远程主机上的rsync模块;;Risk factor : 无
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

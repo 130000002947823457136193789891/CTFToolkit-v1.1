@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10653
+NAME=Solaris FTPd 泄露用户账号是否存在
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=登陆前运行CWD ~root
+DESCRIPTION=即使在登陆前，通过发送CWD ~<username>命令，也有可能;探测到远程系统上的;某个用户名是否存在 .;;例如:	telnet target 21;	CWD ~root;	530 Please login with USER and PASS.;;	CWD ~nonexistinguser;	530 Please login with USER and PASS.;	550 Unknown user name after ~;	;攻击者据此可以确定已知的易受攻击的账号 (如 guest)是否存在;或者确定你正在运行的是什么系统.;;解决方案 : 通知你的提供商, 索取补丁, 或;           更换你的ftp服务器;	   ;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2001 Renaud Deraison

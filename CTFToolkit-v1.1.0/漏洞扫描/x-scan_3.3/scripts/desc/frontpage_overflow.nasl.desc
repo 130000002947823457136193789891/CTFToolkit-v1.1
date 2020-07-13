@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10699
+NAME=IIS FrontPage DoS II
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=尝试fp30reg.dll文件溢出
+DESCRIPTION=IIS的Frontpage扩展存在远程缓冲区溢出漏洞，可导致攻击者得到机密数据或者提升权限。;;解决方案：http://www.nsfocus.com/english/homepage/sa01-03.htm;http://www.microsoft.com/technet/security/bulletin/MS01-035.asp;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2001 John Lampe

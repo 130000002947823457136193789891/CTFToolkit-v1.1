@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10314
+NAME=Winnuke
+CATEGORY=当机
+FAMILY=拒绝服务
+SUMMARY=MSG_OOB 攻击远程主机
+DESCRIPTION=利用'Winnuke'攻击只要向远程主机特定端口发送;一个特殊OOB消息就可以使远程主机当机.;供给者可以利用这个漏洞使远程主机不停的当机，使对方系;统工作不正常。;;
+解决方案：升级你的操作系统。
+风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

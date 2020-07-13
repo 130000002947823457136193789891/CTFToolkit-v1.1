@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11335
+NAME=mibiisa 溢出
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检查是否存在mibiisa
+DESCRIPTION=远程主机正在运行mibiisa.在mibiisa旧版本中存在一个溢出漏洞, 该漏洞可能导致攻击者获得本地的root shell;;*** Nessus 没有真正检查该漏洞;*** 该项检测可能是一个误报;;解决方案 : 参考 Sun安全公告栏 #00219
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

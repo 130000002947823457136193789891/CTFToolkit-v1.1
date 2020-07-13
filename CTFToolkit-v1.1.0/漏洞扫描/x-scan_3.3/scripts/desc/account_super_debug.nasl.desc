@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17291
+NAME=缺省密码设置 ",password, "
+CATEGORY=信息搜集
+FAMILY=预设UNIX帐号
+SUMMARY=远程登陆
+DESCRIPTION=账号'", account, "'的缺省密码为", password, ";攻击者利用此漏洞会获取该系统更多的控制权。;;解决方案 : 重新设置该账号的密码或者禁用该账号;;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Michel Arboi

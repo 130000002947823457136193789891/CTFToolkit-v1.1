@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11190
+NAME=overflow.cgi探测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查已安装的CGI
+DESCRIPTION=探测到/cgi-bin/.cobalt/overflow/overflow.cgi.;这个CGI的一些版本允许远程用户以web服务器权限执行任意命令.;;*** Nessus 仅仅检查了现有的文件;***但没有尝试通过漏洞溢出, 因此这个也许;*** 是个错误的报告;   ;参见: http://www.cert.org/advisories/CA-2002-35.html;;解决办法 : 从Cobalt得到更新的软件;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison<Translated By Stravadivaly>

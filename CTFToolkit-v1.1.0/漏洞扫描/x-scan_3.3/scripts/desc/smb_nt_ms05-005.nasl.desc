@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16332
+NAME=Microsoft Office XP中的漏洞导致远程恶意代码执行(873352)
+CATEGORY=信息搜集
+FAMILY=Windows : Microsoft Bulletins
+SUMMARY=检测MSO.dll的版本
+DESCRIPTION=装有Microsoft Office办公软件的远程主机，存在一安全漏洞，它允许攻击者在远程主机上执行任意代码。;;攻击者利用此漏洞会给远程主机上的用户发送一个精心制作的文件，当该用户启动Microsoft Office打开该变形文件时，Microsoft Office将会遭遇一个缓冲区溢出问题，它可被利用来执行任意代码。;;解决方案: http://www.microsoft.com/technet/security/bulletin/ms05-005.mspx;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

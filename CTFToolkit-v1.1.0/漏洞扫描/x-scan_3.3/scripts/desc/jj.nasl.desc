@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10131
+NAME=存在jj cgi
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测是否存在/cgi-bin/jj
+DESCRIPTION=该主机装有'jj'CGI脚本.该CGI脚本存在一个众所周知的安全漏洞,可导致攻击者以http进程的权限(通常为root或者nobody)运行任意命令.;;解决方案:从/cgi-bin中删除该文件.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

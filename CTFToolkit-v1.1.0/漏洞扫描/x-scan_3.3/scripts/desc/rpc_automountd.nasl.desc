@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10212
+NAME=automountd service
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测RPC服务
+DESCRIPTION=automountd服务正在运行。攻击者可以利用Solaris的rpc.statd和automountd存在的问题以root权限远程执行任意命令。;***但这个漏洞并没有被测试过，有可能不符合实际;解决方案：如果真的存在此漏洞，应停止automountd并向供应商寻求帮助。;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

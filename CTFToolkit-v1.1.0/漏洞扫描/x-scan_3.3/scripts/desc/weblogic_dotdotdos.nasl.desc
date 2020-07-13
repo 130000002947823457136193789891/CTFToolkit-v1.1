@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10697
+NAME=WebLogic Server 拒绝服务
+CATEGORY=拒绝服务
+FAMILY=远程文件访问
+SUMMARY=WebLogic Server 拒绝服务
+DESCRIPTION=请求一个以":"开始的超长的URL;可以导致某些版本的 WebLogic servers 崩溃。;;风险等级 : 高;解决方案 : 升级到最新的WebLogic 5.1并打补丁到SP7
+COPYRIGHT=This script is Copyright (C) 2001 StrongHoldNet

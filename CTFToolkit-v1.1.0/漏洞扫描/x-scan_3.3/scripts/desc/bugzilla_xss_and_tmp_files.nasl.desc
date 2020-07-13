@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11553
+NAME=Bugzilla 跨站脚本漏洞及不安全的临时文件名
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否安装bugzilla
+DESCRIPTION=远程的Bugzilla bug 跟踪系统, 通过它的版本号可以知道,;容易通过若干种缺陷受到攻击，比如攻击者能够实行跨站脚本攻击，甚至删除掉本地文件(在攻击者有远程主机账号的情况下).;;解决方案 : 升级到2.16.3或者2.17.4;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

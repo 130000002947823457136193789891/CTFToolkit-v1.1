@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10245
+NAME=rsh服务正在运行
+CATEGORY=信息搜集
+FAMILY=无用服务
+SUMMARY=检测远程主机是否运行了rsh服务
+DESCRIPTION=远程主机运行了rsh服务。;r系列服务都是不安全的服务，这些服务的通信都使用明文传输，;其中包含了用户名和口令的明文信息，非常容易被监听。;且r系列服务都使用宽松的验证方式，在一些新的Unix版本中这些服务基本被淘汰。;;解决方案 : 在配置文件/etc/inetd.conf中注释掉rsh所在行，并重启inetd服务。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

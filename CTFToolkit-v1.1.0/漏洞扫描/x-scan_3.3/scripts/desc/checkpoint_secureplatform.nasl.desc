@@ -1,0 +1,7 @@
+ID=17584
+NAME=安全检测平台探测 
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=安全检测平台网络控制台管理
+DESCRIPTION=远程主机似乎是Checkpoint安全检测平台, ;允许网络控制台管理连接.;;如让攻击者知道你正使用这个软件;将帮助他们导致他们的攻击或改变他们的策略.;此外, 攻击者试图使用暴力攻击;登录远程接口.;;解决方案 : 过滤通过端口的信息;风险等级 : 无
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11235
+NAME=过长 OPTIONS 参数
+CATEGORY=拒绝服务
+FAMILY=远程获取管理员
+SUMMARY=Web 服务器 OPTIONS 缓冲溢出
+DESCRIPTION=通过 OPTIONS 方法发送一个过长的 url （统一资源定位符）给 Web 服务器可能会使它崩溃或执行任意代码。;;解决方案：升级你的 Web 服务器。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 2003 Michel Arboi, translated by JayJew.

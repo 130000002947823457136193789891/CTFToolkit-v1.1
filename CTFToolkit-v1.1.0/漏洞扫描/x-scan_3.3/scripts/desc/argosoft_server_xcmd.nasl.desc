@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15439
+NAME=ArGoSoft FTP服务器的XCWD命令溢出
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=尝试XCWD缓冲溢出
+DESCRIPTION=远程主机正在运行AGoSoft FTP服务器.;;可通过发出一个后接超长参数的XCWD命令的方式来关闭远程FTP服务器.;;这个问题可导致攻击者阻止远程站点共享某些资源.;;解决方案 : 升级到1.4.1.2或更高;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

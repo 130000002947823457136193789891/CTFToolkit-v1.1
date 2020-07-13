@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11218
+NAME=Tomcat /状况信息泄漏
+CATEGORY=攻击
+FAMILY=其他
+SUMMARY=产生请求如：http://www.example.com/server-status
+DESCRIPTION=请求URL/status给出关于当前运行;的Tomcat。;同样也允许任何人重置（如:永久删除）当前数据。;;风险等级:低;;解决方案:如果不使用这个特性，在:httpd.conf文件的相应位置删掉。如果确实需要它，把权限限制到;管理员机器上。
+COPYRIGHT=This script is Copyright (C) 2003 StrongHoldNet

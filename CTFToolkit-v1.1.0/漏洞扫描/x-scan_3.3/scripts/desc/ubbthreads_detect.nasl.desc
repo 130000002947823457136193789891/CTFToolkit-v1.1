@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17315
+NAME=UBB.threads 探测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查UBB.threads是否存在
+DESCRIPTION=这个脚本检查远程主机是否运行了UBB.threads;及准确的版本号和找到的所有实例的位置. ;;UBB.threads是一个由PHP编写的基于WEB的留言板系统.;  查看 http://www.ubbcentral.com/ 以获得更多信息.
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17341
+NAME=TFTP file detection (Cisco IOS CA)
+CATEGORY=攻击
+FAMILY=普通漏洞
+SUMMARY=检查远程主机是否有敏感文件在TFTP服务中暴露(Cisco IOS 授权认证文件)
+DESCRIPTION=远程主机安装了TFTP服务端,一个或多个Cisco IOS内的授权认证书文件(Cisco IOS CA)可能被下载;;这些文件可能含有授权认证过程中使用的私钥信息,应当被视为十分敏感的文件,不应该为不必要的使用而暴露.;;解决方案 : 如果不是特别需要,停止TFTP服务.; 否则 ;将TFTP服务访问限制在信任的一些主机范围之内;;风险等级 : 高
+COPYRIGHT=This NASL script is Copyright 2005 Corsaire Limited.

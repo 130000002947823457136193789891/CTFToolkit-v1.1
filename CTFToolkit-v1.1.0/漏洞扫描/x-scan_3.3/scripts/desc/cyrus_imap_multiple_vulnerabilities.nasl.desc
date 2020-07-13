@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17208
+NAME=Cyrus IMAP 多个漏洞
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查Cyrus IMAPd banner
+DESCRIPTION=根据banner,远程Cyrus IMAP服务器存在多个缓冲区溢出漏洞 .; ;攻击者利用这些漏洞能在远程主机上执行任意代码.;;Solution : 升级到2.2.11版;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

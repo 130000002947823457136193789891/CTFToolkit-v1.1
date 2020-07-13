@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16321
+NAME=3Com 3CServer FTP溢出漏洞
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查3Com 3CServer FTP Server
+DESCRIPTION=远程系统运行3Com 3CServer FTP server.;;此版本的服务软件包含一个缓冲区溢出漏洞.; 攻击者可能利用这个漏洞并使用运行FTP服务的权限(root权限)来执行恶意代码.;;解决方案 : 升级到这个软件的最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security & Translated by 代码罐头

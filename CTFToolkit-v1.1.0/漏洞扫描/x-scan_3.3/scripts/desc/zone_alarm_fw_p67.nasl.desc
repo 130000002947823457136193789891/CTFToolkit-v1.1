@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14660
+NAME=ZoneAlarm 个人版防火墙67端口漏洞
+CATEGORY=信息搜集
+FAMILY=防火墙
+SUMMARY=检查ZoneAlarm版本
+DESCRIPTION=ZoneAlarm 防火墙运行于主机。;;该版本含有缺陷，这个缺陷允许远程攻击者绕过安全策略。;此问题是由于 ZoneAlarm 对源端口为67的UDP流量没有进行监控和报警而造成的。;;攻击者可以绕过该防火墙直达受保护主机，防火墙不会报警。;;解决方案 : 进行版本升级，版本号至少为 2.1.25以上;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak

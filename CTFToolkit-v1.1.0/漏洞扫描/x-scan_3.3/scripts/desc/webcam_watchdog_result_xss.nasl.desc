@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14186
+NAME=WebCam Watchdog sresult.exe XSS
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Checks for the presence of an XSS bug in watchdog
+DESCRIPTION=目标主机正在运行WebCamSoft出品的watchdog软件.;在该软件的sresult.exe文件中存在跨站脚本攻击漏洞.;;攻击者有可能利用它来获取该产品合法用户的COOKIE信息.;;解决方案 : 升级到最新版本;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

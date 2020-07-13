@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15914
+NAME=Serendipity XSS flaw
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查Serendipity的跨站脚本漏洞
+DESCRIPTION=远程主机正在运行 Serendipity,这是一个PHP编写的网站日志分析工具.;远程主机的版本由于在compat.php里的searchTeam参数上缺少正确性检查而存在跨站脚本的漏洞.;一个攻击者可以利用特别构造的URL来执行任意代码.;;解决方案 : 升级到 Serendipity 0.7.1 或是最新.;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2004 David Maciejak(翻译:sunwear)

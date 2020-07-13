@@ -1,0 +1,8 @@
+[CHINESE]
+ID=16478
+NAME=DCP-Portal多个SQL注入漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查现有的DCP-Portal
+DESCRIPTION=远程主机运行了一个有SQL注入漏洞倾向版本的DCP-Portal.  ;;攻击者,通过这个漏洞,能执行命令,察看数据,通过对HTTP服务器的请求假造数据.;;解决办法 : 升级到DCP-Portal 6.1.2或更高版本.;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security<Translated By Stravadivaly>

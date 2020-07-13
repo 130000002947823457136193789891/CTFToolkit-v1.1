@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10123
+NAME=Imail imap缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=远程获取管理员
+SUMMARY=Imail imap缓冲区溢出漏洞
+DESCRIPTION=远程imap服务器存在一个缓冲区溢出漏洞;可导致远程攻击者在主机上执行任意代码.;;风险等级 : 高;;解决方案 : 升级你的imap程序到最新版本
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison(chinese version by lsy)

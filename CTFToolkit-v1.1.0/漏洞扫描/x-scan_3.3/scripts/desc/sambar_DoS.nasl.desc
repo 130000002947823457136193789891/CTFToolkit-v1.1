@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11131
+NAME=Sambar web服务器拒绝服务攻击漏洞
+CATEGORY=混合攻击
+FAMILY=拒绝服务
+SUMMARY=拒绝服务攻击Sambar web服务器
+DESCRIPTION=提交以下请求可以利用这个漏洞对服务器程序进行拒绝服务攻击:;    /cgi-win/testcgi.exe?XXXX...X;    /cgi-win/cgitest.exe?XXXX...X;    /cgi-win/Pbcgi.exe?XXXXX...X;(或者在/cgi-bin/);;攻击者可以利用该缺陷对服务器进行拒绝服务攻击;导致网络不能正常工作.;;解决方案 : 将程序升级到Sambar 51p或者删除上述程序.;;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Michel Arboi(chinese version by lsy)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17282
+NAME=vBulletin 检测
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测vBulletin的存在
+DESCRIPTION=这个脚本检测远程主机上是否在运行着vBulletin论坛，并检查其版本信息。;;风险等级：无
+COPYRIGHT=This script is Copyright (C) 2005 David Maciejak

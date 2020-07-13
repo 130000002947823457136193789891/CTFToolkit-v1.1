@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15901
+NAME=SSL Certificate Expiry
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=SSL证书过期检查
+DESCRIPTION=这个脚本检查远程主机上的SSL服务的证书是否过期，并且报告是否过期或者还有几天将过期，格式" + lookahead + " days.;;***** Nessus依赖Nessus服务端的时钟日期来检测是否已经过期。如果显示;*****  inaccurate,，则扫描结果也是正确的
+COPYRIGHT=This script is Copyright (C) 2004 George A. Theall (kill_ads翻译）

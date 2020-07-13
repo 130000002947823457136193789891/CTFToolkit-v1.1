@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11383
+NAME=CSCdz60229, CSCdy87221, CSCdu75477
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=当密码正在更改时接受到畸形的SSH数据包，可能导致远程输入输出系统瘫痪.;;漏洞相关的CISCO ID分别是CSCdz60229, CSCdy87221和CSCdu75477;;解决方案:;http://www.cisco.com/warp/public/707/ssh-packet-suite-vuln.shtml;风险等级：高。;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

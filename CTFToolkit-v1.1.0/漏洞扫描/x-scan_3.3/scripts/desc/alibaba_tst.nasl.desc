@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10014
+NAME=tst.bat CGI漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查是否存在/cgi-bin/tst.bat
+DESCRIPTION=该主机装有'tst.bat' CGI脚本.该CGI程序存在一个众所周知的安全漏洞，可导致攻击者读取远程主机的任意文件.;;解决方案: 从web服务的CGI目录(通常为cgi-bin/)中删除'tst.bat'脚本.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

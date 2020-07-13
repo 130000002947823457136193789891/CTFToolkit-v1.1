@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12094
+NAME=vHost Cross-Site 脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=测试 vHost 的版本
+DESCRIPTION=远程主机运行比3.1.0r1版本低的vHost.;;在终端上将可能存在脚本漏洞;此漏洞导致攻击者可以获得终端用户的cookies.;;解决方案 : 升级到软件当前最新的的版本;风险等级 : 严重
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

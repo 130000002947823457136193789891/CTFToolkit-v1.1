@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12246
+NAME=Firebird DB remote buffer overflow
+CATEGORY=混合攻击
+FAMILY=远程文件访问
+SUMMARY=Firebird DB 远程缓冲区溢出
+DESCRIPTION=远程主机存在一个远程堆栈溢出，攻击者可以通过这一漏洞获取主机的控制权。Firebird数据库低于1.5.0版本均存在这一漏洞。;;See also : http://firebird.sourceforge.net/;;Solution : 升级Firebird DB到1.5.0以上;;Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

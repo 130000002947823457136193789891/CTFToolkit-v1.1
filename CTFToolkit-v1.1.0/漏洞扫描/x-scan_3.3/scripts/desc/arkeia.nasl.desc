@@ -1,0 +1,10 @@
+[CHINESE]
+ID=10018
+NAME=Knox Arkeia buffer overflow
+CATEGORY=混合攻击
+FAMILY=远程获取管理员
+SUMMARY=arkeia缓冲区溢出
+DESCRIPTION=有可能在远程的Knox Arkeia服务器造成缓冲区溢出.这致使攻击者可以执行拒绝服务攻击，而获取此服务的远程管理权限。
+解决方案: 升级到最新版本的Arkeia并且/或者过滤流入617端口的TCP数据报。
+Risk factor : 高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

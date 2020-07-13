@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17650
+NAME=Horde父页标题导致的跨站脚本漏洞
+CATEGORY=信息搜集
+FAMILY=CGI abuses : XSS
+SUMMARY=检查Horde中的父页标题XSS导致的跨站脚本漏洞
+DESCRIPTION=远程主机上运行的这个版本的Horde有一个跨站脚本漏洞,;攻击者通过一个页面标题的父框架,;可以注入任何的HTML代码或者脚本代码,;这可另其窃取基于cookie的认证信息或发起其他类似攻击. ;;解决方案 : 升级Horde到3.0.4版本或者更新.;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

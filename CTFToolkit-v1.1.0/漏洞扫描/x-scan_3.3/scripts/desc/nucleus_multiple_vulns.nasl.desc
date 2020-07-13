@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15788
+NAME=Nucleus 的多重脆弱性
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Nucleus 版本检查
+DESCRIPTION=远程主机运行了Nucleus CMS,这是一个开源的内容管理;系统.;;这一软件的远程版对于各种漏洞是脆弱的;这些漏洞可能会允许一个攻击者在远程主机上运行一个交叉站点脚本进行攻击;也可以通过执行一个SQL注射攻击远程主机上的数据库.;;解决方案：更新到Nucleus 3.15或者更新的版本;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

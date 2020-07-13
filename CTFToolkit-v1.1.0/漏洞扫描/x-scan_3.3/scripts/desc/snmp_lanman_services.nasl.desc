@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10547
+NAME=通过SNMP枚举Lanman服务列表
+CATEGORY=信息搜集
+FAMILY=SNMP
+SUMMARY=通过SNMP枚举Lanman服务列表
+DESCRIPTION=此脚本通过SNMP枚举Lanman服务列表。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

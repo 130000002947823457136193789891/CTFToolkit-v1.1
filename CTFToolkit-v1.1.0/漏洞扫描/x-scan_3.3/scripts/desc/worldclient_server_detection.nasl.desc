@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10745
+NAME=检测MDaemon Server的WorldClient
+CATEGORY=信息搜集
+FAMILY=普通漏洞
+SUMMARY=检查MDaemon的WorldClient
+DESCRIPTION=我们检测到远程web服务器上正在运行MDaemon的WorldClient。该web服务端使得拥有合适用户名和密码的攻击者可以进入本地的邮件箱。;;另外，WorldClient早先的版本存在缓冲区溢出漏洞和web遍历的问题（如果存在这些漏洞，风险等级会更高）。 ;;解决方案: 确保所有的用户名和密码都足够长，同时只允许被授权的网络访问该web服务器的端口（使用防火墙屏蔽web服务器端口）。;;风险等级：低;;更多信息请参考：;http://www.securiteam.com/cgi-bin/htsearch?config=htdigSecuriTeam&words=WorldClient
+COPYRIGHT=This script is Copyright (C) 2001 SecuriTeam

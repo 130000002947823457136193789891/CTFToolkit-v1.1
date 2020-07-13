@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12260
+NAME=Subversion Pre-Commit-Hook漏洞攻击
+CATEGORY=信息搜集
+FAMILY=远程文件访问
+SUMMARY=Subversion Pre-Commit-Hook漏洞攻击
+DESCRIPTION=远程主机据报告易受远程溢出攻击。一个利用此漏洞的攻击者将获得目标主机的完全访问权限。低于1.0.4版本的Subversion很容易受到攻击。;;解决方案:更新版本到1.0.4或更高;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security(Chinese by netke)

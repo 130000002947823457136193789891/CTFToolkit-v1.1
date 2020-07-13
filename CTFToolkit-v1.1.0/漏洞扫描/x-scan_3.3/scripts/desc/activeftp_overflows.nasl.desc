@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11757
+NAME=NGC ActiveFTP拒绝服务
+CATEGORY=信息搜集
+FAMILY=FTP
+SUMMARY=检查ActiveFTP
+DESCRIPTION=远程主机正在运行Active FTP服务器 -- 一个基于Windows系统的免费FTP服务器.;;ActiveFTP存在一个漏洞，攻击者可以发送一个超长参数的命令(例如USER、CWD等等)到服务器，从而可使远程服务崩溃.;;解决方案 : 目前没有解决方案. 使用别的FTP守护进程;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2003 Tenable Network Security

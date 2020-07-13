@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15775
+NAME=Invision Power Board Arcade SQL Injection Vulnerability
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=Detect Invision Power Board Arcade SQL Injection
+DESCRIPTION=远程主机运行着Invision Power Board - 一款用于在远程Web服务器上建立BBS系统的CGI程序.;;在'Arcade' 这个可选模块存在一个漏洞;它允许未授权用户在远程数据库注入SQL命令的漏洞.;;攻击者通过该漏洞能取得远程数据库的控制权，;并可能覆盖远程主机上的文件.;;解决方案 : 升级至最新版本;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security;;Dedicate this to Sierra

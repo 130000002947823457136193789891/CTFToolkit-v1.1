@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15438
+NAME=Helix通用服务器远程整数处理的拒绝服务
+CATEGORY=信息搜集
+FAMILY=拒绝服务
+SUMMARY=检查远程HelixServer的版本
+DESCRIPTION=远程主机正在运行Helix通用服务器 -- 一个数字媒体传送平台.;;此软件存在一个漏洞，攻击者可以通过向远程主机发送错误格式的POST请求，从而造成服务器崩溃.;;解决方案 : 升级到最新版本的RealServer;风险等级 : 高
+COPYRIGHT=This script is (C) 2004 Tenable Network Security

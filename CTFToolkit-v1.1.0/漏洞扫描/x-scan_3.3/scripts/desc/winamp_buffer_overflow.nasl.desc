@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11530
+NAME=缓存溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=探测WINAMP3的版本号
+DESCRIPTION=当远程主机在运行WINAMP3，一种流行媒体播放器;它能处理各种不同的文件格式 （mp3, wavs或更多...）;;此版本的WINAMP有缓存溢出，它能使攻击者在主机上以合法的用户执行任何命令，;运行WINAMP.;;执行攻击, 攻击通过发送一个伪装的播放列表（ .b4s）给一些要用到这些的用户;;并通过双击载入它。;;因为.b4s是基于XML的文件,大多数的防病毒程序不会对它进行检查而让他们得以进入;;;解决方案: 卸载这种版本的WINAMP或者升级到比这3.0更新的版本，（488）;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

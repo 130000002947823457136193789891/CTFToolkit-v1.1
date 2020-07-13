@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10299
+NAME=webdist.cgi
+CATEGORY=混合攻击
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/webdist.cgi是否存在
+DESCRIPTION=主机安装了'webdist.cgi'文件。该CGI存在一个著名的安全漏洞，允许任何人以HTTP服务端的权限（root或nobody）执行任意命令。;;解决方案: 从/cgi-bin里删除该文件;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

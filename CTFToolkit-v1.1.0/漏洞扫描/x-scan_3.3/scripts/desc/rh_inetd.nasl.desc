@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11006
+NAME=RedHat 6.2 inetd
+CATEGORY=信息搜集
+FAMILY=其他
+SUMMARY=停止远程inetd守护进程
+DESCRIPTION=远程主机的'inetd'服务存在一个缺陷. 'inetd'是;'internet super-server'的缩写,他管理多个子服务;(如 telnet, ftp, chargen等).;;RedHat 6.2的inetd存在一个漏洞, 该漏洞允许 ;攻击者通过使其消耗大量的系统资源;而完全停止工作.;;解决方案 : 升级至inetd-0.16-7;风险等级 : 中
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

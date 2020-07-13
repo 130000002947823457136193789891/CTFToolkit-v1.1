@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11058
+NAME=rusersd输出
+CATEGORY=信息搜集
+FAMILY=RPC
+SUMMARY=检测RPC服务是否存在
+DESCRIPTION=该脚本连接至远程rusers 服务器;并试图获取当前登录至;登录至远程主机的用户列表.
+COPYRIGHT=This script is Copyright (C) 2002 Renaud Deraison

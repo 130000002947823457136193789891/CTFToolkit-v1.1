@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11340
+NAME=SSH Secure-RPC 弱加密认证
+CATEGORY=信息搜集
+FAMILY=远程获取命令行
+SUMMARY=检查远程SSH的版本
+DESCRIPTION=你正在运行 SSH Communications Security SSH 1.2.27 - 1.2.30.; ;用Secure-RPC，这个版本允许本地攻击者恢复其他用户生成的;SUN-DES-1 magic phrase，这样攻击者可以用来对用该用户private key;加密的文件进行解密。;;解决方案 : SSH已经发布了补丁和新版本。;;风险等级 : 低
+COPYRIGHT=This script is Copyright (C) 2003 Xue Yong Zhi (Chinese version by Dancefire)

@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11300
+NAME=网络共享提供者未对缓冲区进行检查(Q326830)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=微软修补程序检查Q326830
+DESCRIPTION=当攻击者发送一个精心构造的SMB (Server Message Block)回应包时，可对远程主机进行拒绝服务攻击，这可能会导致远程主机瘫痪,.;;漏洞可造成的后果:拒绝服务/提升权限;;最高安全级别:中;;解决方案:  http://www.microsoft.com/technet/security/bulletin/ms02-045.asp;;风险等级:高
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison

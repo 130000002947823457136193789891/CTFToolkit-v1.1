@@ -1,0 +1,8 @@
+[CHINESE]
+ID=12086
+NAME=DreamFTP格式化字符串漏洞
+CATEGORY=攻击
+FAMILY=FTP
+SUMMARY=Logs as a %n
+DESCRIPTION=远程DreamFTP服务端处理用户命令过程中存在漏洞，允许格式化字符串漏洞攻击。;;攻击者可以利用该漏洞获得主机的一个shell。;;解决方案: 升级到DreamFTP 1.03或者更新的可用版本，或者使用其他 FTP服务端。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

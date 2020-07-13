@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11381
+NAME=CSCdw33027
+CATEGORY=信息搜集
+FAMILY=CISCO
+SUMMARY=使用SNMP来判断是否存在漏洞
+DESCRIPTION=当发送畸形的SSH数据包时，可能导致远程IOS瘫痪.;;解决方法:http://www.cisco.com/warp/public/707/SSH-scanning.shtml;风险等级:高;;*** 因为Nessus需要依赖于远程主机的标志，;*** 所以这个可能是一个错误的报告
+COPYRIGHT=This script is (C) 2003 Renaud Deraison

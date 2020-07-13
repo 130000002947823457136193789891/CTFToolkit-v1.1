@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10105
+NAME=htdig
+CATEGORY=信息搜集
+FAMILY=CGI漏洞
+SUMMARY=检测htdig脆弱性
+DESCRIPTION='htsearch' CGI;htdig包中的的一部分;允许一个恶意用户查看目标机器的;任意文件.;;风险等级 : 中/高;解决方案: 升级至更高版本(3.1.5 或更高);	   http://www.htdig.org包含可利用资源
+COPYRIGHT=This script is Copyright (C) 2000 Renaud Deraison

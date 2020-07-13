@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11027
+NAME=AlienForm CGI script
+CATEGORY=信息搜集
+FAMILY=CGI类
+SUMMARY=检查是否AlienForm CGI脚本存在漏洞
+DESCRIPTION=;    AlienForm CGI 脚本可以让攻击者读取远端服务器上的任意文;件，附加数据到一个存在的文件，或者写入二进制数据到新的文件。;这些脚本为af.cgi或者alienform.cgi。;;参考信息：;http://online.securityfocus.com/archive/1/276248/2002-06-08/2002-06-14/0;;风险等级：中/高;解决办法；禁用AlienForm
+COPYRIGHT=该脚本由xfocus汉化

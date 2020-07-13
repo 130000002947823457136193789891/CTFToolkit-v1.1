@@ -1,0 +1,6 @@
+NAME=BIND vulnerable
+CATEGORY=信息搜集
+FAMILY=远程获取管理员
+SUMMARY=检测远程BIND的版本
+DESCRIPTION=不同版本的BIND服务器，攻击者能够通过多种攻击获得系统的root权限。;解决方案 :升级到bind 8.2.2-P5;风险等级 : 高;参见： http://www.cert.org/advisories/CA-1999-14.html
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

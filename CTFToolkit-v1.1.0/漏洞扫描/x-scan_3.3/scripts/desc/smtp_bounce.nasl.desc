@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10258
+NAME=Sendmail通过管道执行命令
+CATEGORY=信息搜集
+FAMILY=SMTP
+SUMMARY=检查远程邮件服务器是否能获得SHELL
+DESCRIPTION=远程SMTP没有对发送如下命令：;MAIL FROM: |testing;;进行任何声明，这可能意味着可通过MAIL执行命令，这是个严重的威胁，因为这漏洞允许任何人在主机上执行命令。;;这可能是个误报，因为部分MTAs会对这命令不进行任何操作并直接丢弃。;;解决方案:升级MTA或更改。;;风险等级：高
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

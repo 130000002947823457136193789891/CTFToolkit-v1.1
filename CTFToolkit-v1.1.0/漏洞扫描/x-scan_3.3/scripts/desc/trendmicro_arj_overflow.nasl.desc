@@ -1,0 +1,8 @@
+[CHINESE]
+ID=17213
+NAME=趋势病毒扫描引擎处理ARJ档案文件堆溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检查远程主机趋势产品的版本
+DESCRIPTION=远程主机运行趋势某版本的病毒扫描引擎,该引擎在ARJ文件处理函数存在堆溢出的缺陷.;;攻击者可能利用此缺陷完全绕开远程主机上的病毒监视系统并执行任意代码.为了利用此缺陷,攻击者可以向远程主机的某进程提交一个畸形ARJ文件,并等待反病毒引擎扫描.;;解决方案: 升级到趋势引擎的7510版本或者更新;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2005 Tenable Network Security

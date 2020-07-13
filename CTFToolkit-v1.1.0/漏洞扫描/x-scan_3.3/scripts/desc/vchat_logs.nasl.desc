@@ -1,0 +1,8 @@
+[CHINESE]
+ID=11471
+NAME=VChat信息泄露
+CATEGORY=攻击
+FAMILY=CGI漏洞
+SUMMARY=确认vchat/msg.txt文件是否存在
+DESCRIPTION=通过请求vchat/msg.txt文件可以检索在远程vchat服务器上的chat会话的历史记录，这种方法是可行的。攻击者/程序可以通过此缺陷了解过去的chat会话并使此系统的用户感到担忧与烦恼。更严重的是，攻击者/程序可以利用此系统的另一个缺陷，通过向远程服务器的此模块发出一个过长的信息而使该服务器资源被耗尽。;解决方案：在无人使用该系统时，添加htaccess文件以阻止攻击者/程序获得vchat/msg.txt文件;;风险等级：低
+COPYRIGHT=This script is Copyright (C) 2003 Renaud Deraison;Translate by Sniffer

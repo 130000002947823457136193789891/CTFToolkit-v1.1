@@ -1,0 +1,8 @@
+[CHINESE]
+ID=15458
+NAME=Microsoft Excel代码执行漏洞(886836)
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=确定是否已经安装886836修补程序
+DESCRIPTION=远程主机安装了Microsoft Excel，此版本存在一个代码执行漏洞，可导致攻击者以打开文件用户的权限来执行任意代码.;;为利用此漏洞，攻击者需要给受害者发送一个错误格式的Excel文件，等待远程主机的受害者打开此文件.;;解决方案 : http://www.microsoft.com/technet/security/bulletin/MS04-033.mspx;风险等级 : 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security

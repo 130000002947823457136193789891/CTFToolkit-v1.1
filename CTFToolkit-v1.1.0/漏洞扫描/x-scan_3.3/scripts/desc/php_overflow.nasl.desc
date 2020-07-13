@@ -1,0 +1,8 @@
+[CHINESE]
+ID=10178
+NAME=php.cgi缓冲区溢出漏洞
+CATEGORY=破坏性攻击
+FAMILY=CGI漏洞
+SUMMARY=检查/cgi-bin/php.cgi是否存在缓冲区溢出漏洞
+DESCRIPTION=CGI程序'php.cgi'中存在一个缓冲区溢出漏洞,可导致任意用户以web服务的权限(通常为root或nobody)运行任意命令.;;解决方案:从/cgi-bin目录中删除该程序.;;风险等级:严重
+COPYRIGHT=This script is Copyright (C) 1999 Renaud Deraison

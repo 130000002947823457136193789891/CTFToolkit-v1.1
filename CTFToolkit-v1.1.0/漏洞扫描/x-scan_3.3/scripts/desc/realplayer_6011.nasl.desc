@@ -1,0 +1,8 @@
+[CHINESE]
+ID=14278
+NAME=RealPlayer 多重远程溢出
+CATEGORY=信息搜集
+FAMILY=WINDOWS
+SUMMARY=检测RealPlayer的版本
+DESCRIPTION=根据Realplayer的版本号，当前版本容易受一些远程溢出攻击。;;Realplayer是一款多媒体播放器。;;攻击者利用该漏洞可以强制本地用户访问恶意URL或下载恶意的realplayer媒体文件，该文件可能会导致以本地用户的权限执行代码。;;解决方案:参考http://service.real.com/help/faq/security/;;据报道受影响的有以下版本:;Real Networks RealOne Player 6.0.11 .872;Real Networks RealOne Player 6.0.11 .868;Real Networks RealOne Player 6.0.11 .853;Real Networks RealOne Player 6.0.11 .841;Real Networks RealOne Player 6.0.11 .830;Real Networks RealOne Player 6.0.11 .818;Real Networks RealOne Player Gold for Windows 6.0.10 .505;;如果你已安装了RealPlayer，可能需要在SOFTWARE\RealNetworks\RealPlayer中删除旧的注册键。;;风险等级: 高
+COPYRIGHT=This script is Copyright (C) 2004 Tenable Network Security
